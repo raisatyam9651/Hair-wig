@@ -1,0 +1,60 @@
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.filled {
+    font-variation-settings: 'FILL' 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fcf9f4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dcdad5;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #735b25;
+}
+
+/* Subtle Glow */
+.glow-hover:hover {
+    box-shadow: 0 10px 30px rgba(115, 91, 37, 0.2);
+}
+
+/* Glassmorphism Card (Light Theme) */
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+    opacity: 1;
+}
+
+.glass-card:hover {
+    border-color: rgba(115, 91, 37, 0.3);
+    box-shadow: 0 25px 60px rgba(115, 91, 37, 0.08);
+}
+
+/* Fade In Animation */
+.fade-in-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* FAQ Accordion */
+details>summary {
+    list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
