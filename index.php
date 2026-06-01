@@ -587,7 +587,7 @@
                         class="fade-in-section h-[400px] lg:h-auto rounded-3xl overflow-hidden glass-card p-2 border border-white/60">
                         <iframe allowfullscreen="" class="w-full h-full rounded-2xl" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
-                            src="https://maps.google.com/maps?q=Ramphal%20Chowk%20Rd,%20Block%20F,%20Sector%207%20Dwarka,%20Dwarka,%20Delhi,%20110077&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.2060479792467!2d77.06936177571829!3d28.58520787569065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b158c96920f%3A0x8482722061064f9a!2sGrowig%20hair%20solution!5e1!3m2!1sen!2sin!4v1780336153874!5m2!1sen!2sin"
                             style="border:0;"></iframe>
                     </div>
                 </div>
