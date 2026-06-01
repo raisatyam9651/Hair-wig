@@ -1,4 +1,97 @@
-<!-- Floating WhatsApp Button -->
+<!-- Footer -->
+    <footer class="bg-surface-container-lowest w-full border-t border-surface-variant pt-20 pb-10">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Brand & About -->
+                <div class="flex flex-col gap-6">
+                    <a class="flex items-center gap-2 group" href="index.php">
+                        <img alt="Growig Logo" class="h-10 w-auto object-contain grayscale opacity-80"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
+                    </a>
+                    <p class="font-body-md text-on-surface-variant text-sm leading-relaxed pr-4">
+                        Premium non-surgical hair replacement studio in Gurgaon. Dedicated to restoring confidence with
+                        undetectable, bespoke solutions.
+                    </p>
+                </div>
+                <!-- Navigation -->
+                <div class="flex flex-col gap-4">
+                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Explore</h4>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="index.php">Home</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="about.php">About Us</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="collection.php">Collections</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="#testimonials">Reviews</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="#contact">Contact</a>
+                </div>
+                <!-- Services -->
+                <div class="flex flex-col gap-4">
+                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Services</h4>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="premium-hair-patch.php">Premium Hair Patch</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="full-hair-wig.php">Full Hair Wigs</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="non-surgical-replacement.php">Non-Surgical Replacement</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="hair-bonding.php">Hair Bonding</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="maintenance-and-styling.php">Maintenance & Styling</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                        href="custom-hairline-design.php">Custom Hairline Design</a>
+                </div>
+                <!-- Contact Info -->
+                <div class="flex flex-col gap-4">
+                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Contact Us</h4>
+                    <div class="flex items-start gap-3 text-on-surface-variant text-sm">
+                        <span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
+                        <span>DLF Phase 2, Gurugram, Haryana 122002</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-on-surface-variant text-sm">
+                        <span class="material-symbols-outlined text-primary text-[20px]">phone</span>
+                        <a class="hover:text-primary transition-colors" href="tel:+919876543210">+91 98765 43210</a>
+                    </div>
+                    <div class="flex items-center gap-3 text-on-surface-variant text-sm">
+                        <span class="material-symbols-outlined text-primary text-[20px]">mail</span>
+                        <a class="hover:text-primary transition-colors"
+                            href="mailto:info@growighairsolution.com">info@growighairsolution.com</a>
+                    </div>
+                    <!-- Socials / Connect -->
+                    <div class="flex gap-4 mt-2">
+                        <a class="w-8 h-8 rounded-full border border-surface-variant/30 flex items-center justify-center text-primary hover:bg-primary/10 hover:border-primary/30 transition-all"
+                            href="#" aria-label="Website">
+                            <span class="material-symbols-outlined text-[18px]">public</span>
+                        </a>
+                        <a class="w-8 h-8 rounded-full border border-surface-variant/30 flex items-center justify-center text-primary hover:bg-primary/10 hover:border-primary/30 transition-all"
+                            href="#" aria-label="Instagram">
+                            <span class="material-symbols-outlined text-[18px]">photo_camera</span>
+                        </a>
+                        <a class="w-8 h-8 rounded-full border border-surface-variant/30 flex items-center justify-center text-primary hover:bg-primary/10 hover:border-primary/30 transition-all"
+                            href="#" aria-label="YouTube">
+                            <span class="material-symbols-outlined text-[18px]">play_arrow</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Copyright -->
+            <div
+                class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-surface-variant/20 gap-4">
+                <div class="font-body-md text-on-surface-variant text-xs">
+                    © 2026 GROWIG HAIR SOLUTIONS. ALL RIGHTS RESERVED.
+                </div>
+                <div class="flex gap-6">
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-xs"
+                        href="#">Privacy Policy</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-xs"
+                        href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating WhatsApp Button -->
     <a aria-label="Chat on WhatsApp"
         class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300"
         href="https://wa.me/919876543210" target="_blank">
@@ -9,6 +102,3 @@
         </svg>
     </a>
     <script src="script.js?v=3" defer></script>
-</body>
-
-</html>

@@ -62,7 +62,7 @@ tailwind.config = {
                 "gutter": "24px",
                 "margin-mobile": "24px",
                 "container-max": "1280px",
-                "section-gap": "120px",
+                "section-gap": "80px",
                 "margin-desktop": "64px"
             },
             "fontFamily": {

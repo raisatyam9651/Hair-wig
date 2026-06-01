@@ -185,67 +185,61 @@
                     <!-- Service Card 1 -->
                     <a href="premium-hair-patch.php"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                        <div
-                            class="w-14 h-14 rounded-full bg-surface border border-surface-variant flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors shadow-sm">
-                            <span class="material-symbols-outlined">content_cut</span>
+                        <div class="w-64 h-64 mx-auto mb-2 relative">
+                            <img src="assets/Premium Hair Patch.png" alt="Premium Hair Patch" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
-                        <h3 class="font-headline-md text-2xl text-secondary">Premium Hair Patch</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Custom-designed hair patches that
+                        <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Premium Hair Patch</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Custom-designed hair patches that
                             seamlessly blend with your natural hair texture and color for an undetectable finish.</p>
                     </a>
                     <!-- Service Card 2 -->
                     <a href="full-hair-wig.php"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-100">
-                        <div
-                            class="w-14 h-14 rounded-full bg-surface border border-surface-variant flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors shadow-sm">
-                            <span class="material-symbols-outlined">face</span>
+                        <div class="w-64 h-64 mx-auto mb-2 relative">
+                            <img src="assets/Full Hair Wigs.png" alt="Full Hair Wigs" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
-                        <h3 class="font-headline-md text-2xl text-secondary">Full Hair Wigs</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">High-grade human hair wigs offering
+                        <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Full Hair Wigs</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">High-grade human hair wigs offering
                             complete coverage with a breathable, comfortable base for daily wear.</p>
                     </a>
                     <!-- Service Card 3 -->
                     <a href="non-surgical-replacement.php"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-200">
-                        <div
-                            class="w-14 h-14 rounded-full bg-surface border border-surface-variant flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors shadow-sm">
-                            <span class="material-symbols-outlined">healing</span>
+                        <div class="w-64 h-64 mx-auto mb-2 relative">
+                            <img src="assets/Non-Surgical Replacement.png" alt="Non-Surgical Replacement" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
-                        <h3 class="font-headline-md text-2xl text-secondary">Non-Surgical Replacement</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">A painless, immediate solution to
+                        <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Non-Surgical Replacement</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">A painless, immediate solution to
                             hair loss without the risks or downtime of surgical transplants.</p>
                     </a>
                     <!-- Service Card 4 -->
                     <a href="hair-bonding.php"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                        <div
-                            class="w-14 h-14 rounded-full bg-surface border border-surface-variant flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors shadow-sm">
-                            <span class="material-symbols-outlined">layers</span>
+                        <div class="w-64 h-64 mx-auto mb-2 relative">
+                            <img src="assets/Hair Bonding.png" alt="Hair Bonding" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
-                        <h3 class="font-headline-md text-2xl text-secondary">Hair Bonding</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Secure, medical-grade adhesive
+                        <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Hair Bonding</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Secure, medical-grade adhesive
                             bonding that allows for an active lifestyle, including swimming and sports.</p>
                     </a>
                     <!-- Service Card 5 -->
                     <a href="maintenance-and-styling.php"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-100">
-                        <div
-                            class="w-14 h-14 rounded-full bg-surface border border-surface-variant flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors shadow-sm">
-                            <span class="material-symbols-outlined">brush</span>
+                        <div class="w-64 h-64 mx-auto mb-2 relative">
+                            <img src="assets/Maintenance & Styling.png" alt="Maintenance & Styling" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
-                        <h3 class="font-headline-md text-2xl text-secondary">Maintenance & Styling</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Regular upkeep, cleaning, and
+                        <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Maintenance & Styling</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Regular upkeep, cleaning, and
                             professional styling to ensure your hair system always looks fresh and natural.</p>
                     </a>
                     <!-- Service Card 6 -->
                     <a href="custom-hairline-design.php"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-200">
-                        <div
-                            class="w-14 h-14 rounded-full bg-surface border border-surface-variant flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors shadow-sm">
-                            <span class="material-symbols-outlined">architecture</span>
+                        <div class="w-64 h-64 mx-auto mb-2 relative">
+                            <img src="assets/Custom Hairline Design.png" alt="Custom Hairline Design" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
-                        <h3 class="font-headline-md text-2xl text-secondary">Custom Hairline Design</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Precision crafting of the front
+                        <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Custom Hairline Design</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Precision crafting of the front
                             hairline to match your age, facial structure, and desired look flawlessly.</p>
                     </a>
                 </div>
@@ -270,23 +264,28 @@
                                 Professional</p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <div class="glass-card p-8 rounded-2xl">
-                                <span class="material-symbols-outlined text-primary mb-6 text-3xl">layers</span>
-                                <h4 class="font-headline-md text-xl text-secondary mb-3">Ultra-Thin Skin Patches</h4>
-                                <p class="font-body-md text-on-surface-variant">The most natural hairline possible,
+                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
+                                <div class="w-64 h-64 mx-auto mb-2 relative">
+                                    <img src="assets/Ultra-Thin Skin Patches.png" alt="Ultra-Thin Skin Patches" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Ultra-Thin Skin Patches</h4>
+                                <p class="font-body-md text-on-surface-variant text-center">The most natural hairline possible,
                                     blending invisibly with your scalp for a second-skin feel.</p>
                             </div>
-                            <div class="glass-card p-8 rounded-2xl">
-                                <span class="material-symbols-outlined text-primary mb-6 text-3xl">grid_view</span>
-                                <h4 class="font-headline-md text-xl text-secondary mb-3">Lace Front Systems</h4>
-                                <p class="font-body-md text-on-surface-variant">Breathable Swiss lace base providing an
+                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
+                                <div class="w-64 h-64 mx-auto mb-2 relative">
+                                    <img src="assets/Lace Front Systems.png" alt="Lace Front Systems" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Lace Front Systems</h4>
+                                <p class="font-body-md text-on-surface-variant text-center">Breathable Swiss lace base providing an
                                     exceptionally realistic front hairline and high durability.</p>
                             </div>
-                            <div class="glass-card p-8 rounded-2xl">
-                                <span class="material-symbols-outlined text-primary mb-6 text-3xl">fitness_center</span>
-                                <h4 class="font-headline-md text-xl text-secondary mb-3">Active Lifestyle Monofilament
-                                </h4>
-                                <p class="font-body-md text-on-surface-variant">Engineered for extreme performance, from
+                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
+                                <div class="w-64 h-64 mx-auto mb-2 relative">
+                                    <img src="assets/Active Lifestyle Monofilament.png" alt="Active Lifestyle Monofilament" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Active Lifestyle Monofilament</h4>
+                                <p class="font-body-md text-on-surface-variant text-center">Engineered for extreme performance, from
                                     high-intensity gym sessions to swimming.</p>
                             </div>
                         </div>
@@ -301,23 +300,28 @@
                                 Collection</h3>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <div class="glass-card p-8 rounded-2xl">
-                                <span class="material-symbols-outlined text-primary mb-6 text-3xl">auto_awesome</span>
-                                <h4 class="font-headline-md text-xl text-secondary mb-3">Full Volume Silk Toppers</h4>
-                                <p class="font-body-md text-on-surface-variant">Premium silk base toppers that add
+                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
+                                <div class="w-64 h-64 mx-auto mb-2 relative">
+                                    <img src="assets/Full Volume Silk Toppers.png" alt="Full Volume Silk Toppers" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Full Volume Silk Toppers</h4>
+                                <p class="font-body-md text-on-surface-variant text-center">Premium silk base toppers that add
                                     instant density and crown volume for a sophisticated look.</p>
                             </div>
-                            <div class="glass-card p-8 rounded-2xl">
-                                <span class="material-symbols-outlined text-primary mb-6 text-3xl">blur_on</span>
-                                <h4 class="font-headline-md text-xl text-secondary mb-3">Invisible Crown Systems</h4>
-                                <p class="font-body-md text-on-surface-variant">Specially designed for thinning crowns,
+                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
+                                <div class="w-64 h-64 mx-auto mb-2 relative">
+                                    <img src="assets/Invisible Crown Systems.png" alt="Invisible Crown Systems" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Invisible Crown Systems</h4>
+                                <p class="font-body-md text-on-surface-variant text-center">Specially designed for thinning crowns,
                                     offering seamless integration with your natural hair.</p>
                             </div>
-                            <div class="glass-card p-8 rounded-2xl">
-                                <span
-                                    class="material-symbols-outlined text-primary mb-6 text-3xl">medical_services</span>
-                                <h4 class="font-headline-md text-xl text-secondary mb-3">Custom Length Medical Wigs</h4>
-                                <p class="font-body-md text-on-surface-variant">Ultra-soft, hypoallergenic bases
+                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
+                                <div class="w-64 h-64 mx-auto mb-2 relative">
+                                    <img src="assets/Custom Length Medical Wigs.png" alt="Custom Length Medical Wigs" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Custom Length Medical Wigs</h4>
+                                <p class="font-body-md text-on-surface-variant text-center">Ultra-soft, hypoallergenic bases
                                     designed for sensitive scalps without compromising on length or style.</p>
                             </div>
                         </div>
@@ -339,9 +343,10 @@
                             We combine artistry with advanced technology to deliver hair replacement solutions that are
                             virtually indistinguishable from natural hair growth.
                         </p>
-                        <img alt="Mature Man Portrait"
-                            class="w-full h-auto rounded-2xl shadow-sm border border-surface-variant object-cover"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ugyUTXjJs8yYLB53wuTxvSSkYjvc89f0sKY3Y1zZ5aTUhfJvxijPYBQWZS_Xg8wzvGO8Yns8WeQjpNrrjop6ThAXhlwmfvaPYeZlFZT7nVG9REi6wVl09afWLAUv0pJ66xOEKHBvWY2UqAnSukNtEEngAzrBPQhlHzp48MhxTPR-K5bXJmPys_qLZKE2rIfyPiX5TjjCo6u2WK5FogRksfyPoF94l5phOZQH58oEv1N0X6veZCpq-zrOxE" />
+                        <video class="w-full h-auto rounded-2xl shadow-sm border border-surface-variant object-cover" autoplay loop muted playsinline>
+                            <source src="assets/why-chouse-us.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                     <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div class="glass-card p-8 rounded-2xl flex flex-col gap-4 fade-in-section">
