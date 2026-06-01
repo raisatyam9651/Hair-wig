@@ -414,7 +414,7 @@
 </div>
 </div>
 <div class="relative bg-surface-container">
-<img alt="Happy Client" class="absolute inset-0 w-full h-full object-cover" data-alt="A professional man in his 40s with a perfectly styled, natural-looking head of hair. He is wearing a tailored charcoal suit and smiling confidently in a modern, sun-drenched office setting. The lighting is soft and flattering, highlighting the realistic texture and sheen of his hair. The overall aesthetic is one of luxury, success, and quiet confidence." src="https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg"/>
+<img alt="Happy Client" class="absolute inset-0 w-full h-full object-cover" src="assets/tranformation.png"/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
 </div>
 </div>
