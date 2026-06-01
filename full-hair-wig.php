@@ -137,7 +137,7 @@
 </div>
 <div class="relative group">
 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-<img alt="Premium Hair Restoration" class="relative rounded-[32px] royal-shadow w-full h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida/ADBb0ujZr1cjoBFdKJOacQ0UsaVVdB6ql9z5NGLzAnVsjElPlk0e-Inad8wnZp0DC_FaZwy_J_K7dyzRg5G7-Stp9AM9mOqWFR4J-9uVFQq-bUNUFgdKvNKGg0RGDnUvWXpx_Z2WvtLGoKjlJGCjIcQo4zscH73Z7rNJCqxIDY7TcmhYkJ0Ft70hlGMHMmUnYeZ_I60nBbSqnEwbHu--Uvsyte35xt_gm-0e0CviSQqQ0-JuvCLPbGRZBXWpdgQ"/>
+<img alt="Premium Hair Restoration" class="relative rounded-[32px] royal-shadow w-full h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/full-hair-wig-hero.png"/>
 <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
 <p class="font-label-md text-primary mb-1">CRAFTSMANSHIP</p>
 <p class="font-body-md text-on-surface">Every strand is hand-tied to mimic your natural growth patterns.</p>
@@ -349,9 +349,9 @@
 <div>
 <h2 class="font-display-lg text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
 <p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our luxury hair systems.</p>
-<div class="relative">
-<img alt="Consultation Space" class="rounded-3xl royal-shadow w-full h-[400px] object-cover" data-alt="A luxurious and serene private consultation room in a high-end hair restoration clinic. The interior features ivory walls, gold accents, and plush leather armchairs arranged around a minimalist glass desk. Soft ambient lighting creates a calming atmosphere, with large windows overlooking a modern Gurgaon skyline. The aesthetic is sophisticated, professional, and tranquil." src="https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg"/>
-</div>
+                        <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
+                            <img alt="Premium Full Hair Wig" class="w-full h-full object-cover" src="assets/full-hair-wig-girl.png"/>
+                        </div>
 </div>
 <div class="space-y-4">
 <details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow" open="">
