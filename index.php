@@ -587,7 +587,7 @@
                         class="fade-in-section h-[400px] lg:h-auto rounded-3xl overflow-hidden glass-card p-2 border border-white/60">
                         <iframe allowfullscreen="" class="w-full h-full rounded-2xl" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14033.407981504812!2d77.0864319!3d28.472718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f278d6b9d6d%3A0xc3f81e3a967a6d!2sDLF%20Phase%202%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin"
+                            src="https://maps.google.com/maps?q=E-1085,%20Ramphal%20chowk,%20Palam,%20dwarka%20Sec-7%20New%20Delhi-110077&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             style="border:0;"></iframe>
                     </div>
                 </div>

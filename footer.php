@@ -48,7 +48,7 @@
                     <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Contact Us</h4>
                     <div class="flex items-start gap-3 text-on-surface-variant text-sm">
                         <span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
-                        <span>DLF Phase 2, Gurugram, Haryana 122002</span>
+                        <span>E-1085, Ramphal chowk, Palam, dwarka Sec-7 New Delhi-110077</span>
                     </div>
                     <div class="flex items-center gap-3 text-on-surface-variant text-sm">
                         <span class="material-symbols-outlined text-primary text-[20px]">phone</span>
