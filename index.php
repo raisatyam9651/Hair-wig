@@ -587,7 +587,7 @@
                         class="fade-in-section h-[400px] lg:h-auto rounded-3xl overflow-hidden glass-card p-2 border border-white/60">
                         <iframe allowfullscreen="" class="w-full h-full rounded-2xl" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
-                            src="https://maps.google.com/maps?q=E-1085,%20Ramphal%20chowk,%20Palam,%20dwarka%20Sec-7%20New%20Delhi-110077&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            src="https://maps.google.com/maps?q=Ramphal%20Chowk%20Rd,%20Block%20F,%20Sector%207%20Dwarka,%20Dwarka,%20Delhi,%20110077&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             style="border:0;"></iframe>
                     </div>
                 </div>
