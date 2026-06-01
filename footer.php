@@ -8,20 +8,24 @@
                         <img alt="Growig Logo" class="h-10 w-auto object-contain grayscale opacity-80"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
                     </a>
-                    <p class="font-body-md text-on-surface-variant text-sm leading-relaxed pr-4">
-                        Premium non-surgical hair replacement studio in Gurgaon. Dedicated to restoring confidence with
-                        undetectable, bespoke solutions.
-                    </p>
-                    <!-- Socials / Connect -->
-                    <div class="flex gap-4">
-                        <a class="w-8 h-8 rounded-full border border-surface-variant/30 flex items-center justify-center text-primary hover:bg-primary/10 hover:border-primary/30 transition-all"
-                            href="#" aria-label="Website">
-                            <span class="material-symbols-outlined text-sm">language</span>
-                        </a>
-                        <a class="w-8 h-8 rounded-full border border-surface-variant/30 flex items-center justify-center text-primary hover:bg-primary/10 hover:border-primary/30 transition-all"
-                            href="#" aria-label="Email">
-                            <span class="material-symbols-outlined text-sm">mail</span>
-                        </a>
+                    <div class="space-y-4">
+                        <p class="font-body-md text-on-surface-variant text-sm leading-relaxed pr-4">
+                            Premium non-surgical hair replacement studio in Gurgaon. Dedicated to restoring confidence with
+                            undetectable, bespoke solutions.
+                        </p>
+                        <div class="flex flex-col gap-3 text-on-surface-variant text-sm pt-2">
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">phone</span>
+                                <div class="flex flex-col gap-1">
+                                    <a class="hover:text-primary transition-colors font-body-md" href="tel:+918766216564">+91 87662 16564</a>
+                                    <a class="hover:text-primary transition-colors font-body-md" href="tel:+917678472972">+91 76784 72972</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="material-symbols-outlined text-primary text-[20px]">mail</span>
+                                <a class="hover:text-primary transition-colors font-body-md" href="mailto:info@growighairsolution.com">info@growighairsolution.com</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Navigation -->
@@ -54,24 +58,12 @@
                     <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
                         href="custom-hairline-design.php">Custom Hairline Design</a>
                 </div>
-                <!-- Contact & Location -->
+                <!-- Location -->
                 <div class="flex flex-col gap-4">
-                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Location & Contact</h4>
+                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Location</h4>
                     <div class="flex items-start gap-3 text-on-surface-variant text-sm">
                         <span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
                         <span>Ramphal Chowk Rd, Block F, Sector 7 Dwarka, Dwarka, Delhi, 110077</span>
-                    </div>
-                    <div class="flex items-start gap-3 text-on-surface-variant text-sm">
-                        <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">phone</span>
-                        <div class="flex flex-col gap-1">
-                            <a class="hover:text-primary transition-colors" href="tel:+918766216564">+91 87662 16564</a>
-                            <a class="hover:text-primary transition-colors" href="tel:+917678472972">+91 76784 72972</a>
-                        </div>
-                    </div>
-                    <div class="flex items-center gap-3 text-on-surface-variant text-sm">
-                        <span class="material-symbols-outlined text-primary text-[20px]">mail</span>
-                        <a class="hover:text-primary transition-colors"
-                            href="mailto:info@growighairsolution.com">info@growighairsolution.com</a>
                     </div>
                     <div class="w-full h-[150px] rounded-xl overflow-hidden shadow-sm border border-surface-variant/30 mt-2">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.2060479792467!2d77.06936177571829!3d28.58520787569065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b158c96920f%3A0x8482722061064f9a!2sGrowig%20hair%20solution!5e1!3m2!1sen!2sin!4v1780336153874!5m2!1sen!2sin" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
