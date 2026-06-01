@@ -129,7 +129,7 @@
 <div class="z-10 space-y-8">
 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">PREMIUM RESTORATION IN GURGAON</span>
 <h1 class="font-display-lg text-display-lg text-on-surface leading-tight text-balance">Premium Hair Patch in Gurgaon: Bespoke Artistry for Natural Restoration</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Experience the pinnacle of hair replacement at our DLF Phase 2 studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.</p>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Experience the pinnacle of hair replacement at our Dwarka Sec-7 studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.</p>
 <div class="flex flex-wrap gap-4 pt-4">
 <button class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow">Schedule Private Viewing</button>
 <button class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors">Our Collection</button>
@@ -174,7 +174,7 @@
 <div class="space-y-6">
 <h2 class="font-headline-lg text-headline-lg text-on-surface">Bespoke Fitting in Gurgaon</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                The secret to a perfect hair patch lies in the "Mapping" phase. Unlike off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This allows us to create a base that perfectly contours to your head's unique ridges and dips. The result is a fit so secure that you can exercise, swim, and sleep without the slightest concern. Our DLF Phase 2 studio provides a private, serene environment where our senior stylists work with you to choose the exact density, curl pattern, and color gradient that matches your original hair.
+                                The secret to a perfect hair patch lies in the "Mapping" phase. Unlike off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This allows us to create a base that perfectly contours to your head's unique ridges and dips. The result is a fit so secure that you can exercise, swim, and sleep without the slightest concern. Our Dwarka Sec-7 studio provides a private, serene environment where our senior stylists work with you to choose the exact density, curl pattern, and color gradient that matches your original hair.
                             </p>
 </div>
 </div>
@@ -350,7 +350,7 @@
 <h2 class="font-display-lg text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
 <p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our luxury hair systems.</p>
                         <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
-                            <img alt="Hair Patch for Men" class="w-full h-full object-cover" src="assets/hair-patch-men.png"/>
+                            <img alt="Hair Patch for Men" class="w-full h-full object-contain" src="assets/hair-patch-men.png"/>
                         </div>
 </div>
 <div class="space-y-4">
@@ -378,7 +378,7 @@
                             <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
 </summary>
 <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                            With proper maintenance at our DLF Phase 2 center, a high-quality human hair system typically lasts between 6 to 12 months. We provide comprehensive care guides and professional servicing to maximize longevity.
+                            With proper maintenance at our Dwarka Sec-7 center, a high-quality human hair system typically lasts between 6 to 12 months. We provide comprehensive care guides and professional servicing to maximize longevity.
                         </div>
 </details>
 <details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
@@ -408,13 +408,16 @@
 </div>
 <div>
 <p class="text-xs font-label-md uppercase tracking-widest text-primary">Call Support</p>
-<p class="font-body-md font-bold">+91-GURGAON-GROWIG</p>
+<div class="flex flex-col">
+    <a href="tel:+918766216564" class="font-body-md font-bold hover:text-primary transition-colors">+91 87662 16564</a>
+    <a href="tel:+917678472972" class="font-body-md font-bold hover:text-primary transition-colors">+91 76784 72972</a>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div class="relative bg-surface-container">
-<img alt="Happy Client" class="absolute inset-0 w-full h-full object-cover" src="assets/tranformation.png"/>
+<img alt="Before and After" class="absolute inset-0 w-full h-full object-cover" src="assets/before-and-after.png"/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
 </div>
 </div>

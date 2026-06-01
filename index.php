@@ -68,7 +68,7 @@
                                 <span class="material-symbols-outlined text-sm">calendar_today</span>
                             </a>
                             <a class="border border-primary text-primary hover:bg-primary/5 font-label-md text-label-md uppercase px-8 py-4 rounded-DEFAULT transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-0.5"
-                                href="https://wa.me/919876543210" target="_blank">
+                                href="https://wa.me/918766216564" target="_blank">
                                 WhatsApp Now
                                 <span class="material-symbols-outlined text-sm">chat</span>
                             </a>

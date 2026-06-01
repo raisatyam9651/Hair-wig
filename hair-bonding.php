@@ -142,7 +142,7 @@
                         <span class="text-gradient italic font-normal">Invisible Hair Bonding</span>
                     </h1>
                     <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
-                        Experience absolute freedom with our medical-grade, non-surgical bonding artistry at DLF Phase 2, Gurgaon. Dive, sweat, and live without limits—your hair remains flawlessly secure.
+                        Experience absolute freedom with our medical-grade, non-surgical bonding artistry at Dwarka, New Delhi. Dive, sweat, and live without limits—your hair remains flawlessly secure.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 pt-4">
                         <a class="inline-flex items-center justify-center gap-2 bg-primary-container text-white px-8 py-4 rounded font-label-md text-label-md hover:bg-primary transition-colors shadow-lg shadow-primary-container/30" href="#consultation">

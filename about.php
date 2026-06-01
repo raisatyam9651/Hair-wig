@@ -178,7 +178,7 @@
                     <h2 class="font-headline-lg text-headline-lg text-on-surface">Our Heritage</h2>
                     <div class="w-20 h-1 bg-primary-container"></div>
                     <p class="font-body-lg text-body-lg text-secondary leading-relaxed">
-                        Born in the heart of DLF Phase 2, Gurugram, Growig Hair Solution emerged from a singular vision:
+                        Born in Gurugram and now based in Dwarka, New Delhi, Growig Hair Solution emerged from a singular vision:
                         to bridge the gap between clinical hair replacement and luxury salon experiences. Over the past
                         decade, we have perfected the science of undetectable integration.
                     </p>
@@ -324,7 +324,7 @@
                 <div class="order-2 md:order-1">
                     <h2 class="font-headline-lg text-headline-lg text-on-surface mb-8">The Studio Experience</h2>
                     <p class="font-body-lg text-body-lg text-secondary mb-12 leading-relaxed">
-                        Located in the prestigious DLF Phase 2, our flagship studio is designed for absolute privacy.
+                        Located in the heart of Dwarka, New Delhi, our flagship studio is designed for absolute privacy.
                         From our dedicated consultation lounges to private styling suites, every detail of the
                         environment is curated to provide a peaceful sanctuary for your transformation.
                     </p>
