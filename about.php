@@ -137,12 +137,12 @@
                     src="https://lh3.googleusercontent.com/aida/ADBb0ujZr1cjoBFdKJOacQ0UsaVVdB6ql9z5NGLzAnVsjElPlk0e-Inad8wnZp0DC_FaZwy_J_K7dyzRg5G7-Stp9AM9mOqWFR4J-9uVFQq-bUNUFgdKvNKGg0RGDnUvWXpx_Z2WvtLGoKjlJGCjIcQo4zscH73Z7rNJCqxIDY7TcmhYkJ0Ft70hlGMHMmUnYeZ_I60nBbSqnEwbHu--Uvsyte35xt_gm-0e0CviSQqQ0-JuvCLPbGRZBXWpdgQ" />
                 <div class="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
             </div>
-            <div class="max-w-container-max mx-auto px-margin-desktop relative z-10 w-full">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 w-full">
                 <div class="max-w-2xl">
                     <span
                         class="inline-block font-label-md text-label-md text-primary tracking-widest uppercase mb-6">Established
                         Expertise</span>
-                    <h1 class="font-display-lg text-display-lg text-on-surface mb-8 leading-tight">Crafting Confidence,
+                    <h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface mb-8 leading-tight">Crafting Confidence,
                         <br /><span class="italic text-primary">Redefining Excellence.</span></h1>
                     <p class="font-body-lg text-body-lg text-secondary mb-10 max-w-lg leading-relaxed">Discover the
                         pinnacle of hair restoration in Gurugram. Where medical precision meets the delicate touch of
@@ -159,7 +159,7 @@
         </section>
         <!-- Our Heritage -->
         <section class="py-section-gap bg-surface">
-            <div class="max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-2 gap-20 items-center">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-2 gap-20 items-center">
                 <div class="relative">
                     <div class="aspect-[4/5] rounded-xl overflow-hidden royal-shadow">
                         <img class="w-full h-full object-cover"
@@ -192,12 +192,12 @@
         </section>
         <!-- The Philosophy (Bento Grid) -->
         <section class="py-section-gap bg-surface-container-lowest">
-            <div class="max-w-container-max mx-auto px-margin-desktop text-center mb-20">
-                <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Artistry Meets Technology</h2>
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center mb-20">
+                <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface mb-4">Artistry Meets Technology</h2>
                 <p class="font-body-md text-body-md text-secondary max-w-xl mx-auto">The invisible science behind our
                     world-class hair replacement solutions.</p>
             </div>
-            <div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Precision Mapping -->
                 <div
                     class="md:col-span-2 group relative overflow-hidden rounded-2xl bg-white p-12 border border-outline-variant/30 hover:shadow-xl transition-all duration-500">
@@ -255,9 +255,9 @@
         <!-- Meet the Experts -->
         <section class="py-section-gap bg-surface">
             <div
-                class="max-w-container-max mx-auto px-margin-desktop flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+                class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
                 <div class="max-w-2xl">
-                    <h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">The Curators of Confidence</h2>
+                    <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface mb-6">The Curators of Confidence</h2>
                     <p class="font-body-lg text-body-lg text-secondary">Our team combines clinical expertise with a
                         refined eye for aesthetic balance, ensuring every solution is uniquely yours.</p>
                 </div>
@@ -266,7 +266,7 @@
                     All Specialists</button>
             </div>
             <div
-                class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <!-- Expert 1 -->
                 <div class="space-y-6 group">
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
@@ -320,9 +320,9 @@
         <!-- The Studio Experience -->
         <section class="py-section-gap relative overflow-hidden">
             <div class="absolute inset-0 bg-surface-container/50 -z-10"></div>
-            <div class="max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-2 gap-20 items-center">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-2 gap-20 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="font-headline-lg text-headline-lg text-on-surface mb-8">The Studio Experience</h2>
+                    <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface mb-8">The Studio Experience</h2>
                     <p class="font-body-lg text-body-lg text-secondary mb-12 leading-relaxed">
                         Located in the heart of Dwarka, New Delhi, our flagship studio is designed for absolute privacy.
                         From our dedicated consultation lounges to private styling suites, every detail of the
@@ -358,16 +358,15 @@
         </section>
         <!-- Our Commitment -->
         <section class="py-section-gap">
-            <div class="max-w-container-max mx-auto px-margin-desktop">
-                <div class="bg-primary p-12 md:p-24 rounded-[40px] text-center relative overflow-hidden">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+                <div class="bg-primary p-6 md:p-24 rounded-[40px] text-center relative overflow-hidden">
                     <div class="absolute inset-0 opacity-10">
                         <div class="h-full w-full"
                             style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;">
                         </div>
                     </div>
                     <div class="relative z-10 max-w-3xl mx-auto">
-                        <h2 class="font-headline-lg text-headline-lg text-on-primary mb-8">Our Unwavering Commitment
-                        </h2>
+                        <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-primary mb-8">Our Unwavering Commitment</h2>
                         <p class="font-body-lg text-body-lg text-on-primary/80 mb-12">
                             To us, hair replacement is not a commodity; it is a life-changing restoration of self. We
                             commit to the highest standards of discretion, using only the finest biological materials

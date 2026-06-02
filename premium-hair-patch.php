@@ -124,11 +124,10 @@
 <?php include 'header.php'; ?>
 <main class="pt-20">
 <!-- Hero Section -->
-<section class="relative min-h-[90vh] flex items-center overflow-hidden py-section-gap">
-<div class="max-w-[1280px] mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 <div class="z-10 space-y-8">
 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">PREMIUM RESTORATION IN GURGAON</span>
-<h1 class="font-display-lg text-display-lg text-on-surface leading-tight text-balance">Premium Hair Patch in Gurgaon: Bespoke Artistry for Natural Restoration</h1>
+<h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">Premium Hair Patch in Gurgaon: Bespoke Artistry for Natural Restoration</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Experience the pinnacle of hair replacement at our Dwarka Sec-7 studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.</p>
 <div class="flex flex-wrap gap-4 pt-4">
 <button class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow">Schedule Private Viewing</button>
@@ -137,7 +136,7 @@
 </div>
 <div class="relative group">
 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-<img alt="Premium Hair Restoration" class="relative rounded-[32px] royal-shadow w-full h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/premium-har-pathc.png"/>
+<img alt="Premium Hair Restoration" class="relative rounded-[32px] royal-shadow w-full h-[350px] md:h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/premium-har-pathc.png"/>
 <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
 <p class="font-label-md text-primary mb-1">CRAFTSMANSHIP</p>
 <p class="font-body-md text-on-surface">Every strand is hand-tied to mimic your natural growth patterns.</p>
@@ -147,11 +146,11 @@
 </section>
 <!-- Deep Content Section -->
 <section class="bg-surface-container-low py-section-gap">
-<div class="max-w-[1280px] mx-auto px-margin-desktop">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
 <div class="lg:col-span-8 space-y-12">
 <div class="space-y-6">
-<h2 class="font-headline-lg text-headline-lg text-on-surface">The Science of Confidence: Beyond Traditional Hair Systems</h2>
+<h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">The Science of Confidence: Beyond Traditional Hair Systems</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
                                 Hair loss is more than just a physical change; it's a deeply personal journey that affects how you perceive yourself and how the world interacts with you. At Growig Hair Solution in Gurgaon, we treat hair replacement as a blend of medical precision and high-fashion artistry. Our "Premium Hair Patch in Gurgaon" service isn't just about covering baldness—it's about restoring the architectural integrity of your facial silhouette.
                             </p>
@@ -172,7 +171,7 @@
 </div>
 </div>
 <div class="space-y-6">
-<h2 class="font-headline-lg text-headline-lg text-on-surface">Bespoke Fitting in Gurgaon</h2>
+<h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Bespoke Fitting in Gurgaon</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
                                 The secret to a perfect hair patch lies in the "Mapping" phase. Unlike off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This allows us to create a base that perfectly contours to your head's unique ridges and dips. The result is a fit so secure that you can exercise, swim, and sleep without the slightest concern. Our Dwarka Sec-7 studio provides a private, serene environment where our senior stylists work with you to choose the exact density, curl pattern, and color gradient that matches your original hair.
                             </p>
@@ -212,9 +211,9 @@
 </section>
 <!-- Bento Grid - Patch Types -->
 <section class="py-section-gap">
-<div class="max-w-[1280px] mx-auto px-margin-desktop">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-16 space-y-4">
-<h2 class="font-display-lg text-headline-lg text-on-surface">Our Signature Collections</h2>
+<h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface">Our Signature Collections</h2>
 <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Masterpieces of restoration tailored for every individual need and aesthetic preference.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -306,9 +305,9 @@
 <!-- Process Section -->
 <section class="bg-surface-container py-section-gap relative overflow-hidden">
 <div class="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 transform translate-x-1/2"></div>
-<div class="max-w-[1280px] mx-auto px-margin-desktop relative z-10">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
 <div class="mb-20">
-<h2 class="font-display-lg text-headline-lg text-on-surface mb-6">The Journey to Perfection</h2>
+<h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-6">The Journey to Perfection</h2>
 <p class="font-body-lg text-on-surface-variant max-w-xl">Four meticulous steps to your transformative hair restoration experience.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
@@ -345,9 +344,9 @@
 </section>
 <!-- FAQ Section -->
 <section class="py-section-gap">
-<div class="max-w-[1280px] mx-auto px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-20">
 <div>
-<h2 class="font-display-lg text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
+<h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
 <p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our luxury hair systems.</p>
                         <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
                             <img alt="Hair Patch for Men" class="w-full h-full object-contain" src="assets/hair-patch-men.png"/>
@@ -394,11 +393,11 @@
 </div>
 </section>
 <!-- CTA Section -->
-<section class="py-section-gap px-margin-mobile">
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop">
 <div class="max-w-[1280px] mx-auto glass-card rounded-[48px] overflow-hidden royal-shadow border-primary/30">
 <div class="grid grid-cols-1 lg:grid-cols-2">
-<div class="p-16 space-y-8">
-<h2 class="font-display-lg text-display-lg text-on-surface">Your Transformation Awaits.</h2>
+<div class="p-6 md:p-16 space-y-8">
+<h2 class="font-display-lg text-[32px] md:text-display-lg text-on-surface">Your Transformation Awaits.</h2>
 <p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let hair loss define your story. Join the hundreds of professionals in Gurgaon who have regained their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
 <div class="flex flex-col sm:flex-row gap-6">
 <button class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow">Schedule My Appointment</button>
@@ -415,7 +414,7 @@
 </div>
 </div>
 </div>
-<div class="relative bg-surface-container">
+<div class="relative bg-surface-container min-h-[300px] lg:min-h-0">
 <img alt="Before and After" class="absolute inset-0 w-full h-full object-cover" src="assets/before-and-after.png"/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
 </div>
