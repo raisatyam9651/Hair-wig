@@ -410,7 +410,6 @@
 <p class="text-xs font-label-md uppercase tracking-widest text-primary">Call Support</p>
 <div class="flex flex-col">
     <a href="tel:+918766216564" class="font-body-md font-bold hover:text-primary transition-colors">+91 87662 16564</a>
-    <a href="tel:+917678472972" class="font-body-md font-bold hover:text-primary transition-colors">+91 76784 72972</a>
 </div>
 </div>
 </div>
