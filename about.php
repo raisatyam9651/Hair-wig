@@ -131,29 +131,29 @@
     <?php include 'header.php'; ?>
     <main class="pt-20">
         <!-- Hero Section -->
-        <section class="relative h-[85vh] flex items-center overflow-hidden">
-            <div class="absolute inset-0 z-0">
-                <img alt="Hero Portrait" class="w-full h-full object-cover"
-                    src="assets/premium-har-pathc.png" />
-                <div class="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
+        <section class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div class="z-10 space-y-8">
+                <span class="inline-block font-label-md text-label-md text-primary tracking-widest uppercase mb-2">Established Expertise</span>
+                <h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight">
+                    Crafting Confidence, <br /><span class="italic text-primary">Redefining Excellence.</span>
+                </h1>
+                <p class="font-body-lg text-body-lg text-secondary max-w-xl leading-relaxed">
+                    Discover the pinnacle of hair restoration in Gurgaon. Where medical precision meets the delicate touch of bespoke artistry.
+                </p>
+                <div class="flex items-center gap-6 pt-4">
+                    <a href="contact" class="bg-primary text-on-primary px-10 py-4 rounded-full font-label-md text-label-md hover:bg-primary-fixed-variant transition-all duration-300 text-center">Start Your Journey</a>
+                    <div class="h-px w-12 bg-primary-container"></div>
+                    <span class="font-label-md text-label-md text-primary">Est. 2014</span>
+                </div>
             </div>
-            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 w-full">
-                <div class="max-w-2xl">
-                    <span
-                        class="inline-block font-label-md text-label-md text-primary tracking-widest uppercase mb-6">Established
-                        Expertise</span>
-                    <h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface mb-8 leading-tight">Crafting Confidence,
-                        <br /><span class="italic text-primary">Redefining Excellence.</span></h1>
-                    <p class="font-body-lg text-body-lg text-secondary mb-10 max-w-lg leading-relaxed">Discover the
-                        pinnacle of hair restoration in Gurugram. Where medical precision meets the delicate touch of
-                        bespoke artistry.</p>
-                    <div class="flex items-center gap-6">
-                        <button
-                            class="bg-primary text-on-primary px-10 py-4 rounded-full font-label-md text-label-md hover:bg-primary-fixed-variant transition-all duration-300">Start
-                            Your Journey</button>
-                        <div class="h-px w-12 bg-primary-container"></div>
-                        <span class="font-label-md text-label-md text-primary">Est. 2014</span>
-                    </div>
+            
+            <!-- Curved & Rounded Image Container -->
+            <div class="relative group">
+                <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
+                <img alt="Our Heritage" class="relative rounded-[32px] royal-shadow w-full h-[350px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/premium-har-pathc.png" />
+                <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
+                    <p class="font-label-md text-primary mb-1">OUR HERITAGE</p>
+                    <p class="font-body-md text-on-surface">Delivering trust, comfort, and state-of-the-art hair solutions since 2014.</p>
                 </div>
             </div>
         </section>

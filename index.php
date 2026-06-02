@@ -24,27 +24,13 @@
     <?php include 'header.php'; ?>
     <main>
         <!-- Hero Section -->
-        <section class="relative min-h-screen flex flex-col justify-between pt-32 pb-12 overflow-hidden bg-background"
+        <section class="relative min-h-[90vh] flex flex-col justify-between pt-32 pb-12 overflow-hidden bg-background"
             id="home">
-            <!-- Background Image -->
-            <div class="absolute inset-0 z-0">
-                <!-- Large crisp image positioned to the right -->
-                <img alt="Hero Background"
-                    class="absolute right-0 top-0 w-full lg:w-2/3 h-full object-cover object-center lg:object-right opacity-25 lg:opacity-100"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCegYBSvqd-XnzSA9WikjCQYShjSCiit-Jsi5TauZdMu33bv8_6ToT3gkqSaO0fwHIVHXEH7OFwp-HsJiP_bU2KvZyebw2IQF0AaDVJXa4HQnsIq-iwhMQLc2TLNmwOHLMcRxFjl1xHXdUIZKJw8kUgjC6x1Uv8ATdDndaXmBgiD3ds16-6V1WVaHpV8iY2e3vtvQiepGyJoO-l0vG8mpWDNsAhMFio6LEMCBaeowBRgH9Mp915SbA9KxUn3y8VlrGjfGDCrgj5fE0" />
-                <!-- Gradients to blend it beautifully with Warm Ivory background -->
-                <div
-                    class="absolute inset-0 bg-gradient-to-r from-background via-background/95 lg:via-background/80 to-transparent z-10">
-                </div>
-                <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10">
-                </div>
-            </div>
-
             <div
-                class="relative z-20 max-w-[1440px] w-full mx-auto px-margin-mobile md:px-margin-desktop flex flex-col justify-between flex-grow gap-12">
-                <!-- Main Grid: Text Content -->
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center my-auto">
-                    <div class="lg:col-span-8 flex flex-col gap-6 fade-in-section">
+                class="relative z-20 max-w-[1280px] w-full mx-auto px-margin-mobile md:px-margin-desktop flex flex-col justify-between flex-grow gap-12">
+                <!-- Main Grid: Text Content and Rounded Image -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center my-auto">
+                    <div class="flex flex-col gap-6 fade-in-section">
                         <div
                             class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-surface-bright/55 backdrop-blur-md w-fit">
                             <span class="material-symbols-outlined text-primary text-sm filled">stars</span>
@@ -57,7 +43,7 @@
                             Mastering the Art of <br />
                             <span class="text-primary">Bespoke Hair Replacement</span>
                         </h1>
-                        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
                             Experience the pinnacle of natural-looking, non-surgical hair replacement solutions.
                             Tailored for the modern gentleman seeking perfection, discretion, and confidence.
                         </p>
@@ -72,6 +58,16 @@
                                 WhatsApp Now
                                 <span class="material-symbols-outlined text-sm">chat</span>
                             </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Curved & Rounded Image Container -->
+                    <div class="relative group">
+                        <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
+                        <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-[350px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/premium-har-pathc.png" />
+                        <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
+                            <p class="font-label-md text-primary mb-1">ELITE RESTORATION</p>
+                            <p class="font-body-md text-on-surface">Bespoke systems offering 100% natural, undetectable realism.</p>
                         </div>
                     </div>
                 </div>
