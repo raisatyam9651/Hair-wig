@@ -1,172 +1,451 @@
 <?php include 'custom-header-link.php'; ?>
 <!DOCTYPE html>
 
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Mastering the Art of Invisible Hair Bonding | Growig Hair Solution</title>
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "primary-container": "#c8a96b",
-                        "on-secondary-fixed": "#1c1b1b",
-                        "tertiary-container": "#9facd7",
-                        "on-tertiary-fixed-variant": "#39466b",
-                        "outline": "#7f7668",
-                        "on-tertiary-container": "#334064",
-                        "surface-container-low": "#f6f3ee",
-                        "secondary": "#5f5e5e",
-                        "on-tertiary-fixed": "#0b1a3d",
-                        "on-background": "#1c1c19",
-                        "secondary-container": "#e2dfde",
-                        "error": "#ba1a1a",
-                        "surface-container": "#f0ede9",
-                        "on-primary-container": "#533d09",
-                        "on-secondary": "#ffffff",
-                        "secondary-fixed": "#e5e2e1",
-                        "surface-tint": "#735b25",
-                        "surface-bright": "#fcf9f4",
-                        "inverse-on-surface": "#f3f0eb",
-                        "on-surface-variant": "#4d463a",
-                        "inverse-surface": "#31302d",
-                        "error-container": "#ffdad6",
-                        "primary-fixed-dim": "#e3c282",
-                        "on-primary-fixed-variant": "#5a430f",
-                        "on-surface": "#1c1c19",
-                        "surface": "#fcf9f4",
-                        "on-tertiary": "#ffffff",
-                        "on-secondary-fixed-variant": "#474746",
-                        "on-error": "#ffffff",
-                        "surface-container-high": "#ebe8e3",
-                        "tertiary-fixed-dim": "#b8c5f2",
-                        "on-secondary-container": "#636262",
-                        "outline-variant": "#d0c5b5",
-                        "surface-dim": "#dcdad5",
-                        "tertiary": "#505d84",
-                        "surface-variant": "#e5e2dd",
-                        "on-primary": "#ffffff",
-                        "background": "#fcf9f4",
-                        "on-error-container": "#93000a",
-                        "inverse-primary": "#e3c282",
-                        "surface-container-lowest": "#ffffff",
-                        "primary": "#735b25",
-                        "secondary-fixed-dim": "#c8c6c5",
-                        "primary-fixed": "#ffdea0",
-                        "on-primary-fixed": "#261a00",
-                        "surface-container-highest": "#e5e2dd",
-                        "tertiary-fixed": "#dae1ff"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "0.25rem",
-                        "lg": "0.5rem",
-                        "xl": "0.75rem",
-                        "full": "9999px"
-                    },
-                    "spacing": {
-                        "container-max": "1280px",
-                        "margin-mobile": "24px",
-                        "gutter": "24px",
-                        "unit": "8px",
-                        "margin-desktop": "64px",
-                        "section-gap": "120px"
-                    },
-                    "fontFamily": {
-                        "headline-lg": ["Playfair Display"],
-                        "label-md": ["Inter"],
-                        "label-sm": ["Inter"],
-                        "headline-md": ["Playfair Display"],
-                        "body-md": ["Inter"],
-                        "body-lg": ["Inter"],
-                        "headline-lg-mobile": ["Playfair Display"],
-                        "display-lg": ["Playfair Display"]
-                    },
-                    "fontSize": {
-                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "500" }],
-                        "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600" }],
-                        "label-sm": ["12px", { "lineHeight": "1.4", "fontWeight": "500" }],
-                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "500" }],
-                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
-                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
-                        "headline-lg-mobile": ["32px", { "lineHeight": "1.2", "fontWeight": "500" }],
-                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600" }]
-                    }
-                }
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Premium Hair Bonding in Gurgaon | Growig Hair Solution - Bespoke Artistry</title>
+<meta content="Get a 100% natural, undetectable hair bonding service in Gurgaon. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution." name="description"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "surface-container": "#f0ede9",
+                "secondary-container": "#e2dfde",
+                "on-primary": "#ffffff",
+                "surface-container-low": "#f6f3ee",
+                "on-tertiary-fixed-variant": "#39466b",
+                "surface-bright": "#fcf9f4",
+                "tertiary-fixed-dim": "#b8c5f2",
+                "tertiary-fixed": "#dae1ff",
+                "primary": "#735b25",
+                "inverse-surface": "#31302d",
+                "primary-fixed-dim": "#e3c282",
+                "outline-variant": "#d0c5b5",
+                "tertiary": "#505d84",
+                "on-error": "#ffffff",
+                "secondary-fixed-dim": "#c8c6c5",
+                "on-surface-variant": "#4d463a",
+                "inverse-primary": "#e3c282",
+                "outline": "#7f7668",
+                "primary-fixed": "#ffdea0",
+                "surface-container-highest": "#e5e2dd",
+                "surface-dim": "#dcdad5",
+                "secondary": "#5f5e5e",
+                "on-error-container": "#93000a",
+                "error": "#ba1a1a",
+                "on-tertiary-container": "#334064",
+                "on-background": "#1c1c19",
+                "on-surface": "#1c1c19",
+                "on-secondary-fixed": "#1c1b1b",
+                "primary-container": "#c8a96b",
+                "surface": "#fcf9f4",
+                "on-secondary-fixed-variant": "#474746",
+                "on-tertiary": "#ffffff",
+                "surface-container-lowest": "#ffffff",
+                "on-secondary": "#ffffff",
+                "surface-variant": "#e5e2dd",
+                "on-secondary-container": "#636262",
+                "on-primary-fixed-variant": "#5a430f",
+                "on-primary-fixed": "#261a00",
+                "on-primary-container": "#533d09",
+                "surface-container-high": "#ebe8e3",
+                "error-container": "#ffdad6",
+                "surface-tint": "#735b25",
+                "on-tertiary-fixed": "#0b1a3d",
+                "background": "#fcf9f4",
+                "tertiary-container": "#9facd7",
+                "secondary-fixed": "#e5e2e1",
+                "inverse-on-surface": "#f3f0eb"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+            },
+            "spacing": {
+                "unit": "8px",
+                "margin-desktop": "64px",
+                "gutter": "24px",
+                "container-max": "1280px",
+                "margin-mobile": "24px",
+                "section-gap": "120px"
+            },
+            "fontFamily": {
+                "headline-lg-mobile": ["Playfair Display"],
+                "body-lg": ["Inter"],
+                "headline-md": ["Playfair Display"],
+                "label-sm": ["Inter"],
+                "body-md": ["Inter"],
+                "headline-lg": ["Playfair Display"],
+                "display-lg": ["Playfair Display"],
+                "label-md": ["Inter"]
+            },
+            "fontSize": {
+                "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                "label-sm": ["12px", {"lineHeight": "1.4", "fontWeight": "500"}],
+                "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600"}]
             }
-        }
+          },
+        },
+      }
     </script>
-    <style>
-        .glass-panel {
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
             background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.4);
-            box-shadow: 0px 40px 60px -15px rgba(74, 63, 41, 0.06);
         }
         .royal-shadow {
-            box-shadow: 0px 40px 60px -15px rgba(74, 63, 41, 0.06);
+            box-shadow: 0 40px 60px -15px rgba(74, 63, 41, 0.08);
         }
-        .text-gradient {
-            background: linear-gradient(135deg, #735b25 0%, #c8a96b 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+        .text-balance { text-wrap: balance; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #fcf9f4; }
+        ::-webkit-scrollbar-thumb { background: #c8a96b; border-radius: 4px; }
     </style>
-<?php echo $custom_head_links; ?>
+    <?php echo $custom_head_links; ?>
 </head>
-
-<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden selection:bg-primary-container selection:text-white">
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
 <?php include 'header.php'; ?>
-    <main class="pt-20">
-        <!-- Hero Section -->
-        <section class="relative min-h-[90vh] flex items-center pt-20 pb-section-gap px-margin-mobile md:px-margin-desktop overflow-hidden">
-            <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary-container/10 rounded-full blur-[100px] -z-10 translate-x-1/3 -translate-y-1/4"></div>
-            <div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
-                <div class="lg:col-span-6 space-y-8 z-10 relative">
-                    <div class="inline-flex items-center gap-2 bg-primary-container/10 text-primary-container px-4 py-1.5 rounded-full font-label-sm text-label-sm border border-primary-container/20 backdrop-blur-sm">
-                        <span class="material-symbols-outlined text-[16px]">verified</span>
-                        <span>Premium Non-Surgical Solution</span>
-                    </div>
-                    <h1 class="font-display-lg text-display-lg md:text-[72px] text-on-surface tracking-tight leading-tight">
-                        Mastering the Art of <br />
-                        <span class="text-gradient italic font-normal">Invisible Hair Bonding</span>
-                    </h1>
-                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
-                        Experience absolute freedom with our medical-grade, non-surgical bonding artistry at Dwarka, New Delhi. Dive, sweat, and live without limits—your hair remains flawlessly secure.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                        <a class="inline-flex items-center justify-center gap-2 bg-primary-container text-white px-8 py-4 rounded font-label-md text-label-md hover:bg-primary transition-colors shadow-lg shadow-primary-container/30" href="#consultation">
-                            Schedule Private Consultation
-                            <span class="material-symbols-outlined text-[18px]">arrow_right_alt</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="lg:col-span-6 relative z-10 mt-12 lg:mt-0">
-                    <div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden royal-shadow">
-                        <img alt="Portrait of a confident man with expertly styled bonded hair" class="object-cover w-full h-full"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ujZr1cjoBFdKJOacQ0UsaVVdB6ql9z5NGLzAnVsjElPlk0e-Inad8wnZp0DC_FaZwy_J_K7dyzRg5G7-Stp9AM9mOqWFR4J-9uVFQq-bUNUFgdKvNKGg0RGDnUvWXpx_Z2WvtLGoKjlJGCjIcQo4zscH73Z7rNJCqxIDY7TcmhYkJ0Ft70hlGMHMmUnYeZ_I60nBbSqnEwbHu--Uvsyte35xt_gm-0e0CviSQqQ0-JuvCLPbGRZBXWpdgQ" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- The Science of Lifestyle Freedom -->
-        <section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low relative">
-            <div class="max-w-container-max mx-auto">
-                <h2 class="font-headline-lg text-headline-lg text-on-surface">The Science of <br />Lifestyle Freedom.</h2>
-                <p class="font-body-lg text-body-lg text-on-surface-variant mt-6">
-                    Hair bonding is not merely an aesthetic enhancement; it is a physiological and psychological liberation. Our bespoke medical-grade bonding process fuses the hair system to your scalp's epidermis with meticulous precision.
-                </p>
-            </div>
-        </section>
-    </main>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[90vh] flex items-center overflow-hidden py-section-gap">
+<div class="max-w-[1280px] mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="z-10 space-y-8">
+<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">PREMIUM RESTORATION IN GURGAON</span>
+<h1 class="font-display-lg text-display-lg text-on-surface leading-tight text-balance">Premium Hair Bonding in Gurgaon: Bespoke Artistry for Natural Restoration</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Experience the pinnacle of hair bonding at our Dwarka Sec-7 studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.</p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow">Schedule Private Viewing</button>
+<button class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors">Our Collection</button>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
+<img alt="Premium Hair Bonding" class="relative rounded-[32px] royal-shadow w-full h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/Hair Bonding.png"/>
+<div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
+<p class="font-label-md text-primary mb-1">CRAFTSMANSHIP</p>
+<p class="font-body-md text-on-surface">Every strand is professionally bonded for absolute lifestyle freedom and natural movement.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Deep Content Section -->
+<section class="bg-surface-container-low py-section-gap">
+<div class="max-w-[1280px] mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<div class="lg:col-span-8 space-y-12">
+<div class="space-y-6">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Science of Confidence: Beyond Traditional Hair Systems</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                Hair loss is more than just a physical change; it's a deeply personal journey that affects how you perceive yourself and how the world interacts with you. At Growig Hair Solution in Gurgaon, we treat hair bonding as a blend of medical precision and high-fashion artistry. Our "Premium Hair Bonding in Gurgaon" service isn't just about covering baldness—it's about restoring the architectural integrity of your facial silhouette with a semi-permanent, completely secure system.
+                            </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                Gurgaon's fast-paced corporate landscape demands a look that is consistently sharp and professional. Whether you are navigating the boardrooms of Cyber City or the social circles of DLF, your hair system must be versatile, durable, and above all, invisible. Our bespoke hair bonding systems are designed using high-breathability polymers, FDA-approved skin-safe bonding adhesives, and ethically sourced Remy human hair, ensuring they withstand the local climate while maintaining a luxurious texture.
+                            </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="glass-card p-8 rounded-3xl space-y-4 border-primary/10">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="auto_awesome"></span>
+<h3 class="font-headline-md text-headline-md text-primary">Artisanal Craft</h3>
+<p class="font-body-md text-on-surface-variant">Each hair system undergoes 120+ hours of hand-ventilation, ensuring that each hair strand exits the base at a natural angle, identical to your biological scalp.</p>
+</div>
+<div class="glass-card p-8 rounded-3xl space-y-4 border-primary/10">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="verified"></span>
+<h3 class="font-headline-md text-headline-md text-primary">Medical Grade</h3>
+<p class="font-body-md text-on-surface-variant">Our bases use hypo-allergenic, skin-safe materials that promote oxygen flow to your scalp, preventing irritation and maintaining skin health.</p>
+</div>
+</div>
+<div class="space-y-6">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Bespoke Fitting in Gurgaon</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                The secret to perfect hair bonding lies in the "Mapping" phase. Unlike off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This allows us to create a base that perfectly contours to your head's unique ridges and dips. The result is a fit so secure that you can exercise, swim, and sleep without the slightest concern. Our Dwarka Sec-7 studio provides a private, serene environment where our senior stylists work with you to choose the exact density, curl pattern, and color gradient that matches your original hair.
+                            </p>
+</div>
+</div>
+<div class="lg:col-span-4">
+<div class="sticky top-32 glass-card p-10 rounded-[32px] royal-shadow space-y-8 border-primary/20">
+<h4 class="font-headline-md text-headline-md text-on-surface">Why Choose Us?</h4>
+<ul class="space-y-6">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle" data-weight="fill"></span>
+<div>
+<p class="font-label-md text-on-surface">100% Remy Human Hair</p>
+<p class="text-sm text-on-surface-variant">Highest quality, tangle-free hair with intact cuticles.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle" data-weight="fill"></span>
+<div>
+<p class="font-label-md text-on-surface">24-Hour Transformation</p>
+<p class="text-sm text-on-surface-variant">Consultation to final fixing in a single day.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle" data-weight="fill"></span>
+<div>
+<p class="font-label-md text-on-surface">Lifetime Support</p>
+<p class="text-sm text-on-surface-variant">Monthly maintenance and styling sessions available.</p>
+</div>
+</li>
+</ul>
+<button class="w-full bg-primary text-white py-4 rounded-xl font-label-md hover:brightness-110 transition-all">Get a Price Quote</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Bento Grid - System Types -->
+<section class="py-section-gap">
+<div class="max-w-[1280px] mx-auto px-margin-desktop">
+<div class="text-center mb-16 space-y-4">
+<h2 class="font-display-lg text-headline-lg text-on-surface">Our Signature Collections</h2>
+<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Masterpieces of restoration tailored for every individual need and aesthetic preference.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Men's Systems -->
+<div class="space-y-8">
+<div class="flex items-center gap-4 mb-4">
+<div class="h-[1px] flex-grow bg-outline-variant"></div>
+<span class="font-label-md text-primary tracking-widest">FOR MEN</span>
+<div class="h-[1px] flex-grow bg-outline-variant"></div>
+</div>
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+<h4 class="font-headline-md text-on-surface mb-2">Ultra-Thin Skin System</h4>
+<p class="font-body-md text-on-surface-variant mb-4">A 0.03mm transparent membrane that blends seamlessly with the scalp.</p>
+<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">High Definition</span>
+</div>
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+<h4 class="font-headline-md text-on-surface mb-2">Swiss Lace Front System</h4>
+<p class="font-body-md text-on-surface-variant mb-4">The industry standard for natural hairlines, allowing off-the-face styling.</p>
+<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Undetectable</span>
+</div>
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+<h4 class="font-headline-md text-on-surface mb-2">French Lace System</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Enhanced durability with a reinforced lace structure for active lifestyles.</p>
+<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Durability</span>
+</div>
+</div>
+<!-- Mixed Highlight -->
+<div class="space-y-8">
+<div class="glass-card p-8 rounded-3xl bg-primary text-white royal-shadow h-full flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-4xl mb-6 block" data-icon="award_star" data-weight="fill"></span>
+<h4 class="font-headline-lg text-white mb-4">The Hybrid Advantage</h4>
+<p class="font-body-lg text-white/80 leading-relaxed mb-6">Combining the breathability of lace with the security of poly-skin edges, our Hybrid systems offer the best of both worlds for 24/7 wear.</p>
+</div>
+<div class="space-y-4">
+<div class="p-4 rounded-2xl bg-white/10 border border-white/20">
+<h5 class="font-label-md mb-1">Monofilament Hybrid</h5>
+<p class="text-xs opacity-70">Perfect for multi-directional parting.</p>
+</div>
+<div class="p-4 rounded-2xl bg-white/10 border border-white/20">
+<h5 class="font-label-md mb-1">Silk Top Toupee</h5>
+<p class="text-xs opacity-70">Mimics the look of hair growing from skin.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Women's Systems -->
+<div class="space-y-8">
+<div class="flex items-center gap-4 mb-4">
+<div class="h-[1px] flex-grow bg-outline-variant"></div>
+<span class="font-label-md text-primary tracking-widest">FOR WOMEN</span>
+<div class="h-[1px] flex-grow bg-outline-variant"></div>
+</div>
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+<h4 class="font-headline-md text-on-surface mb-2">Silk Topper</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Lightweight crown coverage that adds significant volume instantly.</p>
+<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Instant Volume</span>
+</div>
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+<h4 class="font-headline-md text-on-surface mb-2">Lace Front Illusion</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Pre-plucked hairlines for a realistic transition from forehead to hair.</p>
+<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Artistic Finish</span>
+</div>
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+<h4 class="font-headline-md text-on-surface mb-2">100% Remy Human Hair System</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Full system with cuticle-aligned hair for maximum shine and longevity.</p>
+<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Elite Grade</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 flex items-center justify-between">
+<div>
+<h4 class="font-headline-md text-on-surface">Invisible Crown System</h4>
+<p class="font-body-md text-on-surface-variant">Targeted for thinning at the crown with 0-weight technology.</p>
+</div>
+<span class="material-symbols-outlined text-primary text-5xl" data-icon="lens_blur"></span>
+</div>
+<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 flex items-center justify-between">
+<div>
+<h4 class="font-headline-md text-on-surface">Medical Grade System</h4>
+<p class="font-body-md text-on-surface-variant">Anti-slip friction grip specifically for total hair loss (Alopecia/Chemo).</p>
+</div>
+<span class="material-symbols-outlined text-primary text-5xl" data-icon="medical_services"></span>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section class="bg-surface-container py-section-gap relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 transform translate-x-1/2"></div>
+<div class="max-w-[1280px] mx-auto px-margin-desktop relative z-10">
+<div class="mb-20">
+<h2 class="font-display-lg text-headline-lg text-on-surface mb-6">The Journey to Perfection</h2>
+<p class="font-body-lg text-on-surface-variant max-w-xl">Four meticulous steps to your transformative hair restoration experience.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="relative group">
+<div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">01</div>
+<div class="relative pt-12 space-y-4">
+<h4 class="font-headline-md text-on-surface">Consultation</h4>
+<p class="font-body-md text-on-surface-variant">A private assessment of your scalp health and aesthetic goals with our senior specialists.</p>
+</div>
+</div>
+<div class="relative group">
+<div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">02</div>
+<div class="relative pt-12 space-y-4">
+<h4 class="font-headline-md text-on-surface">Mapping</h4>
+<p class="font-body-md text-on-surface-variant">High-precision scalp topography scanning to ensure your custom base fits like a second skin.</p>
+</div>
+</div>
+<div class="relative group">
+<div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">03</div>
+<div class="relative pt-12 space-y-4">
+<h4 class="font-headline-md text-on-surface">Customization</h4>
+<p class="font-body-md text-on-surface-variant">Hand-blending shades and densities to match your natural profile and lifestyle needs.</p>
+</div>
+</div>
+<div class="relative group">
+<div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">04</div>
+<div class="relative pt-12 space-y-4">
+<h4 class="font-headline-md text-on-surface">Fitting</h4>
+<p class="font-body-md text-on-surface-variant">Final clinical fixing using bio-safe adhesives or medical-grade clips for 100% security.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-section-gap">
+<div class="max-w-[1280px] mx-auto px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div>
+<h2 class="font-display-lg text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
+<p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our luxury hair systems.</p>
+                        <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
+                            <img alt="FAQ" class="w-full h-full object-contain" src="assets/hair-patch-men.png"/>
+                        </div>
+</div>
+<div class="space-y-4">
+<details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow" open="">
+<summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
+                            How natural will the bonded hair system look?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
+                            Our systems are virtually undetectable. By using hand-tied Remy hair on a transparent base, the hair appears to grow directly from your scalp. We also customize the hairline density to ensure it matches your facial structure perfectly.
+                        </div>
+</details>
+<details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
+<summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
+                            Can I exercise or swim with the system?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
+                            Absolutely. When professionally fixed at our Gurgaon studio, our systems are waterproof and sweat-resistant. You can maintain an active lifestyle, including swimming and intense workouts, with complete peace of mind.
+                        </div>
+</details>
+<details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
+<summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
+                            What is the lifespan of a premium hair system?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
+                            With proper maintenance at our Dwarka Sec-7 center, a high-quality human hair system typically lasts between 6 to 12 months. We provide comprehensive care guides and professional servicing to maximize longevity.
+                        </div>
+</details>
+<details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
+<summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
+                            How often is maintenance required?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
+                            We recommend a professional servicing session every 3 to 4 weeks. During these sessions, we deep-clean the system, treat the scalp, and re-fix the piece to ensure it stays fresh and secure.
+                        </div>
+</details>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-section-gap px-margin-mobile">
+<div class="max-w-[1280px] mx-auto glass-card rounded-[48px] overflow-hidden royal-shadow border-primary/30">
+<div class="grid grid-cols-1 lg:grid-cols-2">
+<div class="p-16 space-y-8">
+<h2 class="font-display-lg text-display-lg text-on-surface">Your Transformation Awaits.</h2>
+<p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let hair loss define your story. Join the hundreds of professionals in Gurgaon who have regained their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
+<div class="flex flex-col sm:flex-row gap-6">
+<button class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow">Schedule My Appointment</button>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs font-label-md uppercase tracking-widest text-primary">Call Support</p>
+<div class="flex flex-col">
+    <a href="tel:+918766216564" class="font-body-md font-bold hover:text-primary transition-colors">+91 87662 16564</a>
+    <a href="tel:+917678472972" class="font-body-md font-bold hover:text-primary transition-colors">+91 76784 72972</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="relative bg-surface-container">
+<img alt="Transformation" class="absolute inset-0 w-full h-full object-cover" src="assets/Transformation.png"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
+</div>
+</div>
+</div>
+</section>
+</main>
 <?php include 'footer.php'; ?>
+<script>
+        // Smooth scroll for anchors
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header transparency shift on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('py-2');
+                header.classList.remove('h-20');
+            } else {
+                header.classList.remove('py-2');
+                header.classList.add('h-20');
+            }
+        });
+    </script>
+</body></html>
