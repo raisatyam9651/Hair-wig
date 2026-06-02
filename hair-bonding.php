@@ -417,7 +417,7 @@
 </div>
 </div>
 <div class="relative bg-surface-container">
-<img alt="Transformation" class="absolute inset-0 w-full h-full object-cover" src="assets/Transformation.png"/>
+<img alt="Transformation" class="absolute inset-0 w-full h-full object-cover" src="assets/hair-bonding-transformation.png"/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
 </div>
 </div>
