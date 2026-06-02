@@ -75,12 +75,6 @@
                 <div class="text-white/60 text-xs">
                     © 2026 GROWIG HAIR SOLUTIONS. ALL RIGHTS RESERVED.
                 </div>
-                <div class="flex gap-6">
-                    <a class="text-white/60 hover:text-primary-fixed transition-colors font-body-md text-xs"
-                        href="#">Privacy Policy</a>
-                    <a class="text-white/60 hover:text-primary-fixed transition-colors font-body-md text-xs"
-                        href="#">Terms of Service</a>
-                </div>
             </div>
         </div>
     </footer>
