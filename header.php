@@ -28,10 +28,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </nav>
         <!-- Actions -->
         <div class="flex items-center gap-4">
-            <a class="hidden md:inline-flex bg-primary text-on-primary font-label-md text-label-md uppercase px-6 py-3 rounded-DEFAULT glow-hover transition-all duration-300 items-center gap-2 hover:-translate-y-0.5"
+            <a class="inline-flex bg-primary text-on-primary font-label-md text-xs md:text-label-md uppercase px-4 py-2 md:px-6 md:py-3 rounded-DEFAULT glow-hover transition-all duration-300 items-center gap-2 hover:-translate-y-0.5"
                 href="contact">
                 Consultation
-                <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                <span class="material-symbols-outlined text-[16px] md:text-[18px]">arrow_forward</span>
             </a>
             <!-- Mobile Menu Toggle -->
             <button aria-label="Toggle Menu" class="md:hidden text-secondary hover:text-primary transition-colors"
@@ -41,18 +41,14 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
     </div>
     <!-- Mobile Menu Overlay -->
-    <div class="fixed inset-0 bg-background/95 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-8 border-t border-surface-variant transition-all duration-300 opacity-0 pointer-events-none invisible"
+    <div class="fixed inset-0 bg-[#fcf9f4] z-40 flex flex-col items-center justify-start py-28 gap-6 border-t border-surface-variant transition-all duration-300 opacity-0 pointer-events-none invisible overflow-y-auto"
         id="mobile-menu">
-        <a class="text-primary font-headline-md text-headline-md mobile-link" href="./">Home</a>
-        <a class="text-secondary font-headline-md text-headline-md hover:text-primary transition-colors mobile-link"
-            href="about">About</a>
-        <a class="text-secondary font-headline-md text-headline-md hover:text-primary transition-colors mobile-link"
-            href="full-hair-wig">Services</a>
-        <a class="text-secondary font-headline-md text-headline-md hover:text-primary transition-colors mobile-link"
-            href="collection">Collections</a>
-        <a class="text-secondary font-headline-md text-headline-md hover:text-primary transition-colors mobile-link"
-            href="./#testimonials">Reviews</a>
-        <a class="mt-4 bg-primary text-on-primary font-label-md text-label-md uppercase px-8 py-4 rounded-DEFAULT mobile-link"
+        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./">Home</a>
+        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="about">About</a>
+        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="full-hair-wig">Services</a>
+        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="collection">Collections</a>
+        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./#testimonials">Reviews</a>
+        <a class="mt-4 bg-primary text-on-primary font-label-md text-sm uppercase px-8 py-4 rounded-DEFAULT mobile-link text-center"
             href="contact">Book Consultation</a>
     </div>
 </header>
