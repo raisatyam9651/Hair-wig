@@ -15,12 +15,27 @@ const menuBtn = document.getElementById('mobile-menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 const mobileLinks = document.querySelectorAll('.mobile-link');
 
+const mobileServicesBtn = document.getElementById('mobile-services-btn');
+const mobileServicesMenu = document.getElementById('mobile-services-menu');
+const mobileServicesIcon = document.getElementById('mobile-services-icon');
+
+function closeMobileServicesMenu() {
+    if (mobileServicesMenu) {
+        mobileServicesMenu.classList.add('max-h-0');
+        mobileServicesMenu.classList.remove('max-h-[500px]');
+    }
+    if (mobileServicesIcon) {
+        mobileServicesIcon.classList.remove('rotate-180');
+    }
+}
+
 if (menuBtn && mobileMenu) {
     menuBtn.addEventListener('click', () => {
         const isOpen = !mobileMenu.classList.contains('opacity-0');
         if (isOpen) {
             mobileMenu.classList.add('opacity-0', 'pointer-events-none', 'invisible');
             mobileMenu.classList.remove('opacity-100', 'pointer-events-auto', 'visible');
+            closeMobileServicesMenu();
         } else {
             mobileMenu.classList.remove('opacity-0', 'pointer-events-none', 'invisible');
             mobileMenu.classList.add('opacity-100', 'pointer-events-auto', 'visible');
@@ -39,7 +54,29 @@ if (menuBtn && mobileMenu) {
             if (icon) {
                 icon.textContent = 'menu';
             }
+            closeMobileServicesMenu();
         });
+    });
+}
+
+// Mobile Services Submenu Toggle
+if (mobileServicesBtn && mobileServicesMenu) {
+    mobileServicesBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const isCollapsed = mobileServicesMenu.classList.contains('max-h-0');
+        if (isCollapsed) {
+            mobileServicesMenu.classList.remove('max-h-0');
+            mobileServicesMenu.classList.add('max-h-[500px]');
+            if (mobileServicesIcon) {
+                mobileServicesIcon.classList.add('rotate-180');
+            }
+        } else {
+            mobileServicesMenu.classList.add('max-h-0');
+            mobileServicesMenu.classList.remove('max-h-[500px]');
+            if (mobileServicesIcon) {
+                mobileServicesIcon.classList.remove('rotate-180');
+            }
+        }
     });
 }
 

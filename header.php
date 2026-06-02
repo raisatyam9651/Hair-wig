@@ -19,8 +19,52 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 href="./">Home</a>
             <a class="<?php echo ($current_page == 'about.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="about">About</a>
-            <a class="<?php echo ($current_page == 'full-hair-wig.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
-                href="full-hair-wig">Services</a>
+            <?php 
+            $service_pages = [
+                'premium-hair-patch.php',
+                'full-hair-wig.php',
+                'non-surgical-replacement.php',
+                'hair-bonding.php',
+                'maintenance-and-styling.php',
+                'custom-hairline-design.php'
+            ];
+            $is_service_active = in_array($current_page, $service_pages);
+            ?>
+            <div class="relative group py-2">
+                <button class="<?php echo $is_service_active ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary border-b-2 border-transparent'; ?> flex items-center gap-0.5 transition-colors duration-300 font-label-md text-label-md uppercase pb-0.5 focus:outline-none">
+                    Services
+                    <span class="material-symbols-outlined text-[16px] transition-transform duration-300 group-hover:rotate-180">expand_more</span>
+                </button>
+                <!-- Dropdown Menu -->
+                <div class="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-[540px] transition-all duration-300 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto z-50">
+                    <div class="bg-[#fcf9f4] border border-outline-variant/30 rounded-2xl shadow-xl p-6 grid grid-cols-2 gap-x-6 gap-y-4">
+                        <a href="premium-hair-patch" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Premium Hair Patch</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">100% natural, undetectable custom patches.</span>
+                        </a>
+                        <a href="full-hair-wig" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Full Hair Wigs</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">High-quality, comfortable full head coverage.</span>
+                        </a>
+                        <a href="non-surgical-replacement" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Non-Surgical Replacement</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Advanced, non-invasive hair restoration.</span>
+                        </a>
+                        <a href="hair-bonding" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Hair Bonding</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Secure fixing for active lifestyles.</span>
+                        </a>
+                        <a href="maintenance-and-styling" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Maintenance & Styling</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Expert cleaning, servicing, and styling.</span>
+                        </a>
+                        <a href="custom-hairline-design" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Custom Hairline Design</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Tailored front hairline for realism.</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <a class="<?php echo ($current_page == 'collection.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="collection">Collections</a>
             <a class="text-secondary hover:text-primary transition-colors duration-300 font-label-md text-label-md uppercase"
@@ -46,7 +90,21 @@ $current_page = basename($_SERVER['PHP_SELF']);
     id="mobile-menu">
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./">Home</a>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="about">About</a>
-    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="full-hair-wig">Services</a>
+    <!-- Mobile Services Submenu -->
+    <div class="w-full flex flex-col items-center">
+        <button class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider flex items-center gap-1 focus:outline-none" id="mobile-services-btn">
+            Services
+            <span class="material-symbols-outlined transition-transform duration-300" id="mobile-services-icon">expand_more</span>
+        </button>
+        <div class="w-full flex flex-col items-center gap-4 mt-4 max-h-0 overflow-hidden transition-all duration-300 ease-in-out" id="mobile-services-menu">
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="premium-hair-patch">Premium Hair Patch</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="full-hair-wig">Full Hair Wigs</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="non-surgical-replacement">Non-Surgical Replacement</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="hair-bonding">Hair Bonding</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="maintenance-and-styling">Maintenance & Styling</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="custom-hairline-design">Custom Hairline Design</a>
+        </div>
+    </div>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="collection">Collections</a>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./#testimonials">Reviews</a>
     <a class="mt-4 bg-primary text-on-primary font-label-md text-sm uppercase px-8 py-4 rounded-DEFAULT mobile-link text-center"
