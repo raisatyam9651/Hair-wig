@@ -1,12 +1,13 @@
 <?php include 'custom-header-link.php'; ?>
 <!DOCTYPE html>
 
-<html lang="en">
+<html class="light scroll-smooth" lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Growig Hair Solution - Collections</title>
+    <title>Signature Collections | Growig Hair Solution - Bespoke Artistry</title>
+    <meta name="description" content="Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems and women's signature volume toppers and medical wigs in Gurgaon." />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap"
@@ -127,7 +128,7 @@
     <main>
         <!-- Hero Section -->
         <section
-            class="relative pt-section-gap pb-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col items-center text-center">
+            class="relative pt-section-gap pb-24 px-margin-mobile md:px-margin-desktop max-w-[1280px] mx-auto flex flex-col items-center text-center">
             <div class="max-w-3xl royal-shadow glass-panel p-12 rounded-xl relative z-10">
                 <h1 class="font-display-lg text-display-lg text-on-surface mb-6">The Master Collection</h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-10">
@@ -147,7 +148,7 @@
             </div>
         </section>
         <!-- Men's Collection -->
-        <section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto"
+        <section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-[1280px] mx-auto"
             id="mens-collection">
             <div class="text-center mb-20">
                 <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Men's Executive Suite</h2>
@@ -253,7 +254,7 @@
         <!-- Women's Collection -->
         <section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low"
             id="womens-collection">
-            <div class="max-w-container-max mx-auto">
+            <div class="max-w-[1280px] mx-auto">
                 <div class="text-center mb-20">
                     <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Women's Signature Collection</h2>
                     <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Luxurious,
@@ -269,13 +270,35 @@
                                 src="assets/Full%20Volume%20Silk%20Toppers.png" />
                         </div>
                         <div class="w-full md:w-1/2 space-y-6">
-                            <h3 class="font-headline-md text-headline-md text-on-surface">01. Full Volume Silk Topper
-                            </h3>
-                            <h4 class="font-body-lg text-body-lg text-primary uppercase tracking-widest">Effortless
-                                Crown Volume</h4>
-                            <p class="font-body-md text-body-md text-on-surface-variant">Designed for those experiencing
-                                thinning at the crown. This premium silk-based topper integrates flawlessly with your
-                                natural hair, delivering luxurious volume and an undetectable scalp appearance.</p>
+                            <h3 class="font-headline-md text-headline-md text-on-surface">01. Full Volume Silk Topper</h3>
+                            <h4 class="font-body-lg text-body-lg text-primary uppercase tracking-widest">Effortless Crown Volume</h4>
+                            <p class="font-body-md text-body-md text-on-surface-variant">Designed for those experiencing thinning at the crown. This premium silk-based topper integrates flawlessly with your natural hair, delivering luxurious volume and an undetectable scalp appearance.</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="flex flex-col md:flex-row-reverse items-center gap-16">
+                        <div class="w-full md:w-1/2">
+                            <img alt="Invisible Crown Systems"
+                                class="w-full h-[600px] object-cover rounded-xl royal-shadow"
+                                src="assets/Invisible%20Crown%20Systems.png" />
+                        </div>
+                        <div class="w-full md:w-1/2 space-y-6">
+                            <h3 class="font-headline-md text-headline-md text-on-surface">02. Invisible Crown Systems</h3>
+                            <h4 class="font-body-lg text-body-lg text-primary uppercase tracking-widest">Seamless Crown Integration</h4>
+                            <p class="font-body-md text-body-md text-on-surface-variant">Specially designed for thinning crowns, offering seamless integration with your natural hair. Hand-crafted to blend perfectly with existing hair for an incredibly discreet solution that restores density and volume.</p>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="flex flex-col md:flex-row items-center gap-16">
+                        <div class="w-full md:w-1/2">
+                            <img alt="Custom Length Medical Wigs"
+                                class="w-full h-[600px] object-cover rounded-xl royal-shadow"
+                                src="assets/Custom%20Length%20Medical%20Wigs.png" />
+                        </div>
+                        <div class="w-full md:w-1/2 space-y-6">
+                            <h3 class="font-headline-md text-headline-md text-on-surface">03. Custom Length Medical Wigs</h3>
+                            <h4 class="font-body-lg text-body-lg text-primary uppercase tracking-widest">Sensitive Scalp Comfort</h4>
+                            <p class="font-body-md text-body-md text-on-surface-variant">Featuring ultra-soft, hypoallergenic bases designed specifically for sensitive scalps. Providing complete security, lightweight comfort, and maximum realism without compromising on length, texture, or style.</p>
                         </div>
                     </div>
                 </div>
