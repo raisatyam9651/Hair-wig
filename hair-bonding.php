@@ -209,95 +209,95 @@
 </div>
 </div>
 </section>
-<!-- Bento Grid - System Types -->
+<!-- Bento Grid - Bonding Techniques -->
 <section class="py-section-gap">
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-16 space-y-4">
-<h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface">Our Signature Collections</h2>
-<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Masterpieces of restoration tailored for every individual need and aesthetic preference.</p>
+<h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface">Our Signature Bonding Methods</h2>
+<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Scientifically designed fixation techniques tailored to fit your lifestyle, skin sensitivity, and activity levels.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<!-- Men's Systems -->
+<!-- Liquid Bonding -->
 <div class="space-y-8">
 <div class="flex items-center gap-4 mb-4">
 <div class="h-[1px] flex-grow bg-outline-variant"></div>
-<span class="font-label-md text-primary tracking-widest">FOR MEN</span>
+<span class="font-label-md text-primary tracking-widest">LIQUID ADHESION</span>
 <div class="h-[1px] flex-grow bg-outline-variant"></div>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Ultra-Thin Skin System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">A 0.03mm transparent membrane that blends seamlessly with the scalp.</p>
-<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">High Definition</span>
+<h4 class="font-headline-md text-on-surface mb-2">Soft-Bond Liquid Adhesion</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Dermal acrylic-based bonding offering a highly flexible 3-4 week hold, ideal for sensitive scalps.</p>
+<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Hypoallergenic</span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Swiss Lace Front System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">The industry standard for natural hairlines, allowing off-the-face styling.</p>
-<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Undetectable</span>
+<h4 class="font-headline-md text-on-surface mb-2">Hard-Bond Co-Polymer Adhesion</h4>
+<p class="font-body-md text-on-surface-variant mb-4">High-performance silicone co-polymer bonding providing a rock-solid 4-6 week hold.</p>
+<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Maximum Hold</span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">French Lace System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Enhanced durability with a reinforced lace structure for active lifestyles.</p>
-<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Durability</span>
+<h4 class="font-headline-md text-on-surface mb-2">Invisible Frontal Adhesion</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Specialized clear-matte liquid bond specifically for undetectable front hairlines.</p>
+<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Lace Fronts</span>
 </div>
 </div>
 <!-- Mixed Highlight -->
 <div class="space-y-8">
 <div class="glass-card p-8 rounded-3xl bg-primary text-white royal-shadow h-full flex flex-col justify-between">
 <div>
-<span class="material-symbols-outlined text-4xl mb-6 block" data-icon="award_star" data-weight="fill"></span>
-<h4 class="font-headline-lg text-white mb-4">The Hybrid Advantage</h4>
-<p class="font-body-lg text-white/80 leading-relaxed mb-6">Combining the breathability of lace with the security of poly-skin edges, our Hybrid systems offer the best of both worlds for 24/7 wear.</p>
+<span class="material-symbols-outlined text-4xl mb-6 block" data-icon="science" data-weight="fill"></span>
+<h4 class="font-headline-lg text-white mb-4">The Science of Bonding</h4>
+<p class="font-body-lg text-white/80 leading-relaxed mb-6">Using advanced bio-compatible barriers, we protect your natural scalp epidermis before applying any FDA-approved medical adhesive, ensuring oxygen flow and skin safety.</p>
 </div>
 <div class="space-y-4">
 <div class="p-4 rounded-2xl bg-white/10 border border-white/20">
-<h5 class="font-label-md mb-1">Monofilament Hybrid</h5>
-<p class="text-xs opacity-70">Perfect for multi-directional parting.</p>
+<h5 class="font-label-md mb-1">Dermal Shield Barrier</h5>
+<p class="text-xs opacity-70">Anti-perspirant layer that prevents scalp sweat.</p>
 </div>
 <div class="p-4 rounded-2xl bg-white/10 border border-white/20">
-<h5 class="font-label-md mb-1">Silk Top Toupee</h5>
-<p class="text-xs opacity-70">Mimics the look of hair growing from skin.</p>
+<h5 class="font-label-md mb-1">Micro-Pore Ventilation</h5>
+<p class="text-xs opacity-70">Allows scalp washing and natural air circulation.</p>
 </div>
 </div>
 </div>
 </div>
-<!-- Women's Systems -->
+<!-- Tape & Hybrid -->
 <div class="space-y-8">
 <div class="flex items-center gap-4 mb-4">
 <div class="h-[1px] flex-grow bg-outline-variant"></div>
-<span class="font-label-md text-primary tracking-widest">FOR WOMEN</span>
+<span class="font-label-md text-primary tracking-widest">TAPE & HYBRID</span>
 <div class="h-[1px] flex-grow bg-outline-variant"></div>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Silk Topper</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Lightweight crown coverage that adds significant volume instantly.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Instant Volume</span>
+<h4 class="font-headline-md text-on-surface mb-2">Perimeter Tape Bonding</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Uses double-sided medical-grade tapes around the system border, facilitating easy cleaning.</p>
+<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Easy Maintenance</span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Lace Front Illusion</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Pre-plucked hairlines for a realistic transition from forehead to hair.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Artistic Finish</span>
+<h4 class="font-headline-md text-on-surface mb-2">Hybrid Tape & Liquid Method</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Combines structured tape edges with liquid adhesive in the center for an active 24/7 hold.</p>
+<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Active Lifestyle</span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">100% Remy Human Hair System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Full system with cuticle-aligned hair for maximum shine and longevity.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Elite Grade</span>
+<h4 class="font-headline-md text-on-surface mb-2">Micro-Ring Fusion Integration</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Attaches the system to existing hair locks using tiny, silicon-lined micro-rings.</p>
+<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">No-Glue Option</span>
 </div>
 </div>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 flex items-center justify-between">
 <div>
-<h4 class="font-headline-md text-on-surface">Invisible Crown System</h4>
-<p class="font-body-md text-on-surface-variant">Targeted for thinning at the crown with 0-weight technology.</p>
+<h4 class="font-headline-md text-on-surface">Daily Wear Removable Option</h4>
+<p class="font-body-md text-on-surface-variant">Modified perimeter tape allowing you to easily take off the system at night.</p>
 </div>
-<span class="material-symbols-outlined text-primary text-5xl" data-icon="lens_blur"></span>
+<span class="material-symbols-outlined text-primary text-5xl" data-icon="cached"></span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 flex items-center justify-between">
 <div>
-<h4 class="font-headline-md text-on-surface">Medical Grade System</h4>
-<p class="font-body-md text-on-surface-variant">Anti-slip friction grip specifically for total hair loss (Alopecia/Chemo).</p>
+<h4 class="font-headline-md text-on-surface">Athletic Grade Super-Bond</h4>
+<p class="font-body-md text-on-surface-variant">Reinforced adhesive formula specifically designed to withstand swimming and heavy gym workouts.</p>
 </div>
-<span class="material-symbols-outlined text-primary text-5xl" data-icon="medical_services"></span>
+<span class="material-symbols-outlined text-primary text-5xl" data-icon="fitness_center"></span>
 </div>
 </div>
 </div>
@@ -347,7 +347,7 @@
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-20">
 <div>
 <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
-<p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our luxury hair systems.</p>
+<p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our specialized hair bonding services.</p>
                         <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
                             <img alt="FAQ" class="w-full h-full object-contain" src="assets/hair-patch-men.png"/>
                         </div>
@@ -355,38 +355,38 @@
 <div class="space-y-4">
 <details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow" open="">
 <summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
-                            How natural will the bonded hair system look?
+                            What is the difference between Hair Bonding and Hair Weaving?
                             <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
 </summary>
 <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                            Our systems are virtually undetectable. By using hand-tied Remy hair on a transparent base, the hair appears to grow directly from your scalp. We also customize the hairline density to ensure it matches your facial structure perfectly.
+                            Hair bonding uses medical-grade adhesives or skin-safe tapes to attach the hair patch directly to the scalp, providing a flat and seamless look. Hair weaving, on the other hand, involves braiding your natural hair and sewing/threading the patch onto those braids. Bonding offers a much more flush, natural-feeling integration.
                         </div>
 </details>
 <details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
 <summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
-                            Can I exercise or swim with the system?
+                            How long does a hair bonding session last?
                             <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
 </summary>
 <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                            Absolutely. When professionally fixed at our Gurgaon studio, our systems are waterproof and sweat-resistant. You can maintain an active lifestyle, including swimming and intense workouts, with complete peace of mind.
+                            A professional hair bonding session provides a secure hold that typically lasts between 3 to 5 weeks, depending on your skin type, sweat levels, and lifestyle. After this period, a maintenance service is required to clean the scalp, treat the patch, and re-bond it.
                         </div>
 </details>
 <details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
 <summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
-                            What is the lifespan of a premium hair system?
+                            Can I wash my hair and swim with a bonded system?
                             <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
 </summary>
 <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                            With proper maintenance at our Dwarka Sec-7 center, a high-quality human hair system typically lasts between 6 to 12 months. We provide comprehensive care guides and professional servicing to maximize longevity.
+                            Yes, absolutely. Our high-performance medical adhesives are 100% waterproof and sweat-resistant. You can shower, shampoo your hair, swim in a pool, and perform high-intensity workouts with complete confidence that your system will remain fully secure.
                         </div>
 </details>
 <details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
 <summary class="list-none flex justify-between items-center cursor-pointer font-headline-md text-on-surface">
-                            How often is maintenance required?
+                            Does the adhesive cause any scalp allergies or damage?
                             <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
 </summary>
 <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                            We recommend a professional servicing session every 3 to 4 weeks. During these sessions, we deep-clean the system, treat the scalp, and re-fix the piece to ensure it stays fresh and secure.
+                            No. We exclusively use FDA-approved, hypoallergenic bonding agents that are specifically formulated for dermal contact. Before application, we apply a protective scalp barrier that prevents direct contact between the skin and the adhesive, keeping your scalp healthy and irritation-free.
                         </div>
 </details>
 </div>
