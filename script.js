@@ -17,18 +17,24 @@ const mobileLinks = document.querySelectorAll('.mobile-link');
 
 if (menuBtn && mobileMenu) {
     menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-        mobileMenu.classList.toggle('flex');
+        const isOpen = !mobileMenu.classList.contains('opacity-0');
+        if (isOpen) {
+            mobileMenu.classList.add('opacity-0', 'pointer-events-none', 'invisible');
+            mobileMenu.classList.remove('opacity-100', 'pointer-events-auto', 'visible');
+        } else {
+            mobileMenu.classList.remove('opacity-0', 'pointer-events-none', 'invisible');
+            mobileMenu.classList.add('opacity-100', 'pointer-events-auto', 'visible');
+        }
         const icon = menuBtn.querySelector('span');
         if (icon) {
-            icon.textContent = icon.textContent === 'menu' ? 'close' : 'menu';
+            icon.textContent = isOpen ? 'menu' : 'close';
         }
     });
 
     mobileLinks.forEach(link => {
         link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-            mobileMenu.classList.remove('flex');
+            mobileMenu.classList.add('opacity-0', 'pointer-events-none', 'invisible');
+            mobileMenu.classList.remove('opacity-100', 'pointer-events-auto', 'visible');
             const icon = menuBtn.querySelector('span');
             if (icon) {
                 icon.textContent = 'menu';

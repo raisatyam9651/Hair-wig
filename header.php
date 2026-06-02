@@ -6,7 +6,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-3xl border-b border-surface-variant shadow-sm transition-all duration-300"
     id="main-header">
     <div
-        class="flex justify-between items-center max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-4 md:py-6">
+        class="relative z-50 flex justify-between items-center max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-4 md:py-6">
         <!-- Brand Logo -->
         <a class="flex items-center gap-2 group" href="./">
             <img alt="Growig Hair Solution Logo"
@@ -41,7 +41,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
     </div>
     <!-- Mobile Menu Overlay -->
-    <div class="fixed inset-0 bg-background/95 backdrop-blur-xl z-40 hidden flex-col items-center justify-center gap-8 border-t border-surface-variant"
+    <div class="fixed inset-0 bg-background/95 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-8 border-t border-surface-variant transition-all duration-300 opacity-0 pointer-events-none invisible"
         id="mobile-menu">
         <a class="text-primary font-headline-md text-headline-md mobile-link" href="./">Home</a>
         <a class="text-secondary font-headline-md text-headline-md hover:text-primary transition-colors mobile-link"
