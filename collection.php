@@ -160,7 +160,7 @@
                 <div class="flex flex-col md:flex-row items-center gap-16">
                     <div class="w-full md:w-1/2">
                         <img alt="French Lace System" class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ugyUTXjJs8yYLB53wuTxvSSkYjvc89f0sKY3Y1zZ5aTUhfJvxijPYBQWZS_Xg8wzvGO8Yns8WeQjpNrrjop6ThAXhlwmfvaPYeZlFZT7nVG9REi6wVl09afWLAUv0pJ66xOEKHBvWY2UqAnSukNtEEngAzrBPQhlHzp48MhxTPR-K5bXJmPys_qLZKE2rIfyPiX5TjjCo6u2WK5FogRksfyPoF94l5phOZQH58oEv1N0X6veZCpq-zrOxE" />
+                            src="assets/Lace%20Front%20Systems.png" />
                     </div>
                     <div class="w-full md:w-1/2 space-y-6">
                         <h3 class="font-headline-md text-headline-md text-on-surface">01. French Lace</h3>
@@ -175,7 +175,7 @@
                 <div class="flex flex-col md:flex-row-reverse items-center gap-16">
                     <div class="w-full md:w-1/2">
                         <img alt="Ultra-Thin Skin System" class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ugCV7kU_aK-106CDu63Ld4JDEY_VsO7isl-7wTAZ7Pzp1s7DkMBV0lT-HcuNMKFpZAjsMS8bBMua9oVdpUxaY9fM0JF7rZXcwBWCG2s51NomuONx_NkRJlDz0CRu1APbSacxR-E2dyY0anVDFp4Eto5aH41Hur2Z7Lrg5s9l_mpoUdtd8xQmg4oSI8ernPmvXwCZcXdaqzYoZaqwufK_eQEhwHPAdsVMIxYqfaX9hsM6IAYi_rLMvOUpMc" />
+                            src="assets/Ultra-Thin%20Skin%20Patches.png" />
                     </div>
                     <div class="w-full md:w-1/2 space-y-6">
                         <h3 class="font-headline-md text-headline-md text-on-surface">02. Ultra-Thin Skin</h3>
@@ -190,7 +190,7 @@
                 <div class="flex flex-col md:flex-row items-center gap-16">
                     <div class="w-full md:w-1/2">
                         <img alt="Swiss Lace System" class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ugarxjbkCaSAJ-zAjIq5142V4crwjJ4OWZFN6lISoIB9oZnijgFwn0dNLvLrdqzuyFFjbB07P_JxAes2tXweuBO3nnrh7zXnwRNfmjVSUmt1EthywwEfs1Er2A0GJ6ghiBHv_VQcxHGQpDWfulxE6JOOG27cM4w4to9LhPCzci-JNh1mH1pJ3f4fncEGugdUbmkU1_ju_L4uuQwLSg4smkTetLamda0Ozg8fPgihfFRvly0tYlp9XM31g" />
+                            src="assets/Lace%20Front%20Systems.png" />
                     </div>
                     <div class="w-full md:w-1/2 space-y-6">
                         <h3 class="font-headline-md text-headline-md text-on-surface">03. Swiss Lace</h3>
@@ -206,7 +206,7 @@
                     <div class="w-full md:w-1/2">
                         <img alt="Silk Monofilament System"
                             class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ujYtAGhmKPaCBh_LQ4U4tgBq5gnHu-vErwgt1bnn4NVTVH2xtq8I2aSstHms_iclh5XAIGtoZ5t0ApAl2hWntocxA0SRPt-AOsiTkA-QjPXS9wCegLQPg41b6KMao66XIuEE3BU4nJjkUHiyGY-NDvWyLZjHYkbhfD3rgUzW6mq7Abf-1CEu-bRlrRIKSl3OM3-Bz4jsP0uB1dxJIM9hjyRaQ3GIh1j2oFP6CzT5r0DyQIWBcY_os2bGQ" />
+                            src="assets/Active%20Lifestyle%20Monofilament.png" />
                     </div>
                     <div class="w-full md:w-1/2 space-y-6">
                         <h3 class="font-headline-md text-headline-md text-on-surface">04. Silk Monofilament</h3>
@@ -222,7 +222,7 @@
                 <div class="flex flex-col md:flex-row items-center gap-16">
                     <div class="w-full md:w-1/2">
                         <img alt="Poly-Boundary System" class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ujZr1cjoBFdKJOacQ0UsaVVdB6ql9z5NGLzAnVsjElPlk0e-Inad8wnZp0DC_FaZwy_J_K7dyzRg5G7-Stp9AM9mOqWFR4J-9uVFQq-bUNUFgdKvNKGg0RGDnUvWXpx_Z2WvtLGoKjlJGCjIcQo4zscH73Z7rNJCqxIDY7TcmhYkJ0Ft70hlGMHMmUnYeZ_I60nBbSqnEwbHu--Uvsyte35xt_gm-0e0CviSQqQ0-JuvCLPbGRZBXWpdgQ" />
+                            src="assets/Premium%20Hair%20Patch.png" />
                     </div>
                     <div class="w-full md:w-1/2 space-y-6">
                         <h3 class="font-headline-md text-headline-md text-on-surface">05. Poly-Boundary</h3>
@@ -237,7 +237,7 @@
                 <div class="flex flex-col md:flex-row-reverse items-center gap-16">
                     <div class="w-full md:w-1/2">
                         <img alt="Bio-Skin System" class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ui2fU9uNFTXO0wnKOXL_63m_5UjT2EdydObmD3ftfWhWYSrw7AOsUaW43n_Yl8KcpwK335vKaDqlDW4wwX4Zcb6CFyEhOxM4Lqn-7xwLdxMonz0mAd8YJjyuYDiF9X2abBX8AmzayVR-JlU1qmWUZCfEQM57snhy9lEMP0VJGPYq0AE8XCt0cvp_znGewldV_vIKMFYKWhfplWpXRa4Zusu7zTGFS0ufOP9pDaSIVtQYTz6pErV2U_0zg" />
+                            src="assets/Non-Surgical%20Replacement.png" />
                     </div>
                     <div class="w-full md:w-1/2 space-y-6">
                         <h3 class="font-headline-md text-headline-md text-on-surface">06. Bio-Skin</h3>
@@ -266,7 +266,7 @@
                         <div class="w-full md:w-1/2">
                             <img alt="Full Volume Silk Topper"
                                 class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                                src="https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg" />
+                                src="assets/Full%20Volume%20Silk%20Toppers.png" />
                         </div>
                         <div class="w-full md:w-1/2 space-y-6">
                             <h3 class="font-headline-md text-headline-md text-on-surface">01. Full Volume Silk Topper

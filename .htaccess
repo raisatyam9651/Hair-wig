@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Redirect index.php to the root domain (/)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Redirect direct requests for *.php to extensionless URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)\.php\ HTTP/
+RewriteRule ^(.+)\.php$ /$1 [R=301,L]
+
+# Internally rewrite clean URLs back to PHP scripts
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]

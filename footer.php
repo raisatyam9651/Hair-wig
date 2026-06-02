@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <!-- Brand & About -->
                 <div class="flex flex-col gap-6">
-                    <a class="flex items-center gap-2 group" href="index.php">
+                    <a class="flex items-center gap-2 group" href="./">
                         <img alt="Growig Logo" class="h-10 w-auto object-contain brightness-0 invert opacity-90"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
                     </a>
@@ -32,31 +32,31 @@
                 <div class="flex flex-col gap-4">
                     <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Explore</h4>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="index.php">Home</a>
+                        href="./">Home</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="about.php">About Us</a>
+                        href="about">About Us</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="collection.php">Collections</a>
+                        href="collection">Collections</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="#testimonials">Reviews</a>
+                        href="./#testimonials">Reviews</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="#contact">Contact</a>
+                        href="contact">Contact</a>
                 </div>
                 <!-- Services -->
                 <div class="flex flex-col gap-4">
                     <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Services</h4>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="premium-hair-patch.php">Premium Hair Patch</a>
+                        href="premium-hair-patch">Premium Hair Patch</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="full-hair-wig.php">Full Hair Wigs</a>
+                        href="full-hair-wig">Full Hair Wigs</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="non-surgical-replacement.php">Non-Surgical Replacement</a>
+                        href="non-surgical-replacement">Non-Surgical Replacement</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="hair-bonding.php">Hair Bonding</a>
+                        href="hair-bonding">Hair Bonding</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="maintenance-and-styling.php">Maintenance & Styling</a>
+                        href="maintenance-and-styling">Maintenance & Styling</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="custom-hairline-design.php">Custom Hairline Design</a>
+                        href="custom-hairline-design">Custom Hairline Design</a>
                 </div>
                 <!-- Location -->
                 <div class="flex flex-col gap-4">

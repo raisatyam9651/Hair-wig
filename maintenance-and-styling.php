@@ -131,8 +131,8 @@
 <h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">Maintenance & Styling in Gurgaon: Meticulous Care for Enduring Perfection</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Sustain the flawless integration and natural beauty of your hair system with our bespoke maintenance rituals, deep cleansing, and expert styling at Dwarka Sec-7.</p>
 <div class="flex flex-wrap gap-4 pt-4">
-<button class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow">Schedule Private Viewing</button>
-<button class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors">Our Collection</button>
+<a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
+<a href="collection" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">Our Collection</a>
 </div>
 </div>
 <div class="relative group">
@@ -204,7 +204,7 @@
 </div>
 </li>
 </ul>
-<button class="w-full bg-primary text-white py-4 rounded-xl font-label-md hover:brightness-110 transition-all">Get a Price Quote</button>
+<a href="contact" class="w-full bg-primary text-white py-4 rounded-xl font-label-md hover:brightness-110 transition-all block text-center">Get a Price Quote</a>
 </div>
 </div>
 </div>
@@ -382,7 +382,7 @@
                 <img alt="Modern Indian man with a stylish, voluminous hair style." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLNOacGoYss97SkJWDhV2uzzfcmKucMfYEjYa24zcJt-nWtHKPrGky7ZS8ceCBET9nDuT-dXtSQmagZJu3i7Z7F8YF1cRQs2Xrx9CuuEBxzp9K-ArtbPOYI8vexSg8XsCq5bKtUyhVomjxUEY2fU46qHZYuDfLcsrhFEczRD-KdBcaqmZOXxSQa-foqt7KR9lGP76ySyuu0WbegkSzyiCqgQDqwAkWdtkCKHhvmprP6MPoIJJdmPLh9AP6K-U598VmOz1lmqvtRkU"/>
             </div>
             <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group hidden md:block">
-                <img alt="Professional portrait of a confident middle-aged man." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0ujZr1cjoBFdKJOacQ0UsaVVdB6ql9z5NGLzAnVsjElPlk0e-Inad8wnZp0DC_FaZwy_J_K7dyzRg5G7-Stp9AM9mOqWFR4J-9uVFQq-bUNUFgdKvNKGg0RGDnUvWXpx_Z2WvtLGoKjlJGCjIcQo4zscH73Z7rNJCqxIDY7TcmhYkJ0Ft70hlGMHMmUnYeZ_I60nBbSqnEwbHu--Uvsyte35xt_gm-0e0CviSQqQ0-JuvCLPbGRZBXWpdgQ"/>
+                <img alt="Professional portrait of a confident middle-aged man." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/hair-patch-men.png"/>
             </div>
         </div>
     </div>
@@ -446,7 +446,7 @@
 <h2 class="font-display-lg text-[32px] md:text-display-lg text-on-surface">Sustain the Flawless Illusion.</h2>
 <p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let neglected styling define your story. Join the hundreds of professionals in Gurgaon who maintain their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
 <div class="flex flex-col sm:flex-row gap-6">
-<button class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow">Schedule My Appointment</button>
+<a href="contact" class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow text-center">Schedule My Appointment</a>
 <div class="flex items-center gap-4">
 <div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary">
 <span class="material-symbols-outlined">call</span>

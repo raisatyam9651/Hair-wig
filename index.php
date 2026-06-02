@@ -63,7 +63,7 @@
                         </p>
                         <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 pt-4">
                             <a class="bg-primary text-on-primary font-label-md text-label-md uppercase px-8 py-4 rounded-DEFAULT glow-hover transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-0.5"
-                                href="#contact">
+                                href="contact">
                                 Book Appointment
                                 <span class="material-symbols-outlined text-sm">calendar_today</span>
                             </a>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Service Card 1 -->
-                    <a href="premium-hair-patch.php"
+                    <a href="premium-hair-patch"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
                             <img src="assets/Premium Hair Patch.png" alt="Premium Hair Patch" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
@@ -193,7 +193,7 @@
                             seamlessly blend with your natural hair texture and color for an undetectable finish.</p>
                     </a>
                     <!-- Service Card 2 -->
-                    <a href="full-hair-wig.php"
+                    <a href="full-hair-wig"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-100">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
                             <img src="assets/Full Hair Wigs.png" alt="Full Hair Wigs" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
@@ -203,7 +203,7 @@
                             complete coverage with a breathable, comfortable base for daily wear.</p>
                     </a>
                     <!-- Service Card 3 -->
-                    <a href="non-surgical-replacement.php"
+                    <a href="non-surgical-replacement"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-200">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
                             <img src="assets/Non-Surgical Replacement.png" alt="Non-Surgical Replacement" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
@@ -213,7 +213,7 @@
                             hair loss without the risks or downtime of surgical transplants.</p>
                     </a>
                     <!-- Service Card 4 -->
-                    <a href="hair-bonding.php"
+                    <a href="hair-bonding"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
                             <img src="assets/Hair Bonding.png" alt="Hair Bonding" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
@@ -223,7 +223,7 @@
                             bonding that allows for an active lifestyle, including swimming and sports.</p>
                     </a>
                     <!-- Service Card 5 -->
-                    <a href="maintenance-and-styling.php"
+                    <a href="maintenance-and-styling"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-100">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
                             <img src="assets/Maintenance & Styling.png" alt="Maintenance & Styling" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
@@ -233,7 +233,7 @@
                             professional styling to ensure your hair system always looks fresh and natural.</p>
                     </a>
                     <!-- Service Card 6 -->
-                    <a href="custom-hairline-design.php"
+                    <a href="custom-hairline-design"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-200">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
                             <img src="assets/Custom Hairline Design.png" alt="Custom Hairline Design" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">

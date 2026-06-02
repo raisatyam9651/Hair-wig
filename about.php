@@ -134,7 +134,7 @@
         <section class="relative h-[85vh] flex items-center overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <img alt="Hero Portrait" class="w-full h-full object-cover"
-                    src="https://lh3.googleusercontent.com/aida/ADBb0ujZr1cjoBFdKJOacQ0UsaVVdB6ql9z5NGLzAnVsjElPlk0e-Inad8wnZp0DC_FaZwy_J_K7dyzRg5G7-Stp9AM9mOqWFR4J-9uVFQq-bUNUFgdKvNKGg0RGDnUvWXpx_Z2WvtLGoKjlJGCjIcQo4zscH73Z7rNJCqxIDY7TcmhYkJ0Ft70hlGMHMmUnYeZ_I60nBbSqnEwbHu--Uvsyte35xt_gm-0e0CviSQqQ0-JuvCLPbGRZBXWpdgQ" />
+                    src="assets/premium-har-pathc.png" />
                 <div class="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
             </div>
             <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 w-full">
@@ -272,7 +272,7 @@
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
                         <img alt="Specialist Portrait"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                            src="https://lh3.googleusercontent.com/aida/ADBb0ugYVPqTjCErfhjsx8QuyKd1D4gbg2Kwjtp2FozlPuvStKCxzUc2JxyCVytjBNDEZLBwq4LQkFnwi6QsGLIuTCYzTL4G-Dks3jXEEqKGdhQiFJrwZTpNl704mS2olZ-ISFM0qB3xdtPZoElfMAEoVXfLGlkfv5S_fMQm4_swaEHXD5YeIIGuGN5rVMDetEC4mSm-jW0icjxt5xjyMpo4Wn2SgKTdhkZhZRanmkEPZ4swFUDIbe-VGF2B1g" />
+                            src="assets/hair-patch-men.png" />
                         <div
                             class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                         </div>
@@ -391,10 +391,10 @@
                                 <span class="font-label-md text-label-md uppercase tracking-wider">Lifetime Care</span>
                             </div>
                         </div>
-                        <button
-                            class="mt-16 bg-white text-primary px-12 py-5 rounded-full font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all duration-300">
+                        <a href="contact"
+                            class="mt-16 inline-block bg-white text-primary px-12 py-5 rounded-full font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all duration-300">
                             Book Your Private Consultation
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

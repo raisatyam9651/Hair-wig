@@ -130,8 +130,8 @@
 <h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">Full Hair Wigs in Gurgaon: Bespoke Artistry for Natural Restoration</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Experience the pinnacle of hair replacement at our Dwarka Sec-7 studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.</p>
 <div class="flex flex-wrap gap-4 pt-4">
-<button class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow">Schedule Private Viewing</button>
-<button class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors">Our Collection</button>
+<a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
+<a href="collection" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">Our Collection</a>
 </div>
 </div>
 <div class="relative group">
@@ -203,7 +203,7 @@
 </div>
 </li>
 </ul>
-<button class="w-full bg-primary text-white py-4 rounded-xl font-label-md hover:brightness-110 transition-all">Get a Price Quote</button>
+<a href="contact" class="w-full bg-primary text-white py-4 rounded-xl font-label-md hover:brightness-110 transition-all block text-center">Get a Price Quote</a>
 </div>
 </div>
 </div>
@@ -400,7 +400,7 @@
 <h2 class="font-display-lg text-[32px] md:text-display-lg text-on-surface">Your Transformation Awaits.</h2>
 <p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let hair loss define your story. Join the hundreds of professionals in Gurgaon who have regained their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
 <div class="flex flex-col sm:flex-row gap-6">
-<button class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow">Schedule My Appointment</button>
+<a href="contact" class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow text-center">Schedule My Appointment</a>
 <div class="flex items-center gap-4">
 <div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary">
 <span class="material-symbols-outlined">call</span>
