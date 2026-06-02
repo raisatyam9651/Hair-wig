@@ -40,15 +40,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </button>
         </div>
     </div>
-    <!-- Mobile Menu Overlay -->
-    <div class="fixed inset-0 bg-[#fcf9f4] z-40 flex flex-col items-center justify-start py-28 gap-6 border-t border-surface-variant transition-all duration-300 opacity-0 pointer-events-none invisible overflow-y-auto"
-        id="mobile-menu">
-        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./">Home</a>
-        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="about">About</a>
-        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="full-hair-wig">Services</a>
-        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="collection">Collections</a>
-        <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./#testimonials">Reviews</a>
-        <a class="mt-4 bg-primary text-on-primary font-label-md text-sm uppercase px-8 py-4 rounded-DEFAULT mobile-link text-center"
-            href="contact">Book Consultation</a>
-    </div>
 </header>
+<!-- Mobile Menu Overlay -->
+<div class="fixed inset-0 bg-[#fcf9f4] z-40 flex flex-col items-center justify-start py-28 gap-6 border-t border-surface-variant transition-all duration-300 opacity-0 pointer-events-none invisible overflow-y-auto"
+    id="mobile-menu">
+    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./">Home</a>
+    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="about">About</a>
+    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="full-hair-wig">Services</a>
+    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="collection">Collections</a>
+    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./#testimonials">Reviews</a>
+    <a class="mt-4 bg-primary text-on-primary font-label-md text-sm uppercase px-8 py-4 rounded-DEFAULT mobile-link text-center"
+        href="contact">Book Consultation</a>
+</div>
