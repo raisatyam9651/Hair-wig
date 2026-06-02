@@ -1,84 +1,84 @@
 <!-- Footer -->
-    <footer class="bg-surface-container-lowest w-full border-t border-surface-variant pt-20 pb-10">
+    <footer class="bg-primary text-white w-full border-t border-white/10 pt-20 pb-10">
         <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <!-- Brand & About -->
                 <div class="flex flex-col gap-6">
                     <a class="flex items-center gap-2 group" href="index.php">
-                        <img alt="Growig Logo" class="h-10 w-auto object-contain grayscale opacity-80"
+                        <img alt="Growig Logo" class="h-10 w-auto object-contain brightness-0 invert opacity-90"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
                     </a>
                     <div class="space-y-4">
-                        <p class="font-body-md text-on-surface-variant text-sm leading-relaxed pr-4">
+                        <p class="font-body-md text-white/80 text-sm leading-relaxed pr-4">
                             Premium non-surgical hair replacement studio in Gurgaon. Dedicated to restoring confidence with
                             undetectable, bespoke solutions.
                         </p>
-                        <div class="flex flex-col gap-3 text-on-surface-variant text-sm pt-2">
+                        <div class="flex flex-col gap-3 text-white/80 text-sm pt-2">
                             <div class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-primary text-[20px] mt-0.5">phone</span>
+                                <span class="material-symbols-outlined text-white text-[20px] mt-0.5">phone</span>
                                 <div class="flex flex-col gap-1">
-                                    <a class="hover:text-primary transition-colors font-body-md" href="tel:+918766216564">+91 87662 16564</a>
-                                    <a class="hover:text-primary transition-colors font-body-md" href="tel:+917678472972">+91 76784 72972</a>
+                                    <a class="hover:text-primary-fixed transition-colors font-body-md" href="tel:+918766216564">+91 87662 16564</a>
+                                    <a class="hover:text-primary-fixed transition-colors font-body-md" href="tel:+917678472972">+91 76784 72972</a>
                                 </div>
                             </div>
                             <div class="flex items-center gap-3">
-                                <span class="material-symbols-outlined text-primary text-[20px]">mail</span>
-                                <a class="hover:text-primary transition-colors font-body-md" href="mailto:info@growighairsolution.com">info@growighairsolution.com</a>
+                                <span class="material-symbols-outlined text-white text-[20px]">mail</span>
+                                <a class="hover:text-primary-fixed transition-colors font-body-md" href="mailto:info@growighairsolution.com">info@growighairsolution.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Navigation -->
                 <div class="flex flex-col gap-4">
-                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Explore</h4>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Explore</h4>
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="index.php">Home</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="about.php">About Us</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="collection.php">Collections</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="#testimonials">Reviews</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="#contact">Contact</a>
                 </div>
                 <!-- Services -->
                 <div class="flex flex-col gap-4">
-                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Services</h4>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Services</h4>
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="premium-hair-patch.php">Premium Hair Patch</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="full-hair-wig.php">Full Hair Wigs</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="non-surgical-replacement.php">Non-Surgical Replacement</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="hair-bonding.php">Hair Bonding</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="maintenance-and-styling.php">Maintenance & Styling</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-sm"
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="custom-hairline-design.php">Custom Hairline Design</a>
                 </div>
                 <!-- Location -->
                 <div class="flex flex-col gap-4">
-                    <h4 class="font-label-md text-secondary uppercase tracking-widest mb-2 text-sm">Location</h4>
-                    <div class="flex items-start gap-3 text-on-surface-variant text-sm">
-                        <span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
+                    <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Location</h4>
+                    <div class="flex items-start gap-3 text-white/80 text-sm">
+                        <span class="material-symbols-outlined text-white text-[20px]">location_on</span>
                         <span>Ramphal Chowk Rd, Block F, Sector 7 Dwarka, Dwarka, Delhi, 110077</span>
                     </div>
-                    <div class="w-full h-[150px] rounded-xl overflow-hidden shadow-sm border border-surface-variant/30 mt-2">
+                    <div class="w-full h-[150px] rounded-xl overflow-hidden shadow-sm border border-white/10 mt-2">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.2060479792467!2d77.06936177571829!3d28.58520787569065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b158c96920f%3A0x8482722061064f9a!2sGrowig%20hair%20solution!5e1!3m2!1sen!2sin!4v1780336153874!5m2!1sen!2sin" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
             <!-- Bottom Footer -->
-            <div class="flex flex-col md:flex-row justify-between items-center gap-6 pt-12 border-t border-surface-variant/30">
-                <div class="text-on-surface-variant text-xs">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 pt-12 border-t border-white/10">
+                <div class="text-white/60 text-xs">
                     © 2026 GROWIG HAIR SOLUTIONS. ALL RIGHTS RESERVED.
                 </div>
                 <div class="flex gap-6">
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-xs"
+                    <a class="text-white/60 hover:text-primary-fixed transition-colors font-body-md text-xs"
                         href="#">Privacy Policy</a>
-                    <a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-xs"
+                    <a class="text-white/60 hover:text-primary-fixed transition-colors font-body-md text-xs"
                         href="#">Terms of Service</a>
                 </div>
             </div>
