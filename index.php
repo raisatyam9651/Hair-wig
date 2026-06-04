@@ -112,10 +112,10 @@
                 class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div class="relative fade-in-section">
                     <div class="absolute -inset-4 bg-primary/5 rounded-xl blur-2xl z-0"></div>
-                    <img alt="Growig Expert Stylist"
+                    <img alt="Before and After Hair Transformation"
                         class="relative z-10 w-full h-auto rounded-xl border border-surface-variant/20 shadow-2xl transition-all duration-700"
-                        data-alt="A professional male stylist with dark hair and a neat beard, wearing a sharp black suit and black nitrile gloves, carefully examining and styling a male client's hair in a luxury matte black salon. The lighting is focused and warm, highlighting the precision of the work. Gold accents and mirrors are visible in the blurred background."
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtL4LcfIv2rVT9iNWpQlShrcVsAwIBidn2kNafPXLnJpiK__fFjA3VfdZLPqXppAmR_fBOU8yXxxIn6FAqP9M67As2IGAuTV4Y7Zi27eCFhi6VmVmHx9K4MXGOWkumGI8_i6sJqn9dBXpdxfOp68bLn_txUR9HusXwrKHrUZK5dJl05MBU-Qd9EY6U-rb3Sa8SC3sdSgi2rXKcPcT2kGRqvcFrbWOH17DfeRbOxuV10bnTjSQV55bytOlKGU8q1ePUuWngyvcukLk" />
+                        data-alt="Before and after transformation showcasing natural hair patch integration and front hairline design at Growig Hair Solution in Dwarka."
+                        src="assets/before-andafter.png" />
                 </div>
                 <div class="flex flex-col gap-6 fade-in-section">
                     <span class="font-label-md text-label-md text-primary uppercase tracking-widest">About Growig Hair

@@ -100,24 +100,9 @@
                         </div>
                     </div>
 
-                    <!-- Gallery Item 5 -->
-                    <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="wig">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(4)">
-                            <img alt="Elite Full Hair Wig - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/tranformation.png" />
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Full Hair Wigs</span>
-                            <h3 class="font-headline-md text-xl text-on-surface mb-2">Elite Full Hair Wig</h3>
-                            <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Custom fit human hair wig with medical-grade breathable base for daily comfort.</p>
-                        </div>
-                    </div>
-
                     <!-- Gallery Item 6 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="bonding">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(5)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(4)">
                             <img alt="Waterproof Hair Bonding - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/hair-bonding-transformation.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -132,7 +117,7 @@
 
                     <!-- Gallery Item 7 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch non-surgical">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(6)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(5)">
                             <img alt="Custom Hairline Design - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/before-andafter.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -265,11 +250,6 @@
                 src: 'assets/Transformation.png',
                 title: 'Non-Surgical Hair Replacement',
                 desc: 'Complete top-of-head restoration utilizing advanced bio-dermal bond technology.'
-            },
-            {
-                src: 'assets/tranformation.png',
-                title: 'Elite Full Hair Wig',
-                desc: 'Custom fit human hair wig with medical-grade breathable base for daily comfort.'
             },
             {
                 src: 'assets/hair-bonding-transformation.png',
