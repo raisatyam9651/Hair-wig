@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Custom Hairline Design | Growig Hair Solution Gurgaon</title>
+    <title>Custom Hairline Design | Growig Hair Solution Dwarka</title>
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -19,13 +19,13 @@
             <div class="z-10 space-y-8">
                 <span class="inline-flex items-center space-x-2 bg-primary-container/10 px-4 py-2 rounded-full">
                     <span class="material-symbols-outlined text-primary text-sm">architecture</span>
-                    <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Gurgaon Studio Exclusive</span>
+                    <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Dwarka Studio Exclusive</span>
                 </span>
                 <h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">
                     Mastering the Art of the <span class="italic text-primary">Undetectable</span> Hairline.
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-                    Bespoke hairline restoration artistry at our Gurgaon studio. We don't just restore hair; we craft your most authentic self with millimeter precision.
+                    Bespoke hairline restoration artistry at our Dwarka studio. We don't just restore hair; we craft your most authentic self with millimeter precision.
                 </p>
                 <div class="flex flex-wrap gap-4 pt-4">
                     <a class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center" href="contact">
@@ -83,10 +83,10 @@
                         <div class="space-y-6">
                             <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">The Science of Facial Symmetry: Bespoke Hairline Architecture</h2>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Hair loss is more than just a physical change; it's a deeply personal journey that affects how you perceive yourself and how the world interacts with you. At Growig Hair Solution in Gurgaon, we treat hair replacement as a blend of medical precision and high-fashion artistry. Our "Custom Hairline Design in Gurgaon" service isn't just about covering baldness—it's about restoring the architectural integrity of your facial silhouette.
+                                Hair loss is more than just a physical change; it's a deeply personal journey that affects how you perceive yourself and how the world interacts with you. At Growig Hair Solution in Dwarka, we treat hair replacement as a blend of medical precision and high-fashion artistry. Our "Custom Hairline Design in Dwarka" service isn't just about covering baldness—it's about restoring the architectural integrity of your facial silhouette.
                             </p>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Gurgaon's fast-paced corporate landscape demands a look that is consistently sharp and professional. Whether you are navigating the boardrooms of Cyber City or the social circles of DLF, your hair system must be versatile, durable, and above all, invisible. Our bespoke systems are designed using high-breathability polymers and ethically sourced Remy human hair, ensuring they withstand the local climate while maintaining a luxurious texture.
+                                Dwarka's fast-paced corporate landscape demands a look that is consistently sharp and professional. Whether you are navigating the boardrooms of New Delhi or the social circles of Dwarka, your hair system must be versatile, durable, and above all, invisible. Our bespoke systems are designed using high-breathability polymers and ethically sourced Remy human hair, ensuring they withstand the local climate while maintaining a luxurious texture.
                             </p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -102,9 +102,9 @@
                             </div>
                         </div>
                         <div class="space-y-6">
-                            <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Bespoke Fitting in Gurgaon</h2>
+                             <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Bespoke Fitting in Dwarka</h2>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                The secret to a perfect hairline lies in the "Mapping" phase. Unlike off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This allows us to create a base that perfectly contours to your head's unique ridges and dips. The result is a fit so secure that you can exercise, swim, and sleep without the slightest concern. Our Gurgaon studio provides a private, serene environment where our senior stylists work with you to choose the exact density, curl pattern, and color gradient that matches your original hair.
+                                The secret to a perfect hairline lies in the "Mapping" phase. Unlike off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This allows us to create a base that perfectly contours to your head's unique ridges and dips. The result is a fit so secure that you can exercise, swim, and sleep without the slightest concern. Our Dwarka studio provides a private, serene environment where our senior stylists work with you to choose the exact density, curl pattern, and color gradient that matches your original hair.
                             </p>
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                             <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
                         </summary>
                         <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                            With professional medical-grade adhesives at our Gurgaon studio, the system remains securely fixed for 3 to 4 weeks before requiring routine servicing.
+                             With professional medical-grade adhesives at our Dwarka studio, the system remains securely fixed for 3 to 4 weeks before requiring routine servicing.
                         </div>
                     </details>
                     <details class="group glass-card p-6 rounded-2xl border-primary/10 royal-shadow">
@@ -239,7 +239,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2">
                     <div class="p-6 md:p-16 space-y-8">
                         <h2 class="font-display-lg text-[32px] md:text-display-lg text-on-surface">Your Transformation Awaits.</h2>
-                        <p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let a receding hairline define your story. Join the hundreds of professionals in Gurgaon who have regained their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
+                         <p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let a receding hairline define your story. Join the hundreds of professionals in Dwarka who have regained their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
                         <div class="flex flex-col sm:flex-row gap-6">
                             <a class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow text-center" href="contact">Schedule My Appointment</a>
                             <div class="flex items-center gap-4">

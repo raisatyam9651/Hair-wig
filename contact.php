@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Contact Us | Growig Hair Solution Gurgaon</title>
+    <title>Contact Us | Growig Hair Solution Dwarka</title>
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -22,7 +22,7 @@
                     <span class="text-primary font-label-sm uppercase tracking-widest">Connect With Us</span>
                 </span>
                 <h1 class="font-display-lg text-4xl md:text-display-lg text-on-surface mb-6">Begin Your Journey.</h1>
-                <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Book your private, complimentary consultation at our Gurgaon studio and discover how we can restore your confidence.</p>
+                <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Book your private, complimentary consultation at our Dwarka studio and discover how we can restore your confidence.</p>
             </div>
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-container/5 rounded-full blur-3xl -z-10"></div>
         </section>
@@ -34,9 +34,9 @@
                 <!-- Left: Studio Details -->
                 <div class="lg:col-span-5 space-y-12">
                     <div class="space-y-6">
-                        <h2 class="font-headline-lg text-3xl md:text-headline-lg text-on-surface">Our Gurgaon Studio</h2>
+                        <h2 class="font-headline-lg text-3xl md:text-headline-lg text-on-surface">Our Dwarka Studio</h2>
                         <p class="font-body-md text-on-surface-variant leading-relaxed">
-                            Located in the heart of Gurgaon's premium commercial hub, our DLF Phase 2 studio offers a secure, highly private environment. Consultations are by appointment only to guarantee absolute discretion.
+                            Located in the heart of Dwarka, our studio offers a secure, highly private environment. Consultations are by appointment only to guarantee absolute discretion.
                         </p>
                     </div>
 
@@ -48,7 +48,7 @@
                             </div>
                             <div>
                                 <h4 class="font-label-md text-on-surface uppercase tracking-wider text-xs">Studio Location</h4>
-                                <p class="font-body-md text-on-surface-variant mt-1">DLF Phase 2, Sector 25,<br>Gurgaon, Haryana 122002</p>
+                                <p class="font-body-md text-on-surface-variant mt-1">Ramphal Chowk Rd, Block- E-1085, Palam,<br>Ramphal Chowk, Dwarka Sec-7, New Delhi-110077</p>
                             </div>
                         </div>
 
@@ -143,7 +143,7 @@
                         <div class="hidden mt-6 p-6 bg-primary-container/10 border border-primary-container/30 rounded-2xl text-center" id="success-message">
                             <span class="material-symbols-outlined text-primary text-4xl mb-2">check_circle</span>
                             <h4 class="font-headline-md text-primary">Inquiry Sent Successfully</h4>
-                            <p class="font-body-md text-on-surface-variant mt-2">Thank you for reaching out. A hair restoration specialist from our Gurgaon DLF Phase 2 studio will call you shortly to confirm your booking.</p>
+                            <p class="font-body-md text-on-surface-variant mt-2">Thank you for reaching out. A hair restoration specialist from our Dwarka studio will call you shortly to confirm your booking.</p>
                         </div>
                     </div>
                 </div>

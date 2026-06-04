@@ -4,8 +4,8 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Hair System Maintenance & Styling in Gurgaon | Growig Hair Solution - Bespoke Artistry</title>
-<meta content="Keep your hair system in pristine condition with our professional maintenance and styling services in Gurgaon. Deep clarifying wash, re-bonding, and styling at Growig Hair Solution." name="description"/>
+<title>Hair System Maintenance & Styling in Dwarka | Growig Hair Solution - Bespoke Artistry</title>
+<meta content="Keep your hair system in pristine condition with our professional maintenance and styling services in Dwarka. Deep clarifying wash, re-bonding, and styling at Growig Hair Solution." name="description"/>
     <?php include 'header-code.php'; ?>
 </head>
 <body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
@@ -16,8 +16,8 @@
 <section class="relative min-h-[90vh] flex items-center overflow-hidden py-section-gap">
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 <div class="z-10 space-y-8">
-<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">PREMIUM CARE IN GURGAON</span>
-<h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">Maintenance & Styling in Gurgaon: Meticulous Care for Enduring Perfection</h1>
+<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">PREMIUM CARE IN DWARKA</span>
+<h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">Maintenance & Styling in Dwarka: Meticulous Care for Enduring Perfection</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Sustain the flawless integration and natural beauty of your hair system with our bespoke maintenance rituals, deep cleansing, and expert styling at Dwarka Sec-7.</p>
 <div class="flex flex-wrap gap-4 pt-4">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
@@ -42,10 +42,10 @@
 <div class="space-y-6">
 <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">The Science of Longevity: Professional Maintenance Protocols</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                A premium hair system is an investment in your confidence, style, and daily presentation. At Growig Hair Solution in Gurgaon, we treat maintenance as an essential extension of the initial fitting process. Over time, natural scalp oils, perspiration, and environmental dust accumulate under the base, affecting adhesive integrity and scalp hygiene. Our professional maintenance sessions dissolve old bonding agents gently, deep-clean the system base, and rejuvenate the Remy human hair fibers to keep them soft and manageable.
+                                A premium hair system is an investment in your confidence, style, and daily presentation. At Growig Hair Solution in Dwarka, we treat maintenance as an essential extension of the initial fitting process. Over time, natural scalp oils, perspiration, and environmental dust accumulate under the base, affecting adhesive integrity and scalp hygiene. Our professional maintenance sessions dissolve old bonding agents gently, deep-clean the system base, and rejuvenate the Remy human hair fibers to keep them soft and manageable.
                             </p>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Gurgaon's dust, heat, and humidity present unique challenges for hair system wearers. Standard store-bought products often contain harsh chemicals that dry out the non-living hair strands, causing tangles and premature shedding. Our studio uses specialized, sulfate-free conditioning treatments and scalp protective barriers. Our senior stylists perform custom trims to blend the system seamlessly with your natural growing side-hair, preventing the telltale 'grown-out' discrepancy.
+                                Dwarka's dust, heat, and humidity present unique challenges for hair system wearers. Standard store-bought products often contain harsh chemicals that dry out the non-living hair strands, causing tangles and premature shedding. Our studio uses specialized, sulfate-free conditioning treatments and scalp protective barriers. Our senior stylists perform custom trims to blend the system seamlessly with your natural growing side-hair, preventing the telltale 'grown-out' discrepancy.
                             </p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -333,7 +333,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-2">
 <div class="p-6 md:p-16 space-y-8">
 <h2 class="font-display-lg text-[32px] md:text-display-lg text-on-surface">Sustain the Flawless Illusion.</h2>
-<p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let neglected styling define your story. Join the hundreds of professionals in Gurgaon who maintain their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
+<p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let neglected styling define your story. Join the hundreds of professionals in Dwarka who maintain their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
 <div class="flex flex-col sm:flex-row gap-6">
 <a href="contact" class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow text-center">Schedule My Appointment</a>
 <div class="flex items-center gap-4">

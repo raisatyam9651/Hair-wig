@@ -7,36 +7,36 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 // Define metadata for all pages for schema and OG tags
 $pages_metadata = [
     'index' => [
-        'title' => 'Growig Hair Solution | Premium Hair Patch & Wig Studio in Gurgaon',
-        'description' => 'Premium non-surgical hair replacement solutions, hair patches, and hair wigs in Gurgaon. Get a natural look with expert fitting.',
+        'title' => 'Growig Hair Solution | Premium Hair Patch & Wig Studio in Dwarka',
+        'description' => 'Premium non-surgical hair replacement solutions, hair patches, and hair wigs in Dwarka. Get a natural look with expert fitting.',
         'url' => 'https://growighairsolution.com/',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
     ],
     'about' => [
         'title' => 'About Us | Growig Hair Solution',
-        'description' => 'Discover the pinnacle of hair restoration in Gurgaon. Growig Hair Solution offers bespoke artistry and non-surgical hair replacement since 2014.',
+        'description' => 'Discover the pinnacle of hair restoration in Dwarka. Growig Hair Solution offers bespoke artistry and non-surgical hair replacement since 2014.',
         'url' => 'https://growighairsolution.com/about',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
     ],
     'collection' => [
         'title' => 'Signature Collections | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Explore the Master Collection at Growig Hair Solution. Featuring premium men\'s executive hair systems and women\'s signature volume toppers and medical wigs in Gurgaon.',
+        'description' => 'Explore the Master Collection at Growig Hair Solution. Featuring premium men\'s executive hair systems and women\'s signature volume toppers and medical wigs in Dwarka.',
         'url' => 'https://growighairsolution.com/collection',
         'image' => 'https://growighairsolution.com/assets/Lace%20Front%20Systems.png',
         'type' => 'website'
     ],
     'contact' => [
-        'title' => 'Contact Us | Growig Hair Solution Gurgaon',
-        'description' => 'Book your private, complimentary consultation at our Gurgaon studio. Contact Growig Hair Solution DLF Phase 2 for non-surgical hair replacement.',
+        'title' => 'Contact Us | Growig Hair Solution Dwarka',
+        'description' => 'Book your private, complimentary consultation at our Dwarka studio. Contact Growig Hair Solution Dwarka for non-surgical hair replacement.',
         'url' => 'https://growighairsolution.com/contact',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
     ],
     'premium-hair-patch' => [
-        'title' => 'Premium Hair Patch in Gurgaon | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Get a 100% natural, undetectable premium hair patch in Gurgaon. Custom-designed hair patches that blend seamlessly with your own hair. Same-day fixing available at Growig Hair Solution.',
+        'title' => 'Premium Hair Patch in Dwarka | Growig Hair Solution - Bespoke Artistry',
+        'description' => 'Get a 100% natural, undetectable premium hair patch in Dwarka. Custom-designed hair patches that blend seamlessly with your own hair. Same-day fixing available at Growig Hair Solution.',
         'url' => 'https://growighairsolution.com/premium-hair-patch',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'product',
@@ -44,8 +44,8 @@ $pages_metadata = [
         'service_desc' => 'Custom-designed hair patches that seamlessly blend with your natural hair texture and color for an undetectable finish.'
     ],
     'full-hair-wig' => [
-        'title' => 'Full Hair Wigs in Gurgaon | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Experience the pinnacle of hair replacement at our Gurgaon studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.',
+        'title' => 'Full Hair Wigs in Dwarka | Growig Hair Solution - Bespoke Artistry',
+        'description' => 'Experience the pinnacle of hair replacement at our Dwarka studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.',
         'url' => 'https://growighairsolution.com/full-hair-wig',
         'image' => 'https://growighairsolution.com/assets/full-hair-wig-hero.png',
         'type' => 'product',
@@ -53,8 +53,8 @@ $pages_metadata = [
         'service_desc' => 'High-grade human hair wigs offering complete coverage with a breathable, comfortable base for daily wear.'
     ],
     'non-surgical-replacement' => [
-        'title' => 'Non-Surgical Hair Replacement in Gurgaon | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Get a 100% natural, undetectable non-surgical hair replacement in Gurgaon. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution.',
+        'title' => 'Non-Surgical Hair Replacement in Dwarka | Growig Hair Solution - Bespoke Artistry',
+        'description' => 'Get a 100% natural, undetectable non-surgical hair replacement in Dwarka. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution.',
         'url' => 'https://growighairsolution.com/non-surgical-replacement',
         'image' => 'https://growighairsolution.com/assets/Non-Surgical%20Replacement.png',
         'type' => 'product',
@@ -62,8 +62,8 @@ $pages_metadata = [
         'service_desc' => 'A painless, immediate solution to hair loss without the risks or downtime of surgical transplants.'
     ],
     'hair-bonding' => [
-        'title' => 'Premium Hair Bonding in Gurgaon | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Get a 100% natural, undetectable hair bonding service in Gurgaon. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution.',
+        'title' => 'Premium Hair Bonding in Dwarka | Growig Hair Solution - Bespoke Artistry',
+        'description' => 'Get a 100% natural, undetectable hair bonding service in Dwarka. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution.',
         'url' => 'https://growighairsolution.com/hair-bonding',
         'image' => 'https://growighairsolution.com/assets/hair-bonding-hero-section.png',
         'type' => 'product',
@@ -71,8 +71,8 @@ $pages_metadata = [
         'service_desc' => 'Secure, medical-grade adhesive bonding that allows for an active lifestyle, including swimming and sports.'
     ],
     'maintenance-and-styling' => [
-        'title' => 'Hair System Maintenance & Styling in Gurgaon | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Keep your hair system in pristine condition with our professional maintenance and styling services in Gurgaon. Deep clarifying wash, re-bonding, and styling at Growig Hair Solution.',
+        'title' => 'Hair System Maintenance & Styling in Dwarka | Growig Hair Solution - Bespoke Artistry',
+        'description' => 'Keep your hair system in pristine condition with our professional maintenance and styling services in Dwarka. Deep clarifying wash, re-bonding, and styling at Growig Hair Solution.',
         'url' => 'https://growighairsolution.com/maintenance-and-styling',
         'image' => 'https://growighairsolution.com/assets/Maintenance%20&%20Styling.png',
         'type' => 'product',
@@ -80,8 +80,8 @@ $pages_metadata = [
         'service_desc' => 'Regular upkeep, cleaning, and professional styling to ensure your hair system always looks fresh and natural.'
     ],
     'custom-hairline-design' => [
-        'title' => 'Custom Hairline Design | Growig Hair Solution Gurgaon',
-        'description' => 'Bespoke hairline restoration artistry at our Gurgaon studio. We don\'t just restore hair; we craft your most authentic self with millimeter precision.',
+        'title' => 'Custom Hairline Design | Growig Hair Solution Dwarka',
+        'description' => 'Bespoke hairline restoration artistry at our Dwarka studio. We don\'t just restore hair; we craft your most authentic self with millimeter precision.',
         'url' => 'https://growighairsolution.com/custom-hairline-design',
         'image' => 'https://growighairsolution.com/assets/Custom%20Hairline%20Design.png',
         'type' => 'product',
@@ -104,10 +104,10 @@ $local_business_schema = [
     "priceRange" => "$$",
     "address" => [
         "@type" => "PostalAddress",
-        "streetAddress" => "DLF Phase 2, Sector 25",
-        "addressLocality" => "Gurgaon",
-        "addressRegion" => "Haryana",
-        "postalCode" => "122002",
+        "streetAddress" => "Ramphal Chowk Rd, Block- E-1085, Palam, Ramphal Chowk, Dwarka Sec-7",
+        "addressLocality" => "Dwarka",
+        "addressRegion" => "New Delhi",
+        "postalCode" => "110077",
         "addressCountry" => "IN"
     ],
     "geo" => [
@@ -418,11 +418,11 @@ if ($page === 'index') {
         ],
         [
             "question" => "Can I exercise or swim with the system?",
-            "answer" => "Absolutely. When professionally fixed at our Gurgaon studio, our systems are waterproof and sweat-resistant. You can maintain an active lifestyle, including swimming and intense workouts, with complete peace of mind."
+            "answer" => "Absolutely. When professionally fixed at our Dwarka studio, our systems are waterproof and sweat-resistant. You can maintain an active lifestyle, including swimming and intense workouts, with complete peace of mind."
         ],
         [
             "question" => "What is the lifespan of a premium system?",
-            "answer" => "With proper maintenance at our DLF Phase 2 center, a high-quality human hair system typically lasts between 6 to 12 months. We provide comprehensive care guides and professional servicing to maximize longevity."
+            "answer" => "With proper maintenance at our Dwarka center, a high-quality human hair system typically lasts between 6 to 12 months. We provide comprehensive care guides and professional servicing to maximize longevity."
         ],
         [
             "question" => "How often is maintenance required?",
@@ -479,7 +479,7 @@ if ($page === 'index') {
         ],
         [
             "question" => "How long does a hairline system stay secure?",
-            "answer" => "With professional medical-grade adhesives at our Gurgaon studio, the system remains securely fixed for 3 to 4 weeks before requiring routine servicing."
+            "answer" => "With professional medical-grade adhesives at our Dwarka studio, the system remains securely fixed for 3 to 4 weeks before requiring routine servicing."
         ],
         [
             "question" => "Is the design visible up close?",
@@ -513,7 +513,7 @@ if ($page === 'index') {
         "@context" => "https://schema.org",
         "@type" => "VideoObject",
         "name" => "Why Choose Growig Hair Solution",
-        "description" => "Discover why Growig Hair Solution is Gurgaon's leading non-surgical hair replacement studio.",
+        "description" => "Discover why Growig Hair Solution is Dwarka's leading non-surgical hair replacement studio.",
         "thumbnailUrl" => "https://growighairsolution.com/assets/premium-har-pathc.png",
         "uploadDate" => "2026-06-04T12:00:00Z",
         "contentUrl" => "https://growighairsolution.com/assets/why-chouse-us.mp4",

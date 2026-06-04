@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Signature Collections | Growig Hair Solution - Bespoke Artistry</title>
-    <meta name="description" content="Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems and women's signature volume toppers and medical wigs in Gurgaon." />
+    <meta name="description" content="Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems and women's signature volume toppers and medical wigs in Dwarka." />
     <?php include 'header-code.php'; ?>
 </head>
 

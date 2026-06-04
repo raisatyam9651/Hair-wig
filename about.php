@@ -22,7 +22,7 @@
                     Crafting Confidence, <br /><span class="italic text-primary">Redefining Excellence.</span>
                 </h1>
                 <p class="font-body-lg text-body-lg text-secondary max-w-xl leading-relaxed">
-                    Discover the pinnacle of hair restoration in Gurgaon. Where medical precision meets the delicate touch of bespoke artistry.
+                    Discover the pinnacle of hair restoration in Dwarka. Where medical precision meets the delicate touch of bespoke artistry.
                 </p>
                 <div class="flex items-center gap-6 pt-4">
                     <a href="contact" class="bg-primary text-on-primary px-10 py-4 rounded-full font-label-md text-label-md hover:bg-primary-fixed-variant transition-all duration-300 text-center">Start Your Journey</a>
