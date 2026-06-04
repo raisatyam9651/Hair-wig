@@ -5,7 +5,9 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Custom Hairline Design | Growig Hair Solution Dwarka</title>
+    <title>Custom Hairline Design in Dwarka | Custom Hair patch Design - Growig Hair Solution</title>
+    <meta name="description" content="Get an undetectable, natural front hairline with our Custom Hairline Design in Dwarka. At Growig Hair Solution, we offer bespoke Custom Hair patch Design in Dwarka tailored to your age and facial structure." />
+    <meta name="keywords" content="Custom Hairline Design in Dwarka, Custom Hair patch Design in Dwarka, custom hairline Dwarka, custom hair patch Dwarka, hair patch studio Dwarka" />
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -225,6 +227,28 @@
                             No. The combination of bleached knots, graduated hair density, and transparent bases makes the transition from skin to hair completely invisible even from a distance of a few inches.
                         </div>
                     </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEO Editorial Section -->
+        <section class="py-section-gap bg-surface-container-low border-t border-surface-variant/30" id="editorial-seo">
+            <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                    <div class="lg:col-span-4">
+                        <span class="font-label-md text-label-md text-primary uppercase tracking-widest mb-4 block">Bespoke Designing</span>
+                        <h2 class="font-headline-lg-mobile md:font-headline-lg text-3xl md:text-headline-lg text-on-surface leading-tight">
+                            Personalized Hairline <br />&amp; Patch Artistry
+                        </h2>
+                    </div>
+                    <div class="lg:col-span-8 space-y-6 text-on-surface-variant leading-relaxed font-body-md">
+                        <p class="text-lg text-secondary font-medium">
+                            Achieving an undetectable look requires an individualized approach. Our studio specializes in high-precision <strong>Custom Hairline Design in Dwarka</strong>, mapping the transition from bare skin to hair with millimeter accuracy. We structure the hairline to align with your facial symmetry, ensuring it looks age-appropriate and completely natural.
+                        </p>
+                        <p>
+                            In addition to frontal design, we offer premium <strong>Custom Hair patch Design in Dwarka</strong> for complete crown and top-of-head restoration. By customizing the base membrane, ventilation patterns, and hair density, we ensure your custom hair patch integrates seamlessly with your existing hair. This allows you to style your hair in any direction, including swept-back looks, with absolute confidence.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

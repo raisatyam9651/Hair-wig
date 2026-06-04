@@ -80,8 +80,8 @@ $pages_metadata = [
         'service_desc' => 'Regular upkeep, cleaning, and professional styling to ensure your hair system always looks fresh and natural.'
     ],
     'custom-hairline-design' => [
-        'title' => 'Custom Hairline Design | Growig Hair Solution Dwarka',
-        'description' => 'Bespoke hairline restoration artistry at our Dwarka studio. We don\'t just restore hair; we craft your most authentic self with millimeter precision.',
+        'title' => 'Custom Hairline Design in Dwarka | Custom Hair patch Design',
+        'description' => 'Get an undetectable, natural front hairline with our Custom Hairline Design in Dwarka. At Growig Hair Solution, we offer bespoke Custom Hair patch Design in Dwarka tailored to your face.',
         'url' => 'https://growighairsolution.com/custom-hairline-design',
         'image' => 'https://growighairsolution.com/assets/Custom%20Hairline%20Design.png',
         'type' => 'product',
