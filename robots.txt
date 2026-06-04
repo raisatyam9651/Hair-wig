@@ -1,0 +1,28 @@
+# robots.txt for Growig Hair Solution
+# https://growighairsolution.com
+
+User-agent: *
+Allow: /
+Disallow: /custom-header-link.php
+Disallow: /header-code.php
+Disallow: /header.php
+Disallow: /footer.php
+Disallow: /googleaf5d5a2d8a2b1d19.html
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://growighairsolution.com/sitemap.xml
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional, in seconds)
+Crawl-delay: 1
