@@ -13,6 +13,7 @@
     <?php include 'header.php'; ?>
 
     <main class="pt-20">
+        <?php include 'breadcrumbs.php'; ?>
         <!-- Hero Header -->
         <section class="relative py-20 overflow-hidden bg-surface-container-low border-b border-surface-variant/30">
             <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center relative z-10">

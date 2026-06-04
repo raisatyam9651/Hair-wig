@@ -13,6 +13,7 @@
 <body class="bg-background text-on-surface selection:bg-primary-container selection:text-on-primary-container">
     <?php include 'header.php'; ?>
     <main class="pt-20">
+        <?php include 'breadcrumbs.php'; ?>
         <!-- Hero Section -->
         <section class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div class="z-10 space-y-8">

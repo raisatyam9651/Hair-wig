@@ -14,6 +14,7 @@
 <body class="bg-surface text-on-surface antialiased font-body-md overflow-x-hidden">
     <?php include 'header.php'; ?>
     <main>
+        <?php include 'breadcrumbs.php'; ?>
         <!-- Hero Section -->
         <section
             class="relative pt-section-gap pb-12 md:pb-16 px-margin-mobile md:px-margin-desktop max-w-[1280px] mx-auto flex flex-col items-center text-center">

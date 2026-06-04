@@ -11,6 +11,7 @@
 <body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
 <?php include 'header.php'; ?>
 <main class="pt-20">
+<?php include 'breadcrumbs.php'; ?>
 <!-- Hero Section -->
 <section class="relative min-h-[90vh] flex items-center overflow-hidden py-section-gap">
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
