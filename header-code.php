@@ -22,7 +22,7 @@ $pages_metadata = [
     ],
     'collection' => [
         'title' => 'Signature Collections | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Explore the Master Collection at Growig Hair Solution. Featuring premium men\'s executive hair systems and women\'s signature volume toppers and medical wigs in Dwarka.',
+        'description' => 'Explore the Master Collection at Growig Hair Solution. Featuring premium men\'s executive hair systems in Dwarka.',
         'url' => 'https://growighairsolution.com/collection',
         'image' => 'https://growighairsolution.com/assets/Lace%20Front%20Systems.png',
         'type' => 'website'
@@ -340,21 +340,6 @@ if ($page === 'collection') {
             "name" => "Bio-Skin",
             "description" => "Engineered to mimic the exact texture and temperature of human skin.",
             "image" => "https://growighairsolution.com/assets/Non-Surgical%20Replacement.png"
-        ],
-        [
-            "name" => "Full Volume Silk Topper",
-            "description" => "Designed for those experiencing thinning at the crown.",
-            "image" => "https://growighairsolution.com/assets/Full%20Volume%20Silk%20Toppers.png"
-        ],
-        [
-            "name" => "Invisible Crown Systems",
-            "description" => "Specially designed for thinning crowns, offering seamless integration.",
-            "image" => "https://growighairsolution.com/assets/Invisible%20Crown%20Systems.png"
-        ],
-        [
-            "name" => "Custom Length Medical Wigs",
-            "description" => "Featuring ultra-soft, hypoallergenic bases designed specifically for sensitive scalps.",
-            "image" => "https://growighairsolution.com/assets/Custom%20Length%20Medical%20Wigs.png"
         ]
     ];
     
@@ -380,7 +365,7 @@ if ($page === 'collection') {
         "@context" => "https://schema.org",
         "@type" => "CollectionPage",
         "name" => "Signature Collections | Growig Hair Solution",
-        "description" => "Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems and women's signature volume toppers and medical wigs.",
+        "description" => "Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems.",
         "url" => "https://growighairsolution.com/collection",
         "mainEntity" => [
             "@type" => "ItemList",

@@ -105,74 +105,51 @@
 <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface">Our Signature Collections</h2>
 <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Masterpieces of restoration tailored for every individual need and aesthetic preference.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<!-- Men's Systems -->
-<div class="space-y-8">
-<div class="flex items-center gap-4 mb-4">
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-<span class="font-label-md text-primary tracking-widest">FOR MEN</span>
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Ultra-Thin Skin System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">A 0.03mm transparent membrane that blends seamlessly with the scalp.</p>
-<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">High Definition</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Swiss Lace Front System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">The industry standard for natural hairlines, allowing off-the-face styling.</p>
-<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Undetectable</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">French Lace System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Enhanced durability with a reinforced lace structure for active lifestyles.</p>
-<span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Durability</span>
-</div>
-</div>
-<!-- Mixed Highlight -->
-<div class="space-y-8">
-<div class="glass-card p-8 rounded-3xl bg-primary text-white royal-shadow h-full flex flex-col justify-between">
-<div>
-<span class="material-symbols-outlined text-4xl mb-6 block" data-icon="award_star" data-weight="fill"></span>
-<h4 class="font-headline-lg text-white mb-4">The Hybrid Advantage</h4>
-<p class="font-body-lg text-white/80 leading-relaxed mb-6">Combining the breathability of lace with the security of poly-skin edges, our Hybrid systems offer the best of both worlds for 24/7 wear.</p>
-</div>
-<div class="space-y-4">
-<div class="p-4 rounded-2xl bg-white/10 border border-white/20">
-<h5 class="font-label-md mb-1">Monofilament Hybrid</h5>
-<p class="text-xs opacity-70">Perfect for multi-directional parting.</p>
-</div>
-<div class="p-4 rounded-2xl bg-white/10 border border-white/20">
-<h5 class="font-label-md mb-1">Silk Top Toupee</h5>
-<p class="text-xs opacity-70">Mimics the look of hair growing from skin.</p>
-</div>
-</div>
-</div>
-</div>
-<!-- Women's Systems -->
-<div class="space-y-8">
-<div class="flex items-center gap-4 mb-4">
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-<span class="font-label-md text-primary tracking-widest">FOR WOMEN</span>
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Silk Topper</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Lightweight crown coverage that adds significant volume instantly.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Instant Volume</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Lace Front Illusion</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Pre-plucked hairlines for a realistic transition from forehead to hair.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Artistic Finish</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">100% Remy Human Hair System</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Full system with cuticle-aligned hair for maximum shine and longevity.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Elite Grade</span>
-</div>
-</div>
-</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Men's Systems -->
+                <div class="space-y-8">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="h-[1px] flex-grow bg-outline-variant"></div>
+                        <span class="font-label-md text-primary tracking-widest">FOR MEN</span>
+                        <div class="h-[1px] flex-grow bg-outline-variant"></div>
+                    </div>
+                    <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+                        <h4 class="font-headline-md text-on-surface mb-2">Ultra-Thin Skin System</h4>
+                        <p class="font-body-md text-on-surface-variant mb-4">A 0.03mm transparent membrane that blends seamlessly with the scalp.</p>
+                        <span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">High Definition</span>
+                    </div>
+                    <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+                        <h4 class="font-headline-md text-on-surface mb-2">Swiss Lace Front System</h4>
+                        <p class="font-body-md text-on-surface-variant mb-4">The industry standard for natural hairlines, allowing off-the-face styling.</p>
+                        <span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Undetectable</span>
+                    </div>
+                    <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
+                        <h4 class="font-headline-md text-on-surface mb-2">French Lace System</h4>
+                        <p class="font-body-md text-on-surface-variant mb-4">Enhanced durability with a reinforced lace structure for active lifestyles.</p>
+                        <span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Durability</span>
+                    </div>
+                </div>
+                <!-- Mixed Highlight -->
+                <div class="space-y-8">
+                    <div class="glass-card p-8 rounded-3xl bg-primary text-white royal-shadow h-full flex flex-col justify-between">
+                        <div>
+                            <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="award_star" data-weight="fill"></span>
+                            <h4 class="font-headline-lg text-white mb-4">The Hybrid Advantage</h4>
+                            <p class="font-body-lg text-white/80 leading-relaxed mb-6">Combining the breathability of lace with the security of poly-skin edges, our Hybrid systems offer the best of both worlds for 24/7 wear.</p>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="p-4 rounded-2xl bg-white/10 border border-white/20">
+                                <h5 class="font-label-md mb-1">Monofilament Hybrid</h5>
+                                <p class="text-xs opacity-70">Perfect for multi-directional parting.</p>
+                            </div>
+                            <div class="p-4 rounded-2xl bg-white/10 border border-white/20">
+                                <h5 class="font-label-md mb-1">Silk Top Toupee</h5>
+                                <p class="text-xs opacity-70">Mimics the look of hair growing from skin.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 flex items-center justify-between">
 <div>

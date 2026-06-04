@@ -106,7 +106,7 @@
 <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface">Our Signature Rituals</h2>
 <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Masterpieces of restoration tailored for every individual need and aesthetic preference.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 <!-- Men's Systems -->
 <div class="space-y-8">
 <div class="flex items-center gap-4 mb-4">
@@ -148,29 +148,6 @@
 <p class="text-xs opacity-70">Deep conditioning to restore fiber softness.</p>
 </div>
 </div>
-</div>
-</div>
-<!-- Women's Systems -->
-<div class="space-y-8">
-<div class="flex items-center gap-4 mb-4">
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-<span class="font-label-md text-primary tracking-widest">FOR WOMEN</span>
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Topper Re-Fixing</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Tightening, cleaning, and secure positioning of silk/lace toppers using tape or clips.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Crown Volume</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Luster & Shine Treatment</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Intense moisture mask treatment specifically formulated for Remy human hair.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Fiber Nourish</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Premium Styling & Updo</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Professional wash, blow-dry, and styling for special occasions or daily elegance.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Elite Finish</span>
 </div>
 </div>
 </div>
@@ -253,24 +230,15 @@
                 </div>
             </div>
             <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
-                <img alt="Portrait of a sophisticated Indian woman with voluminous, beautifully styled long hair." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE7yQw2H2pAYLDfRsyDheIcn_Hqh8YQcZilNOAoRFaDkLwK6wpmnTeCldBsOdKDP11PD6ZdJLnjB0Q6ban3MbfhcRfUbbv4XblyFi_TASD5MbkTaG41ahPyLJ0SgEl2BaFYwefnojxmteO5gQdGwFNp0efoWWifJewyK0SDE6LgE_cDRc8DKPzY7v6AzlSROY_FT_DweBiYVLINxGWw4nMeTQYiIgWeB6tKaCYIzPyfe7akOhYui5pHBW87XwTUUSorh7tRzi6b9k"/>
-            </div>
-            <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
                 <img alt="Portrait of a professional-looking Indian man with a sharp haircut." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRkm_Wl3jfxzXKz4d_IA7SVSMrEBCp_tzaq2NV4RIzUjZuv6yWWm-fxu7ApHYEa_WHaUTMoAb8ePazJVS8S2xGzAWLs9kAXLpQkmmFpGYSF4RNgl2NKnKPjqvVnAdF8dugWcxpBvrmqelnfRtNewNdLcPPTYDtPKVgkrBLyjRQvNI3gWsY17dgz3bhV-EG_o2lG-im7vKtn-0Iqlh7tLIDv79Rhexqtf6PxJ3_FYOIFS0_0qh5_kkz3tojSXW5L_YG789_XKnvpgE"/>
-            </div>
-            <div class="col-span-1 row-span-2 relative rounded-2xl overflow-hidden group">
-                <img alt="Portrait of an elegant Indian woman with sleek, glossy straight hair." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9IioCOSg8ogc7Ou9TajfsHJ9HK57K9PN82-cCdkofMYhPKm46SH4uUhq4mCfp4bB85b96NSu-n-aIi2GZbh57GZiHY18TeAP4n8QKuluRGv5sKwMYCeGGA5FDIHWBCu2vAXkJyEwy7eZp4jZj24FHkRrcBGlvMJzRdD_5dpskJ-gi48LUfWEwKDfV_DkCjEyz4LXj_eVtmCtJI2EgfgMB8neIISPE67r2eoNNgz5BOUzF83aOuBbULDjGJQMKVwcezQ_6Iwfa-as"/>
             </div>
             <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
                 <img alt="Professional portrait of a middle-aged Indian man with thick, natural-looking salt-and-pepper hair." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEIXSD18OvPEgpcVzT7ejk0weQrjfL2YWgz_0ZXErHAJiS0hWgDbdLBYWfyO0iV_6wm_AFMm9aM12SZ--V7zCu19f47WIil0gnm-1sC64pL84LpUxGcob6K9svKgN77WJsYxOt6mffQMiTqR3LsTN-0t9Uk4PAonh0Bjtwg45JrN2tgBkVgafTHgavi3dYi-0faK4nrzLP6A6nvjis1E8qH9vU9rgQ4-kJtKHJuqDffh1PVLRqDCRNfX0SbHmmuaxdIRccRTgoEb0"/>
             </div>
-            <div class="col-span-2 row-span-1 relative rounded-2xl overflow-hidden group">
-                <img alt="Indian woman with a beautiful bridal-style hair updo." class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAExMHAKPZfWPtUHMEhd7Lr50LNcsUi8yfdEdGD9kxQJoqcz2Vi2mTgdB_hS21jFD1NNy5KT0QcEXOA810aJBUQ_sofRacAnrEu8Sxl7U2AVQY8l-_jlSz2DT538-P8fBL1kOTXT0ai3TB2sjlldjOnOPaP1UMkkZCHa_z2fuMRr93VMm8U3qj0oOn8tlKIbAq8SCjVvguQVIhqKrZnR_Omxw9RmLruTKGSERK93iKTW6ZtuCxaCZCANQjpsVgU7igSqE3Hrhrfy_I"/>
-            </div>
             <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
                 <img alt="Modern Indian man with a stylish, voluminous hair style." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLNOacGoYss97SkJWDhV2uzzfcmKucMfYEjYa24zcJt-nWtHKPrGky7ZS8ceCBET9nDuT-dXtSQmagZJu3i7Z7F8YF1cRQs2Xrx9CuuEBxzp9K-ArtbPOYI8vexSg8XsCq5bKtUyhVomjxUEY2fU46qHZYuDfLcsrhFEczRD-KdBcaqmZOXxSQa-foqt7KR9lGP76ySyuu0WbegkSzyiCqgQDqwAkWdtkCKHhvmprP6MPoIJJdmPLh9AP6K-U598VmOz1lmqvtRkU"/>
             </div>
-            <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group hidden md:block">
+            <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
                 <img alt="Professional portrait of a confident middle-aged man." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/hair-patch-men.png"/>
             </div>
         </div>

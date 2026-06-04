@@ -266,42 +266,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Women's Signature Collection -->
-                    <div class="fade-in-section">
-                        <div class="flex flex-col md:flex-row items-start md:items-center gap-6 mb-12">
-                            <p class="font-label-md text-xs text-primary uppercase tracking-widest order-2 md:order-1">
-                                Volume • Seamless • Versatile</p>
-                            <div class="hidden md:block h-px bg-surface-variant flex-grow order-2"></div>
-                            <h3 class="font-headline-md text-3xl text-secondary order-1 md:order-3">Women's Signature
-                                Collection</h3>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
-                                <div class="w-64 h-64 mx-auto mb-2 relative">
-                                    <img src="assets/Full Volume Silk Toppers.png" alt="Full Volume Silk Toppers" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
-                                </div>
-                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Full Volume Silk Toppers</h4>
-                                <p class="font-body-md text-on-surface-variant text-center">Premium silk base toppers that add
-                                    instant density and crown volume for a sophisticated look.</p>
-                            </div>
-                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
-                                <div class="w-64 h-64 mx-auto mb-2 relative">
-                                    <img src="assets/Invisible Crown Systems.png" alt="Invisible Crown Systems" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
-                                </div>
-                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Invisible Crown Systems</h4>
-                                <p class="font-body-md text-on-surface-variant text-center">Specially designed for thinning crowns,
-                                    offering seamless integration with your natural hair.</p>
-                            </div>
-                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
-                                <div class="w-64 h-64 mx-auto mb-2 relative">
-                                    <img src="assets/Custom Length Medical Wigs.png" alt="Custom Length Medical Wigs" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
-                                </div>
-                                <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Custom Length Medical Wigs</h4>
-                                <p class="font-body-md text-on-surface-variant text-center">Ultra-soft, hypoallergenic bases
-                                    designed for sensitive scalps without compromising on length or style.</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>

@@ -105,7 +105,7 @@
 <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface">Our Signature Collections</h2>
 <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Masterpieces of restoration tailored for every individual need and aesthetic preference.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 <!-- Men's Systems -->
 <div class="space-y-8">
 <div class="flex items-center gap-4 mb-4">
@@ -147,29 +147,6 @@
 <p class="text-xs opacity-70">Mimics the look of hair growing from skin.</p>
 </div>
 </div>
-</div>
-</div>
-<!-- Women's Systems -->
-<div class="space-y-8">
-<div class="flex items-center gap-4 mb-4">
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-<span class="font-label-md text-primary tracking-widest">FOR WOMEN</span>
-<div class="h-[1px] flex-grow bg-outline-variant"></div>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Silk Topper</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Lightweight crown coverage that adds significant volume instantly.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Instant Volume</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Lace Front Illusion</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Pre-plucked hairlines for a realistic transition from forehead to hair.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Artistic Finish</span>
-</div>
-<div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
-<h4 class="font-headline-md text-on-surface mb-2">Custom Human Hair Patch</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Full wig with cuticle-aligned hair for maximum shine and longevity.</p>
-<span class="inline-block py-1 px-3 rounded bg-primary-container/20 text-primary text-xs font-bold uppercase tracking-wider">Elite Grade</span>
 </div>
 </div>
 </div>

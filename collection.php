@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Signature Collections | Growig Hair Solution - Bespoke Artistry</title>
-    <meta name="description" content="Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems and women's signature volume toppers and medical wigs in Dwarka." />
+    <meta name="description" content="Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems in Dwarka." />
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -26,9 +26,7 @@
                 </p>
                 <div class="flex flex-col sm:flex-row gap-6 justify-center">
                     <a class="bg-primary-container text-on-primary font-label-md text-label-md px-8 py-4 rounded-DEFAULT hover:bg-primary transition-colors duration-300 text-center"
-                        href="#mens-collection">Explore Men's</a>
-                    <a class="border border-outline text-on-surface font-label-md text-label-md px-8 py-4 rounded-DEFAULT hover:border-primary hover:text-primary transition-colors duration-300 text-center"
-                        href="#womens-collection">Explore Women's</a>
+                        href="#mens-collection">Explore Men's Collection</a>
                 </div>
             </div>
             <!-- Decorative Elements -->
@@ -140,59 +138,7 @@
                 </div>
             </div>
         </section>
-        <!-- Women's Collection -->
-        <section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low"
-            id="womens-collection">
-            <div class="max-w-[1280px] mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="font-headline-lg-mobile md:font-headline-lg text-3xl md:text-headline-lg text-on-surface mb-4">Women's Signature Collection</h2>
-                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Luxurious,
-                        custom-designed hair solutions that restore volume, length, and confidence with breathtaking
-                        natural beauty.</p>
-                </div>
-                <div class="space-y-16 md:space-y-32">
-                    <!-- Item 1 -->
-                    <div class="flex flex-col md:flex-row items-center gap-16">
-                        <div class="w-full md:w-1/2">
-                            <img alt="Full Volume Silk Topper"
-                                class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                                src="assets/Full%20Volume%20Silk%20Toppers.png" />
-                        </div>
-                        <div class="w-full md:w-1/2 space-y-6">
-                            <h3 class="font-headline-md text-2xl md:text-headline-md text-on-surface">01. Full Volume Silk Topper</h3>
-                            <h4 class="font-body-lg text-body-lg text-primary uppercase tracking-widest">Effortless Crown Volume</h4>
-                            <p class="font-body-md text-body-md text-on-surface-variant">Designed for those experiencing thinning at the crown. This premium silk-based topper integrates flawlessly with your natural hair, delivering luxurious volume and an undetectable scalp appearance.</p>
-                        </div>
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="flex flex-col md:flex-row-reverse items-center gap-16">
-                        <div class="w-full md:w-1/2">
-                            <img alt="Invisible Crown Systems"
-                                class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                                src="assets/Invisible%20Crown%20Systems.png" />
-                        </div>
-                        <div class="w-full md:w-1/2 space-y-6">
-                            <h3 class="font-headline-md text-2xl md:text-headline-md text-on-surface">02. Invisible Crown Systems</h3>
-                            <h4 class="font-body-lg text-body-lg text-primary uppercase tracking-widest">Seamless Crown Integration</h4>
-                            <p class="font-body-md text-body-md text-on-surface-variant">Specially designed for thinning crowns, offering seamless integration with your natural hair. Hand-crafted to blend perfectly with existing hair for an incredibly discreet solution that restores density and volume.</p>
-                        </div>
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="flex flex-col md:flex-row items-center gap-16">
-                        <div class="w-full md:w-1/2">
-                            <img alt="Custom Length Medical Wigs"
-                                class="w-full h-[600px] object-cover rounded-xl royal-shadow"
-                                src="assets/Custom%20Length%20Medical%20Wigs.png" />
-                        </div>
-                        <div class="w-full md:w-1/2 space-y-6">
-                            <h3 class="font-headline-md text-2xl md:text-headline-md text-on-surface">03. Custom Length Medical Wigs</h3>
-                            <h4 class="font-body-lg text-body-lg text-primary uppercase tracking-widest">Sensitive Scalp Comfort</h4>
-                            <p class="font-body-md text-body-md text-on-surface-variant">Featuring ultra-soft, hypoallergenic bases designed specifically for sensitive scalps. Providing complete security, lightweight comfort, and maximum realism without compromising on length, texture, or style.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- Contact Section -->
         <section class="py-section-gap bg-background relative" id="contact">
             <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
@@ -231,7 +177,6 @@
                                     id="service">
                                     <option value="">Select a service / collection</option>
                                     <option value="mens">Men's Executive Suite</option>
-                                    <option value="womens">Women's Signature Collection</option>
                                     <option value="guidance">Not Sure - Need Guidance</option>
                                 </select>
                             </div>
