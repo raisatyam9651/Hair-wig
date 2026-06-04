@@ -19,7 +19,7 @@
             <div class="z-10 space-y-8">
                 <span class="inline-block font-label-md text-label-md text-primary tracking-widest uppercase mb-2">Established Expertise</span>
                 <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight">
-                    Crafting Confidence, <br /><span class="italic text-primary">Redefining Excellence.</span>
+                    About Growig Hair Solution: <br /><span class="italic text-primary">Best Hair Wig Shop in Dwarka</span>
                 </h1>
                 <p class="font-body-lg text-body-lg text-secondary max-w-xl leading-relaxed">
                     Discover the pinnacle of hair restoration in Dwarka. Where medical precision meets the delicate touch of bespoke artistry.

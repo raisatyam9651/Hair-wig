@@ -30,8 +30,8 @@
                         </div>
                         <h1
                             class="font-display-lg text-3xl sm:text-4xl md:text-headline-lg text-secondary leading-tight">
-                            Mastering the Art of <br />
-                            <span class="text-primary">Bespoke Hair Replacement</span>
+                            Best Hair Wig Shop in Dwarka <br />
+                            <span class="text-primary">&amp; Hair Patch Service Centre</span>
                         </h1>
                         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
                             Welcome to Growig Hair Solution, the premier <strong>Hair Wig Store in Dwarka Delhi</strong> and a professional <strong>Hair Patch Service Centre in Dwarka</strong>. Discover natural, undetectable, and non-surgical hair replacement solutions custom-fitted to your lifestyle.

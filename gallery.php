@@ -17,7 +17,7 @@
         <section class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-12 text-center">
             <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md uppercase tracking-wider mb-4">TRANSFORMATION GALLERY</span>
             <h1 class="font-display-lg text-3xl md:text-4xl lg:text-headline-lg text-on-surface leading-tight mb-6">
-                Before &amp; After Transformations
+                Before &amp; After: <span class="text-primary">Hair Wig &amp; Patch Results in Dwarka</span>
             </h1>
             <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
                 Discover the real-life results of our bespoke hair systems. Millimeter-precision customization offering 100% natural, undetectable realism.

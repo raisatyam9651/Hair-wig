@@ -19,7 +19,9 @@
         <section
             class="relative pt-section-gap pb-12 md:pb-16 px-margin-mobile md:px-margin-desktop max-w-[1280px] mx-auto flex flex-col items-center text-center">
             <div class="max-w-3xl royal-shadow glass-panel p-12 rounded-xl relative z-10">
-                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface mb-6">The Master Collection</h1>
+                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface mb-6">
+                    Bespoke Hair Wigs in Dwarka: <span class="italic text-primary">The Master Collection</span>
+                </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant mb-10">
                     A curated selection of the world's finest hair restoration systems. Precision-engineered for
                     absolute discretion and unparalleled natural aesthetic.
