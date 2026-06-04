@@ -8,16 +8,7 @@
     <meta
         content="Premium non-surgical hair replacement solutions, hair patches, and hair wigs in Gurgaon. Get a natural look with expert fitting."
         name="description" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@500;600&amp;display=swap"
-        rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link rel="stylesheet" href="style.css?v=3">
-    <script src="tailwind-config.js?v=3"></script>
-    <?php echo $custom_head_links; ?>
+    <?php include 'header-code.php'; ?>
 </head>
 
 <body class="bg-surface text-on-surface font-body-md antialiased selection:bg-primary/20 selection:text-primary">
