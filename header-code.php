@@ -7,8 +7,8 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 // Define metadata for all pages for schema and OG tags
 $pages_metadata = [
     'index' => [
-        'title' => 'Growig Hair Solution | Premium Hair Patch & Wig Studio in Dwarka',
-        'description' => 'Premium non-surgical hair replacement solutions, hair patches, and hair wigs in Dwarka. Get a natural look with expert fitting.',
+        'title' => 'Best Hair Wig Shop in Dwarka | Hair Patch Service Centre - Growig Hair Solution',
+        'description' => 'Visit Growig Hair Solution, the Best Hair Wig Shop in Dwarka & premier Hair Wig Store in Dwarka Delhi. We are a leading Hair Patch Service Centre in Dwarka offering natural, non-surgical hair patches and wigs.',
         'url' => 'https://growighairsolution.com/',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
