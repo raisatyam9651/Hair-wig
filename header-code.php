@@ -44,8 +44,8 @@ $pages_metadata = [
         'service_desc' => 'Custom-designed hair patches that seamlessly blend with your natural hair texture and color for an undetectable finish.'
     ],
     'full-hair-wig' => [
-        'title' => 'Full Hair Wigs in Dwarka | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Experience the pinnacle of hair replacement at our Dwarka studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.',
+        'title' => 'Best Hair Wig in Dwarka | Full Hair Wig in Dwarka',
+        'description' => 'Find the best hair wig in Dwarka at Growig Hair Solution. We specialize in natural, undetectable full hair wig in Dwarka with same-day fixing and custom fitting.',
         'url' => 'https://growighairsolution.com/full-hair-wig',
         'image' => 'https://growighairsolution.com/assets/full-hair-wig-hero.png',
         'type' => 'product',
