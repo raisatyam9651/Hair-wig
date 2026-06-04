@@ -40,7 +40,7 @@
             <!-- Curved & Rounded Image Container -->
             <div class="relative group">
                 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-                <img alt="Bespoke Hairline Designing" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-hero-section.png" />
+                <img alt="Bespoke Hairline Designing" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/befor.png" />
             </div>
         </section>
 
