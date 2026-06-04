@@ -67,6 +67,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </div>
             <a class="<?php echo ($current_page == 'collection.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="collection">Collections</a>
+            <a class="<?php echo ($current_page == 'gallery.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
+                href="gallery">Gallery</a>
             <a class="text-secondary hover:text-primary transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="./#testimonials">Reviews</a>
         </nav>
@@ -106,6 +108,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
     </div>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="collection">Collections</a>
+    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="gallery">Gallery</a>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="./#testimonials">Reviews</a>
     <a class="mt-4 bg-primary text-on-primary font-label-md text-sm uppercase px-8 py-4 rounded-DEFAULT mobile-link text-center"
         href="contact">Book Consultation</a>

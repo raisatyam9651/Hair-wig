@@ -25,7 +25,7 @@
 </div>
 <div class="relative group">
 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-<img alt="Premium Hair Restoration" class="relative rounded-[32px] royal-shadow w-full h-[350px] md:h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/premium-har-pathc.png"/>
+<img alt="Premium Hair Restoration" class="relative rounded-[32px] royal-shadow w-full h-[350px] md:h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-beofre-and-after.png"/>
 <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
 <p class="font-label-md text-primary mb-1">CRAFTSMANSHIP</p>
 <p class="font-body-md text-on-surface">Every strand is hand-tied to mimic your natural growth patterns.</p>
@@ -281,7 +281,7 @@
 </div>
 </div>
 <div class="relative bg-surface-container min-h-[300px] lg:min-h-0">
-<img alt="Before and After" class="absolute inset-0 w-full h-full object-cover" src="assets/before-and-after.png"/>
+<img alt="Before and After" class="absolute inset-0 w-full h-full object-cover" src="assets/before-andafter.png"/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
 </div>
 </div>

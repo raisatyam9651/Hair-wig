@@ -87,6 +87,13 @@ $pages_metadata = [
         'type' => 'product',
         'service_name' => 'Custom Hairline Design',
         'service_desc' => 'Precision crafting of the front hairline to match your age, facial structure, and desired look flawlessly.'
+    ],
+    'gallery' => [
+        'title' => 'Before and After Gallery | Growig Hair Solution Dwarka',
+        'description' => 'Real transformations, real confidence. Browse our gallery of premium non-surgical hair replacement, patches, and wigs.',
+        'url' => 'https://growighairsolution.com/gallery',
+        'image' => 'https://growighairsolution.com/assets/main-beofre-and-after.png',
+        'type' => 'website'
     ]
 ];
 

@@ -28,7 +28,8 @@ if ($page !== 'index') {
         $name_mapping = [
             'about' => 'About Us',
             'collection' => 'Collections',
-            'contact' => 'Contact Us'
+            'contact' => 'Contact Us',
+            'gallery' => 'Gallery'
         ];
         $display_name = isset($name_mapping[$page]) ? $name_mapping[$page] : ucfirst($page);
         $breadcrumb_links[] = ['name' => $display_name, 'url' => ''];

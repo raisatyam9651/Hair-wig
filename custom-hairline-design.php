@@ -40,7 +40,7 @@
             <!-- Curved & Rounded Image Container -->
             <div class="relative group">
                 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-                <img alt="Bespoke Hairline Designing" class="relative rounded-[32px] royal-shadow w-full h-[350px] md:h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/Custom%20Hairline%20Design.png" />
+                <img alt="Bespoke Hairline Designing" class="relative rounded-[32px] royal-shadow w-full h-[350px] md:h-[600px] object-cover transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-beofre-and-after.png" />
                 <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
                     <p class="font-label-md text-primary mb-1">CRAFTSMANSHIP</p>
                     <p class="font-body-md text-on-surface">Every hairline is custom-mapped to match your natural facial symmetry.</p>
