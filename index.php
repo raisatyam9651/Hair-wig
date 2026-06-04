@@ -30,7 +30,7 @@
                                 Hair Patch &amp; Wig Studio in Dwarka</span>
                         </div>
                         <h1
-                            class="font-display-lg text-4xl sm:text-5xl md:text-display-lg text-secondary leading-tight">
+                            class="font-display-lg text-3xl sm:text-4xl md:text-headline-lg text-secondary leading-tight">
                             Mastering the Art of <br />
                             <span class="text-primary">Bespoke Hair Replacement</span>
                         </h1>

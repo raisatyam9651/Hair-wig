@@ -21,7 +21,7 @@
                     <span class="material-symbols-outlined text-primary text-sm">support_agent</span>
                     <span class="text-primary font-label-sm uppercase tracking-widest">Connect With Us</span>
                 </span>
-                <h1 class="font-display-lg text-4xl md:text-display-lg text-on-surface mb-6">Begin Your Journey.</h1>
+                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface mb-6">Begin Your Journey.</h1>
                 <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Book your private, complimentary consultation at our Dwarka studio and discover how we can restore your confidence.</p>
             </div>
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-container/5 rounded-full blur-3xl -z-10"></div>

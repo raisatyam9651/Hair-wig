@@ -16,7 +16,7 @@
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 <div class="z-10 space-y-8">
 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">PREMIUM RESTORATION IN DWARKA</span>
-<h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">Premium Hair Bonding in Dwarka: Bespoke Artistry for Natural Restoration</h1>
+<h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance">Premium Hair Bonding in Dwarka: Bespoke Artistry for Natural Restoration</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Experience the pinnacle of hair bonding at our Dwarka Sec-7 studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.</p>
 <div class="flex flex-wrap gap-4 pt-4">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>

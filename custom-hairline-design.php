@@ -21,7 +21,7 @@
                     <span class="material-symbols-outlined text-primary text-sm">architecture</span>
                     <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Dwarka Studio Exclusive</span>
                 </span>
-                <h1 class="font-display-lg text-[32px] md:text-display-lg text-on-surface leading-tight text-balance">
+                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance">
                     Mastering the Art of the <span class="italic text-primary">Undetectable</span> Hairline.
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
