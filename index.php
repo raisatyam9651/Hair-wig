@@ -4,11 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Best Hair Wig Shop in Dwarka | Hair Patch Service Centre - Growig Hair Solution</title>
+    <title>Growig Hair Solution | Premium Hair Patch & Wig Studio in Dwarka</title>
     <meta
-        content="Visit Growig Hair Solution, the Best Hair Wig Shop in Dwarka & premier Hair Wig Store in Dwarka Delhi. We are a leading Hair Patch Service Centre in Dwarka offering natural, non-surgical hair patches and wigs with expert custom fitting."
+        content="Premium non-surgical hair replacement solutions, hair patches, and hair wigs in Dwarka. Get a natural look with expert fitting."
         name="description" />
-    <meta name="keywords" content="Hair Wig Shop in Dwarka, Best Hair Wig Shop in Dwarka, Hair Wig Store in Dwarka Delhi, Hair Patch Service Centre in Dwarka, hair patch Dwarka, hair wig Dwarka, non surgical hair replacement Dwarka" />
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -27,8 +26,7 @@
                             class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-surface-bright/55 backdrop-blur-md w-fit">
                             <span class="material-symbols-outlined text-primary text-sm filled">stars</span>
                             <span
-                                class="font-label-md text-label-md text-primary uppercase tracking-widest text-xs">Premium
-                                Hair Patch &amp; Wig Studio in Dwarka</span>
+                                class="font-label-md text-label-md text-primary uppercase tracking-widest text-xs">Best Hair Wig Shop &amp; Hair Patch Service Centre in Dwarka</span>
                         </div>
                         <h1
                             class="font-display-lg text-3xl sm:text-4xl md:text-headline-lg text-secondary leading-tight">
@@ -36,8 +34,7 @@
                             <span class="text-primary">Bespoke Hair Replacement</span>
                         </h1>
                         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-                            Experience the pinnacle of natural-looking, non-surgical hair replacement solutions.
-                            Tailored for the modern gentleman seeking perfection, discretion, and confidence.
+                            Welcome to Growig Hair Solution, the premier <strong>Hair Wig Store in Dwarka Delhi</strong> and a professional <strong>Hair Patch Service Centre in Dwarka</strong>. Discover natural, undetectable, and non-surgical hair replacement solutions custom-fitted to your lifestyle.
                         </p>
                         <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 pt-4">
                             <a class="bg-primary text-on-primary font-label-md text-label-md uppercase px-8 py-4 rounded-DEFAULT glow-hover transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-0.5"
@@ -119,21 +116,16 @@
                         src="assets/before-andafter.png" />
                 </div>
                 <div class="flex flex-col gap-6 fade-in-section">
-                    <span class="font-label-md text-label-md text-primary uppercase tracking-widest">About Growig Hair
-                        Solution</span>
+                    <span class="font-label-md text-label-md text-primary uppercase tracking-widest">Best Hair Wig Shop in Dwarka</span>
                     <h2
                         class="font-headline-lg-mobile md:font-headline-lg text-3xl md:text-headline-lg text-secondary leading-tight">
                         Restoring Confidence, <br />One Thread at a Time.
                     </h2>
                     <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                        At Growig Hair Solution, we specialize in premium non-surgical hair replacement in Dwarka. Our
-                        mission is to provide undetectable, natural-looking hair patches and wigs tailored to your
-                        specific lifestyle and hair type.
+                        Growig Hair Solution is renowned as the <strong>Best Hair Wig Shop in Dwarka</strong>, offering premium non-surgical hair replacement solutions. Our dedicated <strong>Hair Patch Service Centre in Dwarka</strong> customizes and fits hair systems to blend seamlessly with your scalp, restoring your natural look and confidence.
                     </p>
                     <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                        Utilizing advanced techniques like hair bonding, clipping, and weaving, our expert stylists
-                        ensure a seamless blend with your existing hair, granting you the freedom to swim, gym, and live
-                        without limits.
+                        Whether you are looking for a luxury <strong>Hair Wig Store in Dwarka Delhi</strong> or professional patch maintenance, our expert stylists specialize in hair bonding, weaving, and clipping. Get a secure fit that lets you swim, exercise, and live without limits.
                     </p>
                     <div class="grid grid-cols-2 gap-6 mt-6 pt-6 border-t border-surface-variant/60">
                         <div>
@@ -465,41 +457,6 @@
                                 hairline and color matching make it virtually impossible to notice.</p>
                         </div>
                     </details>
-                </div>
-        </section>
-        <!-- SEO Editorial Section -->
-        <section class="py-section-gap bg-surface-container-lowest border-t border-surface-variant/30" id="editorial-seo">
-            <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-                    <div class="lg:col-span-4 fade-in-section">
-                        <span class="font-label-md text-label-md text-primary uppercase tracking-widest mb-4 block">Premium Studio</span>
-                        <h2 class="font-headline-lg-mobile md:font-headline-lg text-3xl md:text-headline-lg text-secondary leading-tight">
-                            Dwarka's Premier <br />Hair Restoration Studio
-                        </h2>
-                    </div>
-                    <div class="lg:col-span-8 space-y-8 text-on-surface-variant leading-relaxed font-body-md fade-in-section">
-                        <p class="text-lg text-secondary font-medium">
-                            Welcome to Growig Hair Solution, widely recognized as the <strong>Best Hair Wig Shop in Dwarka</strong>. 
-                            Our studio is dedicated to providing high-end, non-surgical hair replacement solutions designed specifically 
-                            for individuals seeking natural-looking density, style, and complete visual realism.
-                        </p>
-                        <p>
-                            As a leading <strong>Hair Wig Store in Dwarka Delhi</strong>, we curate a sophisticated selection of 100% Remy human hair wigs 
-                            and advanced breathable systems. Whether you are experiencing temporary hair thinning or permanent baldness, our expert stylists 
-                            strive to match the exact texture, wave, and directional flow of your biological hair, offering a result that is entirely undetectable.
-                        </p>
-                        <p>
-                            At our specialized <strong>Hair Patch Service Centre in Dwarka</strong>, we offer personalized attachment and maintenance procedures, 
-                            including liquid bonding, micro-clipping, and precision weaving. We understand that a hair system requires meticulous, ongoing care, 
-                            which is why our state-of-the-art center provides private suites for scalp clarification, system rejuvenation, and detailed re-bonding 
-                            services.
-                        </p>
-                        <p>
-                            If you are searching for a trusted, professional <strong>Hair Wig Shop in Dwarka</strong> that combines clinical-grade hygiene with 
-                            luxury hospitality, look no further than Growig Hair Solution. We are committed to helping you regain your edge, confidence, 
-                            and natural facial silhouette with bespoke solutions tailored to your unique lifestyle.
-                        </p>
-                    </div>
                 </div>
             </div>
         </section>

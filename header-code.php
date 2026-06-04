@@ -7,8 +7,8 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 // Define metadata for all pages for schema and OG tags
 $pages_metadata = [
     'index' => [
-        'title' => 'Best Hair Wig Shop in Dwarka | Hair Patch Service Centre - Growig Hair Solution',
-        'description' => 'Visit Growig Hair Solution, the Best Hair Wig Shop in Dwarka & premier Hair Wig Store in Dwarka Delhi. We are a leading Hair Patch Service Centre in Dwarka offering natural, non-surgical hair patches and wigs.',
+        'title' => 'Best Hair Wig Shop in Dwarka Delhi | Hair Patch Service Centre',
+        'description' => 'Growig Hair Solution is the best hair wig shop and store in Dwarka Delhi. We are a leading hair patch service centre in Dwarka offering natural, undetectable non-surgical hair replacement. Book a free consultation!',
         'url' => 'https://growighairsolution.com/',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
@@ -44,8 +44,8 @@ $pages_metadata = [
         'service_desc' => 'Custom-designed hair patches that seamlessly blend with your natural hair texture and color for an undetectable finish.'
     ],
     'full-hair-wig' => [
-        'title' => 'Best Hair Wig in Dwarka | Full Hair Wig in Dwarka',
-        'description' => 'Find the best hair wig in Dwarka at Growig Hair Solution. We specialize in natural, undetectable full hair wig in Dwarka with same-day fixing and custom fitting.',
+        'title' => 'Full Hair Wigs in Dwarka | Growig Hair Solution - Bespoke Artistry',
+        'description' => 'Experience the pinnacle of hair replacement at our Dwarka studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.',
         'url' => 'https://growighairsolution.com/full-hair-wig',
         'image' => 'https://growighairsolution.com/assets/full-hair-wig-hero.png',
         'type' => 'product',
@@ -80,8 +80,8 @@ $pages_metadata = [
         'service_desc' => 'Regular upkeep, cleaning, and professional styling to ensure your hair system always looks fresh and natural.'
     ],
     'custom-hairline-design' => [
-        'title' => 'Custom Hairline Design in Dwarka | Custom Hair patch Design',
-        'description' => 'Get an undetectable, natural front hairline with our Custom Hairline Design in Dwarka. At Growig Hair Solution, we offer bespoke Custom Hair patch Design in Dwarka tailored to your face.',
+        'title' => 'Custom Hairline Design | Growig Hair Solution Dwarka',
+        'description' => 'Bespoke hairline restoration artistry at our Dwarka studio. We don\'t just restore hair; we craft your most authentic self with millimeter precision.',
         'url' => 'https://growighairsolution.com/custom-hairline-design',
         'image' => 'https://growighairsolution.com/assets/Custom%20Hairline%20Design.png',
         'type' => 'product',
