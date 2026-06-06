@@ -53,7 +53,7 @@
                     <!-- Curved & Rounded Image Container -->
                     <div class="relative group">
                         <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-                        <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/hero-section.png" />
+                        <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-hero-section.png" />
                         <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
                             <p class="font-label-md text-primary mb-1">ELITE RESTORATION</p>
                             <p class="font-body-md text-on-surface">Bespoke systems offering 100% natural, undetectable realism.</p>
@@ -113,7 +113,7 @@
                     <img alt="Before and After Hair Transformation"
                         class="relative z-10 w-full h-auto rounded-xl border border-surface-variant/20 shadow-2xl transition-all duration-700"
                         data-alt="Before and after transformation showcasing natural hair patch integration and front hairline design at Growig Hair Solution in Dwarka."
-                        src="assets/rintu-hair-patch-before-and-after.png" />
+                        src="assets/hair-patch.jpg" />
                 </div>
                 <div class="flex flex-col gap-6 fade-in-section">
                     <span class="font-label-md text-label-md text-primary uppercase tracking-widest">Best Hair Wig Shop in Dwarka</span>
@@ -278,7 +278,7 @@
                             virtually indistinguishable from natural hair growth.
                         </p>
                         <video class="w-full h-auto rounded-2xl shadow-sm border border-surface-variant object-cover" autoplay loop muted playsinline>
-                            <source src="assets/why-chouse-us.mp4" type="video/mp4">
+                            <source src="assets/Short%20Hair%20Transformation%20Growig.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>

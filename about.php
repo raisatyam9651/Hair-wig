@@ -61,7 +61,7 @@
                     <h2 class="font-headline-lg text-headline-lg text-on-surface">Our Heritage</h2>
                     <div class="w-20 h-1 bg-primary-container"></div>
                     <p class="font-body-lg text-body-lg text-secondary leading-relaxed">
-                        Born in Gurugram and now based in Dwarka, New Delhi, Growig Hair Solution emerged from a singular vision:
+                        Based in Dwarka, New Delhi, Growig Hair Solution emerged from a singular vision:
                         to bridge the gap between clinical hair replacement and luxury salon experiences. Over the past
                         decade, we have perfected the science of undetectable integration.
                     </p>
@@ -226,9 +226,8 @@
                 <div class="order-1 md:order-2">
                     <div class="relative group">
                         <div class="aspect-square rounded-2xl overflow-hidden royal-shadow">
-                            <img class="w-full h-full object-cover"
-                                data-alt="An expansive view of a luxury private consultation suite in a hair restoration clinic. The room features a minimalist modern desk with gold accents, deep leather armchairs, and a large mirror framed in soft LED light. Subtle ivory-toned textures on the walls and a plush rug create an atmosphere of discreet, high-end hospitality and exclusive care."
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4PHJPQ7LJbmoIDiF9K_7I9ixw7HUeY5aOlPDJYxog1ZsUsb81PjS2LqxkKqbhvRrKU2s-yFQ3yni01w5_81_2eWL0505uWfM860CwRJs5taZKTRiW2yCYclRYNOgwRjceQe1c0Wwf71eyEg31khN4RL55aEXs2z1-y3K6FD3072Yn3s8fEG9PprN2A8EMYlJqSshYjRjXRViCbT7vHSUjT7nMVZ6wzucW4_eZrRdAELOikHUZsVnAgIoNm6YsoKJd8GYhg--UScE" />
+                        <img alt="Growig Hair Solution Studio Experience" class="w-full h-full object-cover"
+                            src="assets/IMG_7441.jpg" />
                         </div>
                         <div class="absolute inset-0 border-[20px] border-white/20 m-6 pointer-events-none rounded-lg">
                         </div>
