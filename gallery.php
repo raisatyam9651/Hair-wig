@@ -40,9 +40,54 @@
                 <!-- Gallery Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="gallery-grid">
                     
+                    <!-- Gallery Item: Suresh (Hair Bonding) -->
+                    <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="bonding">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(0)">
+                            <img alt="Suresh's Hair Bonding - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/suresh-before-and-after.png" />
+                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Hair Bonding</span>
+                            <h3 class="font-headline-md text-xl text-on-surface mb-2">Suresh's Hair Bonding</h3>
+                            <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Advanced medical-grade hair bonding system for a secure and active lifestyle.</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item: Rintu (Hair Patch) -->
+                    <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(1)">
+                            <img alt="Rintu's Hair Patch - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/rintu-hair-patch-before-and-after.png" />
+                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Premium Hair Patch</span>
+                            <h3 class="font-headline-md text-xl text-on-surface mb-2">Rintu's Hair Patch</h3>
+                            <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Bespoke premium hair patch styling blending seamlessly for 100% natural realism.</p>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item: Nikhil (Hair Wig) -->
+                    <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="wig">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(2)">
+                            <img alt="Nikhil's Hair Wig - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/nikhil-before-and-after-hair-wig.png" />
+                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Hair Wigs</span>
+                            <h3 class="font-headline-md text-xl text-on-surface mb-2">Nikhil's Hair Wig</h3>
+                            <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Custom full hair wig restoration with a breathable base and natural hairline.</p>
+                        </div>
+                    </div>
+
                     <!-- Gallery Item 1 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch bonding">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(0)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(3)">
                             <img alt="Elite Hybrid Restoration - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/main-beofre-and-after.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -57,7 +102,7 @@
 
                     <!-- Gallery Item 2 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(1)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(4)">
                             <img alt="Bespoke Hair Patch - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/before-and-after.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -72,7 +117,7 @@
 
                     <!-- Gallery Item 3 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(2)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(5)">
                             <img alt="Classic Hair Restoration - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/before-and-after-img.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -87,7 +132,7 @@
 
                     <!-- Gallery Item 4 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="non-surgical">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(3)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(6)">
                             <img alt="Non-Surgical Hair Replacement - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/Transformation.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -102,7 +147,7 @@
 
                     <!-- Gallery Item 6 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="bonding">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(4)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(7)">
                             <img alt="Waterproof Hair Bonding - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/hair-bonding-transformation.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -117,7 +162,7 @@
 
                     <!-- Gallery Item 7 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch non-surgical">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(5)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(8)">
                             <img alt="Custom Hairline Design - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/before-andafter.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -231,6 +276,21 @@
 
         // Lightbox System Data
         const lightboxData = [
+            {
+                src: 'assets/suresh-before-and-after.png',
+                title: 'Suresh\'s Hair Bonding',
+                desc: 'Advanced medical-grade hair bonding system for a secure and active lifestyle.'
+            },
+            {
+                src: 'assets/rintu-hair-patch-before-and-after.png',
+                title: 'Rintu\'s Hair Patch',
+                desc: 'Bespoke premium hair patch styling blending seamlessly for 100% natural realism.'
+            },
+            {
+                src: 'assets/nikhil-before-and-after-hair-wig.png',
+                title: 'Nikhil\'s Hair Wig',
+                desc: 'Custom full hair wig restoration with a breathable base and natural hairline.'
+            },
             {
                 src: 'assets/main-beofre-and-after.png',
                 title: 'Elite Hybrid Restoration',

@@ -34,7 +34,7 @@
             <!-- Curved & Rounded Image Container -->
             <div class="relative group">
                 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-                <img alt="Our Heritage" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/premium-har-pathc.png" />
+                <img alt="Our Heritage" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/hair-patch.jpg" />
                 <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
                     <p class="font-label-md text-primary mb-1">OUR HERITAGE</p>
                     <p class="font-body-md text-on-surface">Delivering trust, comfort, and state-of-the-art hair solutions since 2014.</p>
@@ -46,9 +46,8 @@
             <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-2 gap-20 items-center">
                 <div class="relative">
                     <div class="aspect-[4/5] rounded-xl overflow-hidden royal-shadow">
-                        <img class="w-full h-full object-cover"
-                            data-alt="A highly detailed and sophisticated interior of a luxury hair restoration studio in Gurugram. The space features warm ivory walls, subtle gold trim, and plush leather chairs. Large floor-to-ceiling windows allow soft, natural light to flood the room, highlighting the clean, medical-grade surfaces blended with premium salon hospitality. The atmosphere is serene, professional, and exclusive."
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgsp7ifWDms0twDAFZzeP8F6HTG4gaB-tLGWhFBiHjStjlJP-LXX6txHTdDz6fQiyicLgVpeWTbi1mNEEHuCPmNobZil52utB0UXgBG3f6lh8Jrxg_rooijbjJ484NdeisW70_bLrY3UiYMcngxEvIAffrLy2ccj1HprEiKxK18mduDgaoTyrvEF2TLosVx4Fxh21rYEIthJNs6HATdd1mIAK0V4Z167GHA4G2MCmjedaBDSEQSiTjgC9jT63cjuSBYi3cpLNZivI" />
+                        <img alt="Growig Hair Solution Studio" class="w-full h-full object-cover"
+                            src="assets/growing-hair-soluction-shop.jpg" />
                     </div>
                     <div
                         class="absolute -bottom-10 -right-10 bg-primary-container p-10 rounded-xl glass-panel hidden lg:block">
@@ -154,49 +153,46 @@
                 <!-- Expert 1 -->
                 <div class="space-y-6 group">
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
-                        <img alt="Specialist Portrait"
+                        <img alt="Suresh's Hair Bonding - Before and After"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                            src="assets/hair-patch-men.png" />
+                            src="assets/suresh-before-and-after.png" />
                         <div
                             class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                         </div>
                     </div>
                     <div class="space-y-1">
-                        <h4 class="font-headline-md text-headline-md text-on-surface">Vikram Malhotra</h4>
-                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Master Consultant
-                        </p>
+                        <h4 class="font-headline-md text-headline-md text-on-surface">Suresh</h4>
+                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Hair Bonding Transformation</p>
                     </div>
                 </div>
                 <!-- Expert 2 -->
                 <div class="space-y-6 group mt-12 lg:mt-24">
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
-                        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                            data-alt="A professional portrait of a senior hair restoration expert. He is wearing a sharp, charcoal-grey tailored suit over a white shirt. He has a warm, confident smile and impeccably styled, thick hair. The background is a soft-focus office with warm lighting, creating an atmosphere of trust, maturity, and luxury professional expertise."
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaf6DrK2UKhz_48oTkM8EbRaTBdxE60dcTRYiTbNA3qlwAWv7WggGc8EBW5ZJF77U3IxQKrYs4xv-xUe9ZWT_3t-qnV8iXXpI5agg3R3VMPDD_8NRSjkfdHXd8-CADOA3YDGW6_lVNNwO_9xHgsTtyu404vCDLTyvle2e4r1cRq_lH33KPDIzQTdkVT5hf8EyGw-Bhpys3ZwtDx8yGfm4dpJ0ElOUt4qxjJdwcyaxWu1Xp-6e9w1pny-dqr8pvDbU9OI6PtN327zg" />
+                        <img alt="Rintu's Hair Patch - Before and After"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            src="assets/rintu-hair-patch-before-and-after.png" />
                         <div
                             class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                         </div>
                     </div>
                     <div class="space-y-1">
-                        <h4 class="font-headline-md text-headline-md text-on-surface">Aditya Verma</h4>
-                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Artistic Director
-                        </p>
+                        <h4 class="font-headline-md text-headline-md text-on-surface">Rintu</h4>
+                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Premium Hair Patch</p>
                     </div>
                 </div>
                 <!-- Expert 3 -->
                 <div class="space-y-6 group">
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
-                        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                            data-alt="A sophisticated portrait of a female hair care consultant. She is dressed in a minimalist cream-colored silk blouse and has her hair elegantly swept back. Her expression is calm, intelligent, and empathetic. The studio lighting is bright and airy, reflecting a modern, high-end salon aesthetic. The mood is welcoming, professional, and refined."
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsfQSod_d_7X-fy7WXZf90V_CAg81kP7pywyss4f1mMtun9Vn7fELjPZr6FdBxkfy8oskjluDVWaKdj__V4pzIBuR5m76v1i-2mkAfrUlQoeTLrwwSx0OnfV_jn38UWqRFvP7Q9xI23f6aeQZEbbt9_ifKPQAePRQOiOaBscXoy2dpba9aG8TK93CpP0FjHZdebiypsqkzVhx2Zoy6aNKSx171aRAqkL4INNRpBhQYx9M3wT4qOShtx0VP1DqVKKteCx6_BXxq9qo" />
+                        <img alt="Nikhil's Hair Wig - Before and After"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            src="assets/nikhil-before-and-after-hair-wig.png" />
                         <div
                             class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                         </div>
                     </div>
                     <div class="space-y-1">
-                        <h4 class="font-headline-md text-headline-md text-on-surface">Sarah Khanna</h4>
-                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Scalp Health
-                            Expert</p>
+                        <h4 class="font-headline-md text-headline-md text-on-surface">Nikhil</h4>
+                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Full Hair Wig</p>
                     </div>
                 </div>
             </div>

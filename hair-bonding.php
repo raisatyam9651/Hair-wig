@@ -25,7 +25,7 @@
 </div>
 <div class="relative group">
 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-<img alt="Premium Hair Bonding" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-hero-section.png"/>
+<img alt="Premium Hair Bonding" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/suresh-before-and-after.png"/>
 </div>
 </div>
 </section>
@@ -300,7 +300,7 @@
 </div>
 </div>
 <div class="relative bg-surface-container min-h-[300px] lg:min-h-0">
-<img alt="Transformation" class="absolute inset-0 w-full h-full object-cover" src="assets/hair-bonding-transformation.png"/>
+<img alt="Transformation" class="absolute inset-0 w-full h-full object-cover" src="assets/suresh-before-and-after.png"/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
 </div>
 </div>

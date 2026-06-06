@@ -113,7 +113,7 @@
                     <img alt="Before and After Hair Transformation"
                         class="relative z-10 w-full h-auto rounded-xl border border-surface-variant/20 shadow-2xl transition-all duration-700"
                         data-alt="Before and after transformation showcasing natural hair patch integration and front hairline design at Growig Hair Solution in Dwarka."
-                        src="assets/before-andafter.png" />
+                        src="assets/rintu-hair-patch-before-and-after.png" />
                 </div>
                 <div class="flex flex-col gap-6 fade-in-section">
                     <span class="font-label-md text-label-md text-primary uppercase tracking-widest">Best Hair Wig Shop in Dwarka</span>
