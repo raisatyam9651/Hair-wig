@@ -331,63 +331,10 @@
                         Success</span>
                     <h2 class="font-headline-lg-mobile md:font-headline-lg text-4xl md:text-headline-lg text-secondary">
                         Google Reviews</h2>
-                    <div class="flex items-center justify-center gap-4 mt-6">
-                        <span class="font-display-lg text-5xl text-secondary">5.0</span>
-                        <div class="flex flex-col items-start">
-                            <div class="flex text-[#FABB05]">
-                                <span class="material-symbols-outlined filled">star</span>
-                                <span class="material-symbols-outlined filled">star</span>
-                                <span class="material-symbols-outlined filled">star</span>
-                                <span class="material-symbols-outlined filled">star</span>
-                                <span class="material-symbols-outlined filled">star</span>
-                            </div>
-                            <a href="https://www.google.com/maps?cid=9548319643371196314" target="_blank" rel="noopener noreferrer" class="font-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest mt-1 underline decoration-primary/30 underline-offset-4">Based on 60+ Reviews</a>
-                        </div>
-                    </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="glass-card p-8 rounded-2xl flex flex-col gap-4 fade-in-section">
-                        <div class="flex text-[#FABB05] mb-2">
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                        </div>
-                        <p class="font-body-md text-on-surface-variant italic flex-grow">"I have been using their hair patch from the last 8 months. The guy named Rahul is excellent with making hairstyles as per your requirement... Has a lot of varieties of patches plus he's flexible with prices... Quite satisfied with the overall experience."</p>
-                        <div class="mt-4 border-t border-surface-variant pt-4">
-                            <p class="font-headline-md text-lg text-secondary">Prannoy Khurana</p>
-                            <p class="font-label-sm text-primary uppercase">1 year ago</p>
-                        </div>
-                    </div>
-                    <div class="glass-card p-8 rounded-2xl flex flex-col gap-4 fade-in-section delay-100">
-                        <div class="flex text-[#FABB05] mb-2">
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                        </div>
-                        <p class="font-body-md text-on-surface-variant italic flex-grow">"If you’re looking for a reliable, affordable, and professional hair patch solution, I highly recommend Growig Hair Solution at Ramphal Chowk, Dwarka Sector 7. They truly deliver on their promise of transforming not just your hair—but your confidence too."</p>
-                        <div class="mt-4 border-t border-surface-variant pt-4">
-                            <p class="font-headline-md text-lg text-secondary">Sachin Kashyap</p>
-                            <p class="font-label-sm text-primary uppercase">9 months ago</p>
-                        </div>
-                    </div>
-                    <div class="glass-card p-8 rounded-2xl flex flex-col gap-4 fade-in-section delay-200">
-                        <div class="flex text-[#FABB05] mb-2">
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                            <span class="material-symbols-outlined filled text-xl">star</span>
-                        </div>
-                        <p class="font-body-md text-on-surface-variant italic flex-grow">"Rahul hairstylist is best in my knowledge. I love my new hairstyle because of Rahul's hard work. He has a great eye for colour. He has a great sense of hairstyle. I always feel great after visiting GROWIG HAIR SOLUTION. EXCELLENT 👍👍"</p>
-                        <div class="mt-4 border-t border-surface-variant pt-4">
-                            <p class="font-headline-md text-lg text-secondary">Kapil Lamba</p>
-                            <p class="font-label-sm text-primary uppercase">9 months ago</p>
-                        </div>
-                    </div>
+                <div class="fade-in-section">
+                    <div id="featurable-19ef2747-98fa-461e-9610-c030685c0383" data-featurable-async></div>
+                    <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
                 </div>
             </div>
         </section>
