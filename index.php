@@ -164,8 +164,8 @@
                     <!-- Service Card 2 -->
                     <a href="full-hair-wig"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-100">
-                        <div class="w-64 h-64 mx-auto mb-2 relative">
-                            <img src="assets/Full Hair Wigs.png" alt="Full Hair Wigs" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                        <div class="w-64 h-64 mx-auto mb-2 relative overflow-hidden rounded-xl">
+                            <img src="assets/full-hair-wig-men.png" alt="Full Hair Wigs" class="w-full h-full object-cover relative z-10 group-hover:scale-105 transition-transform duration-500">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Full Hair Wigs</h3>
                         <p class="font-body-md text-body-md text-on-surface-variant text-center">High-grade human hair wigs offering
