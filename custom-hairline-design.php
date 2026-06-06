@@ -5,7 +5,8 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Custom Hairline Design | Growig Hair Solution Dwarka</title>
+    <title>Custom Hairline & Hair Patch Design in Dwarka | Growig</title>
+    <meta name="description" content="Looking for the best custom hairline design in Dwarka? We specialize in natural, undetectable custom hair patch design at Growig Hair Solution. Book a consultation!" />
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -22,10 +23,10 @@
                     <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Dwarka Studio Exclusive</span>
                 </span>
                 <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance">
-                    Custom Hairline Design in Dwarka: <br /><span class="italic text-primary">Mastering the Undetectable Hairline</span>
+                    Custom Hairline Design in Dwarka & <br /><span class="italic text-primary">Bespoke Hair Patch Systems</span>
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-                    Bespoke hairline restoration artistry at our Dwarka studio. We don't just restore hair; we craft your most authentic self with millimeter precision.
+                    Experience the ultimate custom hair patch design in Dwarka. We handcraft natural-looking custom hairline designs with millimeter precision for a completely undetectable finish.
                 </p>
                 <div class="flex flex-wrap gap-4 pt-4">
                     <a class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center" href="contact">
@@ -77,9 +78,9 @@
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
                     <div class="lg:col-span-8 space-y-12">
                         <div class="space-y-6">
-                            <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">The Science of Facial Symmetry: Bespoke Hairline Architecture</h2>
+                            <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Facial Symmetry & Custom Hair Patch Design in Dwarka</h2>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Hair loss is more than just a physical change; it's a deeply personal journey that affects how you perceive yourself and how the world interacts with you. At Growig Hair Solution in Dwarka, we treat hair replacement as a blend of medical precision and high-fashion artistry. Our "Custom Hairline Design in Dwarka" service isn't just about covering baldness—it's about restoring the architectural integrity of your facial silhouette.
+                                Hair loss is more than just a physical change; it's a deeply personal journey that affects how you perceive yourself. At Growig Hair Solution in Dwarka, we treat hair replacement as a blend of precision and high-fashion artistry. Our custom hairline design and custom hair patch design in Dwarka services are not just about covering baldness—they are about restoring the architectural integrity of your facial silhouette.
                             </p>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
                                 Dwarka's fast-paced corporate landscape demands a look that is consistently sharp and professional. Whether you are navigating the boardrooms of New Delhi or the social circles of Dwarka, your hair system must be versatile, durable, and above all, invisible. Our bespoke systems are designed using high-breathability polymers and ethically sourced Remy human hair, ensuring they withstand the local climate while maintaining a luxurious texture.
