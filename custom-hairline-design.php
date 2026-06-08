@@ -45,35 +45,8 @@
             </div>
         </section>
 
-        <!-- Science of Precision (Bento Section) -->
-        <section class="py-section-gap bg-surface-container-low">
-            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-                <div class="text-center max-w-3xl mx-auto mb-20">
-                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-6">The Science of Precision</h2>
-                    <p class="font-body-lg text-body-lg text-on-surface-variant">A perfect hairline is not drawn; it is calculated. We analyze your facial geometry, age progression, and natural growth patterns to engineer a transition that defies detection.</p>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500">
-                        <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="travel_explore"></span>
-                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Forehead Topography</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Mapping the ideal height and contour based on the Golden Ratio of your specific facial structure.</p>
-                    </div>
-                    <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500 delay-100">
-                        <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="graduated_id"></span>
-                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Density Graduation</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Replicating the natural, soft buildup of density from the very front edge into the deeper hairline.</p>
-                    </div>
-                    <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500 delay-200">
-                        <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="architecture"></span>
-                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Recession Architecture</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Designing age-appropriate temporal recessions ensuring the restoration looks natural today and decades from now.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Deep Content Section -->
-        <section class="bg-surface-container-low py-section-gap border-t border-surface-variant/30">
+        <section class="bg-surface-container-low py-section-gap">
             <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
                     <div class="lg:col-span-8 space-y-12">
@@ -133,6 +106,33 @@
                             </ul>
                             <a class="w-full bg-primary text-white py-4 rounded-xl font-label-md hover:brightness-110 transition-all block text-center" href="contact">Get a Price Quote</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Science of Precision (Bento Section) -->
+        <section class="py-section-gap bg-surface-container-low border-t border-surface-variant/30">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+                <div class="text-center max-w-3xl mx-auto mb-20">
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-6">The Science of Precision</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant">A perfect hairline is not drawn; it is calculated. We analyze your facial geometry, age progression, and natural growth patterns to engineer a transition that defies detection.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="travel_explore"></span>
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Forehead Topography</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant">Mapping the ideal height and contour based on the Golden Ratio of your specific facial structure.</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500 delay-100">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="graduated_id"></span>
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Density Graduation</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant">Replicating the natural, soft buildup of density from the very front edge into the deeper hairline.</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500 delay-200">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="architecture"></span>
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Recession Architecture</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant">Designing age-appropriate temporal recessions ensuring the restoration looks natural today and decades from now.</p>
                     </div>
                 </div>
             </div>
@@ -262,6 +262,29 @@
     </main>
 
     <?php include 'footer.php'; ?>
+    <script>
+        // Smooth scroll for anchors
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header transparency shift on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('py-2');
+                header.classList.remove('h-20');
+            } else {
+                header.classList.remove('py-2');
+                header.classList.add('h-20');
+            }
+        });
+    </script>
 </body>
 
 </html>
