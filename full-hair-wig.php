@@ -210,7 +210,7 @@
 <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
 <p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our luxury hair systems.</p>
                         <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
-                            <img alt="FAQ" class="w-full h-full object-contain" src="assets/Faq.png"/>
+                            <img alt="FAQ" class="w-full h-full object-contain" src="assets/nikhil-before-and-after-hair-wig.png"/>
                         </div>
 </div>
 <div class="space-y-4">

@@ -186,7 +186,7 @@
                     <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
                     <p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our custom hairline design systems.</p>
                     <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
-                        <img alt="FAQ" class="w-full h-full object-contain" src="assets/Faq.png" />
+                        <img alt="FAQ" class="w-full h-full object-contain" src="assets/befor.png" />
                     </div>
                 </div>
                 <div class="space-y-4">
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                     <div class="relative bg-surface-container min-h-[300px] lg:min-h-0">
-                        <img alt="Happy Client" class="absolute inset-0 w-full h-full object-cover" src="assets/Transformation.png" />
+                        <img alt="Happy Client" class="absolute inset-0 w-full h-full object-cover" src="assets/befor.png" />
                         <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
                     </div>
                 </div>
