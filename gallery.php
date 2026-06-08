@@ -100,24 +100,9 @@
                         </div>
                     </div>
 
-                    <!-- Gallery Item 2 -->
-                    <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(4)">
-                            <img alt="Bespoke Hair Patch - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/before-and-after.png" />
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Premium Hair Patch</span>
-                            <h3 class="font-headline-md text-xl text-on-surface mb-2">Bespoke Hair Patch</h3>
-                            <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Undetectable poly-skin border system blending flawlessly with natural hair density.</p>
-                        </div>
-                    </div>
-
                     <!-- Gallery Item 3 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(5)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(4)">
                             <img alt="Classic Hair Restoration - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/before-and-after-img.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -130,39 +115,9 @@
                         </div>
                     </div>
 
-                    <!-- Gallery Item 4 -->
-                    <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="non-surgical">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(6)">
-                            <img alt="Non-Surgical Hair Replacement - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/Transformation.png" />
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Non-Surgical Replacement</span>
-                            <h3 class="font-headline-md text-xl text-on-surface mb-2">Non-Surgical Hair Replacement</h3>
-                            <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Complete top-of-head restoration utilizing advanced bio-dermal bond technology.</p>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item 6 -->
-                    <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="bonding">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(7)">
-                            <img alt="Waterproof Hair Bonding - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/hair-bonding-transformation.png" />
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Hair Bonding</span>
-                            <h3 class="font-headline-md text-xl text-on-surface mb-2">Waterproof Hair Bonding</h3>
-                            <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Active lifestyle hair system secured with medical-grade hypoallergenic bonding.</p>
-                        </div>
-                    </div>
-
                     <!-- Gallery Item 7 -->
                     <div class="gallery-item glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/10 transition-all duration-500 hover:-translate-y-2 cursor-pointer" data-category="patch non-surgical">
-                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(8)">
+                        <div class="relative group h-[300px] overflow-hidden bg-surface-container-high" onclick="openLightbox(5)">
                             <img alt="Custom Hairline Design - Before and After" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/before-andafter.png" />
                             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span class="material-symbols-outlined text-white text-4xl bg-primary/80 p-3 rounded-full">zoom_in</span>
@@ -297,24 +252,9 @@
                 desc: 'Precision mapping with a custom hybrid base for 100% natural hairline and crown realism.'
             },
             {
-                src: 'assets/before-and-after.png',
-                title: 'Bespoke Hair Patch',
-                desc: 'Undetectable poly-skin border system blending flawlessly with natural hair density.'
-            },
-            {
                 src: 'assets/before-and-after-img.png',
                 title: 'Classic Hair Restoration',
                 desc: 'Premium human hair integration designed for a sharp, executive corporate look.'
-            },
-            {
-                src: 'assets/Transformation.png',
-                title: 'Non-Surgical Hair Replacement',
-                desc: 'Complete top-of-head restoration utilizing advanced bio-dermal bond technology.'
-            },
-            {
-                src: 'assets/hair-bonding-transformation.png',
-                title: 'Waterproof Hair Bonding',
-                desc: 'Active lifestyle hair system secured with medical-grade hypoallergenic bonding.'
             },
             {
                 src: 'assets/before-andafter.png',
