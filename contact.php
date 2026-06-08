@@ -103,7 +103,7 @@
                 <div class="lg:col-span-7">
                     <div class="glass-card p-8 md:p-12 rounded-3xl royal-shadow">
                         <h3 class="font-headline-md text-headline-md text-on-surface mb-8">Request an Appointment</h3>
-                        <form class="space-y-6" id="appointment-form">
+                        <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST" class="space-y-6" id="appointment-form">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label class="block font-label-md text-label-md text-on-surface mb-2" for="name">Full Name</label>
@@ -140,13 +140,6 @@
                                 <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
                             </button>
                         </form>
-                        
-                        <!-- Success Message -->
-                        <div class="hidden mt-6 p-6 bg-primary-container/10 border border-primary-container/30 rounded-2xl text-center" id="success-message">
-                            <span class="material-symbols-outlined text-primary text-4xl mb-2">check_circle</span>
-                            <h4 class="font-headline-md text-primary">Inquiry Sent Successfully</h4>
-                            <p class="font-body-md text-on-surface-variant mt-2">Thank you for reaching out. A hair restoration specialist from our Dwarka studio will call you shortly to confirm your booking.</p>
-                        </div>
                     </div>
                 </div>
 
@@ -155,15 +148,6 @@
     </main>
 
     <?php include 'footer.php'; ?>
-
-    <script>
-        // Form Submission mock behavior
-        document.getElementById('appointment-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            this.classList.add('hidden');
-            document.getElementById('success-message').classList.remove('hidden');
-        });
-    </script>
 </body>
 
 </html>
