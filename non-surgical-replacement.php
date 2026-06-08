@@ -25,7 +25,7 @@
 </div>
 <div class="relative group">
 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-<img alt="Premium Non-Surgical Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/after-before.png"/>
+<img alt="Premium Non-Surgical Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/befor.png"/>
 </div>
 </div>
 </section>
