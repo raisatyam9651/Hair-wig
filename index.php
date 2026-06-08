@@ -54,10 +54,6 @@
                     <div class="relative group">
                         <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
                         <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-hero-section.png" />
-                        <div class="absolute bottom-8 left-8 glass-card p-6 rounded-2xl max-w-xs royal-shadow">
-                            <p class="font-label-md text-primary mb-1">ELITE RESTORATION</p>
-                            <p class="font-body-md text-on-surface">Bespoke systems offering 100% natural, undetectable realism.</p>
-                        </div>
                     </div>
                 </div>
 
