@@ -206,41 +206,6 @@
 </div>
 </section>
 
-<!-- Gallery of Perfection -->
-<section class="py-section-gap bg-surface-bright overflow-hidden">
-    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-16">
-        <div class="flex flex-col md:flex-row justify-between items-end gap-8">
-            <div class="max-w-xl">
-                <h2 class="font-headline-md text-headline-md text-on-surface mb-4">Gallery of Perfection</h2>
-                <p class="font-body-md text-body-md text-on-surface-variant">Witness the seamless integration and styling versatility achieved through our meticulous maintenance protocols.</p>
-            </div>
-        </div>
-    </div>
-    <!-- Bento Grid Gallery -->
-    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[200px] md:auto-rows-[300px]">
-            <div class="col-span-2 row-span-2 relative rounded-2xl overflow-hidden group">
-                <img alt="Portrait of a stylish Indian man with perfectly groomed, thick hair, smiling confidently." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCypQqaHCh64UHbpEU8tiDHeJf_RO-UmmPdErdjWpDk1gmCHaU8G5IESbgE6FtvoQBwj8df-YNpd226Y3u0b6zijAmtguYI6pjXrmoL3dwmlzpK7TG43_jy9FzJvd6GwM5GeRx54tlHnuUri9CCMXFMFrAsfdasM3OrD7XldEK-dwjiRci5t-qPv85rfOfsKZ2sN-zDxYZ9EQmhqBGtESmDzw_tucxP4HvjjSiaoBGFZKQYozL2BkMVy5gLHGVA2Wf5u1hS0vmOblQ"/>
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
-                    <p class="text-white font-label-md">Impeccable Volume & Flow</p>
-                </div>
-            </div>
-            <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
-                <img alt="Portrait of a professional-looking Indian man with a sharp haircut." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRkm_Wl3jfxzXKz4d_IA7SVSMrEBCp_tzaq2NV4RIzUjZuv6yWWm-fxu7ApHYEa_WHaUTMoAb8ePazJVS8S2xGzAWLs9kAXLpQkmmFpGYSF4RNgl2NKnKPjqvVnAdF8dugWcxpBvrmqelnfRtNewNdLcPPTYDtPKVgkrBLyjRQvNI3gWsY17dgz3bhV-EG_o2lG-im7vKtn-0Iqlh7tLIDv79Rhexqtf6PxJ3_FYOIFS0_0qh5_kkz3tojSXW5L_YG789_XKnvpgE"/>
-            </div>
-            <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
-                <img alt="Professional portrait of a middle-aged Indian man with thick, natural-looking salt-and-pepper hair." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEIXSD18OvPEgpcVzT7ejk0weQrjfL2YWgz_0ZXErHAJiS0hWgDbdLBYWfyO0iV_6wm_AFMm9aM12SZ--V7zCu19f47WIil0gnm-1sC64pL84LpUxGcob6K9svKgN77WJsYxOt6mffQMiTqR3LsTN-0t9Uk4PAonh0Bjtwg45JrN2tgBkVgafTHgavi3dYi-0faK4nrzLP6A6nvjis1E8qH9vU9rgQ4-kJtKHJuqDffh1PVLRqDCRNfX0SbHmmuaxdIRccRTgoEb0"/>
-            </div>
-            <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
-                <img alt="Modern Indian man with a stylish, voluminous hair style." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLNOacGoYss97SkJWDhV2uzzfcmKucMfYEjYa24zcJt-nWtHKPrGky7ZS8ceCBET9nDuT-dXtSQmagZJu3i7Z7F8YF1cRQs2Xrx9CuuEBxzp9K-ArtbPOYI8vexSg8XsCq5bKtUyhVomjxUEY2fU46qHZYuDfLcsrhFEczRD-KdBcaqmZOXxSQa-foqt7KR9lGP76ySyuu0WbegkSzyiCqgQDqwAkWdtkCKHhvmprP6MPoIJJdmPLh9AP6K-U598VmOz1lmqvtRkU"/>
-            </div>
-            <div class="col-span-1 row-span-1 relative rounded-2xl overflow-hidden group">
-                <img alt="Professional portrait of a confident middle-aged man." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="assets/hair-patch-men.png"/>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- FAQ Section -->
 <section class="py-section-gap">
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-20">
