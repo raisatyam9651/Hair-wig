@@ -20,13 +20,6 @@ $pages_metadata = [
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
     ],
-    'collection' => [
-        'title' => 'Signature Collections | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Explore the Master Collection at Growig Hair Solution. Featuring premium men\'s executive hair systems in Dwarka.',
-        'url' => 'https://growighairsolution.com/collection',
-        'image' => 'https://growighairsolution.com/assets/Lace%20Front%20Systems.png',
-        'type' => 'website'
-    ],
     'contact' => [
         'title' => 'Contact Us | Growig Hair Solution Dwarka',
         'description' => 'Book your private, complimentary consultation at our Dwarka studio. Contact Growig Hair Solution Dwarka for non-surgical hair replacement.',
@@ -192,12 +185,6 @@ $nav_schema = [
         [
             "@type" => "SiteNavigationElement",
             "position" => 9,
-            "name" => "Collections",
-            "url" => "https://growighairsolution.com/collection"
-        ],
-        [
-            "@type" => "SiteNavigationElement",
-            "position" => 10,
             "name" => "Contact Us",
             "url" => "https://growighairsolution.com/contact"
         ]
@@ -233,7 +220,6 @@ if ($page !== 'index') {
     } else {
         $name_mapping = [
             'about' => 'About Us',
-            'collection' => 'Collections',
             'contact' => 'Contact Us'
         ];
         $breadcrumb_items[] = [
@@ -316,71 +302,6 @@ if ($current_metadata['type'] === 'product') {
 }
 
 // 5. CollectionPage Schema
-if ($page === 'collection') {
-    $collection_items = [
-        [
-            "name" => "French Lace",
-            "description" => "The pinnacle of breathability and natural front hairlines.",
-            "image" => "https://growighairsolution.com/assets/Lace%20Front%20Systems.png"
-        ],
-        [
-            "name" => "Ultra-Thin Skin",
-            "description" => "A microscopic polyurethane membrane that seamlessly bonds with your scalp.",
-            "image" => "https://growighairsolution.com/assets/Ultra-Thin%20Skin%20Patches.png"
-        ],
-        [
-            "name" => "Swiss Lace",
-            "description" => "Renowned for its sheer delicacy, Swiss lace offers the most invisible front hairline available.",
-            "image" => "https://growighairsolution.com/assets/Lace%20Front%20Systems.png"
-        ],
-        [
-            "name" => "Silk Monofilament",
-            "description" => "Combining robust construction with a highly realistic scalp appearance.",
-            "image" => "https://growighairsolution.com/assets/Active%20Lifestyle%20Monofilament.png"
-        ],
-        [
-            "name" => "Poly-Boundary",
-            "description" => "Features a durable polyurethane perimeter that offers a superior bonding surface.",
-            "image" => "https://growighairsolution.com/assets/Premium%20Hair%20Patch.png"
-        ],
-        [
-            "name" => "Bio-Skin",
-            "description" => "Engineered to mimic the exact texture and temperature of human skin.",
-            "image" => "https://growighairsolution.com/assets/Non-Surgical%20Replacement.png"
-        ]
-    ];
-    
-    $collection_list = [];
-    foreach ($collection_items as $idx => $item) {
-        $collection_list[] = [
-            "@type" => "ListItem",
-            "position" => $idx + 1,
-            "item" => [
-                "@type" => "Product",
-                "name" => $item['name'],
-                "description" => $item['description'],
-                "image" => $item['image'],
-                "brand" => [
-                    "@type" => "Brand",
-                    "name" => "Growig Hair Solution"
-                ]
-            ]
-        ];
-    }
-    
-    $collection_schema = [
-        "@context" => "https://schema.org",
-        "@type" => "CollectionPage",
-        "name" => "Signature Collections | Growig Hair Solution",
-        "description" => "Explore the Master Collection at Growig Hair Solution. Featuring premium men's executive hair systems.",
-        "url" => "https://growighairsolution.com/collection",
-        "mainEntity" => [
-            "@type" => "ItemList",
-            "itemListElement" => $collection_list
-        ]
-    ];
-}
-
 // 6. FAQPage Schema
 $faq_questions = [];
 if ($page === 'index') {
@@ -566,11 +487,6 @@ if ($page === 'index') {
 <?php if (isset($image_schema)): ?>
 <script type="application/ld+json">
 <?php echo json_encode($image_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
-</script>
-<?php endif; ?>
-<?php if (isset($collection_schema)): ?>
-<script type="application/ld+json">
-<?php echo json_encode($collection_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
 </script>
 <?php endif; ?>
 <?php if (isset($faq_schema)): ?>

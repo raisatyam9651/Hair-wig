@@ -10,9 +10,6 @@ switch($page) {
     case 'about':
         // Add about page specific resources here
         break;
-    case 'collection':
-        // Add collection page specific resources here
-        break;
     case 'full-hair-wig':
         // Add full-hair-wig page specific resources here
         break;

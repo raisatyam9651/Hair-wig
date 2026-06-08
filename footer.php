@@ -36,7 +36,7 @@
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="about">About Us</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="collection">Collections</a>
+                        href="./#collections">Collections</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="gallery">Gallery</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"

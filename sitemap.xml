@@ -54,14 +54,6 @@
         <priority>0.7</priority>
     </url>
 
-    <!-- Collections -->
-    <url>
-        <loc>https://growighairsolution.com/collection</loc>
-        <lastmod>2026-06-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
     <!-- Contact -->
     <url>
         <loc>https://growighairsolution.com/contact</loc>

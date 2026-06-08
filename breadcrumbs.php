@@ -27,7 +27,6 @@ if ($page !== 'index') {
     } else {
         $name_mapping = [
             'about' => 'About Us',
-            'collection' => 'Collections',
             'contact' => 'Contact Us',
             'gallery' => 'Gallery'
         ];

@@ -21,7 +21,7 @@
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Sustain the flawless integration and natural beauty of your hair system with our bespoke maintenance rituals, deep cleansing, and expert styling at Dwarka Sec-7.</p>
 <div class="flex flex-wrap gap-4 pt-4">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
-<a href="collection" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">Our Collection</a>
+<a href="./#collections" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">Our Collection</a>
 </div>
 </div>
 <div class="relative group">
