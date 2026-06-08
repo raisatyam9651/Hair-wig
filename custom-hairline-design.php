@@ -16,19 +16,19 @@
     <main class="pt-20">
         <?php include 'breadcrumbs.php'; ?>
         <!-- Hero Section (Contained Grid, Curved & Rounded) -->
-        <section class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div class="z-10 space-y-8">
-                <span class="inline-flex items-center space-x-2 bg-primary-container/10 px-4 py-2 rounded-full">
+        <section class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-20 flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
+            <div class="z-10 contents md:block md:space-y-8">
+                <span class="inline-flex items-center space-x-2 bg-primary-container/10 px-4 py-2 rounded-full order-1">
                     <span class="material-symbols-outlined text-primary text-sm">architecture</span>
                     <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Dwarka Studio Exclusive</span>
                 </span>
-                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance">
+                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
                     Custom Hairline Design in Dwarka & <br /><span class="italic text-primary">Bespoke Hair Patch Systems</span>
                 </h1>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">
                     Experience the ultimate custom hair patch design in Dwarka. We handcraft natural-looking custom hairline designs with millimeter precision for a completely undetectable finish.
                 </p>
-                <div class="flex flex-wrap gap-4 pt-4">
+                <div class="flex flex-wrap gap-4 pt-4 order-5">
                     <a class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center" href="contact">
                         Schedule Private Consultation
                     </a>
@@ -39,7 +39,7 @@
             </div>
             
             <!-- Curved & Rounded Image Container -->
-            <div class="relative group">
+            <div class="relative group order-3 w-full">
                 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
                 <img alt="Bespoke Hairline Designing" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/befor.png" />
             </div>

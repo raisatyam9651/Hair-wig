@@ -14,17 +14,17 @@
 <?php include 'breadcrumbs.php'; ?>
 <!-- Hero Section -->
 <section class="relative min-h-[90vh] flex items-center overflow-hidden py-section-gap">
-<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-<div class="z-10 space-y-8">
-<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">PREMIUM CARE IN DWARKA</span>
-<h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance">Hair System Maintenance &amp; Styling in Dwarka: Meticulous Care for Enduring Perfection</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Sustain the flawless integration and natural beauty of your hair system with our bespoke maintenance rituals, deep cleansing, and expert styling at Dwarka Sec-7.</p>
-<div class="flex flex-wrap gap-4 pt-4">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
+<div class="z-10 contents md:block md:space-y-8">
+<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">PREMIUM CARE IN DWARKA</span>
+<h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Hair System Maintenance &amp; Styling in Dwarka: Meticulous Care for Enduring Perfection</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Sustain the flawless integration and natural beauty of your hair system with our bespoke maintenance rituals, deep cleansing, and expert styling at Dwarka Sec-7.</p>
+<div class="flex flex-wrap gap-4 pt-4 order-5">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
 <a href="./#collections" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">Our Collection</a>
 </div>
 </div>
-<div class="relative group">
+<div class="relative group order-3 w-full">
 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
 <img alt="Hair System Maintenance" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/hair-maintance.jpg"/>
 </div>
