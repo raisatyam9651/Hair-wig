@@ -23,7 +23,7 @@
             <div class="z-10 contents md:block md:space-y-8">
                 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">PREMIUM
                     RESTORATION IN DWARKA</span>
-                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
+                <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
                     Non-Surgical Hair Replacement in Dwarka: Bespoke Artistry for Natural Restoration</h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Experience the pinnacle of hair
                     replacement at our Dwarka Sec-7 studio. We offer same-day fixing and luxury bespoke fitting for an

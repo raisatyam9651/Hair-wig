@@ -18,7 +18,7 @@
         <section class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div class="z-10 space-y-8">
                 <span class="inline-block font-label-md text-label-md text-primary tracking-widest uppercase mb-2">Established Expertise</span>
-                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight">
+                <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight">
                     About Growig Hair Solution: <br /><span class="italic text-primary">Best Hair Wig Shop in Dwarka</span>
                 </h1>
                 <p class="font-body-lg text-body-lg text-secondary max-w-xl leading-relaxed">

@@ -22,7 +22,7 @@
                     <span class="material-symbols-outlined text-primary text-sm">architecture</span>
                     <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Dwarka Studio Exclusive</span>
                 </span>
-                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
+                <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
                     Custom Hairline Design in Dwarka & <br /><span class="italic text-primary">Bespoke Hair Patch Systems</span>
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">

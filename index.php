@@ -29,7 +29,7 @@
                                 class="font-label-md text-label-md text-primary uppercase tracking-widest text-xs">Best Hair Wig Shop &amp; Hair Patch Service Centre in Dwarka</span>
                         </div>
                         <h1
-                            class="font-display-lg text-3xl sm:text-4xl md:text-headline-lg text-secondary leading-tight">
+                            class="font-display-lg text-2xl sm:text-3xl md:text-headline-lg text-secondary leading-tight">
                             Best Hair Wig Shop in Dwarka <br />
                             <span class="text-primary">&amp; Hair Patch Service Centre</span>
                         </h1>

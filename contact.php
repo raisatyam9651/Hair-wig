@@ -21,7 +21,7 @@
                     <span class="material-symbols-outlined text-primary text-sm">support_agent</span>
                     <span class="text-primary font-label-sm uppercase tracking-widest">Connect With Us</span>
                 </span>
-                <h1 class="font-display-lg text-3xl md:text-headline-lg text-on-surface mb-6">
+                <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface mb-6">
                     Best Hair Wig Shop in Dwarka: <span class="text-primary">Contact Us</span>
                 </h1>
                 <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Book your private, complimentary consultation at our Dwarka studio and discover how we can restore your confidence.</p>
