@@ -5,6 +5,7 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
 RewriteRule ^index\.php$ / [R=301,L]
 
 # Redirect direct requests for *.php to extensionless URLs
+RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)\.php\ HTTP/
 RewriteRule ^(.+)\.php$ /$1 [R=301,L]
 
