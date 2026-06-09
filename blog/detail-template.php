@@ -67,6 +67,22 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
             margin-bottom: 1.5rem;
             color: var(--md-sys-color-on-surface-variant, #5c5555);
         }
+        .blog-content a {
+            color: #735b25;
+            text-decoration: underline;
+            text-decoration-color: rgba(115, 91, 37, 0.4);
+            text-underline-offset: 4px;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+        }
+        .blog-content a:hover {
+            color: #5a430f;
+            text-decoration-color: #5a430f;
+            background-color: rgba(115, 91, 37, 0.05);
+            border-radius: 4px;
+            padding: 2px 4px;
+            margin: -2px -4px;
+        }
     </style>
 </head>
 <body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
