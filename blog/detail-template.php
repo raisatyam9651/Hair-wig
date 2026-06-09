@@ -68,17 +68,17 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
             color: var(--md-sys-color-on-surface-variant, #5c5555);
         }
         .blog-content a {
-            color: #735b25;
+            color: #1a56db;
             text-decoration: underline;
-            text-decoration-color: rgba(115, 91, 37, 0.4);
+            text-decoration-color: rgba(26, 86, 219, 0.3);
             text-underline-offset: 4px;
             font-weight: 600;
             transition: all 0.2s ease-in-out;
         }
         .blog-content a:hover {
-            color: #5a430f;
-            text-decoration-color: #5a430f;
-            background-color: rgba(115, 91, 37, 0.05);
+            color: #1e40af;
+            text-decoration-color: #1e40af;
+            background-color: rgba(26, 86, 219, 0.05);
             border-radius: 4px;
             padding: 2px 4px;
             margin: -2px -4px;
