@@ -48,7 +48,7 @@ try {
     $mail->send();
 
     // Google Sheets Webhook Integration
-    $webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec"; 
+    $webhook_url = "https://script.google.com/macros/s/AKfycbwWcm3zsALyIJ2D7tP6e8LTF0z3dEm9DpFKSBBXFrnC5t_zNQ8Cnpr1_PCxpuplsFD9gg/exec"; 
 
     if (!empty($webhook_url)) {
         $webhook_data = [
