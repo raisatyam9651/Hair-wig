@@ -404,7 +404,8 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
                     <div
                         class="glass-card p-10 md:p-14 rounded-3xl fade-in-section shadow-[0_30px_60px_rgba(0,0,0,0.05)] border border-white/60 h-full">
-                        <form class="flex flex-col gap-8 h-full">
+                        <form action="mail1.php" method="POST" class="flex flex-col gap-8 h-full">
+                            <input type="hidden" name="source" value="Homepage Booking Form" />
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div>
                                     <label
@@ -412,7 +413,7 @@
                                         for="name">Full Name</label>
                                     <input
                                         class="w-full bg-surface border border-surface-variant rounded-lg px-4 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                                        id="name" placeholder="John Doe" type="text" />
+                                        id="name" name="name" placeholder="John Doe" type="text" required />
                                 </div>
                                 <div>
                                     <label
@@ -420,7 +421,7 @@
                                         for="phone">Phone Number</label>
                                     <input
                                         class="w-full bg-surface border border-surface-variant rounded-lg px-4 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                                        id="phone" placeholder="+91 98765 43210" type="tel" />
+                                        id="phone" name="phone" placeholder="+91 98765 43210" type="tel" required />
                                 </div>
                             </div>
                             <div>
@@ -428,11 +429,11 @@
                                     for="service">Service Interest</label>
                                 <select
                                     class="w-full bg-surface border border-surface-variant rounded-lg px-4 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors appearance-none"
-                                    id="service">
+                                    id="service" name="service">
                                     <option value="">Select a service</option>
-                                    <option value="patch">Premium Hair Patch</option>
-                                    <option value="wig">Full Hair Wig</option>
-                                    <option value="consultation">General Consultation</option>
+                                    <option value="Premium Hair Patch">Premium Hair Patch</option>
+                                    <option value="Full Hair Wig">Full Hair Wig</option>
+                                    <option value="General Consultation">General Consultation</option>
                                 </select>
                             </div>
                             <div class="flex-grow">
@@ -440,7 +441,7 @@
                                     for="message">Message</label>
                                 <textarea
                                     class="w-full bg-surface border border-surface-variant rounded-lg px-4 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors h-32 md:h-full resize-none"
-                                    id="message" placeholder="Tell us about your requirements..."></textarea>
+                                    id="message" name="message" placeholder="Tell us about your requirements..."></textarea>
                             </div>
                             <button
                                 class="bg-primary text-on-primary font-label-md text-label-md uppercase px-8 py-5 rounded-lg glow-hover transition-all duration-300 w-full mt-4 tracking-widest"

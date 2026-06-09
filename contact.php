@@ -103,7 +103,7 @@
                 <div class="lg:col-span-7">
                     <div class="glass-card p-8 md:p-12 rounded-3xl royal-shadow">
                         <h3 class="font-headline-md text-headline-md text-on-surface mb-8">Request an Appointment</h3>
-                        <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST" class="space-y-6" id="appointment-form">
+                        <form action="mail1.php" method="POST" class="space-y-6" id="appointment-form">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label class="block font-label-md text-label-md text-on-surface mb-2" for="name">Full Name</label>
