@@ -1,4 +1,4 @@
 <?php
-$slug = 'best-hair-wig-shop-dwarka';
+$slug = 'hair-patch-vs-transplant';
 include 'detail-template.php';
 ?>

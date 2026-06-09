@@ -424,6 +424,10 @@ if ($page === 'index') {
     ];
 }
 
+if (isset($blog_post['faqs']) && !empty($blog_post['faqs'])) {
+    $faq_questions = $blog_post['faqs'];
+}
+
 if (!empty($faq_questions)) {
     $faq_elements = [];
     foreach ($faq_questions as $item) {

@@ -1,4 +1,4 @@
 <?php
-$slug = 'hair-bonding-vs-weaving';
+$slug = 'human-hair-vs-synthetic-wig';
 include 'detail-template.php';
 ?>

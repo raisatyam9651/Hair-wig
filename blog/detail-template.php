@@ -105,8 +105,35 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
 
                     <!-- Content Area -->
                     <article class="blog-content font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                        <?php echo $blog_post['content']; ?>
+                        <?php 
+                        $content_file = __DIR__ . '/content/' . $blog_post['slug'] . '.html';
+                        if (file_exists($content_file)) {
+                            include $content_file;
+                        } else {
+                            echo $blog_post['content'];
+                        }
+                        ?>
                     </article>
+
+                    <!-- Visual FAQ Accordion -->
+                    <?php if (isset($blog_post['faqs']) && !empty($blog_post['faqs'])): ?>
+                        <div class="mt-16 pt-8 border-t border-outline-variant/30">
+                            <h3 class="font-display-lg text-2xl md:text-3xl text-on-surface font-bold mb-8">Frequently Asked Questions</h3>
+                            <div class="space-y-4">
+                                <?php foreach ($blog_post['faqs'] as $idx => $faq): ?>
+                                    <details class="group glass-card p-6 rounded-2xl border border-primary/10 royal-shadow bg-[#fcf9f4]" <?php echo ($idx === 0) ? 'open' : ''; ?>>
+                                        <summary class="list-none flex justify-between items-center cursor-pointer font-display-md text-base md:text-lg text-on-surface font-bold">
+                                            <?php echo htmlspecialchars($faq['question']); ?>
+                                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+                                        </summary>
+                                        <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed text-sm">
+                                            <?php echo $faq['answer']; ?>
+                                        </div>
+                                    </details>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
 
                     <!-- Next / Prev Article Pagination -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-16 pt-8 border-t border-outline-variant/30">

@@ -1,4 +1,4 @@
 <?php
-$slug = 'human-hair-wigs-vs-synthetic';
+$slug = 'can-hair-patch-fall-off';
 include 'detail-template.php';
 ?>

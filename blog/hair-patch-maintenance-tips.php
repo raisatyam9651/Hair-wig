@@ -1,4 +1,4 @@
 <?php
-$slug = 'scalp-hygiene-hair-system';
+$slug = 'hair-patch-maintenance-tips';
 include 'detail-template.php';
 ?>
