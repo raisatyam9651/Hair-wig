@@ -36,7 +36,7 @@ $blog_posts = [
         'id' => 2,
         'title' => 'How to Choose the Best Hair Wig Shop in Dwarka',
         'slug' => 'best-hair-wig-shop-dwarka',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'June 8, 2026',
         'category' => 'Buying Guide',
         'read_time' => '4 min read',
@@ -56,7 +56,7 @@ $blog_posts = [
         'id' => 3,
         'title' => 'Hair Bonding vs. Hair Weaving: Which is Better?',
         'slug' => 'hair-bonding-vs-weaving',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'June 5, 2026',
         'category' => 'Comparison',
         'read_time' => '6 min read',
@@ -76,7 +76,7 @@ $blog_posts = [
         'id' => 4,
         'title' => 'Is Non-Surgical Hair Replacement Worth the Cost?',
         'slug' => 'non-surgical-hair-replacement-cost',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'June 2, 2026',
         'category' => 'Cost Guide',
         'read_time' => '5 min read',
@@ -94,7 +94,7 @@ $blog_posts = [
         'id' => 5,
         'title' => 'How Custom Hairline Design Restores Your Youthful Look',
         'slug' => 'custom-hairline-design-tips',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'May 28, 2026',
         'category' => 'Styling',
         'read_time' => '4 min read',
@@ -112,7 +112,7 @@ $blog_posts = [
         'id' => 6,
         'title' => 'The Ultimate Hair Patch Maintenance Routine for Longevity',
         'slug' => 'hair-patch-maintenance-routine',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'May 24, 2026',
         'category' => 'Maintenance',
         'read_time' => '5 min read',
@@ -130,7 +130,7 @@ $blog_posts = [
         'id' => 7,
         'title' => 'Human Hair Wigs vs. Synthetic Wigs: A Comparison',
         'slug' => 'human-hair-wigs-vs-synthetic',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'May 20, 2026',
         'category' => 'Comparison',
         'read_time' => '5 min read',
@@ -150,7 +150,7 @@ $blog_posts = [
         'id' => 8,
         'title' => '5 Essential Scalp Hygiene Tips for Hair System Wearers',
         'slug' => 'scalp-hygiene-hair-system',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'May 15, 2026',
         'category' => 'Scalp Care',
         'read_time' => '4 min read',
@@ -172,7 +172,7 @@ $blog_posts = [
         'id' => 9,
         'title' => 'Modern Hair Styling Tips for Your Hair Patch',
         'slug' => 'hair-patch-styling-guide',
-        'image' => 'assets/hair-maintance.jpg',
+        'image' => 'hair-maintance.jpg',
         'date' => 'May 10, 2026',
         'category' => 'Styling',
         'read_time' => '4 min read',
@@ -185,171 +185,5 @@ $blog_posts = [
 <p>To create natural volume at the front, blow-dry the hair on a cool or warm setting using a round brush. Guide the hair upward and backward to conceal the front edge.</p>
 <h4>3. Keep the Sides Blended</h4>
 <p>Visit your stylist regularly to trim your natural side-hair. As your natural hair grows, it can create a volume mismatch with the patch. Regular blending trims keep the look unified.</p>'
-    ],
-    [
-        'id' => 10,
-        'title' => 'How to Prevent Hair Wig Shedding and Damage',
-        'slug' => 'how-to-prevent-hair-wig-shedding',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'May 5, 2026',
-        'category' => 'Maintenance',
-        'read_time' => '5 min read',
-        'excerpt' => 'Protect your investment by preventing hair shedding. Learn the common causes of wig damage and how to avoid them.',
-        'description' => 'Discover the best practices to stop your hair wig from shedding and tearing. Extend the life of your wig with simple brushing, washing, and storage habits.',
-        'content' => '<p>Shedding is one of the most common issues wig wearers face. While some minor shedding is normal, excessive hair loss can thin out your wig quickly. Fortunately, you can prevent shedding with proper handling and care.</p>
-<h4>1. Comb with Extreme Care</h4>
-<p>Never brush your wig when it is wet, as wet hair stretches and breaks easily. Always use a wide-tooth comb and brush gently from the tips toward the roots.</p>
-<h4>2. Avoid Direct Heat on Knots</h4>
-<p>When styling or blow-drying, avoid directing high heat at the base of the wig. Excessive heat can loosen the hand-tied knots, causing the hair to slide out.</p>
-<h4>3. Store Your Wig on a Stand</h4>
-<p>When you are not wearing your wig, place it on a wig stand or mannequin head. This keeps the hair styled, prevents tangles, and protects the base structure from folding.</p>'
-    ],
-    [
-        'id' => 11,
-        'title' => 'Choosing the Right Adhesive for Your Hair Bonding',
-        'slug' => 'choosing-right-adhesive-hair-bonding',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'May 1, 2026',
-        'category' => 'Adhesives',
-        'read_time' => '4 min read',
-        'excerpt' => 'Liquid glues or specialty tapes? Compare hair bonding adhesives on hold strength, cleanup ease, and skin safety.',
-        'description' => 'Find the perfect adhesive for your hair system. Compare liquid glues and tapes based on your skin type, climate, and physical activities.',
-        'content' => '<p>The success of your hair bonding session depends heavily on the adhesive you use. The right adhesive keeps the system secure, prevents lifting, and keeps your scalp comfortable. Here is how to choose the right one.</p>
-<h4>Liquid Adhesives: Maximum Security</h4>
-<p>Liquid bonding agents are applied directly to the scalp or base. They cure to form a strong, waterproof layer that is highly resistant to sweat and water.</p>
-<p><strong>Best For:</strong> Individuals with active lifestyles, swimmers, and those living in hot, humid climates. Offers a hold of 3 to 5 weeks.</p>
-<h4>Specialty Tapes: Quick and Easy</h4>
-<p>Double-sided medical tapes are pre-cut and easy to apply. They offer a secure hold and are much easier to clean during maintenance sessions.</p>
-<p><strong>Best For:</strong> Sensitive skin types and individuals who prefer doing quick cleanups. Hold typically lasts 2 to 3 weeks.</p>'
-    ],
-    [
-        'id' => 12,
-        'title' => 'Can You Swim and Workout with a Hair System?',
-        'slug' => 'active-lifestyle-with-hair-system',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'April 25, 2026',
-        'category' => 'Lifestyle',
-        'read_time' => '4 min read',
-        'excerpt' => 'Do not let your hair system hold you back. Learn how waterproof adhesives allow you to run, swim, and lift weights with confidence.',
-        'description' => 'Yes, you can lead an active lifestyle with a hair system! Learn the tips and products needed to swim, exercise, and shower safely with your hair patch.',
-        'content' => '<p>A common myth is that hair system wearers must avoid water and physical exercise. In reality, modern medical-grade adhesives are 100% waterproof and sweat-resistant, letting you live without restrictions.</p>
-<h4>Working Out with Confidence</h4>
-<p>Sweat won\'t loosen a professionally bonded hair patch. As long as you use a quality scalp protector and wait 24-48 hours after application before exercising, the bond will remain completely secure.</p>
-<h4>Swimming in Pools and Oceans</h4>
-<p>You can swim with a hair system. However, chlorine and salt water can dry out human hair. We recommend applying a leave-in conditioner before swimming and rinsing your hair with fresh water immediately after.</p>
-<h4>Showering Routines</h4>
-<p>You can wash your hair while showering. Just avoid hot water on your scalp and pat the hair dry with a towel instead of rubbing it vigorously.</p>'
-    ],
-    [
-        'id' => 13,
-        'title' => '5 Signs It is Time to Replace Your Hair Patch',
-        'slug' => 'signs-you-need-new-hair-patch',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'April 20, 2026',
-        'category' => 'Buying Guide',
-        'read_time' => '4 min read',
-        'excerpt' => 'Is your system showing wear? Check these 5 indicators to decide when to invest in a fresh, natural-looking hair patch.',
-        'description' => 'Learn the key signs that show your hair patch is worn out. Discover when to replace your system to maintain a realistic and healthy appearance.',
-        'content' => '<p>While regular maintenance keeps your hair patch looking great, no system lasts forever. Over time, the materials break down and the hair thins out. Look for these five signs that indicate you need a replacement.</p>
-<h4>1. Persistent Hair Thinning</h4>
-<p>Because the hair on a patch doesn\'t regrow, any shed hair is gone permanently. If your patch is showing visible base material or has thinned significantly, it is time for a new one.</p>
-<h4>2. Dry, Tangled Hair Fibers</h4>
-<p>If the hair feels dry, brittle, and tangles constantly despite deep conditioning treatments, the hair cuticles have worn out. A new patch will restore that soft, natural feel.</p>
-<h4>3. Tearing in the Base</h4>
-<p>Lace and skin bases are delicate. If you notice tears, holes, or stretched areas along the edges, the system\'s structural integrity is compromised and it won\'t fit securely.</p>
-<h4>4. Color Fading</h4>
-<p>Sun exposure causes the hair color to oxidize and turn red or orange. While color restoration can help temporarily, a faded system eventually needs replacement.</p>'
-    ],
-    [
-        'id' => 14,
-        'title' => 'Tips for Combating Sweat and Odor Under Your Patch',
-        'slug' => 'combating-sweat-under-hair-patch',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'April 15, 2026',
-        'category' => 'Scalp Care',
-        'read_time' => '4 min read',
-        'excerpt' => 'Manage heat and humidity in Dwarka. Keep your scalp fresh with anti-perspirants and breathable lace bases.',
-        'description' => 'Struggling with sweat and odor under your hair patch? Discover effective solutions, from anti-bacterial barriers to choosing breathable lace systems.',
-        'content' => '<p>Dwarka\'s hot summers can cause excessive sweating, which can lead to odors and itchiness if not managed properly. Fortunately, you can keep your scalp cool and fresh with a few simple styling choices.</p>
-<h4>1. Opt for Breathable Base Materials</h4>
-<p>If you sweat heavily or workout frequently, choose a Swiss or French lace base. Lace bases feature thousands of tiny holes that allow heat and sweat to escape naturally.</p>
-<h4>2. Apply Scalp Anti-Perspirants</h4>
-<p>Professional stylists use specialized scalp anti-perspirants during the bonding process. These products block sweat glands temporarily, keeping the bonding area dry.</p>
-<h4>3. Maintain a Regular Cleaning Schedule</h4>
-<p>In hot weather, shorten the time between your servicing visits to 3 weeks. Regular deep cleans ensure sweat and bacteria don\'t accumulate under the base.</p>'
-    ],
-    [
-        'id' => 15,
-        'title' => 'How Non-Surgical Hair Restoration Boosts Self-Confidence',
-        'slug' => 'confidence-booster-hair-restoration',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'April 10, 2026',
-        'category' => 'Lifestyle',
-        'read_time' => '3 min read',
-        'excerpt' => 'Hair loss impacts mental well-being. Learn how immediate hair restoration improves self-esteem and social confidence.',
-        'description' => 'Explore the psychological benefits of hair restoration. Discover how having a full head of natural hair restores self-esteem and improves quality of life.',
-        'content' => '<p>Hair loss isn\'t just a physical change; it can significantly affect your mental well-being, social life, and career confidence. Non-surgical hair restoration offers a safe, immediate way to regain your self-esteem.</p>
-<h4>Overcoming Social Anxiety</h4>
-<p>Many individuals with hair thinning or bald patches feel self-conscious in social settings or professional meetings. Restoring a natural head of hair eliminates these worries, allowing you to focus on your interactions.</p>
-<h4>Looking and Feeling Younger</h4>
-<p>A full, healthy hairline frames your face and instantly makes you look younger. Looking in the mirror and seeing a full head of styled hair provides an immediate mood boost.</p>
-<h4>No Downtime, Pure Convenience</h4>
-<p>Unlike painful hair transplants that require weeks of recovery, non-surgical bonding is completed in a single session. You walk out of the studio with instant, flawless results.</p>'
-    ],
-    [
-        'id' => 16,
-        'title' => 'The Secrets Behind Celebrity Hair Wigs and Systems',
-        'slug' => 'celebrity-hair-wigs-secrets',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'April 5, 2026',
-        'category' => 'Lifestyle',
-        'read_time' => '4 min read',
-        'excerpt' => 'Ever wonder how celebrities maintain perfect hair? Explore the advanced front lace systems and custom scalp mapping they use.',
-        'description' => 'Uncover the secrets of celebrity hair systems. Learn how custom fittings, Swiss lace, and custom hair blending create their flawless, red-carpet looks.',
-        'content' => '<p>Ever wonder how movie stars and singers maintain perfect, voluminous hair with changing styles? The secret isn\'t magic serums—it is advanced, high-quality hair systems and custom front lace wigs.</p>
-<h4>Invisible Swiss Lace</h4>
-<p>Celebrities use ultra-thin Swiss lace bases. This material is incredibly thin and matches the exact color of their skin, making the front edge completely invisible under high-definition cameras.</p>
-<h4>Professional Scalp Mapping</h4>
-<p>Each system is customized using digital scalp mapping. The base is molded to fit the exact contours of their head, preventing any bumps or unnatural lines.</p>
-<h4>Custom Hair Blending</h4>
-<p>Celebrity stylists blend the system hair with the celebrity\'s natural growing side-hair using precision scissor cuts. This makes the transition completely undetectable.</p>'
-    ],
-    [
-        'id' => 17,
-        'title' => 'Can You Repair a Damaged Hair Patch?',
-        'slug' => 'repairing-damaged-hair-patch',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'April 1, 2026',
-        'category' => 'Maintenance',
-        'read_time' => '4 min read',
-        'excerpt' => 'Do not throw away your torn patch. Learn how professional studios patch tears, add hair, and restore fading.',
-        'description' => 'Learn how a damaged hair patch can be repaired. Discover professional restoration services, including adding hair ventilation and fixing minor base tears.',
-        'content' => '<p>Accidents happen, and sometimes a hair patch gets damaged—whether it is a small tear in the lace or thinning spots from excessive brushing. Before throwing it away, find out if it can be repaired.</p>
-<h4>Repairing Base Tears</h4>
-<p>Minor tears in polyurethane skins or lace bases can often be patched. Stylists use specialized, medical-grade bonding tape or threads to close the tear, securing the base for continued use.</p>
-<h4>Adding Hair (Ventilation)</h4>
-<p>If your hair patch has developed thin spots, a professional studio can perform "hair ventilation." This involves hand-tying new hair fibers into the existing base to restore its original density.</p>
-<h4>Color Correction</h4>
-<p>If the hair has faded or turned reddish due to sun exposure, a salon can dye the patch back to its original shade, restoring its natural shine and match.</p>'
-    ],
-    [
-        'id' => 18,
-        'title' => 'What to Expect at a Premium Dwarka Hair Studio',
-        'slug' => 'dwarka-hair-patch-service-centres',
-        'image' => 'assets/hair-maintance.jpg',
-        'date' => 'March 25, 2026',
-        'category' => 'Buying Guide',
-        'read_time' => '4 min read',
-        'excerpt' => 'First time visiting a hair studio? Here is a walkthrough of your consultation, measurements, scalp preparation, and final styling.',
-        'description' => 'A guide for first-time visitors to Growig Hair Solution in Dwarka. Learn what to expect during your private consultation, scalp analysis, fitting, and styling.',
-        'content' => '<p>If you are planning your first visit to a professional hair restoration studio in Dwarka, it helps to know what to expect. A premium studio like Growig Hair Solution focuses on comfort, customization, and natural results.</p>
-<h4>1. Private Consultation</h4>
-<p>Your visit begins in a private consultation room. A senior specialist will analyze your scalp, discuss your hair goals, and recommend the best base materials and fixing methods for your lifestyle.</p>
-<h4>2. Custom Scalp Measurements</h4>
-<p>To ensure a perfect fit, the stylist will take precise measurements of your head, mapping out the shape of the balding area and matching your hair texture, color, and flow.</p>
-<h4>3. Fitting and Scalp Prep</h4>
-<p>Once your custom system is ready, the stylist will clean your scalp, apply protective barriers, and secure the system using medical-grade adhesives or clips.</p>
-<h4>4. Cutting and Styling</h4>
-<p>Finally, the stylist will cut and blend the system with your natural hair, styling it to suit your face shape and personal preferences.</p>'
     ]
 ];

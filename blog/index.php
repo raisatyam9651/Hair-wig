@@ -13,7 +13,7 @@ if ($selected_category !== 'All') {
 }
 
 // Pagination Setup
-$posts_per_page = 9;
+$posts_per_page = 6;
 $total_posts = count($filtered_posts);
 $total_pages = max(1, ceil($total_posts / $posts_per_page));
 

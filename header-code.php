@@ -3,6 +3,7 @@
 // It dynamically manages page metadata, OG tags, canonical URLs, and structured JSON-LD schemas.
 
 $page = basename($_SERVER['PHP_SELF'], '.php');
+$path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'], '/blog/') !== false) ? '../' : '');
 
 // Define metadata for all pages for schema and OG tags
 $pages_metadata = [
@@ -462,8 +463,8 @@ if ($page === 'index') {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="style.css?v=4">
-<script src="tailwind-config.js?v=4"></script>
+<link rel="stylesheet" href="<?php echo $path_prefix; ?>style.css?v=4">
+<script src="<?php echo $path_prefix; ?>tailwind-config.js?v=4"></script>
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="<?php echo $current_metadata['type']; ?>" />
