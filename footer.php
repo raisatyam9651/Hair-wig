@@ -36,11 +36,7 @@
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="about">About Us</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="./#collections">Collections</a>
-                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="gallery">Gallery</a>
-                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="./#testimonials">Reviews</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="contact">Contact</a>
                 </div>

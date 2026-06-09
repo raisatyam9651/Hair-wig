@@ -67,16 +67,16 @@ tailwind.config = {
             },
             "fontFamily": {
                 "headline-md": [
-                    "Playfair Display"
+                    "Cormorant Garamond"
                 ],
                 "display-lg": [
-                    "Playfair Display"
+                    "Cormorant Garamond"
                 ],
                 "label-md": [
                     "Inter"
                 ],
                 "headline-lg": [
-                    "Playfair Display"
+                    "Cormorant Garamond"
                 ],
                 "body-lg": [
                     "Inter"
@@ -88,7 +88,7 @@ tailwind.config = {
                     "Inter"
                 ],
                 "headline-lg-mobile": [
-                    "Playfair Display"
+                    "Cormorant Garamond"
                 ]
             },
             "fontSize": {

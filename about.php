@@ -136,20 +136,19 @@
             <div
                 class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
                 <div class="max-w-2xl">
-                    <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface mb-6">The Curators of Confidence</h2>
-                    <p class="font-body-lg text-body-lg text-secondary">Our team combines clinical expertise with a
-                        refined eye for aesthetic balance, ensuring every solution is uniquely yours.</p>
+                    <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface mb-6">Real Transformations</h2>
+                    <p class="font-body-lg text-body-lg text-secondary">Discover the real-life results of our bespoke hair systems. Millimeter-precision customization offering 100% natural, undetectable realism.</p>
                 </div>
-                <button
+                <a href="gallery"
                     class="font-label-md text-label-md text-primary border-b border-primary pb-1 hover:opacity-70 transition-opacity">View
-                    All Specialists</button>
+                    All Transformations</a>
             </div>
             <div
                 class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <!-- Expert 1 -->
                 <div class="space-y-6 group">
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
-                        <img alt="Suresh's Hair Bonding - Before and After"
+                        <img alt="Premium Hair Bonding - Before and After"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                             src="assets/suresh-before-and-after.png" />
                         <div
@@ -157,14 +156,14 @@
                         </div>
                     </div>
                     <div class="space-y-1">
-                        <h4 class="font-headline-md text-headline-md text-on-surface">Suresh</h4>
-                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Hair Bonding Transformation</p>
+                        <h4 class="font-headline-md text-headline-md text-on-surface">Premium Hair Bonding</h4>
+                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Bespoke Restoration</p>
                     </div>
                 </div>
                 <!-- Expert 2 -->
                 <div class="space-y-6 group mt-12 lg:mt-24">
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
-                        <img alt="Rintu's Hair Patch - Before and After"
+                        <img alt="Bespoke Hair Patch - Before and After"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                             src="assets/rintu-hair-patch-before-and-after.png" />
                         <div
@@ -172,14 +171,14 @@
                         </div>
                     </div>
                     <div class="space-y-1">
-                        <h4 class="font-headline-md text-headline-md text-on-surface">Rintu</h4>
-                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Premium Hair Patch</p>
+                        <h4 class="font-headline-md text-headline-md text-on-surface">Bespoke Hair Patch</h4>
+                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Natural Realism</p>
                     </div>
                 </div>
                 <!-- Expert 3 -->
                 <div class="space-y-6 group">
                     <div class="aspect-[3/4] rounded-xl overflow-hidden royal-shadow relative">
-                        <img alt="Nikhil's Hair Wig - Before and After"
+                        <img alt="Custom Full Hair Wig - Before and After"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                             src="assets/nikhil-before-and-after-hair-wig.png" />
                         <div
@@ -187,8 +186,8 @@
                         </div>
                     </div>
                     <div class="space-y-1">
-                        <h4 class="font-headline-md text-headline-md text-on-surface">Nikhil</h4>
-                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Full Hair Wig</p>
+                        <h4 class="font-headline-md text-headline-md text-on-surface">Custom Full Hair Wig</h4>
+                        <p class="font-label-md text-label-md text-primary uppercase tracking-widest">Complete Coverage</p>
                     </div>
                 </div>
             </div>
