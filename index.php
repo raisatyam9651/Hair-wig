@@ -404,7 +404,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
                     <div
                         class="glass-card p-10 md:p-14 rounded-3xl fade-in-section shadow-[0_30px_60px_rgba(0,0,0,0.05)] border border-white/60 h-full">
-                        <form action="mail1" method="POST" class="flex flex-col gap-8 h-full">
+                        <form action="mail1.php" method="POST" class="flex flex-col gap-8 h-full">
                             <input type="hidden" name="source" value="Homepage Booking Form" />
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div>
