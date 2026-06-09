@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Before and After Gallery | Growig Hair Solution Dwarka</title>
+    <title>Before and After Gallery | Growig Hair Solution</title>
     <meta content="Real transformations, real confidence. Browse our gallery of premium non-surgical hair replacement, patches, and wigs at Growig Hair Solution in Dwarka Sec-7." name="description"/>
     <?php include 'header-code.php'; ?>
 </head>

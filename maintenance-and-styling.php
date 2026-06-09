@@ -4,8 +4,9 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Hair System Maintenance & Styling in Dwarka | Growig Hair Solution - Bespoke Artistry</title>
-<meta content="Keep your hair system in pristine condition with our professional maintenance and styling services in Dwarka. Deep clarifying wash, re-bonding, and styling at Growig Hair Solution." name="description"/>
+<title>Hair Patch Maintenance in Dwarka | Hair System Maintenance | Growig Hair Solution</title>
+<meta content="Looking for professional hair patch maintenance in Dwarka? Growig Hair Solution offers expert hair system maintenance in Dwarka, including hair patch cleaning in Dwarka and hair styling for hair patch in Dwarka. Book a free consultation!" name="description"/>
+<meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
 <body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
@@ -16,9 +17,9 @@
 <section class="relative min-h-[90vh] flex items-center overflow-hidden py-section-gap">
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
 <div class="z-10 contents md:block md:space-y-8">
-<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">PREMIUM CARE IN DWARKA</span>
-<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Hair System Maintenance &amp; Styling in Dwarka: Meticulous Care for Enduring Perfection</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Sustain the flawless integration and natural beauty of your hair system with our bespoke maintenance rituals, deep cleansing, and expert styling at Dwarka Sec-7.</p>
+<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">Hair Patch Maintenance in Dwarka</span>
+<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Professional Hair System Maintenance in Dwarka</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Keep your hair looking natural and fresh. We provide expert hair patch maintenance in Dwarka, restoring your hair system with premium cleaning and styling solutions.</p>
 <div class="flex flex-wrap gap-4 pt-4 order-5">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
 <a href="./#collections" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">Our Collection</a>
@@ -36,30 +37,30 @@
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
 <div class="lg:col-span-8 space-y-12">
 <div class="space-y-6">
-<h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">The Science of Longevity: Professional Maintenance Protocols</h2>
+<h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Hair Patch Maintenance in Dwarka</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                A premium hair system is an investment in your confidence, style, and daily presentation. At Growig Hair Solution in Dwarka, we treat maintenance as an essential extension of the initial fitting process. Over time, natural scalp oils, perspiration, and environmental dust accumulate under the base, affecting adhesive integrity and scalp hygiene. Our professional maintenance sessions dissolve old bonding agents gently, deep-clean the system base, and rejuvenate the Remy human hair fibers to keep them soft and manageable.
+                                Regular servicing is essential to keep your hair system looking natural and secure. At Growig Hair Solution, we provide systematic hair system maintenance in Dwarka. Over time, sweat, dust, and natural oils build up under the system base. This can weaken the bond and cause scalp hygiene issues. Our experts gently remove the system, clean your scalp, and refresh the hair.
                             </p>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Dwarka's dust, heat, and humidity present unique challenges for hair system wearers. Standard store-bought products often contain harsh chemicals that dry out the non-living hair strands, causing tangles and premature shedding. Our studio uses specialized, sulfate-free conditioning treatments and scalp protective barriers. Our senior stylists perform custom trims to blend the system seamlessly with your natural growing side-hair, preventing the telltale 'grown-out' discrepancy.
+                                We specialize in professional hair patch cleaning in Dwarka. Using safe, residue-free cleansers, we wash the base and restore the hair fibers. This keeps the hair soft, tangle-free, and healthy. We also trim your natural growing hair to ensure a seamless blend with your hair system, preventing any mismatch.
                             </p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 <div class="glass-card p-8 rounded-3xl space-y-4 border-primary/10">
 <span class="material-symbols-outlined text-primary text-4xl" data-icon="auto_awesome"></span>
 <h3 class="font-headline-md text-headline-md text-primary">Deep Clarifying Wash</h3>
-<p class="font-body-md text-on-surface-variant">We use proprietary residue-free shampoos to gently lift oils and styling build-up from both the scalp and the system base, ensuring fresh breathability.</p>
+<p class="font-body-md text-on-surface-variant">We use gentle, residue-free shampoos to clear build-up and oil from the scalp and base. This allows your scalp to breathe.</p>
 </div>
 <div class="glass-card p-8 rounded-3xl space-y-4 border-primary/10">
 <span class="material-symbols-outlined text-primary text-4xl" data-icon="verified"></span>
 <h3 class="font-headline-md text-headline-md text-primary">Dermal Protection</h3>
-<p class="font-body-md text-on-surface-variant">Before re-bonding, we treat the scalp with anti-bacterial prep barriers that prevent sweat build-up and shield the skin from adhesive contact.</p>
+<p class="font-body-md text-on-surface-variant">Before we re-fix the system, we apply a protective skin barrier. This prevents sweat build-up and protects your skin from adhesives.</p>
 </div>
 </div>
 <div class="space-y-6">
-<h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Bespoke Styling & Customization</h2>
+<h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Hair Styling for Hair Patch in Dwarka</h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Your maintenance visit is also the perfect opportunity to refresh your style. Whether you want to maintain your current look with a precision blend trim or explore a completely new style, our senior stylists are experts in custom scissor work, blow-drying, and styling premium human hair. We contour the system's silhouette to map your facial architecture, keeping your appearance consistently sharp, natural, and modern.
+                                Every maintenance visit is a chance to refresh your style. Our experts specialize in hair styling for hair patch in Dwarka. Whether you want to keep your current look or try a new style, we cut and blend the hair to suit your face shape. We use professional styling techniques to ensure the hair patch blends perfectly with your natural hair.
                             </p>
 </div>
 </div>
@@ -100,7 +101,7 @@
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
 <div class="text-center mb-16 space-y-4">
 <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface">Our Signature Rituals</h2>
-<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Masterpieces of restoration tailored for every individual need and aesthetic preference.</p>
+<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Professional care and restoration solutions tailored to keep your hair system looking its best.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 <!-- Men's Systems -->
@@ -112,17 +113,17 @@
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
 <h4 class="font-headline-md text-on-surface mb-2">Signature Refresh</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Safe system removal, base residue clean, clarifying wash, re-bonding, and styling.</p>
+<p class="font-body-md text-on-surface-variant mb-4">Safe system removal, cleaning the base, a fresh wash, secure re-bonding, and custom styling.</p>
 <span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Essential Care</span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
 <h4 class="font-headline-md text-on-surface mb-2">Scalp Detox Sanctuary</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Deep exfoliating scalp treatment, anti-perspirant prep, and tension-relief massage.</p>
+<p class="font-body-md text-on-surface-variant mb-4">Deep scalp exfoliation, anti-sweat prep, and a relaxing scalp massage.</p>
 <span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Scalp Health</span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 group hover:-translate-y-2 transition-all duration-300">
 <h4 class="font-headline-md text-on-surface mb-2">System Hair Coloring</h4>
-<p class="font-body-md text-on-surface-variant mb-4">Restores original shade vibrancy and solves sun-bleaching or fading.</p>
+<p class="font-body-md text-on-surface-variant mb-4">Restores the rich color of your system and fixes sun-faded hair.</p>
 <span class="inline-block py-1 px-3 rounded bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider">Color Restore</span>
 </div>
 </div>
@@ -131,8 +132,8 @@
 <div class="glass-card p-8 rounded-3xl bg-primary text-white royal-shadow h-full flex flex-col justify-between">
 <div>
 <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="cut" data-weight="fill"></span>
-<h4 class="font-headline-lg text-white mb-4">The Art of Blending</h4>
-<p class="font-body-lg text-white/80 leading-relaxed mb-6">Maintaining a seamless transition between your hair system and natural growing hair requires regular blending cuts. Our stylists trim the sides and back to eliminate any volume mismatch.</p>
+<h4 class="font-headline-lg text-white mb-4">Seamless Hair Blending</h4>
+<p class="font-body-lg text-white/80 leading-relaxed mb-6">To keep your hair system undetectable, we perform regular blending cuts. We trim and fade your natural hair so it integrates perfectly with the system.</p>
 </div>
 <div class="space-y-4">
 <div class="p-4 rounded-2xl bg-white/10 border border-white/20">
@@ -150,15 +151,15 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 flex items-center justify-between">
 <div>
-<h4 class="font-headline-md text-on-surface">Adhesive Upgrade Session</h4>
-<p class="font-body-md text-on-surface-variant">Transition from tape to high-bond liquid adhesives based on scalp changes.</p>
+<h4 class="font-headline-md text-on-surface">Custom Adhesive Setup</h4>
+<p class="font-body-md text-on-surface-variant">Choose between tapes and high-bond liquid adhesives based on your scalp type and daily needs.</p>
 </div>
 <span class="material-symbols-outlined text-primary text-5xl" data-icon="upgrade"></span>
 </div>
 <div class="glass-card p-8 rounded-3xl royal-shadow border-primary/10 flex items-center justify-between">
 <div>
-<h4 class="font-headline-md text-on-surface">Emergency Re-Bonding</h4>
-<p class="font-body-md text-on-surface-variant">Express same-day fixing sessions for immediate system adjustment.</p>
+<h4 class="font-headline-md text-on-surface">Same-Day Re-Bonding</h4>
+<p class="font-body-md text-on-surface-variant">Quick fixing and adjustment sessions to keep your hair secure without wait times.</p>
 </div>
 <span class="material-symbols-outlined text-primary text-5xl" data-icon="flash_on"></span>
 </div>
@@ -170,36 +171,36 @@
 <div class="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 transform translate-x-1/2"></div>
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
 <div class="mb-20">
-<h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-6">The Journey to Perfection</h2>
-<p class="font-body-lg text-on-surface-variant max-w-xl">Four meticulous steps to your transformative hair maintenance experience.</p>
+<h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-6">Our Maintenance Process</h2>
+<p class="font-body-lg text-on-surface-variant max-w-xl">We follow four careful steps to clean, restore, and style your hair patch.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
 <div class="relative group">
 <div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">01</div>
 <div class="relative pt-12 space-y-4">
 <h4 class="font-headline-md text-on-surface">Safe Removal</h4>
-<p class="font-body-md text-on-surface-variant">Dissolving adhesive bonds using organic citrus solvents to release the system without scalp stress.</p>
+<p class="font-body-md text-on-surface-variant">We dissolve adhesives with skin-safe citrus solvents to remove the system without pulling your scalp.</p>
 </div>
 </div>
 <div class="relative group">
 <div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">02</div>
 <div class="relative pt-12 space-y-4">
 <h4 class="font-headline-md text-on-surface">Deep Exfoliation</h4>
-<p class="font-body-md text-on-surface-variant">Clarifying shampoo and scalp scrubbing to eliminate dead skin cells and product residues.</p>
+<p class="font-body-md text-on-surface-variant">We clean your scalp with clarifying shampoo to remove oil, sweat, and adhesive residue.</p>
 </div>
 </div>
 <div class="relative group">
 <div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">03</div>
 <div class="relative pt-12 space-y-4">
 <h4 class="font-headline-md text-on-surface">Reconditioning</h4>
-<p class="font-body-md text-on-surface-variant">Base cleaning and deep conditioning treatment to nourish human hair fibers.</p>
+<p class="font-body-md text-on-surface-variant">We perform complete hair patch cleaning and apply deep conditioners to keep the hair soft.</p>
 </div>
 </div>
 <div class="relative group">
 <div class="font-display-lg text-[120px] text-primary/10 absolute -top-12 -left-4 group-hover:text-primary/20 transition-colors">04</div>
 <div class="relative pt-12 space-y-4">
 <h4 class="font-headline-md text-on-surface">Re-Fixing</h4>
-<p class="font-body-md text-on-surface-variant">Re-applying medical-grade adhesives and final styling to ensure a seamless blend.</p>
+<p class="font-body-md text-on-surface-variant">We apply fresh adhesives to secure the system and perform custom styling for a natural look.</p>
 </div>
 </div>
 </div>
@@ -211,7 +212,7 @@
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-20">
 <div>
 <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
-<p class="font-body-lg text-on-surface-variant mb-12">Clarity is the first step toward confidence. Here is everything you need to know about our specialized hair system maintenance.</p>
+<p class="font-body-lg text-on-surface-variant mb-12">Find answers to common questions about our hair patch maintenance and cleaning services.</p>
                         <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
                             <img alt="FAQ" class="w-full h-full object-contain" src="assets/hair-maintance.jpg"/>
                         </div>
@@ -261,8 +262,8 @@
 <div class="max-w-[1280px] mx-auto glass-card rounded-[48px] overflow-hidden royal-shadow border-primary/30">
 <div class="grid grid-cols-1 lg:grid-cols-2">
 <div class="p-6 md:p-16 space-y-8">
-<h2 class="font-display-lg text-[32px] md:text-display-lg text-on-surface">Sustain the Flawless Illusion.</h2>
-<p class="font-body-lg text-on-surface-variant leading-relaxed">Don't let neglected styling define your story. Join the hundreds of professionals in Dwarka who maintain their edge with Growig Hair Solution. Book your private, complimentary consultation today.</p>
+<h2 class="font-display-lg text-[32px] md:text-display-lg text-on-surface">Keep Your Hair Looking Perfect</h2>
+<p class="font-body-lg text-on-surface-variant leading-relaxed">Do not let a loose hair system affect your style. Visit our studio for professional hair patch maintenance and styling. Book your appointment today.</p>
 <div class="flex flex-col sm:flex-row gap-6">
 <a href="contact" class="bg-primary text-white px-12 py-5 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all royal-shadow text-center">Schedule My Appointment</a>
 <div class="flex items-center gap-4">

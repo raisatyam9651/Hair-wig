@@ -6,10 +6,11 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Non-Surgical Hair Replacement in Dwarka | Growig Hair Solution - Bespoke Artistry</title>
+    <title>Non Surgical Hair Replacement in Dwarka | Hair Replacement System | Growig Hair Solution</title>
     <meta
-        content="Get a 100% natural, undetectable non-surgical hair replacement in Dwarka. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution."
+        content="Looking for non surgical hair replacement in dwarka? Growig Hair Solution offers custom hair replacement systems in dwarka for hair restoration without surgery. Free consultation!"
         name="description" />
+    <meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -24,10 +25,8 @@
                 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">PREMIUM
                     RESTORATION IN DWARKA</span>
                 <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
-                    Non-Surgical Hair Replacement in Dwarka: Bespoke Artistry for Natural Restoration</h1>
-                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Experience the pinnacle of hair
-                    replacement at our Dwarka Sec-7 studio. We offer same-day fixing and luxury bespoke fitting for an
-                    undetectable, confident new you.</p>
+                    Non Surgical Hair Replacement in Dwarka &amp; Hair Restoration Without Surgery</h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Get natural hair restoration without surgery in Dwarka. We offer custom hair replacement systems designed to fit comfortably, blend seamlessly, and look completely real.</p>
                 <div class="flex flex-wrap gap-4 pt-4 order-5">
                     <a href="contact"
                         class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule
@@ -53,24 +52,13 @@
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
                     <div class="lg:col-span-8 space-y-12">
                         <div class="space-y-6">
-                            <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">The Science of
-                                Confidence: Beyond Traditional Hair Systems</h2>
-                            <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Hair loss is more than just a physical change; it's a deeply personal journey that
-                                affects how you perceive yourself and how the world interacts with you. At Growig Hair
-                                Solution in Dwarka, we treat hair replacement as a blend of dermatological precision and
-                                high-fashion artistry. Our "Non-Surgical Hair Replacement in Dwarka" service isn't just
-                                about covering baldness—it's about restoring the architectural integrity of your facial
-                                silhouette without any surgical intervention.
-                            </p>
-                            <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Dwarka's fast-paced corporate landscape demands a look that is consistently sharp and
-                                professional. Whether you are navigating the boardrooms of New Delhi or the social
-                                circles of Dwarka, your hair system must be versatile, durable, and above all,
-                                invisible. Our bespoke non-surgical systems are designed using high-breathability
-                                polymers, skin-safe medical grade bonding, and ethically sourced human hair, ensuring
-                                they withstand the local climate while maintaining a luxurious texture.
-                            </p>
+                             <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Premium Hair Replacement Without Surgery in Dwarka</h2>
+                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                 Hair loss affects your confidence. At Growig Hair Solution, we specialize in non surgical hair replacement in Dwarka. Our systems are custom-made to blend perfectly with your natural hair. We focus on a clean look that is completely invisible to others.
+                             </p>
+                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                 A sharp look is essential. Your hair replacement system in Dwarka must be durable and comfortable. We use skin-safe bases and premium natural human hair. This ensures your system stays in place during sports, hot weather, and daily work.
+                             </p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div class="glass-card p-8 rounded-3xl space-y-4 border-primary/10">
@@ -91,17 +79,10 @@
                             </div>
                         </div>
                         <div class="space-y-6">
-                            <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Bespoke Fitting
-                                in Dwarka</h2>
-                            <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                The secret to a perfect non-surgical hair system lies in the "Mapping" phase. Unlike
-                                off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This
-                                allows us to create a base that perfectly contours to your head's unique ridges and
-                                dips. The result is a fit so secure that you can exercise, swim, and sleep without the
-                                slightest concern. Our Dwarka Sec-7 studio provides a private, serene environment where
-                                our senior stylists work with you to choose the exact density, curl pattern, and color
-                                gradient that matches your original hair.
-                            </p>
+                             <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Custom Hair Replacement System in Dwarka</h2>
+                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                 A great system starts with proper scalp mapping. We scan your head to design a base that fits your unique ridges. This ensures secure hair restoration without surgery in Dwarka. You can swim, run, and sleep comfortably. Our studio offers private rooms where stylists match the system's density and wave to your own hair.
+                             </p>
                         </div>
                     </div>
                     <div class="lg:col-span-4">

@@ -5,8 +5,9 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Custom Hairline & Hair Patch Design in Dwarka | Growig</title>
-    <meta name="description" content="Looking for the best custom hairline design in Dwarka? We specialize in natural, undetectable custom hair patch design at Growig Hair Solution. Book a consultation!" />
+    <title>Custom Hairline Design in Dwarka | Custom Hair Patch Design | Growig Hair Solution</title>
+    <meta name="description" content="Searching for the premier custom hairline design in Dwarka? Growig Hair Solution offers custom hair patch design in Dwarka. Achieve a natural, undetectable look. Book a free consultation today!" />
+    <meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
 
@@ -23,10 +24,10 @@
                     <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Dwarka Studio Exclusive</span>
                 </span>
                 <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
-                    Custom Hairline Design in Dwarka & <br /><span class="italic text-primary">Bespoke Hair Patch Systems</span>
+                    Custom Hairline Design in Dwarka &amp; <br /><span class="italic text-primary">Custom Hair Patch Design</span>
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">
-                    Experience the ultimate custom hair patch design in Dwarka. We handcraft natural-looking custom hairline designs with millimeter precision for a completely undetectable finish.
+                    Get a natural, undetectable look. We design custom hair patches and hairlines in Dwarka with millimeter precision. Restore your natural style today.
                 </p>
                 <div class="flex flex-wrap gap-4 pt-4 order-5">
                     <a class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center" href="contact">
@@ -51,12 +52,12 @@
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
                     <div class="lg:col-span-8 space-y-12">
                         <div class="space-y-6">
-                            <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Facial Symmetry & Custom Hair Patch Design in Dwarka</h2>
+                            <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Facial Symmetry &amp; Custom Hair Patch Design in Dwarka</h2>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Hair loss is more than just a physical change; it's a deeply personal journey that affects how you perceive yourself. At Growig Hair Solution in Dwarka, we treat hair replacement as a blend of precision and high-fashion artistry. Our custom hairline design and custom hair patch design in Dwarka services are not just about covering baldness—they are about restoring the architectural integrity of your facial silhouette.
+                                Hair loss affects your confidence. At Growig Hair Solution, we blend precision with artistry. Our custom hairline design and custom hair patch design in Dwarka restore your natural facial symmetry and look.
                             </p>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                Dwarka's fast-paced corporate landscape demands a look that is consistently sharp and professional. Whether you are navigating the boardrooms of New Delhi or the social circles of Dwarka, your hair system must be versatile, durable, and above all, invisible. Our bespoke systems are designed using high-breathability polymers and ethically sourced Remy human hair, ensuring they withstand the local climate while maintaining a luxurious texture.
+                                A sharp, professional look is essential. Your hair system must be durable, comfortable, and invisible. We use breathable bases and premium natural human hair, designed to withstand hot weather while looking completely real.
                             </p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -72,9 +73,9 @@
                             </div>
                         </div>
                         <div class="space-y-6">
-                             <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Bespoke Fitting in Dwarka</h2>
+                             <h2 class="font-headline-lg text-[28px] md:text-headline-lg text-on-surface">Bespoke Custom Hairline Design in Dwarka</h2>
                             <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                                The secret to a perfect hairline lies in the "Mapping" phase. Unlike off-the-shelf solutions, our process begins with a 3D scalp topographical scan. This allows us to create a base that perfectly contours to your head's unique ridges and dips. The result is a fit so secure that you can exercise, swim, and sleep without the slightest concern. Our Dwarka studio provides a private, serene environment where our senior stylists work with you to choose the exact density, curl pattern, and color gradient that matches your original hair.
+                                A perfect hairline starts with precise mapping. We measure your scalp shape to create a custom base that fits like a second skin. It stays secure when you swim, run, or sleep. Our Dwarka studio offers private rooms where stylists match the system's color and density to your own hair.
                             </p>
                         </div>
                     </div>
@@ -121,18 +122,18 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500">
                         <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="travel_explore"></span>
-                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Forehead Topography</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Mapping the ideal height and contour based on the Golden Ratio of your specific facial structure.</p>
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Forehead Mapping</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant">We map the ideal height and shape of your hairline to fit your unique face structure.</p>
                     </div>
                     <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500 delay-100">
                         <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="graduated_id"></span>
                         <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Density Graduation</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Replicating the natural, soft buildup of density from the very front edge into the deeper hairline.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant">We make the hair density build up slowly from the front edge for a softer, more natural look.</p>
                     </div>
                     <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-1 transition-transform duration-500 delay-200">
                         <span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="architecture"></span>
-                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Recession Architecture</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">Designing age-appropriate temporal recessions ensuring the restoration looks natural today and decades from now.</p>
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Natural Recessions</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant">We design natural-looking temple recessions so your hair system matches your age perfectly.</p>
                     </div>
                 </div>
             </div>

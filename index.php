@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Growig Hair Solution | Premium Hair Patch & Wig Studio in Dwarka</title>
+    <title>Hair Wig Shop in Dwarka | Best Hair Patch & Wig Center | Growig Hair Solution</title>
     <meta
-        content="Premium non-surgical hair replacement solutions, hair patches, and hair wigs in Dwarka. Get a natural look with expert fitting."
+        content="Looking for the best hair wig shop in Dwarka? Growig Hair Solution is a premier hair patch service centre in Dwarka. Visit our hair wig store in Dwarka Delhi for natural, undetectable non-surgical hair replacement. Book a free consultation!"
         name="description" />
     <?php include 'header-code.php'; ?>
 </head>
@@ -26,7 +26,7 @@
                             class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-surface-bright/55 backdrop-blur-md w-fit">
                             <span class="material-symbols-outlined text-primary text-sm filled">stars</span>
                             <span
-                                class="font-label-md text-label-md text-primary uppercase tracking-widest text-xs">Best Hair Wig Shop &amp; Hair Patch Service Centre in Dwarka</span>
+                                class="font-label-md text-label-md text-primary uppercase tracking-widest text-xs">⭐ Premier Hair Wig &amp; Patch Studio in Dwarka</span>
                         </div>
                         <h1
                             class="font-display-lg text-2xl sm:text-3xl md:text-headline-lg text-secondary leading-tight">
@@ -34,7 +34,7 @@
                             <span class="text-primary">&amp; Hair Patch Service Centre</span>
                         </h1>
                         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-                            Welcome to Growig Hair Solution, the premier <strong>Hair Wig Store in Dwarka Delhi</strong> and a professional <strong>Hair Patch Service Centre in Dwarka</strong>. Discover natural, undetectable, and non-surgical hair replacement solutions custom-fitted to your lifestyle.
+                            Welcome to Growig Hair Solution, the leading <strong>Hair Wig Store in Dwarka Delhi</strong>. We specialize in custom-crafted, non-surgical hair replacement. As a trusted <strong>Hair Patch Service Centre in Dwarka</strong>, we design breathable, natural-looking hair patches and wigs tailored perfectly to your lifestyle. Regain your confidence in just one session.
                         </p>
                         <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 pt-4">
                             <a class="bg-primary text-on-primary font-label-md text-label-md uppercase px-8 py-4 rounded-DEFAULT glow-hover transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-0.5"
@@ -112,16 +112,16 @@
                         src="assets/hair-patch.jpg" />
                 </div>
                 <div class="flex flex-col gap-6 fade-in-section">
-                    <span class="font-label-md text-label-md text-primary uppercase tracking-widest">Best Hair Wig Shop in Dwarka</span>
+                    <span class="font-label-md text-label-md text-primary uppercase tracking-widest">Welcome to Growig Hair Solution</span>
                     <h2
                         class="font-headline-lg-mobile md:font-headline-lg text-3xl md:text-headline-lg text-secondary leading-tight">
-                        Restoring Confidence, <br />One Thread at a Time.
+                        Dwarka's Best Hair Wig Shop &amp; Hair Patch Service Centre
                     </h2>
                     <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                        Growig Hair Solution is renowned as the <strong>Best Hair Wig Shop in Dwarka</strong>, offering premium non-surgical hair replacement solutions. Our dedicated <strong>Hair Patch Service Centre in Dwarka</strong> customizes and fits hair systems to blend seamlessly with your scalp, restoring your natural look and confidence.
+                        At Growig Hair Solution, we believe that a great hair system can change your life. We are proud to be recognized as the <strong>Best Hair Wig Shop in Dwarka</strong>, offering premium non-surgical hair replacement solutions for both men and women. Our state-of-the-art <strong>Hair Patch Service Centre in Dwarka</strong> uses advanced materials and custom fitting to match your exact hair texture, density, and color.
                     </p>
                     <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                        Whether you are looking for a luxury <strong>Hair Wig Store in Dwarka Delhi</strong> or professional patch maintenance, our expert stylists specialize in hair bonding, weaving, and clipping. Get a secure fit that lets you swim, exercise, and live without limits.
+                        If you are looking for a reliable <strong>Hair Wig Store in Dwarka Delhi</strong>, our studio offers a private, comfortable environment. Our master stylists specialize in hair bonding, hair weaving, clipping, and custom front hairline designs. Every system is sweat-resistant, waterproof, and designed to support an active lifestyle—allowing you to swim, workout, and live with complete freedom.
                     </p>
                     <div class="grid grid-cols-2 gap-6 mt-6 pt-6 border-t border-surface-variant/60">
                         <div>
@@ -154,8 +154,7 @@
                             <img src="assets/Premium Hair Patch.png" alt="Premium Hair Patch" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Premium Hair Patch</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Custom-designed hair patches that
-                            seamlessly blend with your natural hair texture and color for an undetectable finish.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Bespoke, custom-designed hair patches crafted at our Dwarka centre to blend seamlessly with your natural hair for an undetectable finish.</p>
                     </a>
                     <!-- Service Card 2 -->
                     <a href="full-hair-wig"
@@ -164,8 +163,7 @@
                             <img src="assets/full-hair-wig-men.png" alt="Full Hair Wigs" class="w-full h-full object-cover relative z-10 group-hover:scale-105 transition-transform duration-500">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Full Hair Wigs</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-center">High-grade human hair wigs offering
-                            complete coverage with a breathable, comfortable base for daily wear.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Luxury natural human hair wigs offering complete, comfortable coverage with breathable bases for everyday confidence.</p>
                     </a>
                     <!-- Service Card 3 -->
                     <a href="non-surgical-replacement"
@@ -174,8 +172,7 @@
                             <img src="assets/Non-Surgical Replacement.png" alt="Non-Surgical Replacement" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Non-Surgical Replacement</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-center">A painless, immediate solution to
-                            hair loss without the risks or downtime of surgical transplants.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">A painless, immediate non-surgical hair replacement solution that gives you natural volume without surgery.</p>
                     </a>
                     <!-- Service Card 4 -->
                     <a href="hair-bonding"
@@ -184,8 +181,7 @@
                             <img src="assets/Hair Bonding.png" alt="Hair Bonding" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Hair Bonding</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Secure, medical-grade adhesive
-                            bonding that allows for an active lifestyle, including swimming and sports.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Secure, medical-grade adhesive bonding performed by experts at our Dwarka studio for active lifestyles.</p>
                     </a>
                     <!-- Service Card 5 -->
                     <a href="maintenance-and-styling"
@@ -194,8 +190,7 @@
                             <img src="assets/hair-maintance.jpg" alt="Maintenance & Styling" class="w-full h-full object-cover relative z-10 group-hover:scale-105 transition-transform duration-500">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Maintenance & Styling</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Regular upkeep, cleaning, and
-                            professional styling to ensure your hair system always looks fresh and natural.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Professional cleaning, re-bonding, and expert styling services to keep your hair system looking brand new.</p>
                     </a>
                     <!-- Service Card 6 -->
                     <a href="custom-hairline-design"
@@ -204,8 +199,7 @@
                             <img src="assets/Custom Hairline Design.png" alt="Custom Hairline Design" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Custom Hairline Design</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Precision crafting of the front
-                            hairline to match your age, facial structure, and desired look flawlessly.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-center">Precision-designed front hairlines crafted to complement your facial structure, age, and natural hair flow.</p>
                     </a>
                 </div>
             </div>
@@ -268,10 +262,9 @@
                             Growig Advantage</span>
                         <h2
                             class="font-headline-lg-mobile md:font-headline-lg text-4xl md:text-headline-lg text-secondary mb-8">
-                            Why Choose Us</h2>
+                            Why We Are Dwarka's Preferred Hair Restoration Studio</h2>
                         <p class="font-body-md text-on-surface-variant mb-8 leading-relaxed">
-                            We combine artistry with advanced technology to deliver hair replacement solutions that are
-                            virtually indistinguishable from natural hair growth.
+                            We combine advanced clinical technology with bespoke styling artistry. From digital scalp mapping to hand-tied single-knotting, our hair patch service centre in Dwarka ensures that your hair system is entirely customized, lightweight, and completely natural to the touch.
                         </p>
                         <video class="w-full h-auto rounded-2xl shadow-sm border border-surface-variant object-cover" autoplay loop muted playsinline>
                             <source src="assets/Short%20Hair%20Transformation%20Growig.mp4" type="video/mp4">

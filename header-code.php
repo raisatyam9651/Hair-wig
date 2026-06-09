@@ -7,8 +7,8 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 // Define metadata for all pages for schema and OG tags
 $pages_metadata = [
     'index' => [
-        'title' => 'Best Hair Wig Shop in Dwarka Delhi | Hair Patch Service Centre',
-        'description' => 'Growig Hair Solution is the best hair wig shop and store in Dwarka Delhi. We are a leading hair patch service centre in Dwarka offering natural, undetectable non-surgical hair replacement. Book a free consultation!',
+        'title' => 'Hair Wig Shop in Dwarka | Best Hair Patch & Wig Center | Growig Hair Solution',
+        'description' => 'Looking for the best hair wig shop in Dwarka? Growig Hair Solution is a premier hair patch service centre in Dwarka. Visit our hair wig store in Dwarka Delhi for natural, undetectable non-surgical hair replacement. Book a free consultation!',
         'url' => 'https://growighairsolution.com/',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
@@ -21,15 +21,15 @@ $pages_metadata = [
         'type' => 'website'
     ],
     'contact' => [
-        'title' => 'Contact Us | Growig Hair Solution Dwarka',
+        'title' => 'Contact Us | Growig Hair Solution',
         'description' => 'Book your private, complimentary consultation at our Dwarka studio. Contact Growig Hair Solution Dwarka for non-surgical hair replacement.',
         'url' => 'https://growighairsolution.com/contact',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'website'
     ],
     'premium-hair-patch' => [
-        'title' => 'Premium Hair Patch in Dwarka | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Get a 100% natural, undetectable premium hair patch in Dwarka. Custom-designed hair patches that blend seamlessly with your own hair. Same-day fixing available at Growig Hair Solution.',
+        'title' => 'Best Hair Patch in Dwarka | Hair Patch for Men | Growig Hair Solution',
+        'description' => 'Looking for the best hair patch in dwarka? Growig Hair Solution is a leading hair patch centre and clinic in dwarka. We offer premium hair patch service for men near you. Book a free consultation!',
         'url' => 'https://growighairsolution.com/premium-hair-patch',
         'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
         'type' => 'product',
@@ -37,8 +37,8 @@ $pages_metadata = [
         'service_desc' => 'Custom-designed hair patches that seamlessly blend with your natural hair texture and color for an undetectable finish.'
     ],
     'full-hair-wig' => [
-        'title' => 'Full Hair Wigs in Dwarka | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Experience the pinnacle of hair replacement at our Dwarka studio. We offer same-day fixing and luxury bespoke fitting for an undetectable, confident new you.',
+        'title' => 'Full Hair Wig in Dwarka | Best Hair Wig in Dwarka | Growig Hair Solution',
+        'description' => 'Searching for the best hair wig in dwarka? Growig Hair Solution offers natural, undetectable full hair wig in dwarka. Same-day fitting and custom designs. Book a free consultation!',
         'url' => 'https://growighairsolution.com/full-hair-wig',
         'image' => 'https://growighairsolution.com/assets/full-hair-wig-hero.png',
         'type' => 'product',
@@ -46,8 +46,8 @@ $pages_metadata = [
         'service_desc' => 'High-grade human hair wigs offering complete coverage with a breathable, comfortable base for daily wear.'
     ],
     'non-surgical-replacement' => [
-        'title' => 'Non-Surgical Hair Replacement in Dwarka | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Get a 100% natural, undetectable non-surgical hair replacement in Dwarka. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution.',
+        'title' => 'Non Surgical Hair Replacement in Dwarka | Hair Replacement System | Growig Hair Solution',
+        'description' => 'Looking for non surgical hair replacement in dwarka? Growig Hair Solution offers custom hair replacement systems in dwarka for hair restoration without surgery. Free consultation!',
         'url' => 'https://growighairsolution.com/non-surgical-replacement',
         'image' => 'https://growighairsolution.com/assets/Non-Surgical%20Replacement.png',
         'type' => 'product',
@@ -55,8 +55,8 @@ $pages_metadata = [
         'service_desc' => 'A painless, immediate solution to hair loss without the risks or downtime of surgical transplants.'
     ],
     'hair-bonding' => [
-        'title' => 'Premium Hair Bonding in Dwarka | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Get a 100% natural, undetectable hair bonding service in Dwarka. Custom-designed hair systems that blend seamlessly with your scalp. Same-day fixing available at Growig Hair Solution.',
+        'title' => 'Custom Hair Bonding in Dwarka | Best Hair Bonding Service | Growig Hair Solution',
+        'description' => 'Looking for the best hair bonding service in dwarka? Growig Hair Solution offers natural, custom hair bonding in dwarka with skin-safe adhesives. Book a free consultation!',
         'url' => 'https://growighairsolution.com/hair-bonding',
         'image' => 'https://growighairsolution.com/assets/hair-bonding-hero-section.png',
         'type' => 'product',
@@ -64,8 +64,8 @@ $pages_metadata = [
         'service_desc' => 'Secure, medical-grade adhesive bonding that allows for an active lifestyle, including swimming and sports.'
     ],
     'maintenance-and-styling' => [
-        'title' => 'Hair System Maintenance & Styling in Dwarka | Growig Hair Solution - Bespoke Artistry',
-        'description' => 'Keep your hair system in pristine condition with our professional maintenance and styling services in Dwarka. Deep clarifying wash, re-bonding, and styling at Growig Hair Solution.',
+        'title' => 'Hair Patch Maintenance in Dwarka | Hair System Maintenance | Growig Hair Solution',
+        'description' => 'Looking for professional hair patch maintenance in Dwarka? Growig Hair Solution offers expert hair system maintenance in Dwarka, including hair patch cleaning in Dwarka and hair styling for hair patch in Dwarka. Book a free consultation!',
         'url' => 'https://growighairsolution.com/maintenance-and-styling',
         'image' => 'https://growighairsolution.com/assets/Maintenance%20&%20Styling.png',
         'type' => 'product',
@@ -73,8 +73,8 @@ $pages_metadata = [
         'service_desc' => 'Regular upkeep, cleaning, and professional styling to ensure your hair system always looks fresh and natural.'
     ],
     'custom-hairline-design' => [
-        'title' => 'Custom Hairline & Hair Patch Design in Dwarka | Growig',
-        'description' => 'Looking for the best custom hairline design in Dwarka? We specialize in natural, undetectable custom hair patch design at Growig Hair Solution. Book a consultation!',
+        'title' => 'Custom Hairline Design in Dwarka | Custom Hair Patch Design | Growig Hair Solution',
+        'description' => 'Searching for the premier custom hairline design in Dwarka? Growig Hair Solution offers custom hair patch design in Dwarka. Achieve a natural, undetectable look. Book a free consultation today!',
         'url' => 'https://growighairsolution.com/custom-hairline-design',
         'image' => 'https://growighairsolution.com/assets/Custom%20Hairline%20Design.png',
         'type' => 'product',
@@ -82,7 +82,7 @@ $pages_metadata = [
         'service_desc' => 'Bespoke custom hairline design and custom hair patch design in Dwarka. We craft natural, undetectable hair systems matching your facial geometry and style.'
     ],
     'gallery' => [
-        'title' => 'Before and After Gallery | Growig Hair Solution Dwarka',
+        'title' => 'Before and After Gallery | Growig Hair Solution',
         'description' => 'Real transformations, real confidence. Browse our gallery of premium non-surgical hair replacement, patches, and wigs.',
         'url' => 'https://growighairsolution.com/gallery',
         'image' => 'https://growighairsolution.com/assets/main-beofre-and-after.png',
