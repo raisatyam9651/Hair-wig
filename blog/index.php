@@ -41,9 +41,9 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
     <section class="py-12 bg-surface-container-low text-center">
         <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
             <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md uppercase tracking-wider mb-4 text-xs">Knowledge Center</span>
-            <h1 class="font-display-lg text-3xl md:text-[44px] text-on-surface leading-tight text-balance mb-4 font-bold">Hair Restoration & Maintenance Blogs</h1>
+            <h1 class="font-display-lg text-3xl md:text-[44px] text-on-surface leading-tight text-balance mb-4 font-bold">Latest Blogs &amp; Articles</h1>
             <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
-                Expert tips, comparison guides, and step-by-step care routines to help you keep your hair systems and wigs looking natural and fresh.
+                Explore expert advice, care routines, styling tips, and the latest trends from Growig Hair Solution.
             </p>
         </div>
     </section>
