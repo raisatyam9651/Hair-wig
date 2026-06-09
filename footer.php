@@ -1,10 +1,13 @@
+<?php
+$path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'], '/blog/') !== false) ? '../' : '');
+?>
 <!-- Footer -->
     <footer class="bg-primary text-white w-full border-t border-white/10 pt-20 pb-10">
         <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <!-- Brand & About -->
                 <div class="flex flex-col gap-6">
-                    <a class="flex items-center gap-2 group" href="./">
+                    <a class="flex items-center gap-2 group" href="<?php echo $path_prefix; ?>./">
                         <img alt="Growig Logo" class="h-10 w-auto object-contain brightness-0 invert opacity-90"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
                     </a>
@@ -32,29 +35,31 @@
                 <div class="flex flex-col gap-4">
                     <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Explore</h4>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="./">Home</a>
+                        href="<?php echo $path_prefix; ?>./">Home</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="about">About Us</a>
+                        href="<?php echo $path_prefix; ?>about">About Us</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="gallery">Gallery</a>
+                        href="<?php echo $path_prefix; ?>gallery">Gallery</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="contact">Contact</a>
+                        href="<?php echo $path_prefix; ?>blog">Blog</a>
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
+                        href="<?php echo $path_prefix; ?>contact">Contact</a>
                 </div>
                 <!-- Services -->
                 <div class="flex flex-col gap-4">
                     <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Services</h4>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="premium-hair-patch">Premium Hair Patch</a>
+                        href="<?php echo $path_prefix; ?>premium-hair-patch">Premium Hair Patch</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="full-hair-wig">Full Hair Wigs</a>
+                        href="<?php echo $path_prefix; ?>full-hair-wig">Full Hair Wigs</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="non-surgical-replacement">Non-Surgical Replacement</a>
+                        href="<?php echo $path_prefix; ?>non-surgical-replacement">Non-Surgical Replacement</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="hair-bonding">Hair Bonding</a>
+                        href="<?php echo $path_prefix; ?>hair-bonding">Hair Bonding</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="maintenance-and-styling">Maintenance & Styling</a>
+                        href="<?php echo $path_prefix; ?>maintenance-and-styling">Maintenance & Styling</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="custom-hairline-design">Customize Your Patch</a>
+                        href="<?php echo $path_prefix; ?>custom-hairline-design">Customize Your Patch</a>
                 </div>
                 <!-- Location -->
                 <div class="flex flex-col gap-4">
@@ -86,4 +91,4 @@
             </path>
         </svg>
     </a>
-    <script src="script.js?v=3" defer></script>
+    <script src="<?php echo $path_prefix; ?>script.js?v=3" defer></script>>

@@ -5,33 +5,47 @@
 $page = basename($_SERVER['PHP_SELF'], '.php');
 
 // Don't show visual breadcrumbs on the homepage
-if ($page !== 'index') {
-    $breadcrumb_links = [
-        ['name' => 'Home', 'url' => './']
-    ];
-
-    $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design']);
-
-    if ($is_service) {
-        $service_names = [
-            'premium-hair-patch' => 'Premium Hair Patch',
-            'full-hair-wig' => 'Full Hair Wigs',
-            'non-surgical-replacement' => 'Non-Surgical Replacement',
-            'hair-bonding' => 'Hair Bonding',
-            'maintenance-and-styling' => 'Maintenance & Styling',
-            'custom-hairline-design' => 'Custom Hairline Design'
+if ($page !== 'index' || (strpos($_SERVER['PHP_SELF'], '/blog/') !== false)) {
+    $is_blog_dir = (strpos($_SERVER['PHP_SELF'], '/blog/') !== false);
+    
+    if ($is_blog_dir) {
+        $breadcrumb_links = [
+            ['name' => 'Home', 'url' => '../']
         ];
-        
-        $breadcrumb_links[] = ['name' => 'Services', 'url' => './#services'];
-        $breadcrumb_links[] = ['name' => isset($service_names[$page]) ? $service_names[$page] : 'Service', 'url' => ''];
+        if ($page === 'index') {
+            $breadcrumb_links[] = ['name' => 'Blog', 'url' => ''];
+        } else {
+            $breadcrumb_links[] = ['name' => 'Blog', 'url' => './'];
+            $breadcrumb_links[] = ['name' => isset($blog_post['title']) ? $blog_post['title'] : 'Article', 'url' => ''];
+        }
     } else {
-        $name_mapping = [
-            'about' => 'About Us',
-            'contact' => 'Contact Us',
-            'gallery' => 'Gallery'
+        $breadcrumb_links = [
+            ['name' => 'Home', 'url' => './']
         ];
-        $display_name = isset($name_mapping[$page]) ? $name_mapping[$page] : ucfirst($page);
-        $breadcrumb_links[] = ['name' => $display_name, 'url' => ''];
+
+        $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design']);
+
+        if ($is_service) {
+            $service_names = [
+                'premium-hair-patch' => 'Premium Hair Patch',
+                'full-hair-wig' => 'Full Hair Wigs',
+                'non-surgical-replacement' => 'Non-Surgical Replacement',
+                'hair-bonding' => 'Hair Bonding',
+                'maintenance-and-styling' => 'Maintenance & Styling',
+                'custom-hairline-design' => 'Custom Hairline Design'
+            ];
+            
+            $breadcrumb_links[] = ['name' => 'Services', 'url' => './#services'];
+            $breadcrumb_links[] = ['name' => isset($service_names[$page]) ? $service_names[$page] : 'Service', 'url' => ''];
+        } else {
+            $name_mapping = [
+                'about' => 'About Us',
+                'contact' => 'Contact Us',
+                'gallery' => 'Gallery'
+            ];
+            $display_name = isset($name_mapping[$page]) ? $name_mapping[$page] : ucfirst($page);
+            $breadcrumb_links[] = ['name' => $display_name, 'url' => ''];
+        }
     }
     
     // Render breadcrumbs

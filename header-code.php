@@ -90,7 +90,29 @@ $pages_metadata = [
     ]
 ];
 
-$current_metadata = isset($pages_metadata[$page]) ? $pages_metadata[$page] : $pages_metadata['index'];
+if (strpos($_SERVER['PHP_SELF'], '/blog/') !== false) {
+    if ($page === 'index') {
+        $current_metadata = [
+            'title' => 'Expert Hair Patch & Wig Care Blogs | Growig Hair Solution',
+            'description' => 'Explore the latest blogs from Growig Hair Solution on hair patch maintenance, hair wig styling, cleaning, and non-surgical hair replacement in Dwarka.',
+            'url' => 'https://growighairsolution.com/blog/',
+            'image' => 'https://growighairsolution.com/assets/hair-maintance.jpg',
+            'type' => 'website'
+        ];
+    } else if (isset($blog_post)) {
+        $current_metadata = [
+            'title' => $blog_post['title'] . ' | Growig Hair Solution',
+            'description' => $blog_post['description'],
+            'url' => 'https://growighairsolution.com/blog/' . $blog_post['slug'] . '.php',
+            'image' => 'https://growighairsolution.com/assets/' . $blog_post['image'],
+            'type' => 'article'
+        ];
+    } else {
+        $current_metadata = $pages_metadata['index'];
+    }
+} else {
+    $current_metadata = isset($pages_metadata[$page]) ? $pages_metadata[$page] : $pages_metadata['index'];
+}
 
 // 1. LocalBusiness Schema
 $local_business_schema = [
