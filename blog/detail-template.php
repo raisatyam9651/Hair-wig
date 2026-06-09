@@ -94,52 +94,89 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
 
     <!-- Main Content -->
     <section class="py-16">
-        <div class="max-w-[800px] mx-auto px-margin-mobile md:px-0">
-            <!-- Featured Image -->
-            <div class="rounded-3xl overflow-hidden royal-shadow mb-12 border border-surface-variant/30">
-                <img src="../assets/hair-maintance.jpg" alt="<?php echo htmlspecialchars($blog_post['title']); ?>" class="w-full h-auto object-cover max-h-[450px]" />
-            </div>
+        <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <!-- Left: Article Content Column -->
+                <div class="lg:col-span-8">
+                    <!-- Featured Image -->
+                    <div class="rounded-3xl overflow-hidden royal-shadow mb-12 border border-surface-variant/30">
+                        <img src="../assets/hair-maintance.jpg" alt="<?php echo htmlspecialchars($blog_post['title']); ?>" class="w-full h-auto object-cover max-h-[450px]" />
+                    </div>
 
-            <!-- Content Area -->
-            <article class="blog-content font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                <?php echo $blog_post['content']; ?>
-            </article>
+                    <!-- Content Area -->
+                    <article class="blog-content font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        <?php echo $blog_post['content']; ?>
+                    </article>
 
-            <!-- Next / Prev Article Pagination -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-16 pt-8 border-t border-outline-variant/30">
-                <div>
-                    <?php if ($prev_post): ?>
-                        <a href="./<?php echo htmlspecialchars($prev_post['slug']); ?>.php" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]">
-                            <span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 group-hover:text-primary transition-colors">
-                                <span class="material-symbols-outlined text-[14px]">arrow_back</span> Previous Article
-                            </span>
-                            <span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($prev_post['title']); ?></span>
+                    <!-- Next / Prev Article Pagination -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-16 pt-8 border-t border-outline-variant/30">
+                        <div>
+                            <?php if ($prev_post): ?>
+                                <a href="./<?php echo htmlspecialchars($prev_post['slug']); ?>.php" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]">
+                                    <span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 group-hover:text-primary transition-colors">
+                                        <span class="material-symbols-outlined text-[14px]">arrow_back</span> Previous Article
+                                    </span>
+                                    <span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($prev_post['title']); ?></span>
+                                </a>
+                            <?php endif; ?>
+                        </div>
+                        <div class="sm:text-right">
+                            <?php if ($next_post): ?>
+                                <a href="./<?php echo htmlspecialchars($next_post['slug']); ?>.php" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]">
+                                    <span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 sm:justify-end group-hover:text-primary transition-colors">
+                                        Next Article <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+                                    </span>
+                                    <span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($next_post['title']); ?></span>
+                                </a>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Share / Back -->
+                    <div class="flex flex-col sm:flex-row justify-between items-center gap-6 mt-16 pt-8 border-t border-outline-variant/30">
+                        <a href="./" class="inline-flex items-center gap-2 text-primary hover:text-primary-container font-label-md transition-colors">
+                            <span class="material-symbols-outlined text-[18px]">arrow_back</span>
+                            Back to all Blogs
                         </a>
-                    <?php endif; ?>
+                        <div class="flex items-center gap-4">
+                            <span class="text-sm font-label-md text-on-surface-variant">Share this article:</span>
+                            <a href="https://wa.me/?text=<?php echo urlencode($blog_post['title'] . ' - https://growighairsolution.com/blog/' . $blog_post['slug'] . '.php'); ?>" target="_blank" class="w-10 h-10 rounded-full bg-primary/5 hover:bg-primary/10 text-primary flex items-center justify-center transition-colors">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.335 4.975L2 22l5.233-1.371a9.92 9.92 0 004.773 1.226h.005c5.505 0 9.988-4.479 9.989-9.985a9.96 9.96 0 00-2.925-7.062 9.92 9.92 0 00-7.063-2.787zm5.42 14.186c-.296.83-1.75 1.624-2.42 1.706-.607.075-1.397.086-2.262-.19-.54-.173-1.226-.454-2.09-.83-3.69-1.597-6.082-5.328-6.267-5.574-.185-.246-1.428-1.89-1.428-3.61 0-1.719.897-2.565 1.218-2.915.322-.35.706-.438.94-.438.236 0 .473.003.678.013.214.01.503-.082.786.598.293.705.998 2.422 1.085 2.597.087.175.146.378.03.61-.117.234-.176.38-.352.585-.175.204-.368.455-.526.61-.176.176-.36.368-.156.719.205.35.912 1.498 1.956 2.422 1.343 1.19 2.472 1.558 2.822 1.734.35.175.555.146.76-.088.205-.234.877-1.022 1.112-1.373.234-.35.467-.292.787-.175.321.117 2.037.962 2.387 1.137.35.175.584.263.67.41.088.146.088.847-.208 1.677z"/></svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="sm:text-right">
-                    <?php if ($next_post): ?>
-                        <a href="./<?php echo htmlspecialchars($next_post['slug']); ?>.php" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]">
-                            <span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 sm:justify-end group-hover:text-primary transition-colors">
-                                Next Article <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
-                            </span>
-                            <span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($next_post['title']); ?></span>
-                        </a>
-                    <?php endif; ?>
-                </div>
-            </div>
 
-            <!-- Bottom Share / Back -->
-            <div class="flex flex-col sm:flex-row justify-between items-center gap-6 mt-16 pt-8 border-t border-outline-variant/30">
-                <a href="./" class="inline-flex items-center gap-2 text-primary hover:text-primary-container font-label-md transition-colors">
-                    <span class="material-symbols-outlined text-[18px]">arrow_back</span>
-                    Back to all Blogs
-                </a>
-                <div class="flex items-center gap-4">
-                    <span class="text-sm font-label-md text-on-surface-variant">Share this article:</span>
-                    <a href="https://wa.me/?text=<?php echo urlencode($blog_post['title'] . ' - https://growighairsolution.com/blog/' . $blog_post['slug'] . '.php'); ?>" target="_blank" class="w-10 h-10 rounded-full bg-primary/5 hover:bg-primary/10 text-primary flex items-center justify-center transition-colors">
-                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.335 4.975L2 22l5.233-1.371a9.92 9.92 0 004.773 1.226h.005c5.505 0 9.988-4.479 9.989-9.985a9.96 9.96 0 00-2.925-7.062 9.92 9.92 0 00-7.063-2.787zm5.42 14.186c-.296.83-1.75 1.624-2.42 1.706-.607.075-1.397.086-2.262-.19-.54-.173-1.226-.454-2.09-.83-3.69-1.597-6.082-5.328-6.267-5.574-.185-.246-1.428-1.89-1.428-3.61 0-1.719.897-2.565 1.218-2.915.322-.35.706-.438.94-.438.236 0 .473.003.678.013.214.01.503-.082.786.598.293.705.998 2.422 1.085 2.597.087.175.146.378.03.61-.117.234-.176.38-.352.585-.175.204-.368.455-.526.61-.176.176-.36.368-.156.719.205.35.912 1.498 1.956 2.422 1.343 1.19 2.472 1.558 2.822 1.734.35.175.555.146.76-.088.205-.234.877-1.022 1.112-1.373.234-.35.467-.292.787-.175.321.117 2.037.962 2.387 1.137.35.175.584.263.67.41.088.146.088.847-.208 1.677z"/></svg>
-                    </a>
+                <!-- Right: Sticky CTA Sidebar Column -->
+                <div class="lg:col-span-4">
+                    <div class="sticky top-28 space-y-6">
+                        <!-- Booking CTA Card -->
+                        <div class="glass-card p-8 rounded-[32px] border border-primary/20 royal-shadow bg-[#fcf9f4] text-center space-y-6">
+                            <span class="material-symbols-outlined text-primary text-5xl" data-icon="support_agent">support_agent</span>
+                            <h3 class="font-headline-md text-on-surface font-bold text-xl">Free Scalp Consultation</h3>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">
+                                Speak with our Dwarka hair experts. Get a personalized analysis and quote for your customized hair patch or wig system.
+                            </p>
+                            <a href="../contact" class="block w-full bg-primary text-white py-4 rounded-full font-label-md hover:bg-primary-container hover:scale-[1.02] active:scale-[0.98] transition-all royal-shadow uppercase tracking-wider text-sm font-bold text-center">Book Free Session</a>
+                            <div class="pt-4 border-t border-outline-variant/30 flex items-center justify-center gap-3">
+                                <span class="material-symbols-outlined text-primary" data-icon="call">call</span>
+                                <a href="tel:+918766216564" class="font-bold text-on-surface hover:text-primary transition-colors text-sm">+91 87662 16564</a>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar Quick Links -->
+                        <div class="glass-card p-8 rounded-[32px] border border-outline-variant/30 bg-[#fcf9f4] space-y-4">
+                            <h4 class="font-headline-md text-on-surface font-bold text-base uppercase tracking-wider border-b border-outline-variant/30 pb-2">Our Services</h4>
+                            <ul class="space-y-3">
+                                <li><a href="../premium-hair-patch" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">✨ Premium Hair Patch</a></li>
+                                <li><a href="../full-hair-wig" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">👑 Full Hair Wigs</a></li>
+                                <li><a href="../non-surgical-replacement" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">🔬 Non-Surgical Replacement</a></li>
+                                <li><a href="../hair-bonding" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">🔒 Hair Bonding</a></li>
+                                <li><a href="../maintenance-and-styling" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">✂️ Maintenance & Styling</a></li>
+                                <li><a href="../custom-hairline-design" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">📐 Custom Hairline Design</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
