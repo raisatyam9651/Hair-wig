@@ -52,7 +52,7 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title><?php echo htmlspecialchars($blog_post['title']); ?> | Growig Hair Solution</title>
     <meta content="<?php echo htmlspecialchars($blog_post['description']); ?>" name="description"/>
-    <?php include '../header-code.php'; ?>
+    <?php include __DIR__ . '/../header-code.php'; ?>
     <style>
         .blog-content h4 {
             font-family: 'Cormorant Garamond', serif;
@@ -70,9 +70,9 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
     </style>
 </head>
 <body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
-<?php include '../header.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
 <main class="pt-20">
-    <?php include '../breadcrumbs.php'; ?>
+    <?php include __DIR__ . '/../breadcrumbs.php'; ?>
     
     <!-- Blog Hero -->
     <section class="py-12 bg-surface-container-low">
@@ -237,6 +237,6 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
         </div>
     </section>
 </main>
-<?php include '../footer.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>
 </body>
 </html>

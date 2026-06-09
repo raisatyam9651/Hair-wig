@@ -91,4 +91,4 @@ $path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'
             </path>
         </svg>
     </a>
-    <script src="<?php echo $path_prefix; ?>script.js?v=3" defer></script>>
+    <script src="<?php echo $path_prefix; ?>script.js?v=3" defer></script>

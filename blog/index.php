@@ -13,12 +13,12 @@ if ($selected_category !== 'All') {
 }
 
 // Pagination Setup
-$posts_per_page = 6;
+$posts_per_page = 9;
 $total_posts = count($filtered_posts);
 $total_pages = max(1, ceil($total_posts / $posts_per_page));
 
-$current_page = isset($_GET['page']) ? max(1, min($total_pages, intval($_GET['page']))) : 1;
-$offset = ($current_page - 1) * $posts_per_page;
+$blog_current_page = isset($_GET['page']) ? max(1, min($total_pages, intval($_GET['page']))) : 1;
+$offset = ($blog_current_page - 1) * $posts_per_page;
 $display_posts = array_slice($filtered_posts, $offset, $posts_per_page);
 
 $custom_head_links = '<meta name="robots" content="index, follow" />';
@@ -30,12 +30,12 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Expert Hair Patch & Wig Care Blogs | Growig Hair Solution</title>
     <meta content="Explore the latest blogs from Growig Hair Solution on hair patch maintenance, hair wig styling, cleaning, and non-surgical hair replacement in Dwarka." name="description"/>
-    <?php include '../header-code.php'; ?>
+    <?php include __DIR__ . '/../header-code.php'; ?>
 </head>
 <body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
-<?php include '../header.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
 <main class="pt-20">
-    <?php include '../breadcrumbs.php'; ?>
+    <?php include __DIR__ . '/../breadcrumbs.php'; ?>
 
     <!-- Blog Header Section -->
     <section class="py-12 bg-surface-container-low text-center">
@@ -86,7 +86,7 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
                             <!-- Card Body -->
                             <div class="p-6 flex flex-col justify-between flex-grow">
                                 <div>
-                                    <div class="text-xs text-on-surface-variant font-label-md mb-2"><?php echo htmlspecialchars($post['date']); ?></div>
+                                     <div class="text-xs text-on-surface-variant font-label-md mb-2"><?php echo htmlspecialchars($post['date']); ?></div>
                                     <h3 class="font-display-md text-lg text-on-surface font-bold line-clamp-2 mb-3 leading-snug">
                                         <a href="./<?php echo htmlspecialchars($post['slug']); ?>.php" class="hover:text-primary transition-colors"><?php echo htmlspecialchars($post['title']); ?></a>
                                     </h3>
@@ -103,11 +103,11 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
                 </div>
 
                 <!-- Pagination Section -->
-                <?php if ($total_pages > 1): ?>
+                <?php if ($total_pages >= 1): ?>
                     <div class="flex items-center justify-center gap-4 mt-16">
                         <!-- Prev Button -->
-                        <?php if ($current_page > 1): ?>
-                            <a href="?category=<?php echo urlencode($selected_category); ?>&page=<?php echo $current_page - 1; ?>" class="w-10 h-10 rounded-full border border-outline flex items-center justify-center text-secondary hover:text-primary hover:border-primary transition-colors">
+                        <?php if ($blog_current_page > 1): ?>
+                            <a href="?category=<?php echo urlencode($selected_category); ?>&page=<?php echo $blog_current_page - 1; ?>" class="w-10 h-10 rounded-full border border-outline flex items-center justify-center text-secondary hover:text-primary hover:border-primary transition-colors">
                                 <span class="material-symbols-outlined text-[18px]">chevron_left</span>
                             </a>
                         <?php else: ?>
@@ -118,14 +118,14 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
 
                         <!-- Page Numbers -->
                         <?php for ($i = 1; $i <= $total_pages; $i++): ?>
-                            <a href="?category=<?php echo urlencode($selected_category); ?>&page=<?php echo $i; ?>" class="w-10 h-10 rounded-full flex items-center justify-center font-label-md text-sm transition-all <?php echo ($current_page === $i) ? 'bg-primary text-white shadow-sm' : 'border border-outline text-secondary hover:text-primary hover:border-primary'; ?>">
+                            <a href="?category=<?php echo urlencode($selected_category); ?>&page=<?php echo $i; ?>" class="w-10 h-10 rounded-full flex items-center justify-center font-label-md text-sm transition-all <?php echo ($blog_current_page === $i) ? 'bg-primary text-white shadow-sm' : 'border border-outline text-secondary hover:text-primary hover:border-primary'; ?>">
                                 <?php echo $i; ?>
                             </a>
                         <?php endfor; ?>
 
                         <!-- Next Button -->
-                        <?php if ($current_page < $total_pages): ?>
-                            <a href="?category=<?php echo urlencode($selected_category); ?>&page=<?php echo $current_page + 1; ?>" class="w-10 h-10 rounded-full border border-outline flex items-center justify-center text-secondary hover:text-primary hover:border-primary transition-colors">
+                        <?php if ($blog_current_page < $total_pages): ?>
+                            <a href="?category=<?php echo urlencode($selected_category); ?>&page=<?php echo $blog_current_page + 1; ?>" class="w-10 h-10 rounded-full border border-outline flex items-center justify-center text-secondary hover:text-primary hover:border-primary transition-colors">
                                 <span class="material-symbols-outlined text-[18px]">chevron_right</span>
                             </a>
                         <?php else: ?>
@@ -139,6 +139,6 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
         </div>
     </section>
 </main>
-<?php include '../footer.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>
 </body>
 </html>
