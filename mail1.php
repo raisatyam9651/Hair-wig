@@ -68,7 +68,6 @@ try {
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5 sec timeout to avoid blocking
         curl_exec($ch);
-        curl_close($ch);
     }
 
     echo "<script> window.location.href = 'thank-you.php'; </script>";

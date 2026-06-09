@@ -29,8 +29,8 @@ if (empty($name) || empty($phone)) {
 }
 
 // Sanitize input
-$name = filter_var($name, FILTER_SANITIZE_STRING);
-$phone = filter_var($phone, FILTER_SANITIZE_STRING);
+$name = strip_tags(trim($name));
+$phone = strip_tags(trim($phone));
 
 // Validate phone number (basic validation)
 if (!preg_match('/^[0-9]{10}$/', $phone)) {
@@ -139,7 +139,6 @@ if (!empty($webhook_url)) {
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5 sec timeout to avoid blocking
     curl_exec($ch);
-    curl_close($ch);
 }
 
 // Log the lead (optional - you can save to database or file)
