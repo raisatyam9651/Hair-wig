@@ -18,6 +18,17 @@ if (!$blog_post) {
     die("Article not found.");
 }
 
+// Find current post index to resolve next/prev posts
+$current_index = -1;
+foreach ($blog_posts as $idx => $post) {
+    if ($post['slug'] === $slug) {
+        $current_index = $idx;
+        break;
+    }
+}
+$prev_post = ($current_index > 0) ? $blog_posts[$current_index - 1] : null;
+$next_post = ($current_index < count($blog_posts) - 1) ? $blog_posts[$current_index + 1] : null;
+
 // Find 3 other random posts for "Recent Articles" section
 $other_posts = [];
 $available_posts = array_filter($blog_posts, function($p) use ($slug) {
@@ -93,6 +104,30 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
             <article class="blog-content font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
                 <?php echo $blog_post['content']; ?>
             </article>
+
+            <!-- Next / Prev Article Pagination -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-16 pt-8 border-t border-outline-variant/30">
+                <div>
+                    <?php if ($prev_post): ?>
+                        <a href="./<?php echo htmlspecialchars($prev_post['slug']); ?>.php" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]">
+                            <span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 group-hover:text-primary transition-colors">
+                                <span class="material-symbols-outlined text-[14px]">arrow_back</span> Previous Article
+                            </span>
+                            <span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($prev_post['title']); ?></span>
+                        </a>
+                    <?php endif; ?>
+                </div>
+                <div class="sm:text-right">
+                    <?php if ($next_post): ?>
+                        <a href="./<?php echo htmlspecialchars($next_post['slug']); ?>.php" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]">
+                            <span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 sm:justify-end group-hover:text-primary transition-colors">
+                                Next Article <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+                            </span>
+                            <span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($next_post['title']); ?></span>
+                        </a>
+                    <?php endif; ?>
+                </div>
+            </div>
 
             <!-- Bottom Share / Back -->
             <div class="flex flex-col sm:flex-row justify-between items-center gap-6 mt-16 pt-8 border-t border-outline-variant/30">
