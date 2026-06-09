@@ -39,7 +39,7 @@ if (!preg_match('/^[0-9]{10}$/', $phone)) {
     exit;
 }
 
-$subject = 'New WhatsApp Lead from Website (retrofusion)';
+$subject = 'New WhatsApp Lead: Growig Hair Solution';
 $from_email = 'noreply@' . $_SERVER['HTTP_HOST'];
 
 function getAsianDateTime($timezone_identifier = 'Asia/Kolkata')
@@ -112,8 +112,8 @@ $headers .= "From: Website WhatsApp Form <{$from_email}>" . "\r\n";
 $headers .= "Reply-To: {$from_email}" . "\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
-// Send email to multiple recipients in one call for better performance
-$recipients = "satyamrai374@gmail.com, jitendrarora@gmail.com";
+// Send email notification
+$recipients = "satyamrai374@gmail.com";
 $email_sent = mail($recipients, $subject, $email_message, $headers);
 
 // Google Sheets Webhook Integration

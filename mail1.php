@@ -40,7 +40,6 @@ try {
     // Email Settings (default recipients)
     $mail->setFrom('contact@retrofusion.in', $name);
     $mail->addAddress('satyamrai374@gmail.com', 'New Lead');
-    $mail->addAddress('jitendrarora@gmail.com', 'New Lead');
 
     $mail->Subject = 'New Lead: Growig Hair Solution Website';
     $mail->MsgHTML($body);
