@@ -830,13 +830,8 @@ $custom_head_links = '
             // Track submit event
             trackEvent('submit_google_review', { service: document.getElementById('selected_service').value });
 
-            // Open review in new window after a tiny delay
-            setTimeout(() => {
-                window.open('https://search.google.com/local/writereview?placeid=ChIJD5KWjBUbDTkRmk8GYSBygoQ', '_blank');
-                
-                // Show modal overlay reminder to paste review
-                openRedirectModal();
-            }, 300);
+            // Open review in new window immediately (to avoid popup blockers)
+            window.open('https://search.google.com/local/writereview?placeid=ChIJD5KWjBUbDTkRmk8GYSBygoQ', '_blank');
         }
 
         // Redirect Modal controller
