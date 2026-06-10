@@ -88,6 +88,13 @@ $pages_metadata = [
         'url' => 'https://growighairsolution.com/gallery',
         'image' => 'https://growighairsolution.com/assets/main-beofre-and-after.png',
         'type' => 'website'
+    ],
+    'review-assistant' => [
+        'title' => 'Google Review Assistant | Growig Hair Solution Dwarka',
+        'description' => 'Help others find the best hair wig and patch solutions in Dwarka. Generate and copy a genuine Google review draft in seconds.',
+        'url' => 'https://growighairsolution.com/review-assistant',
+        'image' => 'https://growighairsolution.com/assets/premium-har-pathc.png',
+        'type' => 'website'
     ]
 ];
 
