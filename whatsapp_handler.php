@@ -113,7 +113,7 @@ $headers .= "Reply-To: {$from_email}" . "\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
 // Send email notification
-$recipients = "satyamrai374@gmail.com";
+$recipients = "satyamrai374@gmail.com, growighairsolution@gmail.com";
 $email_sent = mail($recipients, $subject, $email_message, $headers);
 
 // Google Sheets Webhook Integration
