@@ -71,6 +71,8 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
                 href="<?php echo $path_prefix; ?>gallery">Gallery</a>
             <a class="<?php echo $is_blog_active ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="<?php echo $path_prefix; ?>blog">Blog</a>
+            <a class="<?php echo ($current_page == 'review-assistant.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
+                href="<?php echo $path_prefix; ?>review-assistant">Review Us</a>
         </nav>
         <!-- Actions -->
         <div class="flex items-center gap-4">
@@ -109,6 +111,7 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
     </div>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="<?php echo $path_prefix; ?>gallery">Gallery</a>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="<?php echo $path_prefix; ?>blog">Blog</a>
+    <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="<?php echo $path_prefix; ?>review-assistant">Review Us</a>
     <a class="mt-4 bg-primary text-on-primary font-label-md text-sm uppercase px-8 py-4 rounded-DEFAULT mobile-link text-center"
         href="<?php echo $path_prefix; ?>contact">Book Consultation</a>
 </div>

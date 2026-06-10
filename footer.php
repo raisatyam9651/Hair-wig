@@ -45,6 +45,8 @@ $path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="<?php echo $path_prefix; ?>contact">Contact</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
+                        href="<?php echo $path_prefix; ?>review-assistant">Review Us</a>
+                    <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="<?php echo $path_prefix; ?>sitemap.php">Sitemap</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="<?php echo $path_prefix; ?>sitemap.xml" target="_blank">XML Sitemap</a>
@@ -85,6 +87,7 @@ $path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'
             </div>
         </div>
     </footer>
+    <?php if (basename($_SERVER['PHP_SELF']) !== 'review-assistant.php' && strpos($_SERVER['PHP_SELF'], 'review-assistant') === false): ?>
     <!-- ===== WHATSAPP WIDGET ===== -->
     <div id="whatsapp-widget-container">
       <!-- Floating Button -->
@@ -275,4 +278,5 @@ $path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'
         e.target.value = value;
       });
     </script>
+    <?php endif; ?>
     <script src="<?php echo $path_prefix; ?>script.js?v=3" defer></script>
