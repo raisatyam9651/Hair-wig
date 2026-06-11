@@ -5,8 +5,9 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Custom Hairline Design in Dwarka | Custom Hair Patch Design | Growig Hair Solution</title>
+    <title>Custom Hairline Design in Dwarka | Custom Hair Patch Design in Dwarka | Growig Hair Solution</title>
     <meta name="description" content="Searching for the premier custom hairline design in Dwarka? Growig Hair Solution offers custom hair patch design in Dwarka. Achieve a natural, undetectable look. Book a free consultation today!" />
+    <meta name="keywords" content="Custom Hairline Design in Dwarka, Custom Hair patch Design in Dwarka" />
     <meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
@@ -24,7 +25,7 @@
                     <span class="text-primary font-label-sm uppercase tracking-widest text-xs">Dwarka Studio Exclusive</span>
                 </span>
                 <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
-                    Custom Hairline Design in Dwarka &amp; <br /><span class="italic text-primary">Custom Hair Patch Design</span>
+                    Custom Hairline Design in Dwarka &amp; <br /><span class="italic text-primary">Custom Hair Patch Design in Dwarka</span>
                 </h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">
                     Get a natural, undetectable look. We design custom hair patches and hairlines in Dwarka with millimeter precision. Restore your natural style today.
