@@ -21,6 +21,7 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
                 href="<?php echo $path_prefix; ?>./">Home</a>
             <a class="<?php echo ($current_page == 'about.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="<?php echo $path_prefix; ?>about">About</a>
+            <?php
             $hairpatch_pages = [
                 'australian-hair-patch-dwarka.php',
                 'bmw-hair-patch-dwarka.php',
