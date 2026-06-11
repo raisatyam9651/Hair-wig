@@ -68,7 +68,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="sitemap.php" class="text-sm font-medium text-primary flex items-center gap-2 font-bold">
+                            <a href="sitemap" class="text-sm font-medium text-primary flex items-center gap-2 font-bold">
                                 <span class="material-symbols-outlined text-xs text-primary">arrow_forward</span>
                                 HTML Sitemap
                             </a>
@@ -147,7 +147,7 @@
                             foreach ($blog_posts as $post) {
                                 ?>
                                 <li>
-                                    <a href="blog/<?php echo htmlspecialchars($post['slug']); ?>.php" class="text-xs font-medium text-on-surface-variant hover:text-primary transition-colors flex items-start gap-2 leading-relaxed">
+                                    <a href="blog/<?php echo htmlspecialchars($post['slug']); ?>" class="text-xs font-medium text-on-surface-variant hover:text-primary transition-colors flex items-start gap-2 leading-relaxed">
                                         <span class="material-symbols-outlined text-[10px] text-primary mt-1">article</span>
                                         <span class="line-clamp-2"><?php echo htmlspecialchars($post['title']); ?></span>
                                     </a>

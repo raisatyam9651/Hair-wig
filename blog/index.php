@@ -88,12 +88,12 @@ $custom_head_links = '<meta name="robots" content="index, follow" />';
                                 <div>
                                      <div class="text-xs text-on-surface-variant font-label-md mb-2"><?php echo htmlspecialchars($post['date']); ?></div>
                                     <h3 class="font-display-md text-lg text-on-surface font-bold line-clamp-2 mb-3 leading-snug">
-                                        <a href="./<?php echo htmlspecialchars($post['slug']); ?>.php" class="hover:text-primary transition-colors"><?php echo htmlspecialchars($post['title']); ?></a>
+                                        <a href="./<?php echo htmlspecialchars($post['slug']); ?>" class="hover:text-primary transition-colors"><?php echo htmlspecialchars($post['title']); ?></a>
                                     </h3>
                                     <p class="text-sm text-on-surface-variant line-clamp-3 mb-4 leading-relaxed"><?php echo htmlspecialchars($post['excerpt']); ?></p>
                                 </div>
                                 <!-- Action Link -->
-                                <a href="./<?php echo htmlspecialchars($post['slug']); ?>.php" class="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary-container font-label-md transition-colors mt-auto font-bold uppercase tracking-wider">
+                                <a href="./<?php echo htmlspecialchars($post['slug']); ?>" class="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary-container font-label-md transition-colors mt-auto font-bold uppercase tracking-wider">
                                     Read Article
                                     <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
                                 </a>

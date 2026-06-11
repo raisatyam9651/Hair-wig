@@ -47,7 +47,7 @@ $path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="<?php echo $path_prefix; ?>review-assistant">Review Us</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
-                        href="<?php echo $path_prefix; ?>sitemap.php">Sitemap</a>
+                        href="<?php echo $path_prefix; ?>sitemap">Sitemap</a>
                     <a class="text-white/80 hover:text-primary-fixed transition-colors font-body-md text-sm"
                         href="<?php echo $path_prefix; ?>sitemap.xml" target="_blank">XML Sitemap</a>
                 </div>
