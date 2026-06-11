@@ -60,7 +60,7 @@ if (!defined('TEST_MODE')) {
         }
     }
 
-    // Fallback to local template-based randomized generator
+    // Fallback to local template-based randomized generator (guaranteed to be 15-30 words with keywords and location)
     $generated_review = generate_review_locally($service, $satisfaction, $impressed, $recommend);
 
     echo json_encode([
@@ -75,7 +75,7 @@ if (!defined('TEST_MODE')) {
 /**
  * Call the OpenRouter API to generate a natural customer review using Google Gemini 2.5 Flash.
  */
-function generate_review_with_openrouter($service, $satisfaction, $impressed, $recommend, $apiKey) {
+function generate_review_with_openrouter($service, $satisfaction, $impressed, $recommend, $apiKey, $retry = true) {
     // List of randomized styles, lengths, and starting rules to force extreme diversity
     $personas = [
         "a quiet customer who values efficiency and natural results",
@@ -86,10 +86,9 @@ function generate_review_with_openrouter($service, $satisfaction, $impressed, $r
     ];
     
     $lengths = [
-        "7 to 10 words. Extremely short, punchy, and direct. Only one short sentence.",
-        "11 to 15 words. Short and crisp.",
-        "16 to 22 words. A casual two-phrase feedback.",
-        "23 to 30 words. Maximum length, giving slightly more context but strictly under 30 words."
+        "between 16 and 20 words. Short and crisp.",
+        "between 21 and 25 words. A casual two-phrase feedback.",
+        "between 26 and 30 words. Slightly more context but strictly under 30 words."
     ];
     
     $starters = [
@@ -110,25 +109,22 @@ function generate_review_with_openrouter($service, $satisfaction, $impressed, $r
     $chosen_starter = $starters[array_rand($starters)];
     $chosen_structure = $structures[array_rand($structures)];
 
-    $system_prompt = "You are a customer review generator for a hair restoration shop in Dwarka called 'Growig Hair Solution'.
-You must generate a customer review that strictly adheres to these formatting and styling rules:
+    $system_prompt = "You are a Google review writer for a hair restoration studio in Dwarka called 'Growig Hair Solution'.
+Generate a realistic, natural customer review that strictly follows these constraints:
+1. Write in the first person (I, me, my) as {$chosen_persona}.
+2. Word Count: MUST be between 15 and 30 words. (Do not write less than 15 words, do not write more than 30 words under any circumstances).
+3. Keywords: You MUST naturally include at least one of these exact phrases: 'hair patch service', 'hair wig for men', or 'men hair wig patch'.
+4. Location: You MUST include the location 'Dwarka' naturally (e.g. 'in Dwarka').
+5. Structure: Write {$chosen_structure}
+6. Starter: {$chosen_starter}
+7. Forbidden clichés: Do NOT start the review with clichés like: 'I was searching for', 'I recently visited', 'I had an amazing', 'Growig Hair Solution is', 'Best place for', 'Since a long time', 'My hair', 'I got', 'I received', or 'Look no further'. Do NOT start with the shop name.
+8. Output format: Return ONLY the clean, raw text of the review paragraph. Do NOT use markdown, bolding, or quotes.";
 
-1. PERSONA: Write from the perspective of {$chosen_persona}. Write in the first person (I, me, my).
-2. LENGTH: Write {$chosen_length} (Strict limit: maximum 30 words).
-3. FORMAT: Write {$chosen_structure}
-4. STARTER RULE: {$chosen_starter}
-5. STRICLY FORBIDDEN PHRASES:
-   - Do NOT start the review with clichés like: 'I was searching for', 'I recently visited', 'I had an amazing', 'Growig Hair Solution is', 'Best place for', 'Since a long time', 'My hair', 'I got', 'I received', or 'Look no further'.
-   - Do NOT start with the name of the shop ('Growig Hair Solution' or 'Growig').
-6. NO MARKDOWN: Return ONLY clean, raw paragraph text. Do NOT use markdown (no bolding, no headers, no quotes).
-7. NATURAL: Keep it extremely natural, conversational, and realistic like a real human review on Google (avoid robotic, marketing-heavy, or excessively formal phrases).";
-
-    $user_prompt = "Generate a review using these answers:
+    $user_prompt = "Generate a review using these details:
 - Service: {$service}
 - Satisfaction rating: {$satisfaction}
 - What impressed me most: {$impressed}
-- Would recommend: {$recommend}
-- Location: Dwarka";
+- Would recommend: {$recommend}";
 
     $url = "https://openrouter.ai/api/v1/chat/completions";
     
@@ -144,7 +140,7 @@ You must generate a customer review that strictly adheres to these formatting an
                 "content" => $user_prompt
             ]
         ],
-        "temperature" => 0.98,
+        "temperature" => 0.85,
         "max_tokens" => 100
     ];
     
@@ -171,7 +167,17 @@ You must generate a customer review that strictly adheres to these formatting an
             $text = trim($result['choices'][0]['message']['content']);
             // Remove any leftover markdown formatting or quotes
             $text = preg_replace('/[*_`#"]/', '', $text);
-            return $text;
+            
+            // Validate word count (15 to 30 words)
+            $word_count = count(preg_split('/\s+/', trim($text)));
+            if ($word_count >= 15 && $word_count <= 30) {
+                return $text;
+            }
+            
+            // If it failed word count validation, retry once recursively
+            if ($retry) {
+                return generate_review_with_openrouter($service, $satisfaction, $impressed, $recommend, $apiKey, false);
+            }
         }
     }
     
@@ -183,22 +189,50 @@ You must generate a customer review that strictly adheres to these formatting an
  * Locally generate a high-quality, randomized, natural review.
  */
 function generate_review_locally($service, $satisfaction, $impressed, $recommend) {
-    // Map service to natural, shorter variations
-    $service_variants = [
-        "Non Surgical Hair Replacement" => ["hair replacement", "non-surgical hair replacement", "hair system", "hair patch"],
-        "Hair System Maintenance & Styling" => ["hair system maintenance", "maintenance and styling", "hair maintenance", "service"],
-        "Hair Patch" => ["hair patch", "patch styling", "hair patch service", "patch"],
-        "Hair Wig" => ["hair wig", "custom wig", "wig fitting", "wig"],
-        "Hair Bonding" => ["hair bonding", "hair bonding service", "bonding"],
-        "Hair Weaving" => ["hair weaving", "weaving service", "hair weaving"],
-        "Hair Clipping" => ["hair clipping", "clipping system", "clipping service"]
+    // Map service to target SEO keyword variations (minimum 15 words requires slightly longer phrases)
+    $keyword_pool = [
+        "Non Surgical Hair Replacement" => [
+            "non surgical hair replacement in Dwarka",
+            "hair patch service in Dwarka",
+            "hair wig for men in Dwarka"
+        ],
+        "Hair System Maintenance & Styling" => [
+            "hair patch service in Dwarka",
+            "hair system maintenance in Dwarka",
+            "men hair wig patch styling in Dwarka"
+        ],
+        "Hair Patch" => [
+            "hair patch service in Dwarka",
+            "men hair wig patch in Dwarka",
+            "premium hair patch for men in Dwarka"
+        ],
+        "Hair Wig" => [
+            "hair wig for men in Dwarka",
+            "men hair wig patch in Dwarka",
+            "custom hair wig in Dwarka"
+        ],
+        "Hair Bonding" => [
+            "hair bonding service in Dwarka",
+            "hair patch service in Dwarka",
+            "men hair wig patch in Dwarka"
+        ],
+        "Hair Weaving" => [
+            "hair weaving service in Dwarka",
+            "hair wig for men in Dwarka",
+            "men hair wig patch in Dwarka"
+        ],
+        "Hair Clipping" => [
+            "hair clipping service in Dwarka",
+            "hair patch service in Dwarka",
+            "hair wig for men in Dwarka"
+        ]
     ];
 
-    $srv = $service;
-    if (isset($service_variants[$service])) {
-        $srv = $service_variants[$service][array_rand($service_variants[$service])];
+    $keyword = "hair patch service in Dwarka";
+    if (isset($keyword_pool[$service])) {
+        $keyword = $keyword_pool[$service][array_rand($keyword_pool[$service])];
     } else {
-        $srv = strtolower($service);
+        $keyword = strtolower($service) . " in Dwarka";
     }
 
     // Map impressed factor to variations
@@ -219,38 +253,40 @@ function generate_review_locally($service, $satisfaction, $impressed, $recommend
 
     // Map recommendation to variations
     $rec_variants = [
-        "Definitely" => ["Highly recommend", "Definitely worth it", "Must visit", "Will visit again"],
-        "Yes" => ["Recommended", "Totally satisfied", "Great experience", "Good job"],
-        "Absolutely" => ["Absolutely recommend them", "10/10 service", "Totally worth it", "Highly recommended"]
+        "Definitely" => ["Definitely worth it, must visit them.", "Highly recommend this studio.", "I will visit again for sure."],
+        "Yes" => ["Recommended for quality results.", "Great experience overall.", "Satisfied with their work."],
+        "Absolutely" => ["Absolutely recommend them to all.", "10/10 service and support.", "Totally worth the price."]
     ];
 
-    $rec = "Highly recommended";
+    $rec = "Highly recommended.";
     if (isset($rec_variants[$recommend])) {
         $rec = $rec_variants[$recommend][array_rand($rec_variants[$recommend])];
     }
 
-    // Generate reviews using 6 different structures/paths
+    // Generate reviews using 5 different structured paths (all designed to yield 15–30 words)
     $paths = [];
 
-    // Path 1: Super short & punchy exclamation (7 - 10 words)
-    $exclamations = ["Perfect", "Excellent", "Incredible", "Superb", "Top quality", "Very nice"];
-    $paths[] = $exclamations[array_rand($exclamations)] . " " . $srv . "! " . ucfirst($imp) . ". " . $rec . ".";
+    // Path 1: 16 - 22 words
+    $exclamations = ["Excellent experience with their", "Really happy with the", "Superb results from their", "Great job on the", "Wonderful service for"];
+    $paths[] = $exclamations[array_rand($exclamations)] . " " . $keyword . "! The " . $imp . " looks outstanding. " . $rec;
 
-    // Path 2: Quiet & direct (8 - 12 words)
-    $paths[] = "Satisfied with the " . $srv . ". The " . $imp . " is perfect.";
+    // Path 2: 17 - 24 words
+    $coop_phrases = [
+        "the team was very professional and cooperative",
+        "the service quality is absolutely top-notch",
+        "they match the hair density and color perfectly",
+        "the pricing is very reasonable for this quality"
+    ];
+    $paths[] = "Got my " . $keyword . " done today. The " . $imp . " is excellent and " . $coop_phrases[array_rand($coop_phrases)] . ".";
 
-    // Path 3: Brief recommendation (10 - 15 words)
-    $paths[] = "Got my " . $srv . " done in Dwarka. " . ucfirst($imp) . ". " . $rec . ".";
+    // Path 3: 15 - 20 words
+    $paths[] = "Best " . $keyword . ". I am highly satisfied with the " . $imp . ". " . $rec;
 
-    // Path 4: Simple statement + local mention (11 - 18 words)
-    $paths[] = "Growig in Dwarka offers great " . $srv . ". " . ucfirst($imp) . " and highly recommended.";
+    // Path 4: 18 - 26 words
+    $paths[] = "Growig provides the best " . $keyword . ". The " . $imp . " is completely undetectable and " . $rec;
 
-    // Path 5: Natural feeling review (15 - 24 words)
-    $support_phrases = ["the staff is super supportive", "highly professional service", "totally worth the price", "feels very comfortable"];
-    $paths[] = "Great " . $srv . " styling here in Dwarka. The " . $imp . " is outstanding and " . $support_phrases[array_rand($support_phrases)] . ".";
-
-    // Path 6: Fast emotional response (7 - 10 words)
-    $paths[] = ucfirst($imp) . ". Best " . $srv . " shop in Dwarka.";
+    // Path 5: 19 - 28 words
+    $paths[] = "If you want a realistic " . $keyword . ", visit this place. The " . $imp . " is outstanding. " . $rec;
 
     // Select random path
     $review = $paths[array_rand($paths)];
