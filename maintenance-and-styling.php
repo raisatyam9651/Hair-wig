@@ -4,8 +4,9 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Hair Patch Maintenance in Dwarka | Hair System Maintenance | Growig Hair Solution</title>
+<title>Hair Patch Maintenance in Dwarka | Hair System Maintenance in Dwarka | Growig Hair Solution</title>
 <meta content="Looking for professional hair patch maintenance in Dwarka? Growig Hair Solution offers expert hair system maintenance in Dwarka, including hair patch cleaning in Dwarka and hair styling for hair patch in Dwarka. Book a free consultation!" name="description"/>
+<meta name="keywords" content="Hair Patch Maintenance in Dwarka, Hair System Maintenance in Dwarka, Hair Styling for Hair Patch in Dwarka" />
 <meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
@@ -18,7 +19,7 @@
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
 <div class="z-10 contents md:block md:space-y-8">
 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">Hair Patch Maintenance in Dwarka</span>
-<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Professional Hair System Maintenance in Dwarka</h1>
+<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Hair Patch Maintenance in Dwarka &amp; Hair System Maintenance</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Keep your hair looking natural and fresh. We provide expert hair patch maintenance in Dwarka, restoring your hair system with premium cleaning and styling solutions.</p>
 <div class="flex flex-wrap gap-4 pt-4 order-5">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>

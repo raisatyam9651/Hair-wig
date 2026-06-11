@@ -4,8 +4,9 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Best Hair Patch in Dwarka | Hair Patch for Men | Growig Hair Solution</title>
+<title>Premium Hair Patch in Dwarka | Best Hair Patch for Men in Dwarka | Growig Hair Solution</title>
 <meta content="Looking for the best hair patch in dwarka? Growig Hair Solution is a leading hair patch centre and clinic in dwarka. We offer premium hair patch service for men near you. Book a free consultation!" name="description"/>
+<meta name="keywords" content="Hair Patch in Dwarka, Best Hair Patch in Dwarka, Hair Patch for Men in Dwarka, Hair Patch Service in Dwarka, Hair Patch Centre in Dwarka, Hair Patch Clinic in Dwarka, Hair Patch Near Me, Hair Patch Specialist in Dwarka, Premium Hair Patch in Dwarka" />
 <meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
@@ -17,7 +18,7 @@
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
 <div class="z-10 contents md:block md:space-y-8">
 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">PREMIUM RESTORATION IN DWARKA</span>
-<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Premium Hair Patch in Dwarka &amp; Best Hair Patch Services</h1>
+<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Premium Hair Patch in Dwarka | Best Hair Patch in Dwarka</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Get custom hair patches near you. Our studio designs premium hair patches for men in Dwarka. Enjoy a natural, secure, and undetectable fit with same-day fixing.</p>
 <div class="flex flex-wrap gap-4 pt-4 order-5">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
