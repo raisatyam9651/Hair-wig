@@ -6,10 +6,11 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Non Surgical Hair Replacement in Dwarka | Hair Replacement System | Growig Hair Solution</title>
+    <title>Non Surgical Hair Replacement in Dwarka | Hair Replacement System in Dwarka | Growig Hair Solution</title>
     <meta
         content="Looking for non surgical hair replacement in dwarka? Growig Hair Solution offers custom hair replacement systems in dwarka for hair restoration without surgery. Free consultation!"
         name="description" />
+    <meta name="keywords" content="Non Surgical Hair Replacement in dwarka, Hair Replacement Without Surgery in dwarka, Hair Replacement System in dwarka, Hair Restoration Without Surgery in dwarka" />
     <meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
@@ -25,7 +26,7 @@
                 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">PREMIUM
                     RESTORATION IN DWARKA</span>
                 <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">
-                    Non Surgical Hair Replacement in Dwarka &amp; Hair Restoration Without Surgery</h1>
+                    Non Surgical Hair Replacement in Dwarka &amp; Hair Restoration Without Surgery in Dwarka</h1>
                 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Get natural hair restoration without surgery in Dwarka. We offer custom hair replacement systems designed to fit comfortably, blend seamlessly, and look completely real.</p>
                 <div class="flex flex-wrap gap-4 pt-4 order-5">
                     <a href="contact"
