@@ -4,8 +4,9 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Custom Hair Bonding in Dwarka | Best Hair Bonding Service | Growig Hair Solution</title>
+<title>Custom Hair Bonding in Dwarka | Best Hair Bonding Service in Dwarka | Growig Hair Solution</title>
 <meta content="Looking for the best hair bonding service in dwarka? Growig Hair Solution offers natural, custom hair bonding in dwarka with skin-safe adhesives. Book a free consultation!" name="description"/>
+<meta name="keywords" content="hair bonding in dwarka, custom hair bonding in dwarka, best hair bonding service in dwarka" />
 <meta name="robots" content="index, follow" />
     <?php include 'header-code.php'; ?>
 </head>
@@ -17,7 +18,7 @@
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
 <div class="z-10 contents md:block md:space-y-8">
 <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">PREMIUM RESTORATION IN DWARKA</span>
-<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Custom Hair Bonding in Dwarka &amp; Best Hair Bonding Service</h1>
+<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Custom Hair Bonding in Dwarka &amp; Best Hair Bonding Service in Dwarka</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Get reliable hair bonding in Dwarka. We offer skin-safe custom hair bonding systems with professional same-day fixing for a natural, comfortable, and completely secure fit.</p>
 <div class="flex flex-wrap gap-4 pt-4 order-5">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
