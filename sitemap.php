@@ -96,6 +96,12 @@
                             </a>
                         </li>
                         <li>
+                            <a href="australian-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Australian Hair Patch
+                            </a>
+                        </li>
+                        <li>
                             <a href="full-hair-wig" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
                                 <span class="material-symbols-outlined text-xs text-primary">face</span>
                                 Full Hair Wigs

@@ -23,7 +23,7 @@ if ($page !== 'index' || (strpos($_SERVER['PHP_SELF'], '/blog/') !== false)) {
             ['name' => 'Home', 'url' => './']
         ];
 
-        $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design']);
+        $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design', 'australian-hair-patch-dwarka']);
 
         if ($is_service) {
             $service_names = [
@@ -32,7 +32,8 @@ if ($page !== 'index' || (strpos($_SERVER['PHP_SELF'], '/blog/') !== false)) {
                 'non-surgical-replacement' => 'Non-Surgical Replacement',
                 'hair-bonding' => 'Hair Bonding',
                 'maintenance-and-styling' => 'Maintenance & Styling',
-                'custom-hairline-design' => 'Custom Hairline Design'
+                'custom-hairline-design' => 'Custom Hairline Design',
+                'australian-hair-patch-dwarka' => 'Australian Hair Patch'
             ];
             
             $breadcrumb_links[] = ['name' => 'Services', 'url' => './#services'];
