@@ -331,6 +331,33 @@ if ($current_metadata['type'] === 'product') {
     ];
 }
 
+if ($current_metadata['type'] === 'article') {
+    $article_schema = [
+        "@context" => "https://schema.org",
+        "@type" => "BlogPosting",
+        "headline" => $current_metadata['title'],
+        "description" => $current_metadata['description'],
+        "image" => [
+            $current_metadata['image']
+        ],
+        "datePublished" => isset($blog_post['date']) ? date('c', strtotime($blog_post['date'])) : date('c'),
+        "dateModified" => date('c'),
+        "author" => [
+            "@type" => "Organization",
+            "name" => "Growig Hair Solution",
+            "url" => "https://growighairsolution.com/"
+        ],
+        "publisher" => [
+            "@type" => "Organization",
+            "name" => "Growig Hair Solution",
+            "logo" => [
+                "@type" => "ImageObject",
+                "url" => "https://growighairsolution.com/assets/premium-har-pathc.png"
+            ]
+        ]
+    ];
+}
+
 // 5. CollectionPage Schema
 // 6. FAQPage Schema
 $faq_questions = [];
@@ -485,6 +512,14 @@ if ($page === 'index') {
 <meta property="og:image" content="<?php echo $current_metadata['image']; ?>" />
 <meta property="og:site_name" content="Growig Hair Solution" />
 
+<!-- Author and Publisher -->
+<meta name="author" content="Growig Hair Solution" />
+<meta name="publisher" content="Growig Hair Solution" />
+<?php if ($current_metadata['type'] === 'article'): ?>
+<meta property="article:author" content="https://www.facebook.com/growighairsolution" />
+<meta property="article:publisher" content="https://www.facebook.com/growighairsolution" />
+<?php endif; ?>
+
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:title" content="<?php echo $current_metadata['title']; ?>" />
@@ -516,6 +551,11 @@ if ($page === 'index') {
 <?php if (isset($product_schema)): ?>
 <script type="application/ld+json">
 <?php echo json_encode($product_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
+</script>
+<?php endif; ?>
+<?php if (isset($article_schema)): ?>
+<script type="application/ld+json">
+<?php echo json_encode($article_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
 </script>
 <?php endif; ?>
 <?php if (isset($image_schema)): ?>
