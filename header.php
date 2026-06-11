@@ -22,14 +22,35 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
             <a class="<?php echo ($current_page == 'about.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="<?php echo $path_prefix; ?>about">About</a>
             <?php 
+            $hairpatch_pages = [
+                'australian-hair-patch-dwarka.php'
+            ];
+            $is_hairpatch_active = in_array($current_page, $hairpatch_pages);
+            ?>
+            <div class="relative group py-2">
+                <button class="<?php echo $is_hairpatch_active ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary border-b-2 border-transparent'; ?> flex items-center gap-0.5 transition-colors duration-300 font-label-md text-label-md uppercase pb-0.5 focus:outline-none">
+                    Hair Patch
+                    <span class="material-symbols-outlined text-[16px] transition-transform duration-300 group-hover:rotate-180">expand_more</span>
+                </button>
+                <!-- Dropdown Menu -->
+                <div class="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-[300px] transition-all duration-300 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto z-50">
+                    <div class="bg-[#fcf9f4] border border-outline-variant/30 rounded-2xl shadow-xl p-4 flex flex-col gap-2">
+                        <a href="<?php echo $path_prefix; ?>australian-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Australian Hair Patch</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Premium breathable Swiss lace & skin hybrid systems.</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <?php 
             $service_pages = [
                 'premium-hair-patch.php',
                 'full-hair-wig.php',
                 'non-surgical-replacement.php',
                 'hair-bonding.php',
                 'maintenance-and-styling.php',
-                'custom-hairline-design.php',
-                'australian-hair-patch-dwarka.php'
+                'custom-hairline-design.php'
             ];
             $is_service_active = in_array($current_page, $service_pages);
             ?>
@@ -44,10 +65,6 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
                         <a href="<?php echo $path_prefix; ?>premium-hair-patch" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
                             <span class="font-bold text-sm text-primary uppercase tracking-wider">Premium Hair Patch</span>
                             <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">100% natural, undetectable custom patches.</span>
-                        </a>
-                        <a href="<?php echo $path_prefix; ?>australian-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
-                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Australian Hair Patch</span>
-                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Premium breathable Swiss lace & skin hybrid systems.</span>
                         </a>
                         <a href="<?php echo $path_prefix; ?>full-hair-wig" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
                             <span class="font-bold text-sm text-primary uppercase tracking-wider">Full Hair Wigs</span>
@@ -99,6 +116,16 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
     id="mobile-menu">
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="<?php echo $path_prefix; ?>./">Home</a>
     <a class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider mobile-link" href="<?php echo $path_prefix; ?>about">About</a>
+    <!-- Mobile Hair Patch Submenu -->
+    <div class="w-full flex flex-col items-center">
+        <button class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider flex items-center gap-1 focus:outline-none" id="mobile-hairpatch-btn">
+            Hair Patch
+            <span class="material-symbols-outlined transition-transform duration-300" id="mobile-hairpatch-icon">expand_more</span>
+        </button>
+        <div class="w-full flex flex-col items-center gap-4 mt-4 max-h-0 overflow-hidden transition-all duration-300 ease-in-out" id="mobile-hairpatch-menu">
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>australian-hair-patch-dwarka">Australian Hair Patch</a>
+        </div>
+    </div>
     <!-- Mobile Services Submenu -->
     <div class="w-full flex flex-col items-center">
         <button class="text-secondary hover:text-primary transition-colors font-label-md text-lg uppercase tracking-wider flex items-center gap-1 focus:outline-none" id="mobile-services-btn">
@@ -107,7 +134,6 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
         </button>
         <div class="w-full flex flex-col items-center gap-4 mt-4 max-h-0 overflow-hidden transition-all duration-300 ease-in-out" id="mobile-services-menu">
             <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>premium-hair-patch">Premium Hair Patch</a>
-            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>australian-hair-patch-dwarka">Australian Hair Patch</a>
             <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>full-hair-wig">Full Hair Wigs</a>
             <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>non-surgical-replacement">Non-Surgical Replacement</a>
             <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>hair-bonding">Hair Bonding</a>
