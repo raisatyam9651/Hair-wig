@@ -19,77 +19,116 @@ if (empty($openrouter_api_key)) {
     }
 }
 
-// Only accept POST requests
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(405);
-    echo json_encode(['success' => false, 'message' => 'Method not allowed']);
-    exit;
-}
-
-// Get the POST parameters
-$service = isset($_POST['service']) ? trim($_POST['service']) : '';
-$satisfaction = isset($_POST['satisfaction']) ? trim($_POST['satisfaction']) : '';
-$impressed = isset($_POST['impressed']) ? trim($_POST['impressed']) : '';
-$recommend = isset($_POST['recommend']) ? trim($_POST['recommend']) : '';
-
-// Simple validation
-if (empty($service) || empty($satisfaction) || empty($impressed) || empty($recommend)) {
-    http_response_code(400);
-    echo json_encode(['success' => false, 'message' => 'Please fill in all required questions']);
-    exit;
-}
-
-// Sanitization
-$service = htmlspecialchars(strip_tags($service));
-$satisfaction = htmlspecialchars(strip_tags($satisfaction));
-$impressed = htmlspecialchars(strip_tags($impressed));
-$recommend = htmlspecialchars(strip_tags($recommend));
-
-// Check if OpenRouter API key is configured
-if (!empty($openrouter_api_key)) {
-    $generated_review = generate_review_with_openrouter($service, $satisfaction, $impressed, $recommend, $openrouter_api_key);
-    
-    if ($generated_review) {
-        echo json_encode([
-            'success' => true,
-            'source' => 'openrouter_api',
-            'review' => $generated_review
-        ]);
+if (!defined('TEST_MODE')) {
+    // Only accept POST requests
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+        http_response_code(405);
+        echo json_encode(['success' => false, 'message' => 'Method not allowed']);
         exit;
     }
+
+    // Get the POST parameters
+    $service = isset($_POST['service']) ? trim($_POST['service']) : '';
+    $satisfaction = isset($_POST['satisfaction']) ? trim($_POST['satisfaction']) : '';
+    $impressed = isset($_POST['impressed']) ? trim($_POST['impressed']) : '';
+    $recommend = isset($_POST['recommend']) ? trim($_POST['recommend']) : '';
+
+    // Simple validation
+    if (empty($service) || empty($satisfaction) || empty($impressed) || empty($recommend)) {
+        http_response_code(400);
+        echo json_encode(['success' => false, 'message' => 'Please fill in all required questions']);
+        exit;
+    }
+
+    // Sanitization
+    $service = htmlspecialchars(strip_tags($service));
+    $satisfaction = htmlspecialchars(strip_tags($satisfaction));
+    $impressed = htmlspecialchars(strip_tags($impressed));
+    $recommend = htmlspecialchars(strip_tags($recommend));
+
+    // Check if OpenRouter API key is configured
+    if (!empty($openrouter_api_key)) {
+        $generated_review = generate_review_with_openrouter($service, $satisfaction, $impressed, $recommend, $openrouter_api_key);
+        
+        if ($generated_review) {
+            echo json_encode([
+                'success' => true,
+                'source' => 'openrouter_api',
+                'review' => $generated_review
+            ]);
+            exit;
+        }
+    }
+
+    // Fallback to local template-based randomized generator
+    $generated_review = generate_review_locally($service, $satisfaction, $impressed, $recommend);
+
+    echo json_encode([
+        'success' => true,
+        'source' => 'local_generator',
+        'review' => $generated_review
+    ]);
+    exit;
 }
-
-// Fallback to local template-based randomized generator
-$generated_review = generate_review_locally($service, $satisfaction, $impressed, $recommend);
-
-echo json_encode([
-    'success' => true,
-    'source' => 'local_generator',
-    'review' => $generated_review
-]);
-exit;
 
 
 /**
  * Call the OpenRouter API to generate a natural customer review using Google Gemini 2.5 Flash.
  */
 function generate_review_with_openrouter($service, $satisfaction, $impressed, $recommend, $apiKey) {
-    $prompt = "Write a natural-sounding, genuine customer review for a hair restoration shop in Dwarka called 'Growig Hair Solution'.
-Details of the service:
-- Service received: {$service}
-- Customer satisfaction rating: {$satisfaction}
-- What impressed the customer most: {$impressed}
+    // List of randomized styles, lengths, and starting rules to force extreme diversity
+    $personas = [
+        "a quiet customer who values efficiency and natural results",
+        "a highly satisfied client focusing on daily comfort and confidence boost",
+        "a brief reviewer who writes short, direct sentences",
+        "someone giving a friendly, casual shout-out to local Dwarka staff",
+        "a customer who wants to highlight styling quality and undetectability"
+    ];
+    
+    $lengths = [
+        "7 to 10 words. Extremely short, punchy, and direct. Only one short sentence.",
+        "11 to 15 words. Short and crisp.",
+        "16 to 22 words. A casual two-phrase feedback.",
+        "23 to 30 words. Maximum length, giving slightly more context but strictly under 30 words."
+    ];
+    
+    $starters = [
+        "Start directly with the service or service quality (do not start with 'I', 'My', 'We', 'Growig', or 'Best').",
+        "Start with an exclamation or short emotional reaction (e.g., 'Superb!', 'Really happy!', 'Totally satisfied!', 'Amazing experience.').",
+        "Start with a mention of the location or shop naturally (e.g., 'Best studio in Dwarka.', 'Found the perfect fit here in Dwarka.').",
+        "Start by praising the staff or design process directly."
+    ];
+    
+    $structures = [
+        "a single punchy sentence.",
+        "two very short fragments/sentences separated by a period or comma.",
+        "a quick praise followed by a recommendation statement."
+    ];
+
+    $chosen_persona = $personas[array_rand($personas)];
+    $chosen_length = $lengths[array_rand($lengths)];
+    $chosen_starter = $starters[array_rand($starters)];
+    $chosen_structure = $structures[array_rand($structures)];
+
+    $system_prompt = "You are a customer review generator for a hair restoration shop in Dwarka called 'Growig Hair Solution'.
+You must generate a customer review that strictly adheres to these formatting and styling rules:
+
+1. PERSONA: Write from the perspective of {$chosen_persona}. Write in the first person (I, me, my).
+2. LENGTH: Write {$chosen_length} (Strict limit: maximum 30 words).
+3. FORMAT: Write {$chosen_structure}
+4. STARTER RULE: {$chosen_starter}
+5. STRICLY FORBIDDEN PHRASES:
+   - Do NOT start the review with clichés like: 'I was searching for', 'I recently visited', 'I had an amazing', 'Growig Hair Solution is', 'Best place for', 'Since a long time', 'My hair', 'I got', 'I received', or 'Look no further'.
+   - Do NOT start with the name of the shop ('Growig Hair Solution' or 'Growig').
+6. NO MARKDOWN: Return ONLY clean, raw paragraph text. Do NOT use markdown (no bolding, no headers, no quotes).
+7. NATURAL: Keep it extremely natural, conversational, and realistic like a real human review on Google (avoid robotic, marketing-heavy, or excessively formal phrases).";
+
+    $user_prompt = "Generate a review using these answers:
+- Service: {$service}
+- Satisfaction rating: {$satisfaction}
+- What impressed me most: {$impressed}
 - Would recommend: {$recommend}
-Rules:
-1. Write in the first person (I, me, my) from the perspective of a happy client.
-2. Keep it extremely natural, conversational, and realistic like a real human review on Google (avoid robotic, overly marketing-heavy, or excessively formal phrases).
-3. Include relevant service keywords naturally (e.g. Hair Patch, Hair Wig, Non Surgical Hair Replacement, etc. depending on the service selected: '{$service}').
-4. Never force keywords. Use them contextually.
-5. Mention Dwarka naturally (e.g., 'Growig Hair Solution in Dwarka', 'here in Dwarka Sec-7', etc.).
-6. Mention confidence, appearance, natural results, staff support, or service quality based on the answers.
-7. Keep the length strictly between 80 and 150 words.
-8. Do NOT use markdown formatting (no bolding like **, no bullet points, no headers). Return ONLY the clean paragraph text.
-9. Do not add placeholder names at the end.";
+- Location: Dwarka";
 
     $url = "https://openrouter.ai/api/v1/chat/completions";
     
@@ -97,12 +136,16 @@ Rules:
         "model" => "google/gemini-2.5-flash",
         "messages" => [
             [
+                "role" => "system",
+                "content" => $system_prompt
+            ],
+            [
                 "role" => "user",
-                "content" => $prompt
+                "content" => $user_prompt
             ]
         ],
-        "temperature" => 0.8,
-        "max_tokens" => 300
+        "temperature" => 0.98,
+        "max_tokens" => 100
     ];
     
     $jsonData = json_encode($data);
@@ -126,8 +169,8 @@ Rules:
         $result = json_decode($response, true);
         if (isset($result['choices'][0]['message']['content'])) {
             $text = trim($result['choices'][0]['message']['content']);
-            // Remove any leftover markdown formatting just in case
-            $text = preg_replace('/[*_`#]/', '', $text);
+            // Remove any leftover markdown formatting or quotes
+            $text = preg_replace('/[*_`#"]/', '', $text);
             return $text;
         }
     }
@@ -140,111 +183,80 @@ Rules:
  * Locally generate a high-quality, randomized, natural review.
  */
 function generate_review_locally($service, $satisfaction, $impressed, $recommend) {
-    // Array maps to standard lowercase keys for impressions
-    $imp_key = strtolower($impressed);
-    $sat_key = strtolower($satisfaction);
-    $rec_key = strtolower($recommend);
-
-    $openings = [
-        "I recently visited Growig Hair Solution in Dwarka to get a new " . $service . ", and I must say the experience was outstanding.",
-        "If you're looking for a highly realistic " . $service . " in Dwarka, I strongly recommend checking out Growig Hair Solution. I had an amazing experience there.",
-        "I got a custom " . $service . " done from Growig Hair Solution at Sector 7 Dwarka recently. The entire team did a fantastic job.",
-        "Highly pleased with the " . $service . " I got from the experts at Growig Hair Solution in Dwarka. They are truly the best in the business.",
-        "After doing a lot of research on non-surgical hair systems, I chose Growig Hair Solution in Dwarka for my " . $service . ", and it was the best decision.",
-        "My experience with Growig Hair Solution in Dwarka for my " . $service . " has been absolutely wonderful from start to finish."
+    // Map service to natural, shorter variations
+    $service_variants = [
+        "Non Surgical Hair Replacement" => ["hair replacement", "non-surgical hair replacement", "hair system", "hair patch"],
+        "Hair System Maintenance & Styling" => ["hair system maintenance", "maintenance and styling", "hair maintenance", "service"],
+        "Hair Patch" => ["hair patch", "patch styling", "hair patch service", "patch"],
+        "Hair Wig" => ["hair wig", "custom wig", "wig fitting", "wig"],
+        "Hair Bonding" => ["hair bonding", "hair bonding service", "bonding"],
+        "Hair Weaving" => ["hair weaving", "weaving service", "hair weaving"],
+        "Hair Clipping" => ["hair clipping", "clipping system", "clipping service"]
     ];
 
-    $impressions = [
-        "natural look" => [
-            "What impressed me most was the incredibly natural look. The hair density and texture match my original hair perfectly, making the system completely undetectable.",
-            "I am so impressed by the natural look of the hair system. Nobody can even tell I'm wearing one, which has given me an incredible boost in confidence.",
-            "The natural look they achieved is simply amazing. It blends seamlessly with my existing hair and feels just like a part of my own head."
-        ],
-        "hairline design" => [
-            "The precision of their front hairline design is what impressed me the most. It looks extremely realistic and complements my face shape perfectly.",
-            "I was blown away by the custom hairline design. The master stylist did a phenomenal job matching it to my natural hair growth pattern.",
-            "The hairline design is absolutely seamless. They customized the front hairline so well that it looks like the hair is growing directly from my scalp."
-        ],
-        "professional staff" => [
-            "The highly professional staff made a huge difference. They took the time to understand my concerns, explained all the options patiently, and guided me throughout.",
-            "I was deeply impressed by how professional, polite, and skilled the staff in Dwarka are. They made me feel completely comfortable during the entire fitting.",
-            "The expertise of the professional staff here is top-notch. They are friendly, knowledgeable, and ensure that every customer gets personalized styling attention."
-        ],
-        "affordable pricing" => [
-            "What stood out to me was their affordable pricing for such high-quality systems. They offer premium services without charging exorbitant rates like others.",
-            "I was impressed by the very affordable pricing. The value they provide for a custom hair system is unbeatable compared to other centres in Delhi.",
-            "They offer top-tier hair systems at extremely reasonable and affordable pricing. There were no hidden costs and the styling was worth every rupee."
-        ],
-        "comfort" => [
-            "The comfort of the hair system is outstanding. The base is light, breathable, and I can go about my active daily routine without even feeling it.",
-            "I am most impressed by how light and comfortable the system feels. It is sweat-resistant, breathable, and fits perfectly on my scalp.",
-            "The comfort level of this hair patch is superb. I can sleep, exercise, and shower with complete ease and zero irritation."
-        ],
-        "service quality" => [
-            "The overall service quality was exceptional. From the initial scalp consultation to the final cut and style, every detail was handled with precision.",
-            "I was thoroughly impressed by their high-grade service quality. They pay close attention to hygiene, materials, and styling excellence.",
-            "The quality of the service here is second to none. They treat you with care and make sure you walk out completely satisfied with your appearance."
-        ],
-        "maintenance support" => [
-            "Their post-service maintenance support is excellent. They provided detailed care instructions and made scheduling regular service sessions super easy.",
-            "I was really impressed by the maintenance support they offer. They guide you on wash routines and keep your system looking brand new during visits.",
-            "Their follow-up and maintenance support is highly professional. They ensure that your system stays in perfect shape for months to come."
-        ]
+    $srv = $service;
+    if (isset($service_variants[$service])) {
+        $srv = $service_variants[$service][array_rand($service_variants[$service])];
+    } else {
+        $srv = strtolower($service);
+    }
+
+    // Map impressed factor to variations
+    $impressed_variants = [
+        "Natural Look" => ["extremely natural look", "realistic style", "undetectable appearance", "natural finish"],
+        "Hairline Design" => ["perfect front hairline", "custom hairline design", "natural hairline"],
+        "Professional Staff" => ["highly professional staff", "skilled technicians", "friendly team"],
+        "Affordable Pricing" => ["affordable pricing", "reasonable rates", "great value for money"],
+        "Comfort" => ["amazing comfort", "lightweight feel", "comfortable fit"],
+        "Service Quality" => ["exceptional service quality", "top-notch styling", "neat execution"],
+        "Maintenance Support" => ["excellent maintenance support", "follow-up care", "post-service support"]
     ];
 
-    $satisfaction_and_confidence = [
-        "excellent" => [
-            "The results are excellent, and I walked out of the studio feeling like a new person. My confidence has skyrocketed since getting it fixed.",
-            "I am extremely happy with the excellent outcome. The change in my appearance is dramatic, and my self-esteem is back to 100%.",
-            "It is an excellent, premium-quality restoration. It looks so good that it immediately restored my youthful appearance and confidence."
-        ],
-        "very good" => [
-            "I had a very good experience and the final look is fantastic. It has really improved my self-image and overall confidence.",
-            "The styling and fit are very good. I feel much more confident in my daily social and professional interactions now.",
-            "Overall, a very good service that is worth the time and investment. My hair looks full, healthy, and completely natural."
-        ],
-        "good" => [
-            "I am pleased with the good results and the overall natural styling. It looks clean and fits comfortably into my lifestyle.",
-            "The quality of the hair is good, and it feels secure on my scalp. It provides a solid and tidy look that boosts my appearance.",
-            "The finish is good and meets all my daily requirements. I feel comfortable going out and socializing with my new look."
-        ]
+    $imp = strtolower($impressed);
+    if (isset($impressed_variants[$impressed])) {
+        $imp = $impressed_variants[$impressed][array_rand($impressed_variants[$impressed])];
+    }
+
+    // Map recommendation to variations
+    $rec_variants = [
+        "Definitely" => ["Highly recommend", "Definitely worth it", "Must visit", "Will visit again"],
+        "Yes" => ["Recommended", "Totally satisfied", "Great experience", "Good job"],
+        "Absolutely" => ["Absolutely recommend them", "10/10 service", "Totally worth it", "Highly recommended"]
     ];
 
-    $closings = [
-        "definitely" => [
-            "I would definitely recommend Growig Hair Solution in Dwarka to anyone struggling with hair loss. Five stars for their amazing work!",
-            "If you want natural results, you should definitely visit them. They are the best hair wig shop in Dwarka Delhi.",
-            "I will definitely be returning for all my future maintenance. This studio is highly recommended for anyone seeking quality hair replacement."
-        ],
-        "yes" => [
-            "Yes, if you are searching for a reliable hair patch centre in Dwarka, this is the place to go. A very satisfying experience.",
-            "I highly recommend their services. They help you choose the right style and ensure you are happy with your final look.",
-            "I would recommend Growig Hair Solution to anyone in Delhi looking for immediate, natural hair restoration. Excellent job by the team."
-        ],
-        "absolutely" => [
-            "I absolutely recommend them for non-surgical hair replacement in Sector 7 Dwarka. They deliver exactly what they promise.",
-            "If you want to regain your confidence and look your best, absolutely pay them a visit. They are true hair restoration artists.",
-            "This is absolutely the best shop for hair patches and wigs in Dwarka. Highly satisfied with their professional services and support."
-        ]
-    ];
+    $rec = "Highly recommended";
+    if (isset($rec_variants[$recommend])) {
+        $rec = $rec_variants[$recommend][array_rand($rec_variants[$recommend])];
+    }
 
-    // Pick randomized options
-    $opening = $openings[array_rand($openings)];
-    
-    // Choose impression block, defaulting to "natural look" if mismatch
-    $imp_options = isset($impressions[$imp_key]) ? $impressions[$imp_key] : $impressions['natural-look'];
-    $impression = $imp_options[array_rand($imp_options)];
-    
-    // Choose satisfaction block
-    $sat_options = isset($satisfaction_and_confidence[$sat_key]) ? $satisfaction_and_confidence[$sat_key] : $satisfaction_and_confidence['excellent'];
-    $satisfaction_sentence = $sat_options[array_rand($sat_options)];
-    
-    // Choose closing block
-    $close_options = isset($closings[$rec_key]) ? $closings[$rec_key] : $closings['definitely'];
-    $closing = $close_options[array_rand($close_options)];
+    // Generate reviews using 6 different structures/paths
+    $paths = [];
 
-    // Combine review
-    $review = $opening . " " . $impression . " " . $satisfaction_sentence . " " . $closing;
+    // Path 1: Super short & punchy exclamation (7 - 10 words)
+    $exclamations = ["Perfect", "Excellent", "Incredible", "Superb", "Top quality", "Very nice"];
+    $paths[] = $exclamations[array_rand($exclamations)] . " " . $srv . "! " . ucfirst($imp) . ". " . $rec . ".";
+
+    // Path 2: Quiet & direct (8 - 12 words)
+    $paths[] = "Satisfied with the " . $srv . ". The " . $imp . " is perfect.";
+
+    // Path 3: Brief recommendation (10 - 15 words)
+    $paths[] = "Got my " . $srv . " done in Dwarka. " . ucfirst($imp) . ". " . $rec . ".";
+
+    // Path 4: Simple statement + local mention (11 - 18 words)
+    $paths[] = "Growig in Dwarka offers great " . $srv . ". " . ucfirst($imp) . " and highly recommended.";
+
+    // Path 5: Natural feeling review (15 - 24 words)
+    $support_phrases = ["the staff is super supportive", "highly professional service", "totally worth the price", "feels very comfortable"];
+    $paths[] = "Great " . $srv . " styling here in Dwarka. The " . $imp . " is outstanding and " . $support_phrases[array_rand($support_phrases)] . ".";
+
+    // Path 6: Fast emotional response (7 - 10 words)
+    $paths[] = ucfirst($imp) . ". Best " . $srv . " shop in Dwarka.";
+
+    // Select random path
+    $review = $paths[array_rand($paths)];
+
+    // Clean up spaces
+    $review = preg_replace('/\s+/', ' ', trim($review));
 
     return $review;
 }
