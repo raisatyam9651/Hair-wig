@@ -433,6 +433,16 @@
                                     <option value="">Select a service</option>
                                     <option value="Premium Hair Patch">Premium Hair Patch</option>
                                     <option value="Australian Hair Patch">Australian Hair Patch</option>
+                                    <option value="BMW Hair Patch">BMW Hair Patch</option>
+                                    <option value="Filament Hair Patch">Filament Hair Patch</option>
+                                    <option value="Superior Filament Hair Patch">Superior Filament Hair Patch</option>
+                                    <option value="Monofilament Hair Patch">Monofilament Hair Patch</option>
+                                    <option value="Mono Silk Hair Patch">Mono Silk Hair Patch</option>
+                                    <option value="Mirage Hair Patch">Mirage Hair Patch</option>
+                                    <option value="French Lace Hair Patch">French Lace Hair Patch</option>
+                                    <option value="Front Lace Hair Patch">Front Lace Hair Patch</option>
+                                    <option value="Full Lace Hair Patch">Full Lace Hair Patch</option>
+                                    <option value="Poly Fuse Hair Patch">Poly Fuse Hair Patch</option>
                                     <option value="Full Hair Wig">Full Hair Wig</option>
                                     <option value="General Consultation">General Consultation</option>
                                 </select>

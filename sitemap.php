@@ -102,6 +102,66 @@
                             </a>
                         </li>
                         <li>
+                            <a href="bmw-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                BMW Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="filament-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Filament Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="superior-filament-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Superior Filament Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="monofilament-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Monofilament Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mono-silk-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Mono Silk Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mirage-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Mirage Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="french-lace-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                French Lace Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="front-lace-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Front Lace Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="full-lace-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Full Lace Hair Patch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="poly-fuse-hair-patch-dwarka" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xs text-primary">content_cut</span>
+                                Poly Fuse Hair Patch
+                            </a>
+                        </li>
+                        <li>
                             <a href="full-hair-wig" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
                                 <span class="material-symbols-outlined text-xs text-primary">face</span>
                                 Full Hair Wigs

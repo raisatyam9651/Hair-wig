@@ -124,6 +124,16 @@
                                     <select class="w-full bg-surface border border-outline/30 rounded-xl px-4 py-3 focus:ring-1 focus:ring-primary focus:border-primary font-body-md text-body-md text-on-surface" id="service" name="service">
                                         <option value="premium-hair-patch">Premium Hair Patch</option>
                                         <option value="australian-hair-patch">Australian Hair Patch</option>
+                                        <option value="bmw-hair-patch">BMW Hair Patch</option>
+                                        <option value="filament-hair-patch">Filament Hair Patch</option>
+                                        <option value="superior-filament-hair-patch">Superior Filament Hair Patch</option>
+                                        <option value="monofilament-hair-patch">Monofilament Hair Patch</option>
+                                        <option value="mono-silk-hair-patch">Mono Silk Hair Patch</option>
+                                        <option value="mirage-hair-patch">Mirage Hair Patch</option>
+                                        <option value="french-lace-hair-patch">French Lace Hair Patch</option>
+                                        <option value="front-lace-hair-patch">Front Lace Hair Patch</option>
+                                        <option value="full-lace-hair-patch">Full Lace Hair Patch</option>
+                                        <option value="poly-fuse-hair-patch">Poly Fuse Hair Patch</option>
                                         <option value="full-hair-wigs">Full Hair Wigs</option>
                                         <option value="non-surgical-replacement">Non-Surgical Hair Replacement</option>
                                         <option value="hair-bonding">Hair Bonding</option>

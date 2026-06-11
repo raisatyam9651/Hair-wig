@@ -21,9 +21,18 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
                 href="<?php echo $path_prefix; ?>./">Home</a>
             <a class="<?php echo ($current_page == 'about.php') ? 'text-primary font-bold border-b-2 border-primary' : 'text-secondary hover:text-primary'; ?> transition-colors duration-300 font-label-md text-label-md uppercase"
                 href="<?php echo $path_prefix; ?>about">About</a>
-            <?php 
             $hairpatch_pages = [
-                'australian-hair-patch-dwarka.php'
+                'australian-hair-patch-dwarka.php',
+                'bmw-hair-patch-dwarka.php',
+                'filament-hair-patch-dwarka.php',
+                'superior-filament-hair-patch-dwarka.php',
+                'monofilament-hair-patch-dwarka.php',
+                'mono-silk-hair-patch-dwarka.php',
+                'mirage-hair-patch-dwarka.php',
+                'french-lace-hair-patch-dwarka.php',
+                'front-lace-hair-patch-dwarka.php',
+                'full-lace-hair-patch-dwarka.php',
+                'poly-fuse-hair-patch-dwarka.php'
             ];
             $is_hairpatch_active = in_array($current_page, $hairpatch_pages);
             ?>
@@ -33,11 +42,51 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
                     <span class="material-symbols-outlined text-[16px] transition-transform duration-300 group-hover:rotate-180">expand_more</span>
                 </button>
                 <!-- Dropdown Menu -->
-                <div class="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-[300px] transition-all duration-300 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto z-50">
-                    <div class="bg-[#fcf9f4] border border-outline-variant/30 rounded-2xl shadow-xl p-4 flex flex-col gap-2">
+                <div class="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-[600px] transition-all duration-300 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto z-50">
+                    <div class="bg-[#fcf9f4] border border-outline-variant/30 rounded-2xl shadow-xl p-6 grid grid-cols-2 gap-x-6 gap-y-4">
                         <a href="<?php echo $path_prefix; ?>australian-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
-                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Australian Hair Patch</span>
-                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Premium breathable Swiss lace & skin hybrid systems.</span>
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Australian</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Swiss lace & skin hybrid.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>bmw-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">BMW</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Reinforced hybrid patch.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>filament-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Filament</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Multi-directional parting mesh.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>superior-filament-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Superior Filament</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Double monofilament comfort.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>monofilament-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Monofilament</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Realistic scalp appearance.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>mono-silk-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Mono Silk</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Invisible knots with silk base.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>mirage-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Mirage</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Ultra-light transparent poly.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>french-lace-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">French Lace</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Highly breathable natural lace.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>front-lace-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Front Lace</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Invisible front hairline.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>full-lace-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Full Lace</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Maximum breathability.</span>
+                        </a>
+                        <a href="<?php echo $path_prefix; ?>poly-fuse-hair-patch-dwarka" class="flex flex-col p-2.5 rounded-lg hover:bg-surface-container transition-colors duration-200">
+                            <span class="font-bold text-sm text-primary uppercase tracking-wider">Poly Fuse</span>
+                            <span class="text-xs text-secondary mt-1 font-body-md normal-case leading-relaxed font-normal">Highly durable skin-like fit.</span>
                         </a>
                     </div>
                 </div>
@@ -123,7 +172,17 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
             <span class="material-symbols-outlined transition-transform duration-300" id="mobile-hairpatch-icon">expand_more</span>
         </button>
         <div class="w-full flex flex-col items-center gap-4 mt-4 max-h-0 overflow-hidden transition-all duration-300 ease-in-out" id="mobile-hairpatch-menu">
-            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>australian-hair-patch-dwarka">Australian Hair Patch</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>australian-hair-patch-dwarka">Australian</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>bmw-hair-patch-dwarka">BMW</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>filament-hair-patch-dwarka">Filament</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>superior-filament-hair-patch-dwarka">Superior Filament</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>monofilament-hair-patch-dwarka">Monofilament</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>mono-silk-hair-patch-dwarka">Mono Silk</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>mirage-hair-patch-dwarka">Mirage</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>french-lace-hair-patch-dwarka">French Lace</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>front-lace-hair-patch-dwarka">Front Lace</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>full-lace-hair-patch-dwarka">Full Lace</a>
+            <a class="text-secondary hover:text-primary transition-colors font-label-md text-base tracking-wider mobile-link" href="<?php echo $path_prefix; ?>poly-fuse-hair-patch-dwarka">Poly Fuse</a>
         </div>
     </div>
     <!-- Mobile Services Submenu -->
