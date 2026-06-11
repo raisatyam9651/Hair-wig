@@ -91,6 +91,96 @@ $pages_metadata = [
         'service_name' => 'Australian Hair Patch',
         'service_desc' => 'Premium Australian hair patch system featuring a breathable Swiss lace front/center and a durable transparent poly skin perimeter for natural hairlines and secure bonding.'
     ],
+    'bmw-hair-patch-dwarka' => [
+        'title' => 'Best BMW Hair Patch in Dwarka | Hair Patch for Men | Growig Hair Solution',
+        'description' => 'Looking for the best BMW hair patch in Dwarka? Growig Hair Solution offers premium, durable, and highly breathable BMW style hair patch services. Book a free consultation today!',
+        'url' => 'https://growighairsolution.com/bmw-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/bmw-hair-patch-hero.png',
+        'type' => 'product',
+        'service_name' => 'BMW Hair Patch',
+        'service_desc' => 'Premium BMW hair patch system featuring a highly durable hybrid base with breathable lace center, reinforced poly-skin cross-strips for structural integrity, and transparent borders for secure bonding.'
+    ],
+    'filament-hair-patch-dwarka' => [
+        'title' => 'Best Filament Hair Patch in Dwarka | Monofilament Hair System | Growig Hair Solution',
+        'description' => 'Looking for the best Filament hair patch in Dwarka? Growig Hair Solution offers natural monofilament hair systems with multi-directional parting and excellent scalp ventilation. Book a free consultation today!',
+        'url' => 'https://growighairsolution.com/filament-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/filament-hair-patch-hero.png',
+        'type' => 'product',
+        'service_name' => 'Filament Hair Patch',
+        'service_desc' => 'Bespoke monofilament hair patch system allowing 360-degree parting styling, featuring hand-tied Remy hair on a mesh net base for ultimate ventilation and scalp resemblance.'
+    ],
+    'superior-filament-hair-patch-dwarka' => [
+        'title' => 'Best Superior Filament Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Looking for the best Superior Filament hair patch in Dwarka? Growig Hair Solution offers double monofilament hair systems for ultimate scalp comfort, natural parting, and durability. Book a free consultation!',
+        'url' => 'https://growighairsolution.com/superior-filament-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/superior-filament-hair-patch-hero.png',
+        'type' => 'product',
+        'service_name' => 'Superior Filament Hair Patch',
+        'service_desc' => 'Ultra-premium double monofilament hair patch designed for sensitive scalps, featuring a protective soft layer under hand-tied Remy hair for maximum comfort and realism.'
+    ],
+    'monofilament-hair-patch-dwarka' => [
+        'title' => 'Best Monofilament Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Looking for the best Monofilament Hair Patch in Dwarka? Growig Hair Solution offers premium monofilament hair systems for natural parting and breathable comfort. Book a free consultation!',
+        'url' => 'https://growighairsolution.com/monofilament-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/filament-hair-patch-hero.png',
+        'type' => 'product',
+        'service_name' => 'Monofilament Hair Patch',
+        'service_desc' => 'High-quality monofilament hair patch system that provides an incredibly realistic scalp appearance with multidirectional styling and exceptional breathability.'
+    ],
+    'mono-silk-hair-patch-dwarka' => [
+        'title' => 'Best Mono Silk Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Looking for the best Mono Silk Hair Patch in Dwarka? Growig Hair Solution provides undetectable mono silk hair systems with natural hairlines and premium comfort. Free consultation!',
+        'url' => 'https://growighairsolution.com/mono-silk-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/filament-hair-patch-hero.png',
+        'type' => 'product',
+        'service_name' => 'Mono Silk Hair Patch',
+        'service_desc' => 'Premium mono silk hair patch featuring a highly durable and soft silk base. Designed to provide the most natural-looking parting with invisible knots and lasting comfort.'
+    ],
+    'mirage-hair-patch-dwarka' => [
+        'title' => 'Best Mirage Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Discover the best Mirage Hair Patch in Dwarka at Growig Hair Solution. We offer lightweight, undetectable Mirage hair systems with a transparent poly base. Book your consultation today!',
+        'url' => 'https://growighairsolution.com/mirage-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/mirage-hair-patch-base.png',
+        'type' => 'product',
+        'service_name' => 'Mirage Hair Patch',
+        'service_desc' => 'Ultra-lightweight Mirage hair patch system crafted with a transparent polyurethane base, blending seamlessly with your skin for a completely undetectable finish.'
+    ],
+    'french-lace-hair-patch-dwarka' => [
+        'title' => 'Best French Lace Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Looking for the best French Lace Hair Patch in Dwarka? Growig Hair Solution offers highly breathable and natural-looking French Lace hair systems. Book a free consultation!',
+        'url' => 'https://growighairsolution.com/french-lace-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/lace-hair-patch-base.png',
+        'type' => 'product',
+        'service_name' => 'French Lace Hair Patch',
+        'service_desc' => 'Breathable and soft French lace hair patch offering an exceptional balance of natural appearance, comfort, and durability. Ideal for active lifestyles and warm climates.'
+    ],
+    'front-lace-hair-patch-dwarka' => [
+        'title' => 'Best Front Lace Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Searching for the best Front Lace Hair Patch in Dwarka? Growig Hair Solution provides custom front lace hair systems for a flawless, invisible hairline. Book a free consultation!',
+        'url' => 'https://growighairsolution.com/front-lace-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/lace-hair-patch-base.png',
+        'type' => 'product',
+        'service_name' => 'Front Lace Hair Patch',
+        'service_desc' => 'Custom front lace hair patch featuring an invisible front hairline for swept-back styles, combined with a durable base for secure attachment and long-lasting wear.'
+    ],
+    'full-lace-hair-patch-dwarka' => [
+        'title' => 'Best Full Lace Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Get the best Full Lace Hair Patch in Dwarka at Growig Hair Solution. Enjoy ultimate breathability and realistic hairlines with our premium full lace systems. Free consultation!',
+        'url' => 'https://growighairsolution.com/full-lace-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/lace-hair-patch-base.png',
+        'type' => 'product',
+        'service_name' => 'Full Lace Hair Patch',
+        'service_desc' => 'The ultimate full lace hair patch system providing maximum breathability, lightweight comfort, and the ability to part your hair freely in any direction with a 100% natural look.'
+    ],
+    'poly-fuse-hair-patch-dwarka' => [
+        'title' => 'Best Poly Fuse Hair Patch in Dwarka | Growig Hair Solution',
+        'description' => 'Looking for the best Poly Fuse Hair Patch in Dwarka? Growig Hair Solution offers highly durable, skin-like poly fuse hair systems for a secure and undetectable fit.',
+        'url' => 'https://growighairsolution.com/poly-fuse-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/mirage-hair-patch-base.png',
+        'type' => 'product',
+        'service_name' => 'Poly Fuse Hair Patch',
+        'service_desc' => 'Advanced Poly Fuse hair patch system utilizing a transparent skin-like base that perfectly adheres to the scalp, providing high durability, easy maintenance, and an incredibly secure fit.'
+    ],
     'gallery' => [
         'title' => 'Before and After Gallery | Growig Hair Solution',
         'description' => 'Real transformations, real confidence. Browse our gallery of premium non-surgical hair replacement, patches, and wigs.',
@@ -241,7 +331,7 @@ if ($page !== 'index') {
         ]
     ];
     
-    $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design', 'australian-hair-patch-dwarka']);
+    $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design', 'australian-hair-patch-dwarka', 'bmw-hair-patch-dwarka', 'filament-hair-patch-dwarka', 'superior-filament-hair-patch-dwarka', 'monofilament-hair-patch-dwarka', 'mono-silk-hair-patch-dwarka', 'mirage-hair-patch-dwarka', 'french-lace-hair-patch-dwarka', 'front-lace-hair-patch-dwarka', 'full-lace-hair-patch-dwarka', 'poly-fuse-hair-patch-dwarka']);
     
     if ($is_service) {
         $breadcrumb_items[] = [
@@ -482,6 +572,140 @@ if ($page === 'index') {
         [
             "question" => "How long does an Australian Hair Patch last?",
             "answer" => "With proper maintenance at our Dwarka clinic, an Australian hair patch typically lasts between 6 to 10 months. Regular professional cleaning and re-bonding every 3 to 4 weeks will maximize its lifespan."
+        ]
+    ];
+} elseif ($page === 'bmw-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is a BMW Hair Patch?",
+            "answer" => "A BMW hair patch is a premium hybrid hair replacement system known for its highly reinforced base. It features a breathable lace center and front for a natural hairline, surrounded by a poly skin border, with reinforced poly-strips running across the base to provide extra durability and shape retention."
+        ],
+        [
+            "question" => "What are the benefits of the BMW Hair Patch?",
+            "answer" => "It is one of the most durable and stable systems available. The reinforced cross-strips prevent the lace from stretching or tearing over time, while the poly borders ensure easy tape/glue application. The lace center guarantees excellent ventilation and sweat resistance."
+        ],
+        [
+            "question" => "Is the BMW Hair Patch suitable for active lifestyles?",
+            "answer" => "Yes. Due to its reinforced base structure and secure skin border, the BMW hair patch provides an exceptionally strong bond. It is completely waterproof and sweat-proof, making it ideal for swimming, running, and heavy workouts."
+        ],
+        [
+            "question" => "How long does a BMW Hair Patch last?",
+            "answer" => "With proper care and maintenance at our Dwarka clinic, a BMW hair patch lasts between 8 to 12 months, which is typically longer than standard lace systems due to its reinforced base."
+        ]
+    ];
+} elseif ($page === 'filament-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is a Filament Hair Patch?",
+            "answer" => "A filament hair patch (or monofilament hair patch) features a mesh base woven from a fine synthetic filament. Each strand of human hair is hand-knotted individually onto this mesh, mimicking the look of natural hair growth from the scalp and allowing multidirectional styling."
+        ],
+        [
+            "question" => "How natural does a Filament Hair Patch look?",
+            "answer" => "It is highly realistic. Because the base is a transparent, fine filament mesh, your natural scalp color shows through. This makes parting lines look 100% natural, allowing you to part your hair in any direction."
+        ],
+        [
+            "question" => "Is the Filament Hair Patch breathable?",
+            "answer" => "Yes. The monofilament mesh base is extremely breathable, letting air flow naturally to your scalp. This helps reduce heat and sweat buildup, making it comfortable for all-day wear."
+        ],
+        [
+            "question" => "What is the lifespan of a Filament Hair Patch?",
+            "answer" => "With regular maintenance every 3 to 4 weeks at our Dwarka studio, a high-quality filament hair patch typically lasts between 6 to 10 months."
+        ]
+    ];
+} elseif ($page === 'superior-filament-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What makes the Superior Filament Hair Patch different?",
+            "answer" => "The superior filament system uses an advanced double monofilament mesh base. It includes an extra soft layer of silk or fine mesh underneath the knotted hair to protect the scalp from irritation. This makes it the most comfortable and natural system for individuals with sensitive scalps or complete hair loss."
+        ],
+        [
+            "question" => "Who should choose a Superior Filament Hair Patch?",
+            "answer" => "It is ideal for anyone with a sensitive scalp, medical conditions (like alopecia or chemotherapy hair loss), or those seeking the highest level of comfort combined with realistic multi-directional styling and parting versatility."
+        ],
+        [
+            "question" => "Can I wash and style a Superior Filament Hair Patch?",
+            "answer" => "Yes. Like our other premium systems, the Superior Filament patch uses 100% premium human hair. You can wash, condition, blow-dry, and style it as desired. The soft double-mesh base ensures it remains comfortable even during high-activity styling."
+        ],
+        [
+            "question" => "How secure is the Superior Filament Hair Patch?",
+            "answer" => "Extremely secure. The perimeter is reinforced with transparent poly borders, enabling safe, high-strength medical adhesive or double-sided tape attachment. You can sleep, shower, and exercise with full confidence."
+        ]
+    ];
+} elseif ($page === 'monofilament-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is a Monofilament Hair Patch?",
+            "answer" => "A monofilament hair patch is a premium hair replacement system that uses a sheer, breathable mesh base. Individual hair strands are hand-tied to this mesh, giving the appearance of natural hair growth directly from the scalp."
+        ],
+        [
+            "question" => "Can I part my hair anywhere with a Monofilament patch?",
+            "answer" => "Yes, one of the biggest advantages of a monofilament base is its multidirectional styling capability. You can part the hair anywhere and it will look like a natural scalp line."
+        ]
+    ];
+} elseif ($page === 'mono-silk-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is the difference between Mono and Mono Silk Hair Patches?",
+            "answer" => "While regular mono uses a single layer of mesh, a mono silk patch incorporates a multi-layer base including a layer of fine silk. This silk layer hides the hair knots completely, making the parting look 100% realistic and undetectable."
+        ],
+        [
+            "question" => "Is a Mono Silk Hair Patch comfortable for sensitive scalps?",
+            "answer" => "Absolutely. The soft silk base is exceptionally gentle on the skin, making it an ideal choice for men with sensitive scalps or total hair loss."
+        ]
+    ];
+} elseif ($page === 'mirage-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What makes the Mirage Hair Patch unique?",
+            "answer" => "The Mirage hair patch is renowned for its ultra-lightweight and transparent polyurethane (poly) base. The thin poly base blends seamlessly with your skin tone, making it completely undetectable while remaining very easy to attach and clean."
+        ],
+        [
+            "question" => "How long does a Mirage Hair Patch last?",
+            "answer" => "Due to its extremely thin base, the Mirage is considered a delicate system. With proper care and regular maintenance at our Dwarka clinic, it typically lasts between 3 to 6 months."
+        ]
+    ];
+} elseif ($page === 'french-lace-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "Is the French Lace Hair Patch breathable?",
+            "answer" => "Yes, French Lace is considered one of the most breathable base materials available. The entire base is an open mesh, allowing maximum airflow and heat escape, making it perfect for active individuals and warm climates."
+        ],
+        [
+            "question" => "Can the French Lace Hair Patch expose my hairline?",
+            "answer" => "Yes. We use specialized knot bleaching techniques at the front of the French lace to ensure the hairline looks incredibly natural, allowing you to confidently style your hair backwards."
+        ]
+    ];
+} elseif ($page === 'front-lace-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is a Front Lace Hair Patch?",
+            "answer" => "A front lace hair patch combines an invisible lace material only at the front hairline with a more durable material (like poly or monofilament) for the rest of the base. This gives you a flawless hairline with added durability at the back."
+        ],
+        [
+            "question" => "Can I use tape or glue with a Front Lace Hair Patch?",
+            "answer" => "Yes, the durable back and sides allow for easy application of tape or glue, while the front lace can be delicately bonded with clear adhesive for an invisible finish."
+        ]
+    ];
+} elseif ($page === 'full-lace-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is a Full Lace Hair Patch?",
+            "answer" => "A full lace hair patch is constructed entirely from a fine lace mesh. It offers the most natural appearance across the entire scalp, allowing for free parting anywhere and exceptional breathability."
+        ],
+        [
+            "question" => "Is a Full Lace system durable?",
+            "answer" => "Full lace systems are delicate due to their fine mesh construction. They require careful handling and regular professional maintenance to prevent tearing and hair shedding, typically lasting 4 to 8 months."
+        ]
+    ];
+} elseif ($page === 'poly-fuse-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is a Poly Fuse Hair Patch?",
+            "answer" => "A Poly Fuse hair patch is made entirely of a thin, transparent polyurethane material. It creates a vacuum-like seal with the scalp when bonded, offering a very secure fit that feels like a second skin."
+        ],
+        [
+            "question" => "Is the Poly Fuse system easy to maintain?",
+            "answer" => "Yes, the smooth poly surface makes it much easier to clean adhesive residue compared to lace or mesh bases. It is an excellent choice for men seeking low-maintenance hair systems with strong holding power."
         ]
     ];
 }
