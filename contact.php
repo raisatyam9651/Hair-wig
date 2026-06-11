@@ -123,6 +123,7 @@
                                     <label class="block font-label-md text-label-md text-on-surface mb-2" for="service">Service of Interest</label>
                                     <select class="w-full bg-surface border border-outline/30 rounded-xl px-4 py-3 focus:ring-1 focus:ring-primary focus:border-primary font-body-md text-body-md text-on-surface" id="service" name="service">
                                         <option value="premium-hair-patch">Premium Hair Patch</option>
+                                        <option value="australian-hair-patch">Australian Hair Patch</option>
                                         <option value="full-hair-wigs">Full Hair Wigs</option>
                                         <option value="non-surgical-replacement">Non-Surgical Hair Replacement</option>
                                         <option value="hair-bonding">Hair Bonding</option>

@@ -432,6 +432,7 @@
                                     id="service" name="service">
                                     <option value="">Select a service</option>
                                     <option value="Premium Hair Patch">Premium Hair Patch</option>
+                                    <option value="Australian Hair Patch">Australian Hair Patch</option>
                                     <option value="Full Hair Wig">Full Hair Wig</option>
                                     <option value="General Consultation">General Consultation</option>
                                 </select>

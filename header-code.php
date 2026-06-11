@@ -82,6 +82,15 @@ $pages_metadata = [
         'service_name' => 'Custom Hairline & Hair Patch Design',
         'service_desc' => 'Bespoke custom hairline design and custom hair patch design in Dwarka. We craft natural, undetectable hair systems matching your facial geometry and style.'
     ],
+    'australian-hair-patch-dwarka' => [
+        'title' => 'Best Australian Hair Patch in Dwarka | Hair Patch for Men | Growig Hair Solution',
+        'description' => 'Looking for the best Australian hair patch in Dwarka? Growig Hair Solution offers premium, natural, and breathable Australian hair patch services near you. Book a free consultation!',
+        'url' => 'https://growighairsolution.com/australian-hair-patch-dwarka',
+        'image' => 'https://growighairsolution.com/assets/australian-hair-patch-hero.png',
+        'type' => 'product',
+        'service_name' => 'Australian Hair Patch',
+        'service_desc' => 'Premium Australian hair patch system featuring a breathable Swiss lace front/center and a durable transparent poly skin perimeter for natural hairlines and secure bonding.'
+    ],
     'gallery' => [
         'title' => 'Before and After Gallery | Growig Hair Solution',
         'description' => 'Real transformations, real confidence. Browse our gallery of premium non-surgical hair replacement, patches, and wigs.',
@@ -232,7 +241,7 @@ if ($page !== 'index') {
         ]
     ];
     
-    $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design']);
+    $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design', 'australian-hair-patch-dwarka']);
     
     if ($is_service) {
         $breadcrumb_items[] = [
@@ -454,6 +463,25 @@ if ($page === 'index') {
         [
             "question" => "Is the design visible up close?",
             "answer" => "No. The combination of bleached knots, graduated hair density, and transparent bases makes the transition from skin to hair completely invisible even from a distance of a few inches."
+        ]
+    ];
+} elseif ($page === 'australian-hair-patch-dwarka') {
+    $faq_questions = [
+        [
+            "question" => "What is an Australian Hair Patch?",
+            "answer" => "An Australian hair patch is a premium hybrid hair replacement system. It combines a highly breathable Swiss lace base in the center and front (for a completely natural, undetectable hairline) with a thin poly-skin perimeter (which allows secure bonding, taping, and easy maintenance)."
+        ],
+        [
+            "question" => "Why choose the Australian Hair Patch over other systems?",
+            "answer" => "It offers the best of both worlds: extreme breathability from the Swiss lace, making it perfect for warm weather or active lifestyles, and high durability and secure attachment from the polyurethane skin border."
+        ],
+        [
+            "question" => "Can I wash and style the Australian Hair Patch?",
+            "answer" => "Yes, absolutely. The system is made with 100% premium natural human hair. You can wash it, apply styling products, blow-dry it, and style it in any direction, including exposing the front hairline."
+        ],
+        [
+            "question" => "How long does an Australian Hair Patch last?",
+            "answer" => "With proper maintenance at our Dwarka clinic, an Australian hair patch typically lasts between 6 to 10 months. Regular professional cleaning and re-bonding every 3 to 4 weeks will maximize its lifespan."
         ]
     ];
 }
