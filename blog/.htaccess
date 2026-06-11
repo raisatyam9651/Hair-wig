@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirect direct requests for *.php to extensionless URLs in blog
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /blog/(.+)\.php\ HTTP/
+RewriteRule ^(.+)\.php$ /blog/$1 [R=301,L]
+
+# Internally rewrite clean URLs back to PHP scripts in blog
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
