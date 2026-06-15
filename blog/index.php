@@ -1,6 +1,9 @@
 <?php
 require_once 'blog-data.php';
 
+// Reverse posts so that the latest blogs appear first
+$blog_posts = array_reverse($blog_posts);
+
 // Category Filtering
 $categories = ['All', 'Maintenance', 'Buying Guide', 'Comparison', 'Cost Guide', 'Styling', 'Scalp Care', 'Adhesives', 'Lifestyle'];
 $selected_category = isset($_GET['category']) && in_array($_GET['category'], $categories) ? $_GET['category'] : 'All';
