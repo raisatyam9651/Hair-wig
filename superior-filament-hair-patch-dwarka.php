@@ -19,18 +19,25 @@
 <!-- Hero Section -->
 <section class="py-section-gap">
     <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
-        <div class="z-10 contents md:block md:space-y-8">
-            <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">SUPERIOR FILAMENT HYBRID DESIGN</span>
-            <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Best Superior Filament Hair Patch in Dwarka | Premium Hair Patch for Men</h1>
-            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">
+        <div class="z-10 md:space-y-8 space-y-6">
+            <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">SUPERIOR FILAMENT HYBRID DESIGN</span>
+            <h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance">Best Superior Filament Hair Patch in Dwarka | Premium Hair Patch for Men</h1>
+            
+            <!-- Mobile Hero Image -->
+            <div class="block md:hidden relative group w-full my-4">
+                <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform"></div>
+                <img alt="Best Superior Filament Hair Patch in Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/filament-hair-patch-hero.png"/>
+            </div>
+
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
                 Experience the ultimate blend of style, comfort, and security. Our premium Superior Filament hair patch systems feature an undetectable Swiss lace front with a durable, skin-friendly poly border for seamless integration.
             </p>
-            <div class="flex flex-wrap gap-4 pt-4 order-5">
+            <div class="flex flex-wrap gap-4 pt-4">
                 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Free Consultation</a>
                 <a href="./#collections" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">View Systems</a>
             </div>
         </div>
-        <div class="relative group order-3 w-full">
+        <div class="hidden md:block relative group w-full">
             <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
             <img alt="Best Superior Filament Hair Patch in Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/filament-hair-patch-hero.png"/>
         </div>

@@ -17,16 +17,23 @@
 <!-- Hero Section -->
 <section class="relative min-h-[90vh] flex items-center overflow-hidden py-section-gap">
 <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-16 items-center">
-<div class="z-10 contents md:block md:space-y-8">
-<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md order-1">Hair Patch Maintenance in Dwarka</span>
-<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance order-2">Hair Patch Maintenance in Dwarka &amp; Hair System Maintenance</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl order-4">Keep your hair looking natural and fresh. We provide expert hair patch maintenance in Dwarka, restoring your hair system with premium cleaning and styling solutions.</p>
-<div class="flex flex-wrap gap-4 pt-4 order-5">
+<div class="z-10 md:space-y-8 space-y-6">
+<span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md">Hair Patch Maintenance in Dwarka</span>
+<h1 class="font-display-lg text-2xl md:text-headline-lg text-on-surface leading-tight text-balance">Hair Patch Maintenance in Dwarka &amp; Hair System Maintenance</h1>
+
+<!-- Mobile Hero Image -->
+<div class="block md:hidden relative group w-full my-4">
+<div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform"></div>
+<img alt="Hair System Maintenance" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/hair-maintance.jpg"/>
+</div>
+
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Keep your hair looking natural and fresh. We provide expert hair patch maintenance in Dwarka, restoring your hair system with premium cleaning and styling solutions.</p>
+<div class="flex flex-wrap gap-4 pt-4">
 <a href="contact" class="bg-primary text-white px-10 py-4 rounded-full font-label-md hover:bg-primary-container transition-colors royal-shadow text-center">Schedule Private Viewing</a>
 <a href="./#collections" class="border border-outline text-on-surface px-10 py-4 rounded-full font-label-md hover:bg-surface-container transition-colors text-center">Our Collection</a>
 </div>
 </div>
-<div class="relative group order-3 w-full">
+<div class="hidden md:block relative group w-full">
 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
 <img alt="Hair System Maintenance" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/hair-maintance.jpg"/>
 </div>
