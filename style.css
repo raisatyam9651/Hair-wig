@@ -91,3 +91,54 @@ details > summary::-webkit-details-marker {
 .text-balance {
     text-wrap: balance;
 }
+
+/* Prevent Horizontal Scroll on Mobile */
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+/* Responsive Tables */
+.blog-content table,
+.answer-box table,
+.price-table {
+    display: block !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.blog-content table td,
+.blog-content table th,
+.answer-box table td,
+.answer-box table th,
+.price-table td,
+.price-table th {
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+/* Table wrapper for mobile scroll */
+.table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+    margin: 1.5rem 0;
+}
+
+/* Prevent WhatsApp Widget from Causing Overflow */
+#whatsapp-widget-container {
+    position: fixed;
+    z-index: 50;
+}
+
+.whatsapp-popup-modal {
+    max-width: 90vw;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+.whatsapp-popup-modal.show {
+    transform: translate(-50%, -50%) scale(1);
+}
