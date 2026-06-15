@@ -1,0 +1,151 @@
+<?php
+require_once 'blog-data.php';
+$slug = 'hair-weaving-in-dwarka';
+$blog_post = null;
+foreach ($blog_posts as $post) { if ($post['slug'] === $slug) { $blog_post = $post; break; } }
+if (!$blog_post) { die("Article not found."); }
+$current_index = -1;
+foreach ($blog_posts as $idx => $post) { if ($post['slug'] === $slug) { $current_index = $idx; break; } }
+$prev_post = ($current_index > 0) ? $blog_posts[$current_index - 1] : null;
+$next_post = ($current_index < count($blog_posts) - 1) ? $blog_posts[$current_index + 1] : null;
+$other_posts = [];
+$available_posts = array_filter($blog_posts, function($p) use ($slug) { return $p['slug'] !== $slug; });
+if (count($available_posts) > 3) { $random_keys = array_rand($available_posts, 3); foreach ($random_keys as $k) { $other_posts[] = $available_posts[$k]; } } else { $other_posts = array_values($available_posts); }
+$custom_head_links = '<meta name="robots" content="index, follow" />';
+?>
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title><?php echo htmlspecialchars($blog_post['title']); ?> | Growig Hair Solution</title>
+    <meta content="<?php echo htmlspecialchars($blog_post['description']); ?>" name="description"/>
+    <meta name="keywords" content="hair weaving in dwarka, hair weaving dwarka, hair weaving service dwarka, hair weaving cost dwarka" />
+    <?php include __DIR__ . '/../header-code.php'; ?>
+    <style>
+        .blog-content h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--md-sys-color-primary, #4A3E3D); font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem; }
+        .blog-content p { line-height: 1.8; margin-bottom: 1.5rem; color: var(--md-sys-color-on-surface-variant, #5c5555); }
+        .blog-content a { color: #1a56db; text-decoration: underline; text-decoration-color: rgba(26, 86, 219, 0.3); text-underline-offset: 4px; font-weight: 600; transition: all 0.2s ease-in-out; }
+        .blog-content a:hover { color: #1e40af; text-decoration-color: #1e40af; }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
+<?php include __DIR__ . '/../header.php'; ?>
+<main class="pt-20">
+    <?php include __DIR__ . '/../breadcrumbs.php'; ?>
+    <section class="py-12 bg-surface-container-low">
+        <div class="max-w-[800px] mx-auto px-margin-mobile md:px-0 text-center">
+            <span class="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary font-label-md uppercase tracking-wider mb-6 text-xs"><?php echo htmlspecialchars($blog_post['category']); ?></span>
+            <h1 class="font-display-lg text-3xl md:text-[40px] text-on-surface leading-tight text-balance mb-6 font-bold"><?php echo htmlspecialchars($blog_post['title']); ?></h1>
+            <div class="flex items-center justify-center gap-6 text-sm text-on-surface-variant font-label-md">
+                <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">calendar_month</span><span><?php echo htmlspecialchars($blog_post['date']); ?></span></div>
+                <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">schedule</span><span><?php echo htmlspecialchars($blog_post['read_time']); ?></span></div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <div class="lg:col-span-8">
+                    <div class="rounded-3xl overflow-hidden royal-shadow mb-12 border border-surface-variant/30">
+                        <img src="../assets/hair-maintance.jpg" alt="<?php echo htmlspecialchars($blog_post['title']); ?>" class="w-full h-auto object-cover max-h-[450px]" />
+                    </div>
+                    <article class="blog-content font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+<p>Hair weaving is a popular non-surgical technique for adding volume and coverage to thinning hair. Unlike hair patches that cover the scalp directly, hair weaving integrates extensions into your existing hair. It is ideal for men and women with partial hair thinning who still have enough natural hair to support extensions.</p>
+
+<p>In Dwarka, hair weaving is gaining popularity as a semi-permanent solution. It provides instant volume without covering the entire scalp. The extensions blend with your natural hair for a seamless look. Here is everything you need to know about this technique.</p>
+
+<h4>How Hair Weaving Works</h4>
+<p>During a hair weaving session, natural human hair extensions are attached to your existing hair. The stylist creates small braids or micro-links in your natural hair. The extension strands are then woven, braided, or clipped into these anchor points. The result is added volume and coverage in thinning areas.</p>
+
+<p>The process takes 2 to 4 hours depending on the amount of hair being added. There is no adhesive applied to the scalp. The extensions are secured using your own hair as the anchor. This makes it a completely non-invasive technique with zero scalp irritation.</p>
+
+<h4>Hair Weaving vs Hair Patch: Which Is Better?</h4>
+<p>A hair patch covers a specific bald area and is bonded directly to the scalp. It is ideal for localized baldness or complete crown baldness. Hair weaving integrates extensions into existing hair. It is best for diffuse thinning where you still have hair throughout the thinning area.</p>
+
+<p>If you have a completely bald spot with no hair, a hair patch is the better choice. If your hair is thinning gradually and you still have strands across the area, hair weaving can provide the volume boost you need. Both techniques are non-surgical and pain-free.</p>
+
+<h4>Who Is the Best Candidate for Hair Weaving?</h4>
+<p>Hair weaving works best for people with early to moderate hair thinning. You need at least some existing hair for the extensions to attach to. It is excellent for women experiencing crown thinning or postpartum hair loss. Men with diffuse thinning across the top of the head also benefit greatly.</p>
+
+<p>It is not suitable for completely bald areas. If you have a fully bald crown or vertex, a hair patch or full wig would be more effective. A professional consultation will help determine which technique suits your specific hair loss pattern.</p>
+
+<h4>Cost of Hair Weaving in Dwarka</h4>
+<p>Hair weaving in Dwarka costs between INR 5,000 and 15,000. The price depends on the amount of extension hair used and the technique chosen. Micro-link weaving tends to cost more than traditional braiding methods. Premium Remy human hair extensions cost more than standard hair.</p>
+
+<p>Maintenance visits are needed every 6 to 8 weeks to tighten the extensions and replace any loose strands. These visits cost approximately INR 1,500 to 3,000. With proper care, a hair weave can last 3 to 6 months before full replacement.</p>
+
+<h4>Caring for Your Hair Weave</h4>
+<p>Wash your hair gently using sulfate-free shampoo. Avoid tugging at the attachment points. Use a wide-tooth comb instead of a brush to detangle. Avoid applying conditioner near the braids or micro-links as it can loosen them. Sleep on a silk pillowcase to reduce friction and tangling.</p>
+
+<p>Visit your stylist regularly for maintenance. They will check the attachment points, tighten any loose extensions, and ensure your natural hair remains healthy. Regular care prevents damage and keeps your weave looking natural for longer.</p>
+
+<p>For more information about our non-surgical services, explore our <a href="../hair-bonding">hair bonding solutions</a> and <a href="../premium-hair-patch">premium hair patch systems</a> at our Dwarka studio.</p>
+                    </article>
+
+                    <?php if (isset($blog_post['faqs']) && !empty($blog_post['faqs'])): ?>
+                        <div class="mt-16 pt-8 border-t border-outline-variant/30">
+                            <h3 class="font-display-lg text-2xl md:text-3xl text-on-surface font-bold mb-8">Frequently Asked Questions</h3>
+                            <div class="space-y-4">
+                                <?php foreach ($blog_post['faqs'] as $idx => $faq): ?>
+                                    <details class="group glass-card p-6 rounded-2xl border border-primary/10 royal-shadow bg-[#fcf9f4]" <?php echo ($idx === 0) ? 'open' : ''; ?>>
+                                        <summary class="list-none flex justify-between items-center cursor-pointer font-display-md text-base md:text-lg text-on-surface font-bold"><?php echo htmlspecialchars($faq['question']); ?><span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span></summary>
+                                        <div class="mt-4 font-body-md text-on-surface-variant leading-relaxed text-sm"><?php echo $faq['answer']; ?></div>
+                                    </details>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-16 pt-8 border-t border-outline-variant/30">
+                        <div><?php if ($prev_post): ?><a href="./<?php echo htmlspecialchars($prev_post['slug']); ?>" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]"><span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 group-hover:text-primary transition-colors"><span class="material-symbols-outlined text-[14px]">arrow_back</span> Previous Article</span><span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($prev_post['title']); ?></span></a><?php endif; ?></div>
+                        <div class="sm:text-right"><?php if ($next_post): ?><a href="./<?php echo htmlspecialchars($next_post['slug']); ?>" class="group block p-6 rounded-2xl border border-outline-variant/30 hover:border-primary transition-all duration-300 bg-surface-container-low hover:bg-[#fcf9f4]"><span class="text-xs text-on-surface-variant font-label-md uppercase tracking-wider flex items-center gap-1 sm:justify-end group-hover:text-primary transition-colors">Next Article <span class="material-symbols-outlined text-[14px]">arrow_forward</span></span><span class="block mt-2 font-display-md text-base text-on-surface font-bold line-clamp-1 group-hover:text-primary transition-colors"><?php echo htmlspecialchars($next_post['title']); ?></span></a><?php endif; ?></div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row justify-between items-center gap-6 mt-16 pt-8 border-t border-outline-variant/30">
+                        <a href="./" class="inline-flex items-center gap-2 text-primary hover:text-primary-container font-label-md transition-colors"><span class="material-symbols-outlined text-[18px]">arrow_back</span>Back to all Blogs</a>
+                        <div class="flex items-center gap-4">
+                            <span class="text-sm font-label-md text-on-surface-variant">Share this article:</span>
+                            <a href="https://wa.me/?text=<?php echo urlencode($blog_post['title'] . ' - https://growighairsolution.com/blog/' . $blog_post['slug']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-primary/5 hover:bg-primary/10 text-primary flex items-center justify-center transition-colors"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.335 4.975L2 22l5.233-1.371a9.92 9.92 0 004.773 1.226h.005c5.505 0 9.988-4.479 9.989-9.985a9.96 9.96 0 00-2.925-7.062 9.92 9.92 0 00-7.063-2.787zm5.42 14.186c-.296.83-1.75 1.624-2.42 1.706-.607.075-1.397.086-2.262-.19-.54-.173-1.226-.454-2.09-.83-3.69-1.597-6.082-5.328-6.267-5.574-.185-.246-1.428-1.89-1.428-3.61 0-1.719.897-2.565 1.218-2.915.322-.35.706-.438.94-.438.236 0 .473.003.678.013.214.01.503-.082.786.598.293.705.998 2.422 1.085 2.597.087.175.146.378.03.61-.117.234-.176.38-.352.585-.175.204-.368.455-.526.61-.176.176-.36.368-.156.719.205.35.912 1.498 1.956 2.422 1.343 1.19 2.472 1.558 2.822 1.734.35.175.555.146.76-.088.205-.234.877-1.022 1.112-1.373.234-.35.467-.292.787-.175.321.117 2.037.962 2.387 1.137.35.175.584.263.67.41.088.146.088.847-.208 1.677z"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-4">
+                    <div class="sticky top-28 space-y-6">
+                        <div class="glass-card p-8 rounded-[32px] border border-primary/20 royal-shadow bg-[#fcf9f4] text-center space-y-6">
+                            <span class="material-symbols-outlined text-primary text-5xl">support_agent</span>
+                            <h3 class="font-headline-md text-on-surface font-bold text-xl">Free Scalp Consultation</h3>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">Explore hair weaving and other non-surgical options in Dwarka.</p>
+                            <a href="../contact" class="block w-full bg-primary text-white py-4 rounded-full font-label-md hover:bg-primary-container hover:scale-[1.02] active:scale-[0.98] transition-all royal-shadow uppercase tracking-wider text-sm font-bold text-center">Book Free Session</a>
+                            <div class="pt-4 border-t border-outline-variant/30 flex items-center justify-center gap-3"><span class="material-symbols-outlined text-primary">call</span><a href="tel:+918766216564" class="font-bold text-on-surface hover:text-primary transition-colors text-sm">+91 87662 16564</a></div>
+                        </div>
+                        <div class="glass-card p-8 rounded-[32px] border border-outline-variant/30 bg-[#fcf9f4] space-y-4">
+                            <h4 class="font-headline-md text-on-surface font-bold text-base uppercase tracking-wider border-b border-outline-variant/30 pb-2">Our Services</h4>
+                            <ul class="space-y-3">
+                                <li><a href="../premium-hair-patch" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">Premium Hair Patch</a></li>
+                                <li><a href="../full-hair-wig" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">Full Hair Wigs</a></li>
+                                <li><a href="../non-surgical-replacement" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">Non-Surgical Replacement</a></li>
+                                <li><a href="../hair-bonding" class="text-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-medium">Hair Bonding</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-surface-container-low">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop">
+            <h3 class="font-display-lg text-2xl md:text-[32px] text-on-surface text-center mb-12 font-bold">Recent Articles</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <?php foreach ($other_posts as $post): ?>
+                    <div class="glass-card rounded-3xl overflow-hidden royal-shadow border border-primary/5 hover:-translate-y-2 transition-all duration-300 flex flex-col h-full bg-[#fcf9f4]">
+                        <div class="relative h-48 w-full overflow-hidden"><img src="../assets/hair-maintance.jpg" alt="<?php echo htmlspecialchars($post['title']); ?>" class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" /><span class="absolute top-4 left-4 bg-primary text-white text-[10px] font-label-md px-3 py-1 rounded-full uppercase tracking-wider"><?php echo htmlspecialchars($post['category']); ?></span></div>
+                        <div class="p-6 flex flex-col justify-between flex-grow"><div><div class="text-xs text-on-surface-variant font-label-md mb-2"><?php echo htmlspecialchars($post['date']); ?></div><h4 class="font-display-md text-lg text-on-surface font-bold line-clamp-2 mb-3 leading-snug"><a href="./<?php echo htmlspecialchars($post['slug']); ?>" class="hover:text-primary transition-colors"><?php echo htmlspecialchars($post['title']); ?></a></h4><p class="text-xs text-on-surface-variant line-clamp-3 mb-4 leading-relaxed"><?php echo htmlspecialchars($post['excerpt']); ?></p></div><a href="./<?php echo htmlspecialchars($post['slug']); ?>" class="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary-container font-label-md transition-colors mt-auto font-bold uppercase tracking-wider">Read Article<span class="material-symbols-outlined text-[14px]">arrow_forward</span></a></div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+</main>
+<?php include __DIR__ . '/../footer.php'; ?>
+</body>
+</html>

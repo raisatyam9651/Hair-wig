@@ -643,5 +643,373 @@ $blog_posts = [
                 'answer' => 'Yes, but you should inform your stylist. They can perform a skin patch test with the adhesive behind your ear 24 hours prior to the fitting to verify safety.'
             ]
         ]
+    ],
+    [
+        'id' => 15,
+        'title' => 'Hair Patch Price in Dwarka: Complete Cost Guide 2026',
+        'slug' => 'hair-patch-price-in-dwarka',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 14, 2026',
+        'category' => 'Buying Guide',
+        'read_time' => '6 min read',
+        'excerpt' => 'Curious about hair patch prices in Dwarka? Get a complete breakdown of costs by base type, brand, and maintenance charges.',
+        'description' => 'Hair patch price in Dwarka: Compare costs of lace, skin, and monofilament patches. Get transparent pricing for fittings, servicing, and replacements.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'How much does a hair patch cost in Dwarka?',
+                'answer' => 'Hair patch prices in Dwarka typically range from INR 5,000 to INR 25,000 depending on the base material, hair quality, and brand. Basic lace patches start around INR 5,000-8,000, while premium monofilament or custom Swiss lace systems cost INR 15,000-25,000.'
+            ],
+            [
+                'question' => 'What is the cheapest hair patch available?',
+                'answer' => 'Basic polyester or standard lace patches are the most affordable, starting at INR 5,000-7,000. However, they may not last as long or look as natural as premium options.'
+            ],
+            [
+                'question' => 'How much does hair patch maintenance cost per month?',
+                'answer' => 'Monthly maintenance sessions in Dwarka cost between INR 1,000-2,500 per visit. This includes professional cleaning, re-bonding, scalp exfoliation, and styling.'
+            ],
+            [
+                'question' => 'Are there hidden costs with a hair patch?',
+                'answer' => 'No hidden costs at reputable studios. The main expenses are the initial fitting, monthly servicing every 3-4 weeks, and system replacement every 6-10 months. Always ask for a full cost breakdown during your consultation.'
+            ],
+            [
+                'question' => 'Is a hair patch cheaper than a hair transplant?',
+                'answer' => 'Yes, significantly. A FUE transplant in Delhi costs INR 40,000-1,50,000+, while a premium hair patch costs INR 10,000-25,000. Over 5 years, total patch costs including servicing are typically 40-60% less than a single transplant.'
+            ],
+            [
+                'question' => 'How often do I need to replace my hair patch?',
+                'answer' => 'A premium hair patch needs replacement every 6-10 months. Budget INR 10,000-25,000 per replacement cycle depending on the system you choose.'
+            ],
+            [
+                'question' => 'Do different hair patch brands have different prices?',
+                'answer' => 'Yes. International brands like BMW, Mirage, and premium lace systems cost more than standard local patches. Higher-priced systems typically offer better durability, more natural appearance, and longer lifespan.'
+            ],
+            [
+                'question' => 'Can I get a hair patch on EMI?',
+                'answer' => 'Some studios in Dwarka offer EMI options for premium systems. Ask during your consultation about available payment plans and financing options.'
+            ]
+        ]
+    ],
+    [
+        'id' => 17,
+        'title' => 'Hair Weaving in Dwarka: Everything You Need to Know',
+        'slug' => 'hair-weaving-in-dwarka',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 10, 2026',
+        'category' => 'Services',
+        'read_time' => '6 min read',
+        'excerpt' => 'What is hair weaving? Learn how this non-surgical technique adds volume and coverage using natural human hair extensions woven into your existing hair.',
+        'description' => 'Hair weaving in Dwarka: Learn how hair weaving works, who it is for, how it differs from hair patch bonding, and what to expect during the procedure.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'What is hair weaving?',
+                'answer' => 'Hair weaving is a non-surgical technique where natural human hair extensions are woven, braided, or clipped into your existing hair to add volume, length, or coverage to thinning areas.'
+            ],
+            [
+                'question' => 'How is hair weaving different from a hair patch?',
+                'answer' => 'A hair patch covers a specific bald area and is bonded to the scalp. Hair weaving integrates extension hair into your existing hair strands using braids or micro-links, adding volume without covering the scalp directly.'
+            ],
+            [
+                'question' => 'Is hair weaving suitable for complete baldness?',
+                'answer' => 'No. Hair weaving requires some existing hair to attach the extensions to. For complete baldness, a hair patch or full wig is a better solution.'
+            ],
+            [
+                'question' => 'How long does a hair weave last?',
+                'answer' => 'A professional hair weave lasts 2-4 months before requiring tightening or replacement. With proper care and regular maintenance, the extensions can last up to 6 months.'
+            ],
+            [
+                'question' => 'Can I wash and style a hair weave normally?',
+                'answer' => 'Yes. Since hair weaving uses real human hair, you can wash, shampoo, condition, and style it just like your natural hair. Use sulfate-free products and avoid tugging at the attachment points.'
+            ],
+            [
+                'question' => 'Does hair weaving cause damage to natural hair?',
+                'answer' => 'When done by professionals, hair weaving does not damage natural hair. The braids and attachments are distributed evenly to avoid putting excessive tension on any single strand.'
+            ],
+            [
+                'question' => 'What is the cost of hair weaving in Dwarka?',
+                'answer' => 'Hair weaving in Dwarka typically costs INR 5,000-15,000 depending on the amount of hair used, the technique (braiding, micro-links, or net weaving), and the quality of the extension hair.'
+            ],
+            [
+                'question' => 'Who is the best candidate for hair weaving?',
+                'answer' => 'Hair weaving is ideal for people with thinning hair or early-stage hair loss who have enough existing hair to support extensions. It is not suitable for completely bald areas.'
+            ]
+        ]
+    ],
+    [
+        'id' => 19,
+        'title' => 'Non-Surgical Hair Replacement Cost in Delhi NCR: Complete Breakdown',
+        'slug' => 'non-surgical-hair-replacement-cost-delhi',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 6, 2026',
+        'category' => 'Buying Guide',
+        'read_time' => '6 min read',
+        'excerpt' => 'Planning non-surgical hair replacement in Delhi? Get a full cost breakdown including initial fitting, monthly maintenance, and system replacement.',
+        'description' => 'Non-surgical hair replacement cost in Delhi NCR: Compare prices across Dwarka, South Delhi, and Gurgaon. Get transparent cost estimates.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'What is the average cost of non-surgical hair replacement in Delhi?',
+                'answer' => 'The average cost ranges from INR 8,000-25,000 for the initial fitting and system. Monthly maintenance adds INR 1,000-2,500. Total annual cost is typically INR 25,000-55,000 depending on the system type.'
+            ],
+            [
+                'question' => 'What factors affect the cost of non-surgical hair replacement?',
+                'answer' => 'Key factors include the base material (lace, skin, or monofilament), hair quality (Indian, European, or Remy hair), custom vs stock system, brand, and the studio\'s expertise level.'
+            ],
+            [
+                'question' => 'Is non-surgical hair replacement cheaper in Dwarka compared to South Delhi?',
+                'answer' => 'Dwarka studios generally offer competitive pricing due to lower overhead costs. However, the quality varies by studio, not just location. Always compare services and reviews.'
+            ],
+            [
+                'question' => 'What is included in the initial fitting cost?',
+                'answer' => 'The initial cost typically includes consultation, scalp measurement, system selection, professional fitting, hair cutting and blending, and the first styling session.'
+            ],
+            [
+                'question' => 'How much does monthly maintenance cost?',
+                'answer' => 'Monthly maintenance visits cost INR 1,000-2,500 per session. This includes base cleaning, adhesive removal and reapplication, scalp exfoliation, and hair conditioning.'
+            ],
+            [
+                'question' => 'Do I need to buy a new system every year?',
+                'answer' => 'Yes, premium human hair systems need replacement every 6-10 months as the hair naturally sheds and wears. Budget for one replacement per year.'
+            ],
+            [
+                'question' => 'Are there affordable non-surgical options for tight budgets?',
+                'answer' => 'Yes. Basic lace or polyester systems start at INR 5,000-8,000 with lower monthly maintenance costs. While they may not last as long, they offer a good entry point.'
+            ],
+            [
+                'question' => 'How does non-surgical replacement cost compare to a hair transplant?',
+                'answer' => 'A FUE transplant costs INR 40,000-1,50,000+ as a one-time expense. Non-surgical replacement costs INR 25,000-55,000 per year. Over 5 years, non-surgical is 40-60% cheaper.'
+            ]
+        ]
+    ],
+    [
+        'id' => 20,
+        'title' => 'Is Hair Patch Permanent? How Long It Actually Lasts',
+        'slug' => 'is-hair-patch-permanent',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 15, 2026',
+        'category' => 'Buying Guide',
+        'read_time' => '6 min read',
+        'excerpt' => 'A hair patch is not permanent — it is semi-permanent. It stays bonded for 3-5 weeks and the system itself lasts 6-12 months before replacement.',
+        'description' => 'Is hair patch permanent? No, it is semi-permanent. Learn the actual lifespan of hair patches by base type, why they need replacement, and how maintenance extends durability.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'Is a hair patch a permanent solution for hair loss?',
+                'answer' => 'No, a hair patch is not permanent. It is semi-permanent. The patch stays securely bonded to your scalp for 3 to 5 weeks before requiring professional re-bonding. The system itself (the base and hair) naturally wears out and needs full replacement every 6 to 12 months depending on the base material and maintenance routine.'
+            ],
+            [
+                'question' => 'How long does a hair patch stay attached before re-bonding?',
+                'answer' => 'A professionally bonded hair patch stays securely attached for 3 to 5 weeks. After that period, the adhesive weakens and the system needs to be removed, the scalp cleaned, and fresh adhesive applied during a maintenance visit.'
+            ],
+            [
+                'question' => 'How long does the hair patch system itself last?',
+                'answer' => 'The lifespan depends on the base material. Swiss lace patches last 4-6 months, polyurethane (skin) patches last 6-9 months, and monofilament patches last 9-12 months. Premium custom systems from brands like BMW or Mirage can last up to 12 months with proper daily care.'
+            ],
+            [
+                'question' => 'Why does a hair patch need to be replaced?',
+                'answer' => 'The human hair in the patch naturally sheds over time from brushing, washing, and daily wear. The base material also degrades — lace develops tears, poly skin becomes brittle, and adhesive residue builds up. Eventually, the system looks thin and worn, requiring a fresh replacement.'
+            ],
+            [
+                'question' => 'Can I make my hair patch last longer?',
+                'answer' => 'Yes. Daily care significantly extends lifespan. Use sulfate-free shampoo, wash only once a week, brush gently with a loop brush, avoid high-heat styling tools, sleep on a silk pillowcase, and never skip your 3-4 week professional maintenance visits.'
+            ],
+            [
+                'question' => 'Is a hair transplant more permanent than a hair patch?',
+                'answer' => 'A hair transplant is considered more permanent because transplanted hair follicles are taken from the donor area (back of head) and continue growing naturally in the new location. However, transplanted hair can still thin with age, and the procedure costs significantly more with a 12-18 month waiting period for results.'
+            ],
+            [
+                'question' => 'Do I need to wear a hair patch forever?',
+                'answer' => 'You can wear a hair patch for as long as you want. Many men wear systems continuously for years with regular maintenance. You can also stop at any time — removal leaves no scars or permanent changes to your scalp.'
+            ],
+            [
+                'question' => 'How often do I need to replace my hair patch per year?',
+                'answer' => 'Most people replace their system 1 to 2 times per year. If you choose a premium monofilament base and follow excellent daily care, you may only need one replacement per year. Budget systems with thinner bases may need replacement every 4-6 months.'
+            ]
+        ]
+    ],
+    [
+        'id' => 21,
+        'title' => 'Is Hair Patch Detectable? How to Make It Undetectable',
+        'slug' => 'is-hair-patch-detectable',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 15, 2026',
+        'category' => 'Styling',
+        'read_time' => '6 min read',
+        'excerpt' => 'A professionally fitted hair patch is not detectable. The key factors are base material, hair matching, custom hairline design, and skilled blending.',
+        'description' => 'Is hair patch detectable? When properly fitted with the right base and hair matching, modern hair patches are completely undetectable. Learn what makes the difference.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'Can people tell if I am wearing a hair patch?',
+                'answer' => 'No, a professionally fitted hair patch is not detectable. When the base material, hair color, texture, density, and hairline are matched to your natural hair, the system blends seamlessly. Modern Swiss lace and ultra-thin poly bases are transparent against the scalp, making them invisible even up close.'
+            ],
+            [
+                'question' => 'What makes a hair patch look natural or unnatural?',
+                'answer' => 'The key factors are: (1) transparent base material that lets scalp color show through, (2) 100% human hair matched to your exact color and texture, (3) custom hairline design with natural irregularity, (4) professional cutting and blending while the system is on your head, and (5) correct density matching to avoid a too-thick or too-thin look.'
+            ],
+            [
+                'question' => 'Which base material is least detectable?',
+                'answer' => 'Swiss lace and ultra-thin polyurethane (skin) bases are the least detectable. Swiss lace has a transparent mesh that disappears against the skin. Poly skin mimics the appearance of natural scalp. Both sit completely flush, making the front edge invisible.'
+            ],
+            [
+                'question' => 'Can a hair patch look fake in sunlight?',
+                'answer' => 'A premium hair patch made with real human hair looks natural even under bright sunlight. The transparent base lets your natural scalp color show through, and real human hair reflects light identically to your own growing hair. Synthetic hair, however, can look plastic and shiny in direct light.'
+            ],
+            [
+                'question' => 'How does a custom hairline make the patch undetectable?',
+                'answer' => 'A custom hairline avoids the straight, artificial edge that cheap systems have. Instead, stylists create a natural irregular pattern with varying density (graduated hairline) that matches your age, face shape, and natural growth direction. This makes the front edge invisible.'
+            ],
+            [
+                'question' => 'Will the patch be visible if I sweat or swim?',
+                'answer' => 'No. Premium adhesives are waterproof and sweat-resistant. The patch stays securely in place during exercise and swimming. The base material does not change appearance when wet — Swiss lace remains transparent and poly skin stays flush against the scalp.'
+            ],
+            [
+                'question' => 'What should I avoid to keep my patch undetectable?',
+                'answer' => 'Avoid pulling the hair backward too aggressively if you do not have a front-lace system. Avoid using heavy gels or waxes that create a visible buildup at the hairline. Avoid wearing the system beyond its replacement cycle — a worn patch with thinning hair becomes noticeable.'
+            ],
+            [
+                'question' => 'How do I verify my patch looks natural before leaving the studio?',
+                'answer' => 'Ask your stylist to show you the system under different lighting conditions — indoor, outdoor sunlight, and phone camera flash. Check the front hairline up close in a mirror. Ask a friend or family member for an honest opinion. A good studio will ensure you are completely satisfied before you leave.'
+            ]
+        ]
+    ],
+    [
+        'id' => 22,
+        'title' => 'Are Hair Patches Worth It? Honest Cost-Benefit Analysis',
+        'slug' => 'are-hair-patches-worth-it',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 14, 2026',
+        'category' => 'Buying Guide',
+        'read_time' => '6 min read',
+        'excerpt' => 'Hair patches are worth it for most men with hair loss. They offer instant results, zero surgical risk, guaranteed density, and cost 40-60% less than transplants over 5 years.',
+        'description' => 'Are hair patches worth it? Get an honest cost-benefit analysis comparing results, cost, risks, and lifestyle impact against other hair loss solutions.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'Are hair patches worth the money?',
+                'answer' => 'Yes, for most men with hair loss, hair patches are worth it. They provide instant, guaranteed results with zero surgical risk. The total annual cost (INR 25,000-55,000) is 40-60% cheaper than a hair transplant over 5 years. You get full density immediately rather than waiting 12-18 months for transplant results.'
+            ],
+            [
+                'question' => 'Who should NOT get a hair patch?',
+                'answer' => 'Hair patches may not be ideal for men who are unwilling to commit to regular maintenance every 3-4 weeks, those who prefer a completely hands-off permanent solution (transplant may be better), or men with very limited budgets who cannot afford ongoing servicing costs.'
+            ],
+            [
+                'question' => 'What are the main advantages of a hair patch?',
+                'answer' => 'The main advantages are: instant results (90-minute session), zero pain or surgical risk, guaranteed full density regardless of baldness level, complete styling flexibility, sweat and water resistance, and full reversibility with no permanent changes to your scalp.'
+            ],
+            [
+                'question' => 'What are the disadvantages of a hair patch?',
+                'answer' => 'The main disadvantages are: ongoing maintenance required every 3-4 weeks, the system needs replacement every 6-12 months, you cannot skip maintenance without the system looking worn, and some men feel psychologically uncomfortable wearing an external system.'
+            ],
+            [
+                'question' => 'How do hair patches compare to minoxidil and finasteride?',
+                'answer' => 'Minoxidil and finasteride are medications that slow hair loss and may regrow some hair, but results take 6-12 months and vary widely. They require daily use indefinitely and can have side effects (finasteride can cause depression and loss of libido). Hair patches provide immediate, guaranteed density with zero internal side effects.'
+            ],
+            [
+                'question' => 'How do hair patches compare to a hair transplant?',
+                'answer' => 'A transplant is a one-time surgical procedure with permanent results but costs INR 40,000-1,50,000+, has a 7-10 day recovery period, results appear after 12-18 months, and there is no guarantee of full density. A hair patch costs less, works immediately, carries zero surgical risk, and guarantees full density.'
+            ],
+            [
+                'question' => 'Do hair patches affect daily life?',
+                'answer' => 'Modern hair patches are designed for active lifestyles. You can sleep, shower, swim, exercise, and wear helmets with a properly bonded system. Maintenance visits take about 1 hour every 3-4 weeks. Most men report that their daily routine is barely affected.'
+            ],
+            [
+                'question' => 'What do real hair patch users say about the experience?',
+                'answer' => 'The most common feedback from hair patch users is regret for not starting sooner. Men report significant boosts in confidence, improved social interactions, and better professional opportunities. The main complaint is forgetting to schedule maintenance visits on time.'
+            ]
+        ]
+    ],
+    [
+        'id' => 23,
+        'title' => 'Which Hair Patch Is Best? Complete Comparison Guide',
+        'slug' => 'which-hair-patch-is-best',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 13, 2026',
+        'category' => 'Comparison',
+        'read_time' => '7 min read',
+        'excerpt' => 'The best hair patch depends on your lifestyle. Monofilament is best for realism, poly skin for active use, Swiss lace for natural hairline, and BMW for durability.',
+        'description' => 'Which hair patch is best? Compare Swiss lace, poly skin, monofilament, BMW, and Mirage systems side by side to find the perfect match for your needs.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'Which is the best hair patch type overall?',
+                'answer' => 'There is no single best type for everyone. Monofilament patches offer the most realistic scalp appearance and longest lifespan (9-12 months). Swiss lace offers the most natural hairline. Polyurethane (skin) patches offer the strongest adhesive bond for active lifestyles. BMW hybrid patches balance durability and comfort. The best choice depends on your priorities.'
+            ],
+            [
+                'question' => 'What is the most natural-looking hair patch?',
+                'answer' => 'Swiss lace with a custom front hairline design offers the most natural appearance. The transparent mesh is invisible against the scalp, and hand-tied knots simulate natural hair growth. Monofilament also provides an extremely realistic scalp look due to its mesh construction that mimics hair growing from pores.'
+            ],
+            [
+                'question' => 'Which hair patch lasts the longest?',
+                'answer' => 'Monofilament patches last the longest at 9-12 months because they use a stronger polyester mesh. BMW reinforced hybrid patches also have excellent durability at 8-12 months. Standard Swiss lace lasts 4-6 months, and poly skin lasts 6-9 months.'
+            ],
+            [
+                'question' => 'Which hair patch is best for gym and sports?',
+                'answer' => 'Polyurethane (skin) patches and BMW reinforced patches are best for active lifestyles. Poly skin provides the strongest adhesive bond that handles heavy sweating. BMW patches combine lace comfort with reinforced durability for intense physical activity.'
+            ],
+            [
+                'question' => 'What is the difference between Swiss lace and French lace?',
+                'answer' => 'Swiss lace is thinner, softer, and more transparent, making it the most natural-looking option but less durable (4-6 months). French lace is slightly thicker and more durable (5-7 months) while still offering excellent breathability. Swiss is better for natural appearance; French is better for longer wear.'
+            ],
+            [
+                'question' => 'Are expensive hair patches worth the extra cost?',
+                'answer' => 'Premium patches from brands like BMW, Mirage, and Superior Filament justify their higher cost through better materials, longer lifespan, more natural appearance, and superior comfort. Over their lifespan, the cost-per-month can actually be lower than cheaper alternatives that need more frequent replacement.'
+            ],
+            [
+                'question' => 'Can I try different hair patch types before committing?',
+                'answer' => 'Yes. Most professional studios in Dwarka offer a consultation where you can feel different base materials, see how they look, and discuss which option suits your lifestyle. Some studios also offer trial fittings so you can experience the system before full commitment.'
+            ],
+            [
+                'question' => 'Which hair patch brand is most popular in India?',
+                'answer' => 'Popular brands in India include BMW (reinforced hybrid), Mirage (ultra-light poly), Australian lace (Swiss lace technology), Superior Filament (double monofilament), and various custom Remy hair systems. Popularity varies by region and studio recommendation.'
+            ]
+        ]
+    ],
+    [
+        'id' => 24,
+        'title' => 'What Are the Different Types of Hair Patches? Complete Guide',
+        'slug' => 'types-of-hair-patches',
+        'image' => 'hair-maintance.jpg',
+        'date' => 'June 12, 2026',
+        'category' => 'Buying Guide',
+        'read_time' => '7 min read',
+        'excerpt' => 'Hair patches come in 6 main types based on base material: Swiss lace, French lace, polyurethane skin, monofilament, poly-lace hybrid, and mesh systems.',
+        'description' => 'What are the different types of hair patches? Explore all 6 base types with detailed comparisons on breathability, durability, realism, and best use cases.',
+        'content' => '',
+        'faqs' => [
+            [
+                'question' => 'What are the main types of hair patches?',
+                'answer' => 'The 6 main types of hair patches are: (1) Swiss lace — ultra-thin and most natural, (2) French lace — slightly thicker with better durability, (3) Polyurethane (poly skin) — skin-like material with strong adhesive bond, (4) Monofilament — mesh construction mimicking natural scalp, (5) Poly-lace hybrid — combines lace and skin benefits, and (6) Full mesh systems — maximum breathability.'
+            ],
+            [
+                'question' => 'What is a lace hair patch?',
+                'answer' => 'A lace hair patch uses a thin, transparent mesh base made from Swiss or French lace. Natural human hair is hand-tied to the mesh knots. The lace is breathable, lightweight, and nearly invisible against the scalp. It is the most popular choice for natural hairline appearance.'
+            ],
+            [
+                'question' => 'What is a poly skin hair patch?',
+                'answer' => 'A poly skin (polyurethane) hair patch uses a thin, flexible silicone-like material that looks and feels like a second layer of skin. It holds adhesives very securely and is highly durable. It is the best choice for active lifestyles because the strong bond handles heavy sweating and physical activity.'
+            ],
+            [
+                'question' => 'What is a monofilament hair patch?',
+                'answer' => 'A monofilament hair patch uses a fine polyester mesh base where each hair strand is individually hand-tied. This creates the appearance of hair growing directly from the scalp. Monofilament patches offer the most realistic scalp look and the longest lifespan (9-12 months).'
+            ],
+            [
+                'question' => 'What is a hybrid hair patch?',
+                'answer' => 'A hybrid hair patch combines two or more base materials — typically lace at the front (for a natural hairline) and poly skin at the back (for strong adhesion). This gives you the best of both worlds: an undetectable front edge with durable bonding around the perimeter.'
+            ],
+            [
+                'question' => 'Which hair patch type is most breathable?',
+                'answer' => 'Swiss lace and French lace are the most breathable because the open mesh allows heat and sweat to escape freely. Full mesh systems are also highly breathable. Poly skin patches are the least breathable because the solid material does not allow airflow.'
+            ],
+            [
+                'question' => 'Which hair patch type is best for hot climates like Delhi?',
+                'answer' => 'For hot and humid climates like Delhi, Swiss lace or French lace patches are recommended because they allow maximum airflow and sweat evaporation. This keeps the scalp cooler and more comfortable during summer months. Avoid thick poly skin patches in extreme heat.'
+            ],
+            [
+                'question' => 'Can I switch from one hair patch type to another?',
+                'answer' => 'Yes, you can switch types at any time. During your next maintenance visit, your stylist can recommend and fit a different base type. Many men start with one type and switch after experiencing different options. There are no restrictions on changing.'
+            ]
+        ]
     ]
 ];
