@@ -19,9 +19,7 @@ const mobileServicesBtn = document.getElementById('mobile-services-btn');
 const mobileServicesMenu = document.getElementById('mobile-services-menu');
 const mobileServicesIcon = document.getElementById('mobile-services-icon');
 
-const mobileHairpatchBtn = document.getElementById('mobile-hairpatch-btn');
-const mobileHairpatchMenu = document.getElementById('mobile-hairpatch-menu');
-const mobileHairpatchIcon = document.getElementById('mobile-hairpatch-icon');
+
 
 function closeMobileServicesMenu() {
     if (mobileServicesMenu) {
@@ -33,15 +31,7 @@ function closeMobileServicesMenu() {
     }
 }
 
-function closeMobileHairpatchMenu() {
-    if (mobileHairpatchMenu) {
-        mobileHairpatchMenu.classList.add('max-h-0');
-        mobileHairpatchMenu.classList.remove('max-h-[500px]');
-    }
-    if (mobileHairpatchIcon) {
-        mobileHairpatchIcon.classList.remove('rotate-180');
-    }
-}
+
 
 if (menuBtn && mobileMenu) {
     menuBtn.addEventListener('click', () => {
@@ -50,7 +40,7 @@ if (menuBtn && mobileMenu) {
             mobileMenu.classList.add('opacity-0', 'pointer-events-none', 'invisible');
             mobileMenu.classList.remove('opacity-100', 'pointer-events-auto', 'visible');
             closeMobileServicesMenu();
-            closeMobileHairpatchMenu();
+
         } else {
             mobileMenu.classList.remove('opacity-0', 'pointer-events-none', 'invisible');
             mobileMenu.classList.add('opacity-100', 'pointer-events-auto', 'visible');
@@ -70,7 +60,7 @@ if (menuBtn && mobileMenu) {
                 icon.textContent = 'menu';
             }
             closeMobileServicesMenu();
-            closeMobileHairpatchMenu();
+
         });
     });
 }
@@ -96,26 +86,7 @@ if (mobileServicesBtn && mobileServicesMenu) {
     });
 }
 
-// Mobile Hair Patch Submenu Toggle
-if (mobileHairpatchBtn && mobileHairpatchMenu) {
-    mobileHairpatchBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const isCollapsed = mobileHairpatchMenu.classList.contains('max-h-0');
-        if (isCollapsed) {
-            mobileHairpatchMenu.classList.remove('max-h-0');
-            mobileHairpatchMenu.classList.add('max-h-[500px]');
-            if (mobileHairpatchIcon) {
-                mobileHairpatchIcon.classList.add('rotate-180');
-            }
-        } else {
-            mobileHairpatchMenu.classList.add('max-h-0');
-            mobileHairpatchMenu.classList.remove('max-h-[500px]');
-            if (mobileHairpatchIcon) {
-                mobileHairpatchIcon.classList.remove('rotate-180');
-            }
-        }
-    });
-}
+
 
 // Intersection Observer for scroll animations
 const sections = document.querySelectorAll('.fade-in-section');
