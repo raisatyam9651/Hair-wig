@@ -92,10 +92,10 @@ $path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'
                 <!-- Location -->
                 <div class="flex flex-col gap-4">
                     <h4 class="font-label-md text-white uppercase tracking-widest mb-2 text-sm font-bold">Location</h4>
-                    <div class="flex items-start gap-3 text-white/80 text-sm">
-                        <span class="material-symbols-outlined text-white text-[20px]">location_on</span>
+                    <a href="https://www.google.com/maps?cid=9548319643371196314" target="_blank" class="flex items-start gap-3 text-white/80 hover:text-primary-fixed transition-colors text-sm">
+                        <span class="material-symbols-outlined text-white text-[20px] shrink-0">location_on</span>
                         <span>Ramphal Chowk Rd, Block- E-1085, Palam, Ramphal Chowk, Dwarka Sec-7, New Delhi-110077</span>
-                    </div>
+                    </a>
                     <div class="w-full h-[150px] rounded-xl overflow-hidden shadow-sm border border-white/10 mt-2">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.2060479792467!2d77.06936177571829!3d28.58520787569065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b158c96920f%3A0x8482722061064f9a!2sGrowig%20hair%20solution!5e1!3m2!1sen!2sin!4v1780336153874!5m2!1sen!2sin" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>

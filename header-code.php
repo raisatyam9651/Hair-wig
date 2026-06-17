@@ -225,11 +225,17 @@ if (strpos($_SERVER['PHP_SELF'], '/blog/') !== false) {
 $local_business_schema = [
     "@context" => "https://schema.org",
     "@type" => "LocalBusiness",
-    "name" => "Growig Hair Solution",
-    "image" => "https://growighairsolution.com/assets/premium-har-pathc.png",
-    "@id" => "https://growighairsolution.com/#localbusiness",
+    "name" => "Growig Hair Solution - Hair Wig Shop in Dwarka | Hair Patch & Non Surgical Hair Replacement",
+    "image" => "https://lh5.googleusercontent.com/-rN2mV9li-5w/AAAAAAAAAAI/AAAAAAAAAAA/1dLhL3ORwpg/s44-p-k-no-ns-nd/photo.jpg",
+    "@id" => "https://growighairsolution.com/#growig-hair-solution-hair-wig-shop-in-dwarka-hair-patch-non-surgical-hair-replacement",
+    "identifier" => [
+        "@type" => "PropertyValue",
+        "propertyID" => "googleKgMID",
+        "value" => "/g/11y5b2phtt"
+    ],
+    "description" => "Growig Hair Solution is a trusted Hair Wig Shop in Dwarka specializing in Hair Patch, Hair Wig, Hair Bonding, Hair Weaving, Hair Clipping, and Non-Surgical Hair Replacement solutions for men. Conveniently located at Ramphal Chowk, Sector 7 Dwarka, we provide natural-looking Hair Systems, Human Hair Wigs, Custom Hair Patches, Hair Fixing, and Hairline Design services tailored to individual needs. We proudly serve clients from Dwarka, Janakpuri, Uttam Nagar, Palam, Dwarka Mor, and nearby areas. Our goal is to deliver comfortable, realistic, and long-lasting hair replacement solutions that help restore confidence and achieve a natural appearance. Book your free consultation today.",
     "url" => "https://growighairsolution.com/",
-    "telephone" => "+918766216564",
+    "telephone" => "076784 72972",
     "priceRange" => "$$",
     "address" => [
         "@type" => "PostalAddress",
@@ -241,19 +247,315 @@ $local_business_schema = [
     ],
     "geo" => [
         "@type" => "GeoCoordinates",
-        "latitude" => "28.58520787569065",
-        "longitude" => "77.06936177571829"
+        "latitude" => "28.5853193",
+        "longitude" => "77.0722435"
     ],
     "openingHoursSpecification" => [
-        "@type" => "OpeningHoursSpecification",
-        "dayOfWeek" => [
-            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        [
+            "@type" => "OpeningHoursSpecification",
+            "dayOfWeek" => [
+                "Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+            ],
+            "opens" => "10:00",
+            "closes" => "19:00"
+        ]
+    ],
+    "paymentAccepted" => "Cash, NFC mobile payments, Google Pay",
+    "amenityFeature" => [
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name" => "Good for kids",
+            "value" => true
         ],
-        "opens" => "10:00",
-        "closes" => "20:00"
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name" => "LGBTQ+ friendly",
+            "value" => true
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name" => "Wheelchair-accessible toilet",
+            "value" => false
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name" => "Wheelchair-accessible seating",
+            "value" => false
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name" => "On-site parking",
+            "value" => true
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name" => "Identifies as women-owned",
+            "value" => false
+        ]
+    ],
+    "aggregateRating" => [
+        "@type" => "AggregateRating",
+        "ratingValue" => "5",
+        "reviewCount" => "77"
+    ],
+    "category" => "Hair replacement service",
+    "hasOfferCatalog" => [
+        "@type" => "OfferCatalog",
+        "name" => "Services",
+        "itemListElement" => [
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair bonding"
+                ],
+                "position" => 1
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair weaving"
+                ],
+                "position" => 2
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair patch services"
+                ],
+                "position" => 3
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Fully tapping"
+                ],
+                "position" => 4
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair clipping"
+                ],
+                "position" => 5
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Australian Hair Patch"
+                ],
+                "position" => 6
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "BMW Hair Patch"
+                ],
+                "position" => 7
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Clipping Hair Patch"
+                ],
+                "position" => 8
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Filament Hair Patch"
+                ],
+                "position" => 9
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Front Lace Hair Patch"
+                ],
+                "position" => 10
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Full Lace Hair Patch"
+                ],
+                "position" => 11
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair Weaving Hair Patch"
+                ],
+                "position" => 12
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair Bonding Hair Patch"
+                ],
+                "position" => 13
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair Fixing Hair Patch"
+                ],
+                "position" => 14
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Mirage Hair Patch"
+                ],
+                "position" => 15
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Model Silk Hair Patch"
+                ],
+                "position" => 16
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Monofilament Hair Patch"
+                ],
+                "position" => 17
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Taping Hair Patch"
+                ],
+                "position" => 18
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Australian Hair Wig"
+                ],
+                "position" => 19
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "BMW Hair Wig"
+                ],
+                "position" => 20
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Clipping Hair Wig"
+                ],
+                "position" => 21
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Filament Hair Wig"
+                ],
+                "position" => 22
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Front Lace Hair Wig"
+                ],
+                "position" => 23
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Full Lace Hair Wig"
+                ],
+                "position" => 24
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair Weaving Wig"
+                ],
+                "position" => 25
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair Bonding Wig"
+                ],
+                "position" => 26
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Hair Fixing Wig"
+                ],
+                "position" => 27
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Mirage Hair Wig"
+                ],
+                "position" => 28
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Model Silk Hair Wig"
+                ],
+                "position" => 29
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Monofilament Hair Wig"
+                ],
+                "position" => 30
+            ],
+            [
+                "@type" => "Offer",
+                "itemOffered" => [
+                    "@type" => "Service",
+                    "name" => "Taping Hair Wig"
+                ],
+                "position" => 31
+            ]
+        ]
     ],
     "sameAs" => [
-        "https://wa.me/918766216564"
+        "https://wa.me/918766216564",
+        "https://www.google.com/maps?cid=9548319643371196314"
     ]
 ];
 

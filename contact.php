@@ -44,15 +44,15 @@
 
                     <div class="space-y-8">
                         <!-- Address -->
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 rounded-full bg-primary-container/15 flex items-center justify-center text-primary shrink-0">
+                        <a href="https://www.google.com/maps?cid=9548319643371196314" target="_blank" class="flex items-start gap-4 group hover:opacity-90 transition-all">
+                            <div class="w-12 h-12 rounded-full bg-primary-container/15 flex items-center justify-center text-primary shrink-0 group-hover:bg-primary/20 transition-colors">
                                 <span class="material-symbols-outlined">location_on</span>
                             </div>
                             <div>
-                                <h4 class="font-label-md text-on-surface uppercase tracking-wider text-xs">Studio Location</h4>
-                                <p class="font-body-md text-on-surface-variant mt-1">Ramphal Chowk Rd, Block- E-1085, Palam,<br>Ramphal Chowk, Dwarka Sec-7, New Delhi-110077</p>
+                                <h4 class="font-label-md text-on-surface uppercase tracking-wider text-xs group-hover:text-primary transition-colors">Studio Location</h4>
+                                <p class="font-body-md text-on-surface-variant mt-1 group-hover:text-on-surface transition-colors">Ramphal Chowk Rd, Block- E-1085, Palam,<br>Ramphal Chowk, Dwarka Sec-7, New Delhi-110077</p>
                             </div>
-                        </div>
+                        </a>
 
                         <!-- Phone -->
                         <div class="flex items-start gap-4">
@@ -83,7 +83,7 @@
                             </div>
                             <div>
                                 <h4 class="font-label-md text-on-surface uppercase tracking-wider text-xs">Studio Timings</h4>
-                                <p class="font-body-md text-on-surface-variant mt-1">10:00 AM – 8:00 PM (Open All Days)</p>
+                                <p class="font-body-md text-on-surface-variant mt-1">Mon, Wed – Sun: 10:00 AM – 7:00 PM<br>Tuesday: Closed</p>
                             </div>
                         </div>
                     </div>

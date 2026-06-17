@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Hair Wig Shop in Dwarka | Best Hair Patch & Wig Center | Growig Hair Solution</title>
+    <title>Growig Hair Solution - Hair Wig Shop in Dwarka | Hair Patch & Non Surgical Hair Replacement</title>
     <meta
         content="Looking for the best hair wig shop in Dwarka? Growig Hair Solution is a premier hair patch service centre in Dwarka. Visit our hair wig store in Dwarka Delhi for natural, undetectable non-surgical hair replacement. Book a free consultation!"
         name="description" />
