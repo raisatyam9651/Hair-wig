@@ -5,6 +5,8 @@ $location_name = 'Rohini';
 $location_slug = 'rohini';
 $landmarks_str = 'Sector 9, Rithala Metro Station, Netaji Subhash Place (NSP)';
 $connectivity_str = 'easily reachable via the Red Line Metro from Rohini Sector 9 and Rithala to Dwarka Sector 21.';
+$metro_route = 'Take the Red Line from Rohini to Netaji Subhash Place (NSP), transfer to the Pink Line to Rajouri Garden, and then take the Blue Line to Dwarka Sector 10 Metro Station.';
+$road_route = 'Drive via Outer Ring Road through Peera Garhi and Janakpuri, cross the Dwarka Flyover, and head straight to Sector 7 Ramphal Chowk.';
 
 $current_metadata = [
     'title' => "Best Hair Wig for Man in $location_name | Hair Patch - Growig Hair Solution",
@@ -126,6 +128,35 @@ include $path_prefix . 'custom-header-link.php';
                         <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
                             Our master stylists perform precise digital scalp mapping to ensure the wig fits your head's unique contours. In a private consultation room, we match the shade gradients and cut the system to blend perfectly. Whether you prefer hair bonding, hair weaving, or clipping, we guarantee a secure hold that lets you swim, exercise, and live with complete freedom.
                         </p>
+                    </div>
+
+                    <!-- How to Reach Our Dwarka Studio -->
+                    <div class="space-y-6 bg-surface-container/40 p-8 rounded-3xl border border-primary/15">
+                        <h3 class="font-headline-md text-2xl text-on-surface flex items-center gap-2">
+                            <span class="material-symbols-outlined text-primary">directions_car</span>
+                            How to Reach Our Dwarka Studio from <?php echo $location_name; ?>
+                        </h3>
+                        <p class="font-body-md text-on-surface-variant leading-relaxed">
+                            If you are traveling from <?php echo $location_name; ?>, here are the easiest ways to reach our flagship studio at <strong>Ramphal Chowk Road, Sector 7 Dwarka</strong>:
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                            <div class="space-y-2">
+                                <h4 class="font-label-md text-primary uppercase tracking-wider text-xs flex items-center gap-1.5 font-bold">
+                                    <span class="material-symbols-outlined text-sm">train</span> By Metro (Public Transport)
+                                </h4>
+                                <p class="text-sm text-on-surface-variant leading-relaxed">
+                                    <?php echo $metro_route; ?>
+                                </p>
+                            </div>
+                            <div class="space-y-2">
+                                <h4 class="font-label-md text-primary uppercase tracking-wider text-xs flex items-center gap-1.5 font-bold">
+                                    <span class="material-symbols-outlined text-sm">directions_car</span> By Road (Personal Transport)
+                                </h4>
+                                <p class="text-sm text-on-surface-variant leading-relaxed">
+                                    <?php echo $road_route; ?>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="lg:col-span-4">

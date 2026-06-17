@@ -7,79 +7,105 @@ $locations = [
         'slug' => 'central-delhi',
         'name' => 'Central Delhi',
         'landmarks' => ['Connaught Place (CP)', 'Karol Bagh', 'Pahar Ganj'],
-        'connectivity' => 'easily connected via the Blue and Yellow Metro Lines, with close proximity to Rajiv Chowk Metro Station.'
+        'connectivity' => 'easily connected via the Blue and Yellow Metro Lines, with close proximity to Rajiv Chowk Metro Station.',
+        'metro_route' => 'Take the Blue Line Metro from Rajiv Chowk directly to Dwarka Sector 10 Metro Station. From there, take a 5-minute auto-rickshaw or e-rickshaw ride directly to Ramphal Chowk, Sector 7.',
+        'road_route' => 'Drive via National Highway 48 (NH-48) or Palam Road towards the Dwarka Flyover, then follow the road straight to Sector 7 Ramphal Chowk Road.'
     ],
     [
         'slug' => 'east-delhi',
         'name' => 'East Delhi',
         'landmarks' => ['Laxmi Nagar', 'Preet Vihar', 'Anand Vihar ISBT'],
-        'connectivity' => 'conveniently accessible via the Blue Line Metro and Vikas Marg, serving residents across Laxmi Nagar and Preet Vihar.'
+        'connectivity' => 'conveniently accessible via the Blue Line Metro and Vikas Marg, serving residents across Laxmi Nagar and Preet Vihar.',
+        'metro_route' => 'Board the Blue Line Metro at Laxmi Nagar or Preet Vihar and travel directly to Dwarka Sector 10 Metro Station. From there, hire an e-rickshaw or auto to Ramphal Chowk.',
+        'road_route' => 'Take Vikas Marg to Outer Ring Road, merge onto NH-48 towards Dwarka, cross the Dwarka Flyover, and take the exit towards Dwarka Sector 7 / Ramphal Chowk.'
     ],
     [
         'slug' => 'new-delhi',
         'name' => 'New Delhi',
         'landmarks' => ['Chanakyapuri', 'Connaught Place', 'Vasant Kunj'],
-        'connectivity' => 'well-connected through major arterial roads and metro networks, making it simple for clients from Chanakyapuri and central areas to visit.'
+        'connectivity' => 'well-connected through major arterial roads and metro networks, making it simple for clients from Chanakyapuri and central areas to visit.',
+        'metro_route' => 'Take the Airport Express Line from Dhaula Kuan to Dwarka Sector 21, then switch to the Blue Line to Sector 10 Metro Station, followed by a quick auto to Ramphal Chowk.',
+        'road_route' => 'Drive via Shanti Path to Dhaula Kuan, proceed onto NH-48, take the Dwarka Flyover exit, and follow the Sector 7 road to Ramphal Chowk.'
     ],
     [
         'slug' => 'north-delhi',
         'name' => 'North Delhi',
         'landmarks' => ['GTB Nagar', 'Model Town', 'Civil Lines'],
-        'connectivity' => 'accessible via the Yellow Line Metro, making it a quick commute for university students and residents from Model Town.'
+        'connectivity' => 'accessible via the Yellow Line Metro, making it a quick commute for university students and residents from Model Town.',
+        'metro_route' => 'Take the Yellow Line Metro to Rajiv Chowk and switch to the Blue Line towards Dwarka Sector 21. Deboard at Dwarka Sector 10 and take a short auto-rickshaw ride to Sector 7.',
+        'road_route' => 'Drive via Outer Ring Road towards West Delhi, cross the Dabri-Dwarka Flyover, and proceed directly to Sector 7 Ramphal Chowk.'
     ],
     [
         'slug' => 'south-delhi',
         'name' => 'South Delhi',
         'landmarks' => ['Saket', 'Hauz Khas', 'Greater Kailash (GK)'],
-        'connectivity' => 'connected via the Yellow and Magenta Metro Lines, with easy access from Outer Ring Road and Saket.'
+        'connectivity' => 'connected via the Yellow and Magenta Metro Lines, with easy access from Outer Ring Road and Saket.',
+        'metro_route' => 'Take the Magenta Line from Hauz Khas/Saket to Janakpuri West, transfer to the Blue Line towards Dwarka Sector 21, and deboard at Dwarka Sector 10 Metro Station.',
+        'road_route' => 'Drive via Outer Ring Road or NH-48, follow the Domestic Airport Road, cross the Dwarka Sector 7 Flyover, and arrive at Ramphal Chowk.'
     ],
     [
         'slug' => 'west-delhi',
         'name' => 'West Delhi',
         'landmarks' => ['Rajouri Garden', 'Janakpuri District Centre', 'Punjabi Bagh'],
-        'connectivity' => 'highly accessible via the Blue and Pink Metro Lines, making it a very short trip from Rajouri Garden and Punjabi Bagh.'
+        'connectivity' => 'highly accessible via the Blue and Pink Metro Lines, making it a very short trip from Rajouri Garden and Punjabi Bagh.',
+        'metro_route' => 'Take the Blue Line Metro directly from Rajouri Garden or Janakpuri West to Dwarka Sector 10 Metro Station, followed by a 5-minute e-rickshaw ride.',
+        'road_route' => 'Drive via Najafgarh Road or Pankha Road to Dabri Mor, cross the Dwarka Flyover, and head straight to Sector 7 Ramphal Chowk.'
     ],
     [
         'slug' => 'dwarka',
         'name' => 'Dwarka',
         'landmarks' => ['Sector 7', 'Ramphal Chowk', 'Sector 10 Metro Station'],
-        'connectivity' => 'located right at Ramphal Chowk Sector 7, within walking distance of the Sector 10 and Sector 9 Metro Stations.'
+        'connectivity' => 'located right at Ramphal Chowk Sector 7, within walking distance of the Sector 10 and Sector 9 Metro Stations.',
+        'metro_route' => 'Board the Blue Line and deboard at Dwarka Sector 10 or Sector 9 Metro Station. Take an e-rickshaw directly to Ramphal Chowk Sector 7 (approx. 3-5 minutes).',
+        'road_route' => 'Navigate locally via the Sector 6/7 Dividing Road or the Ramphal Chowk Main Road straight to our studio.'
     ],
     [
         'slug' => 'rohini',
         'name' => 'Rohini',
         'landmarks' => ['Sector 9', 'Rithala Metro Station', 'Netaji Subhash Place (NSP)'],
-        'connectivity' => 'easily reachable via the Red Line Metro from Rohini Sector 9 and Rithala to Dwarka Sector 21.'
+        'connectivity' => 'easily reachable via the Red Line Metro from Rohini Sector 9 and Rithala to Dwarka Sector 21.',
+        'metro_route' => 'Take the Red Line from Rohini to Netaji Subhash Place (NSP), transfer to the Pink Line to Rajouri Garden, and then take the Blue Line to Dwarka Sector 10 Metro Station.',
+        'road_route' => 'Drive via Outer Ring Road through Peera Garhi and Janakpuri, cross the Dwarka Flyover, and head straight to Sector 7 Ramphal Chowk.'
     ],
     [
         'slug' => 'janakpuri',
         'name' => 'Janakpuri',
         'landmarks' => ['Janakpuri District Centre', 'Tilak Nagar', 'Janakpuri West Metro Station'],
-        'connectivity' => 'connected directly to Dwarka via the Blue Line Metro, just a 15-minute drive via the Dwarka Flyover.'
+        'connectivity' => 'connected directly to Dwarka via the Blue Line Metro, just a 15-minute drive via the Dwarka Flyover.',
+        'metro_route' => 'Take the Blue Line Metro directly from Janakpuri West or East to Dwarka Sector 10 Metro Station. From there, take a local e-rickshaw to Ramphal Chowk.',
+        'road_route' => 'Drive via Pankha Road towards Dabri Mor, take the Dabri-Dwarka Flyover, and turn left onto Ramphal Chowk Road in Sector 7.'
     ],
     [
         'slug' => 'karol-bagh',
         'name' => 'Karol Bagh',
         'landmarks' => ['Ajmal Khan Road', 'Ghaffar Market', 'Karol Bagh Metro Station'],
-        'connectivity' => 'accessible via the Blue Line Metro directly, making it an easy direct commute from Karol Bagh.'
+        'connectivity' => 'accessible via the Blue Line Metro directly, making it an easy direct commute from Karol Bagh.',
+        'metro_route' => 'Board the Blue Line Metro at Karol Bagh Metro Station and travel directly to Dwarka Sector 10 Metro Station. Take a short rickshaw ride to Sector 7.',
+        'road_route' => 'Drive via Pusa Road to Ring Road, head towards Dhaula Kuan, merge onto NH-48, take the Dwarka Flyover exit, and proceed to Sector 7 Ramphal Chowk.'
     ],
     [
         'slug' => 'pitampura',
         'name' => 'Pitampura',
         'landmarks' => ['Netaji Subhash Place (NSP)', 'Pitampura TV Tower', 'Madhuban Chowk'],
-        'connectivity' => 'connected via the Outer Ring Road and Ring Road Metro Line, ensuring convenient access for Pitampura residents.'
+        'connectivity' => 'connected via the Outer Ring Road and Ring Road Metro Line, ensuring convenient access for Pitampura residents.',
+        'metro_route' => 'Take the Red Line Metro from Pitampura to NSP, transfer to the Pink Line to Rajouri Garden, then transfer to the Blue Line to Dwarka Sector 10 Metro Station.',
+        'road_route' => 'Drive via Outer Ring Road through Peeragarhi, cross onto Pankha Road, and use the Dabri-Dwarka Flyover to enter Sector 7.'
     ],
     [
         'slug' => 'rajouri-garden',
         'name' => 'Rajouri Garden',
         'landmarks' => ['TDI Mall', 'Rajouri Garden Metro Station', 'Main Market'],
-        'connectivity' => 'directly connected via the Blue Line Metro to Dwarka, making it extremely convenient for West Delhi shoppers.'
+        'connectivity' => 'directly connected via the Blue Line Metro to Dwarka, making it extremely convenient for West Delhi shoppers.',
+        'metro_route' => 'Take the Blue Line Metro directly from Rajouri Garden Metro Station to Dwarka Sector 10 Metro Station. E-rickshaws are readily available outside the station.',
+        'road_route' => 'Drive via Pankha Road or Outer Ring Road towards Dabri Mor, cross the Dwarka Flyover directly to Ramphal Chowk in Sector 7.'
     ],
     [
         'slug' => 'saket',
         'name' => 'Saket',
         'landmarks' => ['Select Citywalk Mall', 'Saket District Court', 'PVR Anupam'],
-        'connectivity' => 'connected via the Yellow Line and outer expressway links, making it accessible for clients in South Delhi.'
+        'connectivity' => 'connected via the Yellow Line and outer expressway links, making it accessible for clients in South Delhi.',
+        'metro_route' => 'Take the Yellow Line from Saket to Hauz Khas, transfer to the Magenta Line to Janakpuri West, and then take the Blue Line to Dwarka Sector 10 Metro Station.',
+        'road_route' => 'Drive via Outer Ring Road, exit towards Domestic Airport Road, take the Dwarka Flyover, and follow the dividing road to Sector 7 Ramphal Chowk.'
     ]
 ];
 
@@ -91,6 +117,8 @@ $location_name = '##LOCATION_NAME##';
 $location_slug = '##LOCATION_SLUG##';
 $landmarks_str = '##LANDMARKS_STR##';
 $connectivity_str = '##CONNECTIVITY_STR##';
+$metro_route = '##METRO_ROUTE##';
+$road_route = '##ROAD_ROUTE##';
 
 $current_metadata = [
     'title' => "Best Hair Wig for Man in $location_name | Hair Patch - Growig Hair Solution",
@@ -212,6 +240,35 @@ include $path_prefix . 'custom-header-link.php';
                         <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
                             Our master stylists perform precise digital scalp mapping to ensure the wig fits your head's unique contours. In a private consultation room, we match the shade gradients and cut the system to blend perfectly. Whether you prefer hair bonding, hair weaving, or clipping, we guarantee a secure hold that lets you swim, exercise, and live with complete freedom.
                         </p>
+                    </div>
+
+                    <!-- How to Reach Our Dwarka Studio -->
+                    <div class="space-y-6 bg-surface-container/40 p-8 rounded-3xl border border-primary/15">
+                        <h3 class="font-headline-md text-2xl text-on-surface flex items-center gap-2">
+                            <span class="material-symbols-outlined text-primary">directions_car</span>
+                            How to Reach Our Dwarka Studio from <?php echo $location_name; ?>
+                        </h3>
+                        <p class="font-body-md text-on-surface-variant leading-relaxed">
+                            If you are traveling from <?php echo $location_name; ?>, here are the easiest ways to reach our flagship studio at <strong>Ramphal Chowk Road, Sector 7 Dwarka</strong>:
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                            <div class="space-y-2">
+                                <h4 class="font-label-md text-primary uppercase tracking-wider text-xs flex items-center gap-1.5 font-bold">
+                                    <span class="material-symbols-outlined text-sm">train</span> By Metro (Public Transport)
+                                </h4>
+                                <p class="text-sm text-on-surface-variant leading-relaxed">
+                                    <?php echo $metro_route; ?>
+                                </p>
+                            </div>
+                            <div class="space-y-2">
+                                <h4 class="font-label-md text-primary uppercase tracking-wider text-xs flex items-center gap-1.5 font-bold">
+                                    <span class="material-symbols-outlined text-sm">directions_car</span> By Road (Personal Transport)
+                                </h4>
+                                <p class="text-sm text-on-surface-variant leading-relaxed">
+                                    <?php echo $road_route; ?>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="lg:col-span-4">
@@ -475,6 +532,8 @@ foreach ($locations as $loc) {
     $content = str_replace('##LOCATION_SLUG##', $loc['slug'], $content);
     $content = str_replace('##LANDMARKS_STR##', $landmarks_str, $content);
     $content = str_replace('##CONNECTIVITY_STR##', $loc['connectivity'], $content);
+    $content = str_replace('##METRO_ROUTE##', $loc['metro_route'], $content);
+    $content = str_replace('##ROAD_ROUTE##', $loc['road_route'], $content);
     
     file_put_contents($dir . '/index.php', $content);
     echo "Generated landing page for: " . $loc['name'] . " in " . $dir . "/index.php\n";
