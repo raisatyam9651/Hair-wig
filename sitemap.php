@@ -224,6 +224,43 @@
                         ?>
                     </ul>
                 </div>
+
+                <!-- Delhi Location Pages Card -->
+                <div class="glass-card p-8 rounded-3xl royal-shadow border border-primary/5 flex flex-col gap-6 bg-[#fcf9f4]">
+                    <div class="flex items-center gap-3 border-b border-outline-variant/30 pb-4">
+                        <span class="material-symbols-outlined text-primary text-2xl">location_on</span>
+                        <h3 class="font-display-md text-xl text-on-surface font-bold">Delhi Locations</h3>
+                    </div>
+                    <ul class="space-y-4">
+                        <?php
+                        $sitemap_locs = [
+                            'central-delhi' => 'Central Delhi',
+                            'east-delhi' => 'East Delhi',
+                            'new-delhi' => 'New Delhi',
+                            'north-delhi' => 'North Delhi',
+                            'south-delhi' => 'South Delhi',
+                            'west-delhi' => 'West Delhi',
+                            'dwarka' => 'Dwarka',
+                            'rohini' => 'Rohini',
+                            'janakpuri' => 'Janakpuri',
+                            'karol-bagh' => 'Karol Bagh',
+                            'pitampura' => 'Pitampura',
+                            'rajouri-garden' => 'Rajouri Garden',
+                            'saket' => 'Saket'
+                        ];
+                        foreach ($sitemap_locs as $slug_key => $name_val) {
+                            ?>
+                            <li>
+                                <a href="hair-patch-for-men/delhi/<?php echo $slug_key; ?>/" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-xs text-primary">arrow_forward</span>
+                                    Hair Wig in <?php echo $name_val; ?>
+                                </a>
+                            </li>
+                            <?php
+                        }
+                        ?>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>

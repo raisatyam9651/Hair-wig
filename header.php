@@ -1,6 +1,6 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']);
-$path_prefix = (strpos($_SERVER['PHP_SELF'], '/blog/') !== false) ? '../' : '';
+$path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'], '/blog/') !== false) ? '../' : '');
 $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blog/') !== false);
 ?>
 <!-- Sticky Header -->

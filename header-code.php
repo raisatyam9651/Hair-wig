@@ -218,7 +218,7 @@ if (strpos($_SERVER['PHP_SELF'], '/blog/') !== false) {
         $current_metadata = $pages_metadata['index'];
     }
 } else {
-    $current_metadata = isset($pages_metadata[$page]) ? $pages_metadata[$page] : $pages_metadata['index'];
+    $current_metadata = isset($current_metadata) ? $current_metadata : (isset($pages_metadata[$page]) ? $pages_metadata[$page] : $pages_metadata['index']);
 }
 
 // 1. LocalBusiness Schema
