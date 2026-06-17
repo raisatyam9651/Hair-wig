@@ -609,11 +609,11 @@ foreach ($delhi_locations as $loc) {
     $landmarks_str = implode(', ', $loc['landmarks']);
     
     $content = $template;
-    $content = str_replace('##LOCATION_NAME##', $loc['name'], $content);
-    $content = str_replace('##LOCATION_SLUG##', $loc['slug'], $content);
-    $content = str_replace('##LANDMARKS_STR##', $landmarks_str, $content);
-    $content = str_replace('##METRO_ROUTE##', $loc['metro_route'], $content);
-    $content = str_replace('##ROAD_ROUTE##', $loc['road_route'], $content);
+    $content = str_replace('##LOCATION_NAME##', addslashes($loc['name']), $content);
+    $content = str_replace('##LOCATION_SLUG##', addslashes($loc['slug']), $content);
+    $content = str_replace('##LANDMARKS_STR##', addslashes($landmarks_str), $content);
+    $content = str_replace('##METRO_ROUTE##', addslashes($loc['metro_route']), $content);
+    $content = str_replace('##ROAD_ROUTE##', addslashes($loc['road_route']), $content);
     $content = str_replace('##STATE_NAME##', 'Delhi', $content);
     $content = str_replace('##STATE_SLUG##', 'delhi', $content);
     $content = str_replace('##OTHER_LOCS_DATA##', $delhi_other_locs_str, $content);
@@ -639,11 +639,11 @@ foreach ($gurugram_locations as $loc) {
     $landmarks_str = implode(', ', $loc['landmarks']);
     
     $content = $template;
-    $content = str_replace('##LOCATION_NAME##', $loc['name'], $content);
-    $content = str_replace('##LOCATION_SLUG##', $loc['slug'], $content);
-    $content = str_replace('##LANDMARKS_STR##', $landmarks_str, $content);
-    $content = str_replace('##METRO_ROUTE##', $loc['metro_route'], $content);
-    $content = str_replace('##ROAD_ROUTE##', $loc['road_route'], $content);
+    $content = str_replace('##LOCATION_NAME##', addslashes($loc['name']), $content);
+    $content = str_replace('##LOCATION_SLUG##', addslashes($loc['slug']), $content);
+    $content = str_replace('##LANDMARKS_STR##', addslashes($landmarks_str), $content);
+    $content = str_replace('##METRO_ROUTE##', addslashes($loc['metro_route']), $content);
+    $content = str_replace('##ROAD_ROUTE##', addslashes($loc['road_route']), $content);
     $content = str_replace('##STATE_NAME##', 'Gurugram', $content);
     $content = str_replace('##STATE_SLUG##', 'gurugram', $content);
     $content = str_replace('##OTHER_LOCS_DATA##', $gurugram_other_locs_str, $content);

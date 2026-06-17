@@ -662,11 +662,11 @@ foreach ($locations as $loc) {
     $landmarks_str = implode(', ', $loc['landmarks']);
     
     $content = $template;
-    $content = str_replace('##LOCATION_NAME##', $loc['name'], $content);
-    $content = str_replace('##LOCATION_SLUG##', $loc['slug'], $content);
-    $content = str_replace('##LANDMARKS_STR##', $landmarks_str, $content);
-    $content = str_replace('##METRO_ROUTE##', $loc['metro_route'], $content);
-    $content = str_replace('##ROAD_ROUTE##', $loc['road_route'], $content);
+    $content = str_replace('##LOCATION_NAME##', addslashes($loc['name']), $content);
+    $content = str_replace('##LOCATION_SLUG##', addslashes($loc['slug']), $content);
+    $content = str_replace('##LANDMARKS_STR##', addslashes($landmarks_str), $content);
+    $content = str_replace('##METRO_ROUTE##', addslashes($loc['metro_route']), $content);
+    $content = str_replace('##ROAD_ROUTE##', addslashes($loc['road_route']), $content);
     
     file_put_contents($dir . '/index.php', $content);
     echo "Generated landing page for: " . $loc['name'] . " in " . $dir . "/index.php\n";

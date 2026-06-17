@@ -3,7 +3,7 @@
 $path_prefix = '../../../';
 $location_name = 'Sector 65';
 $location_slug = 'sector-65';
-$landmarks_str = 'M3M Golfestate, WorldMark Gurugram, St. Xavier's School';
+$landmarks_str = 'M3M Golfestate, WorldMark Gurugram, St. Xavier\'s School';
 $metro_route = 'Take a short auto to Sector 55-56 Metro, board the Rapid Metro to Sikanderpur, transfer to the Yellow Line to Hauz Khas, change to the Magenta Line to Janakpuri West, and switch to the Blue Line to Dwarka Sector 10.';
 $road_route = 'Drive via Golf Course Extension Road to Sohna Road or NH-48. Follow NH-48 towards Delhi, exit at the Airport/Dwarka bypass, and proceed directly to Sector 7 Ramphal Chowk.';
 

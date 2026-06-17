@@ -3,7 +3,7 @@
 $path_prefix = '../../../';
 $location_name = 'Sector 45';
 $location_slug = 'sector-45';
-$landmarks_str = 'St. Angel's School, Huda Market Sector 45, Greenwood City';
+$landmarks_str = 'St. Angel\'s School, Huda Market Sector 45, Greenwood City';
 $metro_route = 'Take the Yellow Line Metro from Millennium City Centre to Hauz Khas, transfer to the Magenta Line to Janakpuri West, and switch to the Blue Line to Dwarka Sector 10.';
 $road_route = 'Drive via Greenwood City to NH-48 towards Delhi. Take the Airport/Dwarka bypass road exit, cross the Dwarka Flyover, and proceed to Sector 7 Ramphal Chowk.';
 

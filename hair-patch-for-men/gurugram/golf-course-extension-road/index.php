@@ -3,7 +3,7 @@
 $path_prefix = '../../../';
 $location_name = 'Golf Course Extension Road';
 $location_slug = 'golf-course-extension-road';
-$landmarks_str = 'Sector 55-56 Metro, AIPL Joy Street, St. Xavier's High School';
+$landmarks_str = 'Sector 55-56 Metro, AIPL Joy Street, St. Xavier\'s High School';
 $metro_route = 'Take the Rapid Metro from Sector 55-56, transfer to the Yellow Line at Sikanderpur to Hauz Khas, take the Magenta Line to Janakpuri West, and switch to the Blue Line to Dwarka Sector 10.';
 $road_route = 'Drive via Golf Course Extension Road to Sohna Road or NH-48. Follow NH-48 towards Delhi, exit at the Airport/Dwarka bypass, and follow the road to Dwarka Sector 7.';
 
