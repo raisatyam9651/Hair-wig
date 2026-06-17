@@ -320,6 +320,84 @@
                         ?>
                     </ul>
                 </div>
+
+                <!-- Wig Shop Delhi Location Pages Card -->
+                <div class="glass-card p-8 rounded-3xl royal-shadow border border-primary/5 flex flex-col gap-6 bg-[#fcf9f4]">
+                    <div class="flex items-center gap-3 border-b border-outline-variant/30 pb-4">
+                        <span class="material-symbols-outlined text-primary text-2xl">storefront</span>
+                        <h3 class="font-display-md text-xl text-on-surface font-bold">Wig Shop Delhi</h3>
+                    </div>
+                    <ul class="space-y-4 max-h-[400px] overflow-y-auto pr-2">
+                        <?php
+                        $wig_delhi_sitemap_locs = [
+                            'central-delhi' => 'Central Delhi',
+                            'east-delhi' => 'East Delhi',
+                            'new-delhi' => 'New Delhi',
+                            'north-delhi' => 'North Delhi',
+                            'south-delhi' => 'South Delhi',
+                            'west-delhi' => 'West Delhi',
+                            'dwarka' => 'Dwarka',
+                            'rohini' => 'Rohini',
+                            'janakpuri' => 'Janakpuri',
+                            'karol-bagh' => 'Karol Bagh',
+                            'rajouri-garden' => 'Rajouri Garden',
+                            'pitampura' => 'Pitampura',
+                            'saket' => 'Saket',
+                            'vasant-kunj' => 'Vasant Kunj'
+                        ];
+                        foreach ($wig_delhi_sitemap_locs as $slug_key => $name_val) {
+                            ?>
+                            <li>
+                                <a href="wig-shop/delhi/<?php echo $slug_key; ?>/" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-xs text-primary">arrow_forward</span>
+                                    Wig Shop in <?php echo $name_val; ?>
+                                </a>
+                            </li>
+                            <?php
+                        }
+                        ?>
+                    </ul>
+                </div>
+
+                <!-- Wig Shop Gurugram Location Pages Card -->
+                <div class="glass-card p-8 rounded-3xl royal-shadow border border-primary/5 flex flex-col gap-6 bg-[#fcf9f4]">
+                    <div class="flex items-center gap-3 border-b border-outline-variant/30 pb-4">
+                        <span class="material-symbols-outlined text-primary text-2xl">storefront</span>
+                        <h3 class="font-display-md text-xl text-on-surface font-bold">Wig Shop Gurugram</h3>
+                    </div>
+                    <ul class="space-y-4 max-h-[400px] overflow-y-auto pr-2">
+                        <?php
+                        $wig_gurugram_sitemap_locs = [
+                            'dlf-phase-1' => 'DLF Phase 1',
+                            'dlf-phase-2' => 'DLF Phase 2',
+                            'dlf-phase-3' => 'DLF Phase 3',
+                            'dlf-phase-4' => 'DLF Phase 4',
+                            'dlf-phase-5' => 'DLF Phase 5',
+                            'sohna-road' => 'Sohna Road',
+                            'golf-course-road' => 'Golf Course Road',
+                            'sector-14' => 'Sector 14',
+                            'sector-31' => 'Sector 31',
+                            'sector-45' => 'Sector 45',
+                            'sector-56' => 'Sector 56',
+                            'sector-65' => 'Sector 65',
+                            'palam-vihar' => 'Palam Vihar',
+                            'sushant-lok' => 'Sushant Lok',
+                            'manesar' => 'Manesar',
+                            'new-gurugram' => 'New Gurugram'
+                        ];
+                        foreach ($wig_gurugram_sitemap_locs as $slug_key => $name_val) {
+                            ?>
+                            <li>
+                                <a href="wig-shop/gurugram/<?php echo $slug_key; ?>/" class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-xs text-primary">arrow_forward</span>
+                                    Wig Shop in <?php echo $name_val; ?>
+                                </a>
+                            </li>
+                            <?php
+                        }
+                        ?>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
