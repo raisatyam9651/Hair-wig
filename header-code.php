@@ -1044,8 +1044,8 @@ if ($page === 'index') {
         "description" => "Discover why Growig Hair Solution is Dwarka's leading non-surgical hair replacement studio.",
         "thumbnailUrl" => "https://growighairsolution.com/assets/premium-har-pathc.png",
         "uploadDate" => "2026-06-04T12:00:00Z",
-        "contentUrl" => "https://growighairsolution.com/assets/Short%20Hair%20Transformation%20Growig.mp4",
-        "embedUrl" => "https://growighairsolution.com/assets/Short%20Hair%20Transformation%20Growig.mp4"
+        "contentUrl" => "https://www.instagram.com/reel/C7tiNBnxIO-/",
+        "embedUrl" => "https://www.instagram.com/reel/C7tiNBnxIO-/embed/"
     ];
 }
 ?>

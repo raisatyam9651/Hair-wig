@@ -273,10 +273,9 @@
                         <p class="font-body-md text-on-surface-variant mb-8 leading-relaxed">
                             We combine advanced clinical technology with bespoke styling artistry. From digital scalp mapping to hand-tied single-knotting, our hair patch service centre in Dwarka ensures that your hair system is entirely customized, lightweight, and completely natural to the touch.
                         </p>
-                        <video class="w-full h-auto rounded-2xl shadow-sm border border-surface-variant object-cover" autoplay loop muted playsinline>
-                            <source src="assets/Short%20Hair%20Transformation%20Growig.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                        <div class="w-full aspect-[9/16] max-h-[500px] mx-auto rounded-2xl overflow-hidden shadow-sm border border-surface-variant bg-[#fcf9f4]">
+                            <iframe src="https://www.instagram.com/reel/C7tiNBnxIO-/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
                     </div>
                     <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div class="glass-card p-8 rounded-2xl flex flex-col gap-4 fade-in-section">
@@ -354,71 +353,28 @@
                     <!-- Slide 1 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <video src="<?php echo $path_prefix; ?>assets/Short Hair Transformation Growig.mp4" loop playsinline muted preload="metadata" class="insta-video"></video>
-                            <!-- Instagram branding overlay top-left -->
-                            <div class="insta-overlay-top text-white">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">movie</span>
-                                <span class="text-white text-xs font-semibold tracking-wide drop-shadow-md">Reel</span>
-                            </div>
-                            <!-- Centered Play/Pause Trigger -->
-                            <div class="insta-play-trigger">
-                                <span class="material-symbols-outlined text-white text-5xl drop-shadow-lg scale-90 group-hover:scale-100 transition-transform duration-200">play_arrow</span>
-                            </div>
-                            <!-- Mute/Unmute Overlay bottom-right -->
-                            <button class="insta-mute-btn" aria-label="Mute Video">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">volume_off</span>
-                            </button>
+                            <iframe src="https://www.instagram.com/reel/C7tiNBnxIO-/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <video src="<?php echo $path_prefix; ?>assets/why-chouse-us.mp4" loop playsinline muted preload="metadata" class="insta-video"></video>
-                            <div class="insta-overlay-top text-white">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">movie</span>
-                                <span class="text-white text-xs font-semibold tracking-wide drop-shadow-md">Reel</span>
-                            </div>
-                            <div class="insta-play-trigger">
-                                <span class="material-symbols-outlined text-white text-5xl drop-shadow-lg scale-90 group-hover:scale-100 transition-transform duration-200">play_arrow</span>
-                            </div>
-                            <button class="insta-mute-btn" aria-label="Mute Video">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">volume_off</span>
-                            </button>
+                            <iframe src="https://www.instagram.com/reel/DWjX-jmk9Sd/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
 
                     <!-- Slide 3 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <video src="<?php echo $path_prefix; ?>assets/Short Hair Transformation Growig.mp4" loop playsinline muted preload="metadata" class="insta-video"></video>
-                            <div class="insta-overlay-top text-white">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">movie</span>
-                                <span class="text-white text-xs font-semibold tracking-wide drop-shadow-md">Reel</span>
-                            </div>
-                            <div class="insta-play-trigger">
-                                <span class="material-symbols-outlined text-white text-5xl drop-shadow-lg scale-90 group-hover:scale-100 transition-transform duration-200">play_arrow</span>
-                            </div>
-                            <button class="insta-mute-btn" aria-label="Mute Video">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">volume_off</span>
-                            </button>
+                            <iframe src="https://www.instagram.com/reel/DVGF-rok0JB/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
 
                     <!-- Slide 4 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <video src="<?php echo $path_prefix; ?>assets/why-chouse-us.mp4" loop playsinline muted preload="metadata" class="insta-video"></video>
-                            <div class="insta-overlay-top text-white">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">movie</span>
-                                <span class="text-white text-xs font-semibold tracking-wide drop-shadow-md">Reel</span>
-                            </div>
-                            <div class="insta-play-trigger">
-                                <span class="material-symbols-outlined text-white text-5xl drop-shadow-lg scale-90 group-hover:scale-100 transition-transform duration-200">play_arrow</span>
-                            </div>
-                            <button class="insta-mute-btn" aria-label="Mute Video">
-                                <span class="material-symbols-outlined text-white text-[20px] drop-shadow-md">volume_off</span>
-                            </button>
+                            <iframe src="https://www.instagram.com/reel/DUcrs6fjJEq/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
                 </div>
@@ -455,75 +411,11 @@
                 .insta-video-wrapper {
                     position: relative;
                     width: 100%;
-                    aspect-ratio: 9/16;
-                    background-color: #000;
+                    height: 480px;
+                    background-color: #fcf9f4;
                     border-radius: 1.5rem;
                     overflow: hidden;
                     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-                    cursor: pointer;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                .insta-video {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-                .insta-overlay-top {
-                    position: absolute;
-                    top: 1rem;
-                    left: 1rem;
-                    display: flex;
-                    align-items: center;
-                    gap: 0.25rem;
-                    background-color: rgba(0,0,0,0.4);
-                    padding: 0.35rem 0.65rem;
-                    border-radius: 9999px;
-                    backdrop-filter: blur(4px);
-                    z-index: 20;
-                }
-                .insta-play-trigger {
-                    position: absolute;
-                    inset: 0;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    background-color: rgba(0,0,0,0.15);
-                    opacity: 1;
-                    transition: opacity 0.25s ease;
-                    z-index: 10;
-                }
-                .insta-play-trigger.is-playing {
-                    opacity: 0;
-                    pointer-events: none;
-                }
-                .insta-play-trigger span {
-                    background-color: rgba(0, 0, 0, 0.55);
-                    border-radius: 9999px;
-                    padding: 0.75rem;
-                    backdrop-filter: blur(4px);
-                    border: 1px solid rgba(255,255,255,0.25);
-                }
-                .insta-mute-btn {
-                    position: absolute;
-                    bottom: 1rem;
-                    right: 1rem;
-                    background-color: rgba(0,0,0,0.55);
-                    border: 1px solid rgba(255,255,255,0.25);
-                    padding: 0.5rem;
-                    border-radius: 9999px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    cursor: pointer;
-                    z-index: 20;
-                    backdrop-filter: blur(4px);
-                    transition: all 0.2s ease;
-                }
-                .insta-mute-btn:hover {
-                    transform: scale(1.05);
-                    background-color: rgba(0,0,0,0.7);
                 }
 
                 @media (min-width: 768px) {
@@ -539,67 +431,6 @@
                     }
                 }
             </style>
-
-            <!-- Inline interactions logic -->
-            <script>
-                document.addEventListener('DOMContentLoaded', () => {
-                    const slides = document.querySelectorAll('.insta-slide');
-                    const videos = document.querySelectorAll('.insta-video');
-
-                    slides.forEach(slide => {
-                        const video = slide.querySelector('.insta-video');
-                        const playTrigger = slide.querySelector('.insta-play-trigger');
-                        const muteBtn = slide.querySelector('.insta-mute-btn');
-                        const muteIcon = muteBtn.querySelector('span');
-
-                        // Toggle play/pause on clicking the video wrapper
-                        slide.querySelector('.insta-video-wrapper').addEventListener('click', (e) => {
-                            // Prevent toggle if mute button is clicked
-                            if (muteBtn.contains(e.target)) return;
-
-                            if (video.paused) {
-                                // Pause all other videos
-                                videos.forEach(v => {
-                                    if (v !== video) {
-                                        v.pause();
-                                        const otherTrigger = v.parentElement.querySelector('.insta-play-trigger');
-                                        if (otherTrigger) {
-                                            otherTrigger.classList.remove('is-playing');
-                                            otherTrigger.querySelector('span').textContent = 'play_arrow';
-                                        }
-                                    }
-                                });
-
-                                video.play()
-                                    .then(() => {
-                                        playTrigger.classList.add('is-playing');
-                                    })
-                                    .catch(err => {
-                                        console.log("Play failed: ", err);
-                                    });
-                            } else {
-                                video.pause();
-                                playTrigger.classList.remove('is-playing');
-                                playTrigger.querySelector('span').textContent = 'play_arrow';
-                            }
-                        });
-
-                        // Mute/Unmute click handler
-                        muteBtn.addEventListener('click', (e) => {
-                            e.stopPropagation();
-                            const isMuted = !video.muted;
-                            // Set mute state globally for all videos to stay synced
-                            videos.forEach(v => {
-                                v.muted = isMuted;
-                                const vBtnIcon = v.parentElement.querySelector('.insta-mute-btn span');
-                                if (vBtnIcon) {
-                                    vBtnIcon.textContent = isMuted ? 'volume_off' : 'volume_up';
-                                }
-                            });
-                        });
-                    });
-                });
-            </script>
         </section>
 
         <!-- FAQ Section -->
