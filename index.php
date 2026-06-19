@@ -275,9 +275,9 @@
                         </p>
 
                         <!-- Studio Showcase Video — contained within this section only -->
-                        <div class="relative w-full overflow-hidden rounded-2xl royal-shadow border border-surface-variant/30 bg-black aspect-video max-h-[420px]">
+                        <div class="relative w-full max-w-[480px] mx-auto aspect-square overflow-hidden rounded-2xl royal-shadow border border-surface-variant/30 bg-black">
                             <video
-                                class="absolute inset-0 w-full h-full object-contain"
+                                class="absolute inset-0 w-full h-full object-cover"
                                 controls
                                 preload="metadata"
                                 playsinline>
