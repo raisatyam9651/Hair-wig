@@ -210,7 +210,7 @@ if (strpos($_SERVER['PHP_SELF'], '/blog/') !== false) {
         $current_metadata = [
             'title' => $blog_post['title'] . ' | Growig Hair Solution',
             'description' => $blog_post['description'],
-            'url' => 'https://growighairsolution.com/blog/' . $blog_post['slug'] . '.php',
+            'url' => 'https://growighairsolution.com/blog/' . $blog_post['slug'],
             'image' => 'https://growighairsolution.com/assets/' . $blog_post['image'],
             'type' => 'article'
         ];

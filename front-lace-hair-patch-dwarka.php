@@ -26,7 +26,7 @@
             <!-- Mobile Hero Image -->
             <div class="block md:hidden relative group w-full my-4">
                 <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform"></div>
-                <img alt="Best Front Lace Hair Patch in Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/front lace-hair-patch-hero.png"/>
+                <img alt="Best Front Lace Hair Patch in Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/front%20lace-hair-patch-hero.png"/>
             </div>
 
             <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
@@ -39,7 +39,7 @@
         </div>
         <div class="hidden md:block relative group w-full">
             <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-            <img alt="Best Front Lace Hair Patch in Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/front lace-hair-patch-hero.png"/>
+            <img alt="Best Front Lace Hair Patch in Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/front%20lace-hair-patch-hero.png"/>
         </div>
     </div>
 </section>
@@ -192,7 +192,7 @@
             <h2 class="font-display-lg text-[28px] md:text-headline-lg text-on-surface mb-8">Frequently Asked Questions</h2>
             <p class="font-body-lg text-on-surface-variant mb-12">Learn more about the technology, care, and styling versatility of Front Lace hair patches.</p>
             <div class="w-full h-[400px] flex items-center justify-center bg-white rounded-3xl royal-shadow overflow-hidden border border-surface-variant/30">
-                <img alt="Front Lace Hair Patch Styling Showcase" class="w-full h-full object-cover" src="assets/front lace-hair-patch-styling.png"/>
+                <img alt="Front Lace Hair Patch Styling Showcase" class="w-full h-full object-cover" src="assets/front%20lace-hair-patch-styling.png"/>
             </div>
         </div>
         <div class="space-y-4">
@@ -255,7 +255,7 @@
                 </div>
             </div>
             <div class="relative bg-surface-container min-h-[300px] lg:min-h-0">
-                <img alt="Front Lace Hair Patch Transformation Before and After" class="absolute inset-0 w-full h-full object-cover" src="assets/front lace-hair-patch-before-after.png"/>
+                <img alt="Front Lace Hair Patch Transformation Before and After" class="absolute inset-0 w-full h-full object-cover" src="assets/front%20lace-hair-patch-before-after.png"/>
                 <div class="absolute inset-0 bg-gradient-to-r from-surface-container to-transparent lg:block hidden"></div>
             </div>
         </div>
