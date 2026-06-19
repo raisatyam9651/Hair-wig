@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Sitemap | Growig Hair Solution</title>
+    <title>Sitemap – Dwarka – Growig Hair Solution – Site Map</title>
     <meta content="Explore the sitemap of Growig Hair Solution. Locate our services, main website pages, and all our hair loss restoration, maintenance, and styling blog posts." name="description" />
     <?php include 'header-code.php'; ?>
 </head>

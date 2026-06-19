@@ -4,7 +4,7 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Full Hair Wig in Dwarka | Best Hair Wig in Dwarka | Growig Hair Solution</title>
+<title>Full Hair Wig – Dwarka – Growig Hair Solution – Premium Services</title>
 <meta name="description" content="Searching for the best hair wig in dwarka? Growig Hair Solution offers natural, undetectable full hair wig in dwarka. Same-day fitting and custom designs. Book a free consultation!" />
 <meta name="keywords" content="Full hair wig in dwarka, hair wig in dwarka, best hair wig in dwarka" />
 <meta name="robots" content="index, follow" />

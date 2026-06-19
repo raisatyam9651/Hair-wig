@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>About Us | Growig Hair Solution</title>
+    <title>About Growig Hair Solution – Dwarka – Growig Hair Solution – Premium Services</title>
     <?php include 'header-code.php'; ?>
 </head>
 

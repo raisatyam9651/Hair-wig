@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Growig Hair Solution - Hair Wig Shop in Dwarka | Hair Patch & Non Surgical Hair Replacement</title>
+    <title>Best Hair Wig Shop in Dwarka – Growig Hair Solution – Premium Hair Replacement Services</title>
     <meta
         content="Looking for the best hair wig shop in Dwarka? Growig Hair Solution is a premier hair patch service centre in Dwarka. Visit our hair wig store in Dwarka Delhi for natural, undetectable non-surgical hair replacement. Book a free consultation!"
         name="description" />
@@ -276,7 +276,11 @@
                         <div class="w-full aspect-[9/16] max-h-[500px] mx-auto rounded-2xl overflow-hidden shadow-sm border border-surface-variant bg-[#fcf9f4]">
                             <iframe src="https://www.instagram.com/reel/C7tiNBnxIO-/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
-                    </div>
+                            <video class="w-full h-auto rounded-2xl" controls preload="metadata">
+            <source src="assets/why-chouse-us.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
                     <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div class="glass-card p-8 rounded-2xl flex flex-col gap-4 fade-in-section">
                             <div
