@@ -273,7 +273,7 @@
                         <p class="font-body-md text-on-surface-variant mb-8 leading-relaxed">
                             We combine advanced clinical technology with bespoke styling artistry. From digital scalp mapping to hand-tied single-knotting, our hair patch service centre in Dwarka ensures that your hair system is entirely customized, lightweight, and completely natural to the touch.
                         </p>
-                        <div class="w-full aspect-[9/16] max-h-[500px] mx-auto rounded-2xl overflow-hidden shadow-sm border border-surface-variant bg-[#fcf9f4]">
+                        
 
                         </div>
                             <video class="w-full h-auto rounded-2xl" controls preload="metadata">
