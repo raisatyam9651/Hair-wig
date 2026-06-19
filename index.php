@@ -273,14 +273,19 @@
                         <p class="font-body-md text-on-surface-variant mb-8 leading-relaxed">
                             We combine advanced clinical technology with bespoke styling artistry. From digital scalp mapping to hand-tied single-knotting, our hair patch service centre in Dwarka ensures that your hair system is entirely customized, lightweight, and completely natural to the touch.
                         </p>
-                        
 
+                        <!-- Studio Showcase Video — contained within this section only -->
+                        <div class="relative w-full overflow-hidden rounded-2xl royal-shadow border border-surface-variant/30 bg-black aspect-video max-h-[420px]">
+                            <video
+                                class="absolute inset-0 w-full h-full object-contain"
+                                controls
+                                preload="metadata"
+                                playsinline>
+                                <source src="assets/Short%20Hair%20Transformation%20Growig.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
-                            <video class="w-full h-auto rounded-2xl" controls preload="metadata">
-            <source src="assets/Short Hair Transformation Growig.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+                    </div>
                     <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div class="glass-card p-8 rounded-2xl flex flex-col gap-4 fade-in-section">
                             <div
