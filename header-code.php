@@ -4,6 +4,7 @@
 
 $page = basename($_SERVER['PHP_SELF'], '.php');
 $path_prefix = isset($path_prefix) ? $path_prefix : ((strpos($_SERVER['PHP_SELF'], '/blog/') !== false) ? '../' : '');
+$is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design', 'australian-hair-patch-dwarka', 'bmw-hair-patch-dwarka', 'filament-hair-patch-dwarka', 'superior-filament-hair-patch-dwarka', 'monofilament-hair-patch-dwarka', 'mono-silk-hair-patch-dwarka', 'mirage-hair-patch-dwarka', 'french-lace-hair-patch-dwarka', 'front-lace-hair-patch-dwarka', 'full-lace-hair-patch-dwarka', 'poly-fuse-hair-patch-dwarka']);
 
 // Define metadata for all pages for schema and OG tags
 $pages_metadata = [
@@ -206,27 +207,38 @@ if (strpos($_SERVER['PHP_SELF'], '/blog/') !== false) {
             'image' => 'https://growighairsolution.com/assets/hair-maintance.jpg',
             'type' => 'website'
         ];
-    } else if (isset($blog_post)) {
-        $current_metadata = [
-            'title' => $blog_post['title'] . ' | Growig Hair Solution',
-            'description' => $blog_post['description'],
-            'url' => 'https://growighairsolution.com/blog/' . $blog_post['slug'],
-            'image' => 'https://growighairsolution.com/assets/' . $blog_post['image'],
-            'type' => 'article'
-        ];
     } else {
-        $current_metadata = $pages_metadata['index'];
+        if (!isset($blog_post)) {
+            require_once __DIR__ . '/blog/blog-data.php';
+            foreach ($blog_posts as $post) {
+                if ($post['slug'] === $page) {
+                    $blog_post = $post;
+                    break;
+                }
+            }
+        }
+        if (isset($blog_post)) {
+            $current_metadata = [
+                'title' => $blog_post['title'] . ' | Growig Hair Solution',
+                'description' => $blog_post['description'],
+                'url' => 'https://growighairsolution.com/blog/' . $blog_post['slug'] . '/',
+                'image' => 'https://growighairsolution.com/assets/' . $blog_post['image'],
+                'type' => 'article'
+            ];
+        } else {
+            $current_metadata = $pages_metadata['index'];
+        }
     }
 } else {
     $current_metadata = isset($current_metadata) ? $current_metadata : (isset($pages_metadata[$page]) ? $pages_metadata[$page] : $pages_metadata['index']);
 }
 
-// 1. LocalBusiness Schema
+// 1. HairSalon Schema
 $local_business_schema = [
     "@context" => "https://schema.org",
-    "@type" => "LocalBusiness",
+    "@type" => "HairSalon",
     "name" => "Growig Hair Solution - Hair Wig Shop in Dwarka | Hair Patch & Non Surgical Hair Replacement",
-    "image" => "https://lh5.googleusercontent.com/-rN2mV9li-5w/AAAAAAAAAAI/AAAAAAAAAAA/1dLhL3ORwpg/s44-p-k-no-ns-nd/photo.jpg",
+    "image" => "https://growighairsolution.com/assets/logo.png",
     "@id" => "https://growighairsolution.com/#growig-hair-solution-hair-wig-shop-in-dwarka-hair-patch-non-surgical-hair-replacement",
     "identifier" => [
         "@type" => "PropertyValue",
@@ -235,7 +247,11 @@ $local_business_schema = [
     ],
     "description" => "Growig Hair Solution is a trusted Hair Wig Shop in Dwarka specializing in Hair Patch, Hair Wig, Hair Bonding, Hair Weaving, Hair Clipping, and Non-Surgical Hair Replacement solutions for men. Conveniently located at Ramphal Chowk, Sector 7 Dwarka, we provide natural-looking Hair Systems, Human Hair Wigs, Custom Hair Patches, Hair Fixing, and Hairline Design services tailored to individual needs. We proudly serve clients from Dwarka, Janakpuri, Uttam Nagar, Palam, Dwarka Mor, and nearby areas. Our goal is to deliver comfortable, realistic, and long-lasting hair replacement solutions that help restore confidence and achieve a natural appearance. Book your free consultation today.",
     "url" => "https://growighairsolution.com/",
-    "telephone" => "076784 72972",
+    "telephone" => ["+91 76784 72972", "+91 87662 16564"],
+    "email" => "info@growighairsolution.com",
+    "sameAs" => [
+        "https://www.instagram.com/growighair"
+    ],
     "priceRange" => "$$",
     "address" => [
         "@type" => "PostalAddress",
@@ -247,17 +263,17 @@ $local_business_schema = [
     ],
     "geo" => [
         "@type" => "GeoCoordinates",
-        "latitude" => "28.5853193",
-        "longitude" => "77.0722435"
+        "latitude" => "28.5852079",
+        "longitude" => "77.0693618"
     ],
     "openingHoursSpecification" => [
         [
             "@type" => "OpeningHoursSpecification",
             "dayOfWeek" => [
-                "Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
             ],
-            "opens" => "10:00",
-            "closes" => "19:00"
+            "opens" => "10:30",
+            "closes" => "19:30"
         ]
     ],
     "paymentAccepted" => "Cash, NFC mobile payments, Google Pay",
@@ -292,11 +308,6 @@ $local_business_schema = [
             "name" => "Identifies as women-owned",
             "value" => false
         ]
-    ],
-    "aggregateRating" => [
-        "@type" => "AggregateRating",
-        "ratingValue" => "5",
-        "reviewCount" => "77"
     ],
     "category" => "Hair replacement service",
     "hasOfferCatalog" => [
@@ -622,50 +633,80 @@ $nav_schema = [
     ]
 ];
 
+// 2.5 WebSite Schema
+$website_schema = [
+    "@context" => "https://schema.org",
+    "@type" => "WebSite",
+    "name" => "Growig Hair Solution",
+    "url" => "https://growighairsolution.com/",
+    "potentialAction" => [
+        "@type" => "SearchAction",
+        "target" => "https://growighairsolution.com/blog/?s={search_term_string}",
+        "query-input" => "required name=search_term_string"
+    ]
+];
+
 // 3. BreadcrumbList Schema
-if ($page !== 'index') {
-    $breadcrumb_items = [
-        [
-            "@type" => "ListItem",
-            "position" => 1,
-            "name" => "Home",
-            "item" => "https://growighairsolution.com/"
-        ]
-    ];
-    
-    $is_service = in_array($page, ['premium-hair-patch', 'full-hair-wig', 'non-surgical-replacement', 'hair-bonding', 'maintenance-and-styling', 'custom-hairline-design', 'australian-hair-patch-dwarka', 'bmw-hair-patch-dwarka', 'filament-hair-patch-dwarka', 'superior-filament-hair-patch-dwarka', 'monofilament-hair-patch-dwarka', 'mono-silk-hair-patch-dwarka', 'mirage-hair-patch-dwarka', 'french-lace-hair-patch-dwarka', 'front-lace-hair-patch-dwarka', 'full-lace-hair-patch-dwarka', 'poly-fuse-hair-patch-dwarka']);
-    
-    if ($is_service) {
-        $breadcrumb_items[] = [
-            "@type" => "ListItem",
-            "position" => 2,
-            "name" => "Services",
-            "item" => "https://growighairsolution.com/#services"
+if (!isset($breadcrumb_schema)) {
+    if ($page !== 'index' || (strpos($_SERVER['PHP_SELF'], '/blog/') !== false && $page === 'index')) {
+        $breadcrumb_items = [
+            [
+                "@type" => "ListItem",
+                "position" => 1,
+                "name" => "Home",
+                "item" => "https://growighairsolution.com/"
+            ]
         ];
-        $breadcrumb_items[] = [
-            "@type" => "ListItem",
-            "position" => 3,
-            "name" => $current_metadata['service_name'],
-            "item" => $current_metadata['url']
-        ];
-    } else {
-        $name_mapping = [
-            'about' => 'About Us',
-            'contact' => 'Contact Us'
-        ];
-        $breadcrumb_items[] = [
-            "@type" => "ListItem",
-            "position" => 2,
-            "name" => isset($name_mapping[$page]) ? $name_mapping[$page] : ucfirst($page),
-            "item" => $current_metadata['url']
+        
+        if (strpos($_SERVER['PHP_SELF'], '/blog/') !== false) {
+            $breadcrumb_items[] = [
+                "@type" => "ListItem",
+                "position" => 2,
+                "name" => "Blog",
+                "item" => "https://growighairsolution.com/blog/"
+            ];
+            if ($page !== 'index') {
+                $breadcrumb_items[] = [
+                    "@type" => "ListItem",
+                    "position" => 3,
+                    "name" => isset($blog_post['title']) ? $blog_post['title'] : $current_metadata['title'],
+                    "item" => $current_metadata['url']
+                ];
+            }
+        } elseif ($is_service) {
+            $breadcrumb_items[] = [
+                "@type" => "ListItem",
+                "position" => 2,
+                "name" => "Services",
+                "item" => "https://growighairsolution.com/#services"
+            ];
+            $breadcrumb_items[] = [
+                "@type" => "ListItem",
+                "position" => 3,
+                "name" => $current_metadata['service_name'],
+                "item" => $current_metadata['url']
+            ];
+        } else {
+            $name_mapping = [
+                'about' => 'About Us',
+                'contact' => 'Contact Us',
+                'gallery' => 'Gallery',
+                'thank-you' => 'Thank You'
+            ];
+            $breadcrumb_items[] = [
+                "@type" => "ListItem",
+                "position" => 2,
+                "name" => isset($name_mapping[$page]) ? $name_mapping[$page] : ucfirst($page),
+                "item" => $current_metadata['url']
+            ];
+        }
+        
+        $breadcrumb_schema = [
+            "@context" => "https://schema.org",
+            "@type" => "BreadcrumbList",
+            "itemListElement" => $breadcrumb_items
         ];
     }
-    
-    $breadcrumb_schema = [
-        "@context" => "https://schema.org",
-        "@type" => "BreadcrumbList",
-        "itemListElement" => $breadcrumb_items
-    ];
 }
 
 // 4. Product, MerchantListings, AggregateRating, and ImageObject Schema
@@ -732,29 +773,85 @@ if ($current_metadata['type'] === 'product') {
     ];
 }
 
+// 4.5 Service Schema
+if ($is_service) {
+    $service_schema = [
+        "@context" => "https://schema.org",
+        "@type" => "Service",
+        "name" => $current_metadata['service_name'],
+        "serviceType" => $current_metadata['service_name'],
+        "description" => isset($current_metadata['service_desc']) ? $current_metadata['service_desc'] : $current_metadata['description'],
+        "provider" => [
+            "@type" => "HairSalon",
+            "name" => "Growig Hair Solution",
+            "url" => "https://growighairsolution.com/",
+            "telephone" => "+91 76784 72972",
+            "image" => "https://growighairsolution.com/assets/logo.png",
+            "priceRange" => "₹₹",
+            "address" => [
+                "@type" => "PostalAddress",
+                "streetAddress" => "Shop No. 2, Ramphal Chowk Rd, Sector 7 Dwarka",
+                "addressLocality" => "Dwarka, New Delhi",
+                "addressRegion" => "Delhi",
+                "postalCode" => "110075",
+                "addressCountry" => "IN"
+            ]
+        ],
+        "areaServed" => [
+            [
+                "@type" => "AdministrativeArea",
+                "name" => "Dwarka"
+            ],
+            [
+                "@type" => "AdministrativeArea",
+                "name" => "Delhi"
+            ]
+        ]
+    ];
+}
+
 if ($current_metadata['type'] === 'article') {
     $article_schema = [
         "@context" => "https://schema.org",
         "@type" => "BlogPosting",
-        "headline" => $current_metadata['title'],
+        "headline" => isset($blog_post['title']) ? $blog_post['title'] : $current_metadata['title'],
         "description" => $current_metadata['description'],
         "image" => [
             $current_metadata['image']
         ],
         "datePublished" => isset($blog_post['date']) ? date('c', strtotime($blog_post['date'])) : date('c'),
         "dateModified" => date('c'),
+        "mainEntityOfPage" => [
+            "@type" => "WebPage",
+            "@id" => $current_metadata['url']
+        ],
         "author" => [
-            "@type" => "Organization",
-            "name" => "Growig Hair Solution",
-            "url" => "https://growighairsolution.com/"
+            "@type" => "Person",
+            "name" => "Amit Kumar",
+            "jobTitle" => "Founder & Senior Hair Restoration Expert",
+            "worksFor" => [
+                "@type" => "Organization",
+                "name" => "Growig Hair Solution"
+            ],
+            "url" => "https://growighairsolution.com/about"
         ],
         "publisher" => [
             "@type" => "Organization",
             "name" => "Growig Hair Solution",
             "logo" => [
                 "@type" => "ImageObject",
-                "url" => "https://growighairsolution.com/assets/premium-har-pathc.png"
+                "url" => "https://growighairsolution.com/assets/logo.png"
             ]
+        ],
+        "reviewedBy" => [
+            "@type" => "Person",
+            "name" => "Dr. Rohit Gupta",
+            "jobTitle" => "Consulting Dermatologist & Trichologist",
+            "worksFor" => [
+                "@type" => "Organization",
+                "name" => "Growig Hair Solution"
+            ],
+            "url" => "https://growighairsolution.com/about"
         ]
     ];
 }
@@ -1050,13 +1147,14 @@ if ($page === 'index') {
 }
 ?>
 <!-- Resource Pre-fetching & Stylesheets -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<?php if ($page === 'index' || $page === ''): ?>
+<link rel="preload" href="<?php echo $path_prefix; ?>assets/main-hero-section.webp" as="image" type="image/webp" fetchpriority="high">
+<?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="<?php echo $path_prefix; ?>style.css?v=4">
-<script src="<?php echo $path_prefix; ?>tailwind-config.js?v=4"></script>
+<link rel="stylesheet" href="<?php echo $path_prefix; ?>assets/tailwind.min.css?v=5">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="<?php echo $current_metadata['type']; ?>" />
@@ -1067,7 +1165,7 @@ if ($page === 'index') {
 <meta property="og:site_name" content="Growig Hair Solution" />
 
 <!-- Author and Publisher -->
-<meta name="author" content="Growig Hair Solution" />
+<meta name="author" content="<?php echo ($current_metadata['type'] === 'article') ? 'Amit Kumar' : 'Growig Hair Solution'; ?>" />
 <meta name="publisher" content="Growig Hair Solution" />
 <?php if ($current_metadata['type'] === 'article'): ?>
 <meta property="article:author" content="https://www.facebook.com/growighairsolution" />
@@ -1085,8 +1183,8 @@ if ($page === 'index') {
 <link rel="canonical" href="<?php echo $current_metadata['url']; ?>" />
 
 <!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
-<link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
+<link rel="icon" type="image/png" href="<?php echo $path_prefix; ?>assets/logo.png" />
+<link rel="apple-touch-icon" href="<?php echo $path_prefix; ?>assets/logo.png" />
 
 <!-- Google Site Verification -->
 <meta name="google-site-verification" content="b4jZtRCRUzwu-P8BqcYvxgsJlOAQ_hbxmh3chDa4FOM" />
@@ -1101,6 +1199,11 @@ if ($page === 'index') {
 <script type="application/ld+json">
 <?php echo json_encode($nav_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
 </script>
+<?php if (($page === 'index' || $page === '') && $path_prefix === ''): ?>
+<script type="application/ld+json">
+<?php echo json_encode($website_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
+</script>
+<?php endif; ?>
 <?php if (isset($breadcrumb_schema)): ?>
 <script type="application/ld+json">
 <?php echo json_encode($breadcrumb_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
@@ -1109,6 +1212,11 @@ if ($page === 'index') {
 <?php if (isset($product_schema)): ?>
 <script type="application/ld+json">
 <?php echo json_encode($product_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
+</script>
+<?php endif; ?>
+<?php if (isset($service_schema)): ?>
+<script type="application/ld+json">
+<?php echo json_encode($service_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
 </script>
 <?php endif; ?>
 <?php if (isset($article_schema)): ?>

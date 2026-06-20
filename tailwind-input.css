@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-bright: #fcf9f4;
+  --color-primary-fixed-dim: #e3c282;
+  --color-on-secondary: #ffffff;
+  --color-on-background: #1c1c19;
+  --color-on-primary-fixed: #261a00;
+  --color-on-tertiary-fixed: #0b1a3d;
+  --color-on-primary-fixed-variant: #5a430f;
+  --color-secondary: #5f5e5e;
+  --color-tertiary-container: #9facd7;
+  --color-secondary-container: #e2dfde;
+  --color-secondary-fixed-dim: #c8c6c5;
+  --color-on-surface: #1c1c19;
+  --color-inverse-surface: #31302d;
+  --color-inverse-on-surface: #f3f0eb;
+  --color-background: #fcf9f4;
+  --color-on-secondary-container: #636262;
+  --color-surface-container-high: #ebe8e3;
+  --color-tertiary-fixed-dim: #b8c5f2;
+  --color-on-secondary-fixed: #1c1b1b;
+  --color-outline: #7f7668;
+  --color-surface-dim: #dcdad5;
+  --color-primary: #735b25;
+  --color-tertiary-fixed: #dae1ff;
+  --color-on-surface-variant: #4d463a;
+  --color-surface-container: #f0ede9;
+  --color-surface-variant: #e5e2dd;
+  --color-surface-tint: #735b25;
+  --color-error-container: #ffdad6;
+  --color-secondary-fixed: #e5e2e1;
+  --color-outline-variant: #d0c5b5;
+  --color-on-secondary-fixed-variant: #474746;
+  --color-on-error: #ffffff;
+  --color-on-primary-container: #533d09;
+  --color-primary-container: #c8a96b;
+  --color-surface-container-lowest: #ffffff;
+  --color-primary-fixed: #ffdea0;
+  --color-on-error-container: #93000a;
+  --color-surface-container-highest: #e5e2dd;
+  --color-on-tertiary: #ffffff;
+  --color-inverse-primary: #e3c282;
+  --color-error: #ba1a1a;
+  --color-tertiary: #505d84;
+  --color-surface: #fcf9f4;
+  --color-on-primary: #ffffff;
+  --color-surface-container-low: #f6f3ee;
+  --color-on-tertiary-fixed-variant: #39466b;
+  --color-on-tertiary-container: #334064;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  --spacing-unit: 8px;
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 24px;
+  --spacing-container-max: 1280px;
+  --spacing-section-gap: 80px;
+  --spacing-margin-desktop: 64px;
+
+  --font-headline-md: "Cormorant Garamond", serif;
+  --font-display-lg: "Cormorant Garamond", serif;
+  --font-label-md: "Inter", sans-serif;
+  --font-headline-lg: "Cormorant Garamond", serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-label-sm: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-headline-lg-mobile: "Cormorant Garamond", serif;
+
+  --text-headline-md: 32px;
+  --text-headline-md--line-height: 1.3;
+  --text-headline-md--font-weight: 500;
+
+  --text-display-lg: 64px;
+  --text-display-lg--line-height: 1.1;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 600;
+
+  --text-label-md: 14px;
+  --text-label-md--line-height: 1.4;
+  --text-label-md--letter-spacing: 0.05em;
+  --text-label-md--font-weight: 600;
+
+  --text-headline-lg: 48px;
+  --text-headline-lg--line-height: 1.2;
+  --text-headline-lg--font-weight: 500;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 1.6;
+  --text-body-lg--font-weight: 400;
+
+  --text-label-sm: 12px;
+  --text-label-sm--line-height: 1.4;
+  --text-label-sm--font-weight: 500;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 1.6;
+  --text-body-md--font-weight: 400;
+
+  --text-headline-lg-mobile: 32px;
+  --text-headline-lg-mobile--line-height: 1.2;
+  --text-headline-lg-mobile--font-weight: 500;
+}
+
+/* Custom classes from style.css */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.filled {
+    font-variation-settings: 'FILL' 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fcf9f4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dcdad5;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #735b25;
+}
+
+/* Subtle Glow */
+.glow-hover:hover {
+    box-shadow: 0 10px 30px rgba(115, 91, 37, 0.2);
+}
+
+/* Glassmorphism Card (Light Theme) */
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+    opacity: 1;
+}
+
+.glass-card:hover {
+    border-color: rgba(115, 91, 37, 0.3);
+    box-shadow: 0 25px 60px rgba(115, 91, 37, 0.08);
+}
+
+/* Fade In Animation */
+.fade-in-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Transition Delay Utilities */
+.delay-100 {
+    transition-delay: 100ms;
+}
+
+.delay-200 {
+    transition-delay: 200ms;
+}
+
+/* FAQ Accordion */
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Google Maps Embed - Remove Border */
+.google-map iframe {
+    border: 0;
+}
+
+/* Royal Shadow Utility */
+.royal-shadow {
+    box-shadow: 0 40px 60px -15px rgba(74, 63, 41, 0.08);
+}
+
+/* Glassmorphism Panel */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 40px rgba(74, 63, 41, 0.06);
+}
+
+/* Text Balance Utility */
+.text-balance {
+    text-wrap: balance;
+}
+
+/* Prevent Horizontal Scroll on Mobile */
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+/* Responsive Tables */
+.blog-content table,
+.answer-box table,
+.price-table {
+    display: block !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.blog-content table td,
+.blog-content table th,
+.answer-box table td,
+.answer-box table th,
+.price-table td,
+.price-table th {
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+/* Table wrapper for mobile scroll */
+.table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+    margin: 1.5rem 0;
+}
+
+/* Prevent WhatsApp Widget from Causing Overflow */
+#whatsapp-widget-container {
+    position: fixed;
+    z-index: 50;
+}
+
+.whatsapp-popup-modal {
+    max-width: 90vw;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+.whatsapp-popup-modal.show {
+    transform: translate(-50%, -50%) scale(1);
+}

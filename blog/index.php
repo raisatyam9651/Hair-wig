@@ -4,14 +4,23 @@ require_once 'blog-data.php';
 // Reverse posts so that the latest blogs appear first
 $blog_posts = array_reverse($blog_posts);
 
-// Category Filtering
+// Category and Search Filtering
 $categories = ['All', 'Maintenance', 'Buying Guide', 'Comparison', 'Cost Guide', 'Styling', 'Scalp Care', 'Adhesives', 'Lifestyle', 'Services'];
 $selected_category = isset($_GET['category']) && in_array($_GET['category'], $categories) ? $_GET['category'] : 'All';
+$search_query = isset($_GET['s']) ? trim($_GET['s']) : '';
 
 $filtered_posts = $blog_posts;
 if ($selected_category !== 'All') {
-    $filtered_posts = array_filter($blog_posts, function($post) use ($selected_category) {
+    $filtered_posts = array_filter($filtered_posts, function($post) use ($selected_category) {
         return $post['category'] === $selected_category;
+    });
+}
+
+if ($search_query !== '') {
+    $filtered_posts = array_filter($filtered_posts, function($post) use ($search_query) {
+        $title_match = stripos($post['title'], $search_query) !== false;
+        $excerpt_match = stripos($post['excerpt'], $search_query) !== false;
+        return $title_match || $excerpt_match;
     });
 }
 

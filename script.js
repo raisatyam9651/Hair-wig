@@ -108,3 +108,25 @@ const observer = new IntersectionObserver((entries, observer) => {
 sections.forEach(section => {
     observer.observe(section);
 });
+
+// Lazy-load iframes via Intersection Observer
+document.addEventListener("DOMContentLoaded", function() {
+    const lazyIframes = document.querySelectorAll("iframe.data-lazy-iframe");
+    if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const iframe = entry.target;
+                    iframe.src = iframe.dataset.src;
+                    iframe.classList.remove("data-lazy-iframe");
+                    obs.unobserve(iframe);
+                }
+            });
+        }, { rootMargin: "200px" });
+        lazyIframes.forEach(iframe => observer.observe(iframe));
+    } else {
+        lazyIframes.forEach(iframe => {
+            iframe.src = iframe.dataset.src;
+        });
+    }
+});

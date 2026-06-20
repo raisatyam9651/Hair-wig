@@ -13,7 +13,8 @@ $is_blog_active = ($current_page == 'blog' || strpos($_SERVER['PHP_SELF'], '/blo
         <a class="flex items-center gap-2 group" href="<?php echo $path_prefix; ?>./">
             <img alt="Growig Hair Solution Logo"
                 class="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_Fvti5zj5yA0e3mx5gnZWkmjw05AByrcoLzIdiVdh1ROEx263HQYnxKhkuIFQpQeEK5r6MWx6ztYxygylaLwM1vObXU4_y14AoejXVBNy9ei7Vc6yQ8U4_LQbDbVk_cM24aYXAPFHcsqHU0LF7G7A1XoDEAE-8aMgkOvHqcjuCWArzAZMAExVP7lQyH9uHDU0Nr4I0rJGTiTp7LRyQwWfxG7nKdaDV9y-v1vyEGwFKeV0_RwaHSm5H32bgi9ZFh-CWUvvmz5-kRs" />
+                width="180" height="48"
+                src="<?php echo $path_prefix; ?>assets/logo.png" />
         </a>
         <!-- Desktop Navigation -->
         <nav class="hidden md:flex items-center gap-8">

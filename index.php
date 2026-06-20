@@ -37,7 +37,7 @@
                         <!-- Mobile Hero Image -->
                         <div class="block lg:hidden relative group my-2">
                             <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform"></div>
-                            <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/main-hero-section.png" />
+                            <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/main-hero-section.webp" width="600" height="450" fetchpriority="high" decoding="async" />
                         </div>
 
                         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
@@ -60,7 +60,7 @@
                     <!-- Curved & Rounded Image Container -->
                     <div class="hidden lg:block relative group">
                         <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-                        <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-hero-section.png" />
+                        <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-hero-section.webp" width="600" height="450" fetchpriority="high" decoding="async" />
                     </div>
                 </div>
 
@@ -116,7 +116,8 @@
                     <img alt="Before and After Hair Transformation"
                         class="relative z-10 w-full h-auto rounded-xl border border-surface-variant/20 shadow-2xl transition-all duration-700"
                         data-alt="Before and after transformation showcasing natural hair patch integration and front hairline design at Growig Hair Solution in Dwarka."
-                        src="assets/hair-patch.jpg" />
+                        width="600" height="450" loading="lazy" decoding="async"
+                        src="assets/hair-patch.webp" />
                 </div>
                 <div class="flex flex-col gap-6 fade-in-section">
                     <span class="font-label-md text-label-md text-primary uppercase tracking-widest">Welcome to Growig Hair Solution</span>
@@ -154,11 +155,11 @@
                         Bespoke Services</h2>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Service Card 1 -->
+                     <!-- Service Card 1 -->
                     <a href="premium-hair-patch"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
-                            <img src="assets/Premium Hair Patch.png" alt="Premium Hair Patch" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                            <img src="assets/premium-hair-patch.png" alt="Premium Hair Patch" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Premium Hair Patch</h3>
                         <p class="font-body-md text-body-md text-on-surface-variant text-center">Bespoke, custom-designed hair patches crafted at our Dwarka centre to blend seamlessly with your natural hair for an undetectable finish.</p>
@@ -167,7 +168,7 @@
                     <a href="full-hair-wig"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-100">
                         <div class="w-64 h-64 mx-auto mb-2 relative overflow-hidden rounded-xl">
-                            <img src="assets/full-hair-wig-men.png" alt="Full Hair Wigs" class="w-full h-full object-cover relative z-10 group-hover:scale-105 transition-transform duration-500">
+                            <img src="assets/full-hair-wig-men.png" alt="Full Hair Wigs" class="w-full h-full object-cover relative z-10 group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Full Hair Wigs</h3>
                         <p class="font-body-md text-body-md text-on-surface-variant text-center">Luxury natural human hair wigs offering complete, comfortable coverage with breathable bases for everyday confidence.</p>
@@ -176,7 +177,7 @@
                     <a href="non-surgical-replacement"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-200">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
-                            <img src="assets/Non-Surgical Replacement.png" alt="Non-Surgical Replacement" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                            <img src="assets/Non-Surgical Replacement.png" alt="Non-Surgical Replacement" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Non-Surgical Replacement</h3>
                         <p class="font-body-md text-body-md text-on-surface-variant text-center">A painless, immediate non-surgical hair replacement solution that gives you natural volume without surgery.</p>
@@ -185,7 +186,7 @@
                     <a href="hair-bonding"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
-                            <img src="assets/Hair Bonding.png" alt="Hair Bonding" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                            <img src="assets/Hair Bonding.png" alt="Hair Bonding" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Hair Bonding</h3>
                         <p class="font-body-md text-body-md text-on-surface-variant text-center">Secure, medical-grade adhesive bonding performed by experts at our Dwarka studio for active lifestyles.</p>
@@ -194,7 +195,7 @@
                     <a href="maintenance-and-styling"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-100">
                         <div class="w-64 h-64 mx-auto mb-2 relative overflow-hidden rounded-xl">
-                            <img src="assets/hair-maintance.jpg" alt="Maintenance & Styling" class="w-full h-full object-cover relative z-10 group-hover:scale-105 transition-transform duration-500">
+                            <img src="assets/hair-maintance.jpg" alt="Maintenance & Styling" class="w-full h-full object-cover relative z-10 group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Maintenance & Styling</h3>
                         <p class="font-body-md text-body-md text-on-surface-variant text-center">Professional cleaning, re-bonding, and expert styling services to keep your hair system looking brand new.</p>
@@ -203,7 +204,7 @@
                     <a href="custom-hairline-design"
                         class="glass-card p-10 rounded-2xl flex flex-col gap-6 group fade-in-section transition-all duration-500 hover:-translate-y-2 cursor-pointer delay-200">
                         <div class="w-64 h-64 mx-auto mb-2 relative">
-                            <img src="assets/Custom Hairline Design.png" alt="Custom Hairline Design" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                            <img src="assets/Custom Hairline Design.png" alt="Custom Hairline Design" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                         </div>
                         <h3 class="font-headline-md text-2xl text-secondary text-center group-hover:text-primary transition-colors">Custom Hairline Design</h3>
                         <p class="font-body-md text-body-md text-on-surface-variant text-center">Precision-designed front hairlines crafted to complement your facial structure, age, and natural hair flow.</p>
@@ -230,9 +231,9 @@
                                 Professional</p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
+                             <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
                                 <div class="w-64 h-64 mx-auto mb-2 relative">
-                                    <img src="assets/Ultra-Thin Skin Patches.png" alt="Ultra-Thin Skin Patches" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                    <img src="assets/Ultra-Thin Skin Patches.png" alt="Ultra-Thin Skin Patches" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                                 </div>
                                 <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Ultra-Thin Skin Patches</h4>
                                 <p class="font-body-md text-on-surface-variant text-center">The most natural hairline possible,
@@ -240,7 +241,7 @@
                             </div>
                             <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
                                 <div class="w-64 h-64 mx-auto mb-2 relative">
-                                    <img src="assets/Lace Front Systems.png" alt="Lace Front Systems" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                    <img src="assets/Lace Front Systems.png" alt="Lace Front Systems" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                                 </div>
                                 <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Lace Front Systems</h4>
                                 <p class="font-body-md text-on-surface-variant text-center">Breathable Swiss lace base providing an
@@ -248,12 +249,12 @@
                             </div>
                             <div class="glass-card p-8 rounded-2xl flex flex-col gap-6 group">
                                 <div class="w-64 h-64 mx-auto mb-2 relative">
-                                    <img src="assets/Active Lifestyle Monofilament.png" alt="Active Lifestyle Monofilament" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
+                                    <img src="assets/Active Lifestyle Monofilament.png" alt="Active Lifestyle Monofilament" class="w-full h-full object-contain relative z-10 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" width="256" height="256" loading="lazy" decoding="async">
                                 </div>
                                 <h4 class="font-headline-md text-xl text-secondary text-center mt-2">Active Lifestyle Monofilament</h4>
                                 <p class="font-body-md text-on-surface-variant text-center">Engineered for extreme performance, from
                                     high-intensity gym sessions to swimming.</p>
-                            </div>
+                            </div>      </div>
                         </div>
                     </div>
 
@@ -268,7 +269,7 @@
                         <span class="font-label-md text-label-md text-primary uppercase tracking-widest mb-4 block">The
                             Growig Advantage</span>
                         <h2
-                            class="font-headline-lg-mobile md:font-headline-lg text-4xl md:text-headline-lg text-secondary mb-8">
+                            class="font-headline-lg-mobile md:font-headline-lg text-4xl md:font-headline-lg text-secondary mb-8">
                             Why We Are Dwarka's Preferred Hair Restoration Studio</h2>
                         <p class="font-body-md text-on-surface-variant mb-8 leading-relaxed">
                             We combine advanced clinical technology with bespoke styling artistry. From digital scalp mapping to hand-tied single-knotting, our hair patch service centre in Dwarka ensures that your hair system is entirely customized, lightweight, and completely natural to the touch.
@@ -333,12 +334,31 @@
                 <div class="text-center mb-16 fade-in-section">
                     <span class="font-label-md text-label-md text-primary uppercase tracking-widest mb-4 block">Client
                         Success</span>
-                    <h2 class="font-headline-lg-mobile md:font-headline-lg text-4xl md:text-headline-lg text-secondary">
+                    <h2 class="font-headline-lg-mobile md:font-headline-lg text-4xl md:font-headline-lg text-secondary">
                         Google Reviews</h2>
                 </div>
                 <div class="fade-in-section">
                     <div id="featurable-19ef2747-98fa-461e-9610-c030685c0383" data-featurable-async></div>
-                    <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            const featurableWidget = document.getElementById("featurable-19ef2747-98fa-461e-9610-c030685c0383");
+                            if (featurableWidget) {
+                                const observer = new IntersectionObserver((entries, obs) => {
+                                    entries.forEach(entry => {
+                                        if (entry.isIntersecting) {
+                                            const script = document.createElement("script");
+                                            script.src = "https://featurable.com/assets/bundle.js";
+                                            script.defer = true;
+                                            script.charset = "UTF-8";
+                                            document.body.appendChild(script);
+                                            obs.unobserve(entry.target);
+                                        }
+                                    });
+                                }, { rootMargin: "300px" });
+                                observer.observe(featurableWidget);
+                            }
+                        });
+                    </script>
                 </div>
             </div>
         </section>
@@ -348,7 +368,7 @@
             <div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
                 <div class="text-center mb-12 fade-in-section">
                     <span class="font-label-md text-label-md text-primary uppercase tracking-widest mb-4 block">Instagram Transformations</span>
-                    <h2 class="font-display-lg text-2xl md:text-headline-lg text-secondary mb-2">Real Results on Instagram</h2>
+                    <h2 class="font-display-lg text-2xl md:font-headline-lg text-secondary mb-2">Real Results on Instagram</h2>
                     <a href="https://www.instagram.com/growighair?igsh=MW1pZWZjaTd3anRkdA==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-primary font-bold hover:brightness-110 transition-all">
                         <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
                             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
@@ -362,28 +382,28 @@
                     <!-- Slide 1 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <iframe src="https://www.instagram.com/reel/C7tiNBnxIO-/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
+                            <iframe data-src="https://www.instagram.com/reel/C7tiNBnxIO-/embed" class="w-full h-full border-0 data-lazy-iframe" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <iframe src="https://www.instagram.com/reel/DWjX-jmk9Sd/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
+                            <iframe data-src="https://www.instagram.com/reel/DWjX-jmk9Sd/embed" class="w-full h-full border-0 data-lazy-iframe" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
 
                     <!-- Slide 3 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <iframe src="https://www.instagram.com/reel/DVGF-rok0JB/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
+                            <iframe data-src="https://www.instagram.com/reel/DVGF-rok0JB/embed" class="w-full h-full border-0 data-lazy-iframe" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
 
                     <!-- Slide 4 -->
                     <div class="insta-slide">
                         <div class="insta-video-wrapper">
-                            <iframe src="https://www.instagram.com/reel/DUcrs6fjJEq/embed" class="w-full h-full border-0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
+                            <iframe data-src="https://www.instagram.com/reel/DUcrs6fjJEq/embed" class="w-full h-full border-0 data-lazy-iframe" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>
                 </div>
@@ -461,8 +481,7 @@
                                 class="material-symbols-outlined text-primary transition-transform duration-300 group-open:rotate-180">expand_more</span>
                         </summary>
                         <div class="px-8 pb-8 pt-0 font-body-md text-on-surface-variant leading-relaxed">
-                            <p>Completely non-surgical and painless. The process involves attaching a custom hair system
-                                using medical-grade adhesives or clips, ensuring comfort throughout.</p>
+                            <p>The non-surgical hair replacement procedure is completely painless, non-invasive, and safe. Unlike surgical hair transplants which involve incisions, graft harvesting, and local anesthesia, a hair patch is secured to the scalp using specialized medical-grade dermal adhesives or clips. During the fitting process, our expert stylists first perform detailed digital mapping of your thinning area, shave the affected zone, clean the scalp with soothing sanitizing agents, and apply a scalp protector. Then, the custom hair patch is carefully bonded or clipped in place. The entire process takes under two hours and is completely pain-free, requiring no recovery time or medications. You will walk out of our Dwarka clinic with a fully restored hairline, experiencing zero discomfort. It is the perfect, stress-free alternative for individuals seeking natural volume without undergoing surgical procedures.</p>
                         </div>
                     </details>
                     <!-- FAQ Item 2 -->
@@ -474,8 +493,7 @@
                                 class="material-symbols-outlined text-primary transition-transform duration-300 group-open:rotate-180">expand_more</span>
                         </summary>
                         <div class="px-8 pb-8 pt-0 font-body-md text-on-surface-variant leading-relaxed">
-                            <p>Typically 6-10 months with proper maintenance and regular servicing. The longevity
-                                depends on the base material chosen and your lifestyle.</p>
+                            <p>A premium quality human hair patch typically has a lifespan of 6 to 10 months, depending on the base materials, hair density, and how well it is maintained. Bases made of ultra-thin skin polyurethane are incredibly realistic but are more delicate and may last around 6 months, whereas hybrid monofilament or BMW bases with reinforced poly borders are much sturdier and can easily last up to a year. To maximize the longevity of your hair system, regular monthly maintenance is essential. We recommend scheduling a servicing and re-bonding appointment every 3 to 4 weeks at our Dwarka service centre, where we deep-clean the system base, treat the hair with specialized conditioners, and re-apply fresh, skin-safe medical bonding agents. Proper home care, such as using sulfate-free shampoos and soft-bristle loop brushes, also plays a critical role in extending the system's life.</p>
                         </div>
                     </details>
                     <!-- FAQ Item 3 -->
@@ -487,8 +505,7 @@
                                 class="material-symbols-outlined text-primary transition-transform duration-300 group-open:rotate-180">expand_more</span>
                         </summary>
                         <div class="px-8 pb-8 pt-0 font-body-md text-on-surface-variant leading-relaxed">
-                            <p>Yes, absolutely. Since we use premium human hair, you can cut, color, blow-dry, and style
-                                it just as you would your natural hair.</p>
+                            <p>Yes, absolutely. Because all our premium hair systems are crafted using 100% natural Remy human hair with intact cuticles, they possess the exact texture, bounce, and natural fall of growing hair. You can wash, condition, blow-dry, and style your hair patch in any direction, including trendy side-parts, pompadours, or exposed swept-back looks. The hair can even be cut or colored by our master stylists to blend seamlessly with your native side hair, avoiding any visible line of separation. However, to prevent premature drying or damage to the hair shafts (since hair patches do not receive natural oils from the scalp), we recommend avoiding high heat settings on blow-dryers and using alcohol-free styling gels or leave-in serums. Our styling team at Growig Hair Solution Dwarka will personalize the system cut to suit your age and facial structure perfectly.</p>
                         </div>
                     </details>
                     <!-- FAQ Item 4 -->
@@ -500,8 +517,7 @@
                                 class="material-symbols-outlined text-primary transition-transform duration-300 group-open:rotate-180">expand_more</span>
                         </summary>
                         <div class="px-8 pb-8 pt-0 font-body-md text-on-surface-variant leading-relaxed">
-                            <p>Our bespoke integration ensures a 100% natural, undetectable finish. The customized front
-                                hairline and color matching make it virtually impossible to notice.</p>
+                            <p>Our bespoke non-surgical hair integration is designed to be entirely undetectable, even under close inspection. We achieve this natural realism by performing precise scalp mapping and color matching, ensuring the shade gradients and density match your native hair. Our systems feature advanced bases, such as Swiss lace, French lace, and ultra-thin polyurethane membranes, which match your scalp's tone. The front edges of our lace systems use single-knotting and bleaching techniques, which mimic hair emerging from the scalp, creating an invisible front hairline. The hair is aligned with your natural whorl patterns, preventing any unnatural separation. Whether you are under harsh office lighting or strong sunlight, the transition from skin to hair system is seamless. Your friends, colleagues, and family will only notice a fuller head of hair, without realizing it is a non-surgical system.</p>
                         </div>
                     </details>
                 </div>
@@ -536,7 +552,7 @@
                                         for="phone">Phone Number</label>
                                     <input
                                         class="w-full bg-surface border border-surface-variant rounded-lg px-4 py-4 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                                        id="phone" name="phone" placeholder="+91 98765 43210" type="tel" required />
+                                        id="phone" name="phone" placeholder="+91 XXXXX XXXXX" type="tel" required />
                                 </div>
                             </div>
                             <div>
