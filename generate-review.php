@@ -129,7 +129,7 @@ Generate a realistic, natural customer review that strictly follows these constr
     $url = "https://openrouter.ai/api/v1/chat/completions";
     
     $data = [
-        "model" => "google/gemini-2.5-flash",
+        "model" => "anthropic/claude-opus-4.8-fast",
         "messages" => [
             [
                 "role" => "system",

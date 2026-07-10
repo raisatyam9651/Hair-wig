@@ -5,7 +5,7 @@ require_once 'blog-data.php';
 $blog_posts = array_reverse($blog_posts);
 
 // Category and Search Filtering
-$categories = ['All', 'Maintenance', 'Buying Guide', 'Comparison', 'Cost Guide', 'Styling', 'Scalp Care', 'Adhesives', 'Lifestyle', 'Services'];
+$categories = ['All', 'Maintenance', 'Buying Guide', 'Comparison', 'Cost Guide', 'Styling', 'Scalp Care', 'Adhesives', 'Lifestyle', 'Services', 'Hair Loss'];
 $selected_category = isset($_GET['category']) && in_array($_GET['category'], $categories) ? $_GET['category'] : 'All';
 $search_query = isset($_GET['s']) ? trim($_GET['s']) : '';
 
