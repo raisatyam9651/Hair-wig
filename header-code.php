@@ -1148,7 +1148,7 @@ if ($page === 'index') {
 ?>
 <!-- Resource Pre-fetching & Stylesheets -->
 <?php if ($page === 'index' || $page === ''): ?>
-<link rel="preload" href="<?php echo $path_prefix; ?>assets/main-hero-section.webp" as="image" type="image/webp" fetchpriority="high">
+<link rel="preload" href="<?php echo $path_prefix; ?>assets/hero-before-after.webp" as="image" type="image/webp" fetchpriority="high">
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

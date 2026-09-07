@@ -37,7 +37,7 @@
                         <!-- Mobile Hero Image -->
                         <div class="block lg:hidden relative group my-2">
                             <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform"></div>
-                            <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/main-hero-section.webp" width="600" height="450" fetchpriority="high" decoding="async" />
+                            <img alt="Hair patch before and after results at Growig Hair Solution Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto" src="assets/hero-before-after.webp" width="1000" height="1000" fetchpriority="high" decoding="async" />
                         </div>
 
                         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
@@ -60,7 +60,7 @@
                     <!-- Curved & Rounded Image Container -->
                     <div class="hidden lg:block relative group">
                         <div class="absolute -inset-4 bg-primary/5 rounded-[40px] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
-                        <img alt="Bespoke Hair Replacement" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/main-hero-section.webp" width="600" height="450" fetchpriority="high" decoding="async" />
+                        <img alt="Hair patch before and after results at Growig Hair Solution Dwarka" class="relative rounded-[32px] royal-shadow w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]" src="assets/hero-before-after.webp" width="1000" height="1000" fetchpriority="high" decoding="async" />
                     </div>
                 </div>
 
